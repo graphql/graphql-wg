@@ -1,24 +1,31 @@
 GraphQL Working Group
 =====================
 
-GraphQL WG (Working Group) is a semi-regular virtual meeting of maintainers of
+GraphQL WG (Working Group) is a monthly virtual meeting of maintainers of
 commonly used GraphQL libraries and tools and significant contributors to the
-GraphQL community.
+GraphQL community, operated by the GraphQL Foundation.
 
-The agenda of these meetings may contain anything from technical discussions
-about GraphQL specification and tools to planning of upcoming GraphQL events or
-coordination of educational efforts.
+The GraphQL WG's primary purpose is to discuss and agree upon
+proposed additions to the [GraphQL Specification](https://github.com/graphql/graphql-spec). Additionally, the group may discuss and collaborate on other
+relevant technical topics concerning core GraphQL projects.
 
-This repository holds agendas and details for upcoming meetings as well as any
-meeting notes from prior meetings.
+Anyone in the public GraphQL community may attend a GraphQL WG meeting, provided
+they first sign the [Specification Membership Agreement](https://github.com/graphql/foundation) or belong to an organization who has signed.
 
-All meetings occur via a group video conference, however participating company
+This repository holds **agendas** and **notes** for all meetings past and
+upcoming. Anyone may edit an upcoming event's agenda to *attend* or *propose a topic*.
+
+All meetings occur via video conference, however participating company
 offices are welcome to host guests.
+
+Meetings are typically scheduled for the first Thursday of each month at 9:00am
+Pacific US time. Check the [`agendas/`](./agendas) for the exact date and time
+of upcoming meetings.
 
 ## Joining a meeting?
 
 To request participation in an upcoming meeting, please send a pull request by
-editing the relevant meeting in [`agendas/`](./agendas).
+editing the relevant [meeting agenda](./agendas).
 
 ## Want to help us keep up?
 
