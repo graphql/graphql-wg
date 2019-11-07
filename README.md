@@ -6,14 +6,16 @@ commonly used GraphQL libraries and tools and significant contributors to the
 GraphQL community, operated by the GraphQL Foundation.
 
 The GraphQL WG's primary purpose is to discuss and agree upon
-proposed additions to the [GraphQL Specification](https://github.com/graphql/graphql-spec). Additionally, the group may discuss and collaborate on other
+proposed additions to the [GraphQL Specification](https://github.com/graphql/graphql-spec)
+via the [RFC process](https://github.com/graphql/graphql-spec/blob/master/CONTRIBUTING.md). Additionally, the group may discuss and collaborate on other
 relevant technical topics concerning core GraphQL projects.
 
 Anyone in the public GraphQL community may attend a GraphQL WG meeting, provided
-they first sign the [Specification Membership Agreement](https://github.com/graphql/foundation) or belong to an organization who has signed.
+they first sign the [Specification Membership Agreement](https://github.com/graphql/foundation) or belong to an organization which has signed.
 
 This repository holds **agendas** and **notes** for all meetings past and
-upcoming. Anyone may edit an upcoming event's agenda to *attend* or *propose a topic*.
+upcoming. Anyone may edit an upcoming event's agenda to *attend* or *propose
+an agenda item*.
 
 All meetings occur via video conference, however participating company
 offices are welcome to host guests.
@@ -22,18 +24,21 @@ Meetings are typically scheduled for the first Thursday of each month at 9:00am
 Pacific US time. Check the [`agendas/`](./agendas) for the exact date and time
 of upcoming meetings.
 
-## Joining a meeting?
+Keep track of future upcoming meetings by subscribing to the
+[google calendar](https://calendar.google.com/calendar/embed?src=graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com)
+or [ical file](https://calendar.google.com/calendar/ical/graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com/public/basic.ics) (maintained in UTC because time zones are hard).
+
+### Joining a meeting?
 
 To request participation in an upcoming meeting, please send a pull request by
 editing the relevant [meeting agenda](./agendas).
 
-Keep track of future upcoming meetings by subscribing to the [google calendar](https://calendar.google.com/calendar/embed?src=graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com) or [ical file](https://calendar.google.com/calendar/ical/graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com/public/basic.ics) (maintained in UTC).
-
-## Want to help us keep up?
+### Want to help us keep up?
 
 We're always looking for volunteers to help take notes from the meetings, the
 results of which are shared in [`notes/`](./notes). If you're
-interested in taking notes, sign up for a meeting in [`agendas/`](./agendas) and indicate that you're willing to be a note taker.
+interested in taking notes, sign up for a meeting in [`agendas/`](./agendas) and
+indicate that you're willing to be a note taker.
 
 ## Participation guidelines
 
@@ -97,3 +102,11 @@ there may be disagreements along the way. You should avoid blocking progress if
 possible, otherwise you may be seen as hostile to the group. However, if you
 have a serious issue with a proposed agenda item outcome, you must make
 it clear.
+
+### Be patient and persistent
+
+The GraphQL specification evolves slowly, deliberately, and with the consensus
+of the core GraphQL community. The spec [contribution process](https://github.com/graphql/graphql-spec/blob/master/CONTRIBUTING.md)
+requires considerable investment through multiple stages while meeting a
+demanding set of guiding principles. This can take a long time, and progress in
+each meeting can feel small. Don't give up!
