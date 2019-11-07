@@ -27,6 +27,8 @@ of upcoming meetings.
 To request participation in an upcoming meeting, please send a pull request by
 editing the relevant [meeting agenda](./agendas).
 
+Keep track of future upcoming meetings by [subscribing to the calendar](https://calendar.google.com/calendar/embed?src=graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com) (maintained in UTC).
+
 ## Want to help us keep up?
 
 We're always looking for volunteers to help take notes from the meetings, the
