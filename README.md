@@ -40,7 +40,7 @@ results of which are shared in [`notes/`](./notes). If you're
 interested in taking notes, sign up for a meeting in [`agendas/`](./agendas) and
 indicate that you're willing to be a note taker.
 
-## Participation guidelines
+# Participation guidelines
 
 Meetings with many participants, especially over video, can easily get hard to
 follow or run off course. When we talk about issues we care about, it's easy to
