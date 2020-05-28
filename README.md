@@ -25,8 +25,7 @@ Pacific US time. Check the [`agendas/`](./agendas) for the exact date and time
 of upcoming meetings.
 
 Keep track of future upcoming meetings by subscribing to the
-[google calendar](https://calendar.google.com/calendar/embed?src=graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com)
-or [ical file](https://calendar.google.com/calendar/ical/graphql.org_lc7llu5kovorb7dl1uo7c6h4ls%40group.calendar.google.com/public/basic.ics) (maintained in UTC because time zones are hard).
+[Google Calendar](https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) or [ical file](https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics). (maintained in UTC because time zones are hard).
 
 ### Joining a meeting?
 
