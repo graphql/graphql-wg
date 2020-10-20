@@ -85,7 +85,7 @@ Because we work in a highly distributed environment and will rarely meet in pers
 
 ### Zoom
 
-GraphQL has a Zoom account which can be used by projects and working groups. Projects and working groups are encouraged to meet regularly and record their meetings for posting on the [GraphQL YouTube channel](https://youtube.graphql.org). To avoid collisions, please request that your meeting be added to the [GraphQL Calendar](https://calendar.graphql.org) by emailing [operations@graphl.org](mailto:operations@graphql.org). If two meetings are scheduled at the same time, the meeting on the calendar takes precedence.
+GraphQL has a Zoom account which can be used by projects and working groups. Projects and working groups are encouraged to meet regularly and record their meetings for posting on the [GraphQL YouTube channel](https://youtube.graphql.org). To avoid collisions, please request that your meeting be added to the [GraphQL Calendar](https://calendar.graphql.org) by emailing [operations@graphql.org](mailto:operations@graphql.org). If two meetings are scheduled at the same time, the meeting on the calendar takes precedence.
 
 ### Meetings
 
