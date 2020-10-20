@@ -1,7 +1,7 @@
 
 # GraphQL Technical Steering Committee (TSC)
 
-The GraphQL TSC will be responsible for all technical oversight of the open source project. In particular, the TSC is responsible for approving official GraphQL specification releases and coordinating between projects.
+The GraphQL TSC will be responsible for all technical oversight of the open source projects. In particular, the TSC is responsible for approving official GraphQL specification releases and coordinating between projects.
 
 ## Technical Charter and Code of Conduct
 
@@ -118,7 +118,7 @@ The current voting members of the GraphQL TSC are:
 | Name | GitHub | Affiliation | Term begins  | Term ends |
 | --- | --- | --- | --- | --- |
 | Lee Byron (chair) |[leebyron](https://github.com/leebyron) | GraphQL Specification | N/A | N/A |
-| Andi Marek |[andimarek](https://github.com/andimarek) | Company  | TBD | TBD |
+| Andi Marek |[andimarek](https://github.com/andimarek) | GraphQL Java  | TBD | TBD |
 | Brielle Harrison |[nyteshade](https://github.com/nyteshade) | PayPal  | TBD | TBD |
 | Dan Schafer |[dschafer](https://github.com/dschafer) | Facebook | TBD | TBD |
 | Ivan Goncharov |[IvanGoncharov](https://github.com/IvanGoncharov) | Self | TBD | TBD |
