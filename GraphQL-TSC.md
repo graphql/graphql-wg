@@ -122,7 +122,7 @@ The current voting members of the GraphQL TSC are:
 | Brielle Harrison |[nyteshade](https://github.com/nyteshade) | PayPal  | TBD | TBD |
 | Dan Schafer |[dschafer](https://github.com/dschafer) | Facebook | TBD | TBD |
 | Ivan Goncharov |[IvanGoncharov](https://github.com/IvanGoncharov) | Self | TBD | TBD |
-| Jafar Husain |[jhusain](https://github.com/jhusain) | Facebook | TBD | TBD |
+| Matt Mahoney |[mjmahone](https://github.com/mjmahone) | Facebook | TBD | TBD |
 | James Baxley |[jbaxleyiii](https://github.com/jbaxleyiii) | Apollo GraphQL | TBD | TBD |
 | Nick Schrock |[schrockn](https://github.com/schrockn) | Elementl | TBD | TBD |
 | Rob Zhu |[robzhu](https://github.com/robzhu) | AWS | TBD | TBD |
