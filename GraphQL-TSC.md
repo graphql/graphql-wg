@@ -224,30 +224,23 @@ Projects are encouraged (but not required) to adopt the practice of including [S
 GraphQL projects should use one of the following notices on their websites, as appropriate:
 
 ##### For HTML sites
+
 > ```
+> <hr>
 > Copyright Joint Development Foundation Projects, LLC, GraphQL Series.<br>
-> <a href="https://graphql.org">graphql.org</a> | 
-> <a href="https://spec.graphql.org">Spec</a> |
-> <a href="https://github.com/graphql">GitHub</a> |
-> <a href="https://foundation.graphql.org">GraphQL Foundation</a> |
-> <a href="https://code-of-conduct.graphql.org">Code of Conduct</a> |
-> <a href="https://slack.graphql.org">Slack</a> |
-> <a href="https://store.graphql.org">Store</a>
+> <a href="https://graphql.org">graphql.org</a> | <a href="https://spec.graphql.org">Spec</a> | <a href="https://github.com/graphql">GitHub</a> | <a href="https://foundation.graphql.org">GraphQL Foundation</a> | <a href="https://code-of-conduct.graphql.org">Code of Conduct</a> | <a href="https://slack.graphql.org">Slack</a> | <a href="https://store.graphql.org">Store</a>
 > ```
 
 ##### For markdown sites, including GitHub READMEs
 
 > ```
 > ---
->
-> Copyright Joint Development Foundation Projects, LLC, GraphQL Series.  
-[graphql.org](https://graphql.org) | [Spec](https://spec.graphql.org) | [GitHub](https://github.com/graphql) | [GraphQL Foundation](https://foundation.graphql.org) | [Code of Conduct](https://code-of-conduct.graphql.org) | [Slack](https://slack.graphql.org) | [Store](https://store.graphql.org)
+> Copyright Joint Development Foundation Projects, LLC, GraphQL Series.<br>
+> [graphql.org](https://graphql.org) | [Spec](https://spec.graphql.org) | [GitHub](https://github.com/graphql) | [GraphQL Foundation](https://foundation.graphql.org) | [Code of Conduct](https://code-of-conduct.graphql.org) | [Slack](https://slack.graphql.org) | [Store](https://store.graphql.org)
 > ```
 
-
 ---
-
-Copyright Joint Development Foundation Projects, LLC, GraphQL Series.  
+Copyright Joint Development Foundation Projects, LLC, GraphQL Series.<br>
 [graphql.org](https://graphql.org) | [Spec](https://spec.graphql.org) | [GitHub](https://github.com/graphql) | [GraphQL Foundation](https://foundation.graphql.org) | [Code of Conduct](https://code-of-conduct.graphql.org) | [Slack](https://slack.graphql.org) | [Store](https://store.graphql.org)
 
 <!-- LF Projects -->
