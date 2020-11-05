@@ -115,19 +115,19 @@ You must add yourself to the meeting agenda via PR in order to be able to join a
 
 The current voting members of the GraphQL TSC are:
 
-| Name | GitHub | Affiliation | Term begins  | Term ends |
-| --- | --- | --- | --- | --- |
-| Lee Byron (chair) |[leebyron](https://github.com/leebyron) | GraphQL Specification | N/A | N/A |
-| Andi Marek |[andimarek](https://github.com/andimarek) | GraphQL Java  | TBD | TBD |
-| Brielle Harrison |[nyteshade](https://github.com/nyteshade) | PayPal  | TBD | TBD |
-| Dan Schafer |[dschafer](https://github.com/dschafer) | Facebook | TBD | TBD |
-| Ivan Goncharov |[IvanGoncharov](https://github.com/IvanGoncharov) | Self | TBD | TBD |
-| Matt Mahoney |[mjmahone](https://github.com/mjmahone) | Facebook | TBD | TBD |
-| James Baxley |[jbaxleyiii](https://github.com/jbaxleyiii) | Apollo GraphQL | TBD | TBD |
-| Nick Schrock |[schrockn](https://github.com/schrockn) | Elementl | TBD | TBD |
-| Rob Zhu |[robzhu](https://github.com/robzhu) | AWS | TBD | TBD |
-| Sasha Solomon |[sachee](https://github.com/sachee) | Twitter | TBD | TBD |
-| TBD |[USERNAME](USER-GITHUB-PROFILE) | TBD  | TBD | TBD |
+| Name                                               | Affiliation           | Term begins | Term ends    |
+| -------------------------------------------------- | --------------------- | ----------- | ------------ |
+| [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
+| [Andi Marek](https://github.com/andimarek)         | GraphQL Java          | Nov 1, 2020 | Dec 31, 2022 |
+| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2021 |
+| [Brielle Harrison](https://github.com/nyteshade)   | PayPal                | Nov 1, 2020 | Dec 31, 2021 |
+| [Dan Schafer](https://github.com/dschafer)         | Facebook              | Nov 1, 2020 | Dec 31, 2022 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Self                  | Nov 1, 2020 | Dec 31, 2021 |
+| [Matt Mahoney](https://github.com/mjmahone)        | Facebook              | Nov 1, 2020 | Dec 31, 2021 |
+| [James Baxley](https://github.com/jbaxleyiii)      | Apollo GraphQL        | Nov 1, 2020 | Dec 31, 2021 |
+| [Nick Schrock](https://github.com/schrockn)        | Elementl              | Nov 1, 2020 | Dec 31, 2022 |
+| [Rob Zhu](https://github.com/robzhu)               | AWS                   | Nov 1, 2020 | Dec 31, 2022 |
+| [Sasha Solomon](https://github.com/sachee)         | Twitter               | Nov 1, 2020 | Dec 31, 2022 |
 
 ### Becoming a TSC Voting Member
 
@@ -139,15 +139,15 @@ After November 1st, the TSC will collect self-nominations from the community. Af
 
 #### Initial period
 
-To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior to the first election, half of the existing members will be selected via coin toss to serve an initial one-year term.
+To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior to the first election, half of the existing members will be selected via ["coin toss"](https://gist.github.com/leebyron/cbda7f0c604915d9200af5626b1fcf1b) to serve an initial one-year term.
 
 #### Election dates
 
-| Term | Nominations open | Voting open | Term begins | Term ends |
-|---|---|---|---|---|
-| 2022 - 2023 | Nov 1, 2021 | Dec 1, 2021 | Jan 1, 2022 | Dec 31, 2023 |
-| 2023 - 2024 | Nov 1, 2022 | Dec 1, 2022 | Jan 1, 2023 | Dec 31, 2024 |
-| 2024 - 2025 | Nov 1, 2023 | Dec 1, 2023 | Jan 1, 2024 | Dec 31, 2025 |
+| Term        | Nominations open | Voting open | Term begins | Term ends    |
+| ----------- | ---------------- | ----------- | ----------- | ------------ |
+| 2022 - 2023 | Nov 1, 2021      | Dec 1, 2021 | Jan 1, 2022 | Dec 31, 2023 |
+| 2023 - 2024 | Nov 1, 2022      | Dec 1, 2022 | Jan 1, 2023 | Dec 31, 2024 |
+| 2024 - 2025 | Nov 1, 2023      | Dec 1, 2023 | Jan 1, 2024 | Dec 31, 2025 |
 
 ### Voting process
 
