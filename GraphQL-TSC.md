@@ -19,7 +19,7 @@ The GraphQL Specification hosts other projects, in addition to the main specific
 
 * [GraphQL](https://spec.graphql.org)
 * [GraphQL over HTTP](https://github.com/graphql/graphql-over-http)
-* [GraphQL Scalers](https://github.com/graphql/graphql-scalars)
+* [GraphQL Scalars](https://github.com/graphql/graphql-scalars)
 
 We also host implementations, which are licensed under MIT:
 
