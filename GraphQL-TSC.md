@@ -190,7 +190,7 @@ The following policies and procedures have been adopted by the TSC.
 Pull requests against this document that do not conflict with the [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) can be merged provided the following conditions have been met:
 
 * There are no outstanding objections
-* There are two approvals by TSC members
+* There are two approvals by TSC members (not including the author)
 * The PR has been open for at least 72 hours
 
 Pull requests that change governance of the TSC (excluding the charter) must be open for at least 14 days, unless consensus is reached in a meeting with quorum of voting members.
