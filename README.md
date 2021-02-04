@@ -7,7 +7,7 @@ GraphQL community, operated by the GraphQL Foundation.
 
 The GraphQL WG's primary purpose is to discuss and agree upon
 proposed additions to the [GraphQL Specification](https://github.com/graphql/graphql-spec)
-via the [RFC process](https://github.com/graphql/graphql-spec/blob/master/CONTRIBUTING.md). Additionally, the group may discuss and collaborate on other
+via the [RFC process](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md). Additionally, the group may discuss and collaborate on other
 relevant technical topics concerning core GraphQL projects.
 
 Anyone in the public GraphQL community may attend a GraphQL WG meeting, provided
