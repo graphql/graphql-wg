@@ -11,7 +11,7 @@ via the [RFC process](https://github.com/graphql/graphql-spec/blob/master/CONTRI
 relevant technical topics concerning core GraphQL projects.
 
 Anyone in the public GraphQL community may attend a GraphQL WG meeting, provided
-they first sign the [Specification Membership Agreement](https://github.com/graphql/foundation) or belong to an organization which has signed.
+they first sign the [Specification Membership Agreement](./membership) or belong to an organization which has signed.
 
 This repository holds **agendas** and **notes** for all meetings past and
 upcoming. Anyone may edit an upcoming event's agenda to *attend* or *propose
