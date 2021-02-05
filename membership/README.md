@@ -1,6 +1,6 @@
 # GraphQL Specification Membership
 
-All contributors must sign the GraphQL Specification membership agreement ([preview](./GraphQL-Specification_Membership-2021-01-25-PREVIEW.pdf)) prior to participating in specification or code activity. 
+All contributors must sign the GraphQL Specification membership agreement ([preview](./GraphQL-Specification_Membership-2021-01-25-PREVIEW.pdf)) prior to participating in specification or code activity.
 
 There is no cost, and once you've signed the document you will able to open PRs and participate in development discussions in the various GraphQL working groups.
 
@@ -10,7 +10,7 @@ Please note that this is different from [membership in the GraphQL Foundation](h
 
 ### Who signs the documents?
 
-You can either sign the GraphQL Specification membership documents as an individual, or your company can sign and authorize you as a contributor. 
+You can either sign the GraphQL Specification membership documents as an individual, or your company can sign and authorize you as a contributor.
 
 The individual workflow is for people who can make the membership commitments on their own behalf (e.g., hobbyists, students, sole proprietors, etc). This workflow is fast and easy, but may not be appropriate for people who are doing work-for-hire. The corporate workflow is more complicated, but allows a company to sign one document and then manage all contributors (including pre-approval based upon email domain or GitHub org).
 
@@ -23,9 +23,7 @@ At a high level, the signature process works like this:
 
 ### Initiating the signature process against the test repo
 
-The easiest way to initiate the process is to open a trivial PR against the test repo. Just fork this repo, make a trivial change, open a PR, and follow the steps.
-
-* [EasyCLA test repo](https://github.com/graphql/easycla-test)
+The easiest way to initiate the process is to open a trivial PR against an empty repo we specifically set up for onboarding. Just [fork this repo](https://github.com/graphql/easycla), make a trivial change, open a PR, and follow the steps.
 
 Alternately, you can open a PR against any other covered GraphQL repo.
 
