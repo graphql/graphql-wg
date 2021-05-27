@@ -211,6 +211,12 @@ Each repository will be managed by the EasyCLA signature tool, ensuring that all
 
 The GraphQL IP policy is contained in the [charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf), and it applies to all GraphQL projects unless an exception is explicitly approved by the TSC.
 
+### Speaking on behalf of the GraphQL Project
+
+GraphQL Contributors as individuals are welcome to express opinions and messages of political advocacy in any of their personal spaces (e.g. Twitter, blog) as well as within GitHub issues and PR discussions, provided it adheres to our CoC. However when speaking on behalf of the GraphQL project (e.g. technical docs, project websites, READMEs, or anything merged into a git repository under the GraphQL organization) we do not support posting opinions or political advocacy using the voice of the project without prior approval via GraphQL TSC vote.
+
+Looking forward, the TSC will develop a simple set of guidelines on this topic for Foundation spaces. Our goal will be to ensure there is a clear and straightforward path for achieving consensus on the message, delivery, and follow-up on matters of social importance.
+
 #### Copyright notices
 
 GraphQL follows the [community best practice](https://www.linuxfoundation.org/blog/2020/01/copyright-notices-in-open-source-software-projects/) of not requiring contributors to add a notice to each file.
