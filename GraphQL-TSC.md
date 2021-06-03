@@ -209,9 +209,9 @@ Each repository will be managed by the EasyCLA signature tool, ensuring that all
 
 ### Speaking on behalf of the GraphQL Project
 
-GraphQL Contributors as individuals are welcome to express opinions and messages of political advocacy in any of their personal spaces (e.g. Twitter, blog) as well as within GitHub issues and PR discussions, provided it adheres to our [Code of Conduct](https://github.com/graphql/foundation/blob/main/CODE-OF-CONDUCT.md). However when speaking on behalf of the GraphQL project (e.g. technical docs, project websites, READMEs, or anything merged into a git repository under the GraphQL organization) we do not allow posting opinions or messages of political advocacy using the voice of the project without prior approval via GraphQL TSC vote.
+GraphQL Contributors as individuals are welcome to express opinions and messages of political advocacy in any of their personal spaces (e.g. personal Twitter, blog) as well as within GitHub issues and PR discussions, provided it adheres to our [Code of Conduct](https://github.com/graphql/foundation/blob/main/CODE-OF-CONDUCT.md). When speaking on behalf of the GraphQL project (e.g. technical docs, project websites, project Twitter, READMEs, or anything merged into a git repository under the GraphQL organization) we only allow posting opinions or messages of political advocacy using the voice of the project with prior approval via GraphQL TSC vote.
 
-In addition to prior approval from the TSC, any expressed opinion or message of political advocacy from the GraphQL project should meet these guidelines around message, delivery, and follow-through. All messages should be clear and coordinated across available surfaces and channels. Advocacy messages should be paired with tangible action from the project as well as a clear call-to-action for community members.
+In addition to prior approval from the TSC, all expressed opinions or messages of political advocacy from the GraphQL project should be clear about their purpose and intent, use the appropriate surfaces and channels, be paired with tangible action from the project, and provide a clear call-to-action for community members.
 
 ### IP Policy
 
