@@ -117,3 +117,7 @@ This repository is managed by EasyCLA. Project participants must sign the free (
 To initiate the signature process please open a PR against this repo. The EasyCLA bot will block the merge if we still need a membership agreement from you.
 
 You can find [detailed information here](https://github.com/graphql/graphql-wg/tree/main/membership). If you have issues, please email [operations@graphql.org](mailto:operations@graphql.org).
+
+## Commit access
+
+Commit access is granted to this repo to members of the [GraphQL TSC](./GraphQL-TSC.md) and some regular attendees of working group meetings. To request commit access, please reach out to a TSC member.
