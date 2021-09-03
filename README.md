@@ -13,15 +13,15 @@ relevant technical topics concerning core GraphQL projects.
 Anyone in the public GraphQL community may attend a GraphQL WG meeting, provided
 they first sign the [Specification Membership Agreement](./membership) or belong to an organization which has signed.
 
-This repository holds **agendas** and **notes** for all meetings past and
-upcoming. Anyone may edit an upcoming event's agenda to *attend* or *propose
-an agenda item*.
+This repository holds [agendas](./agendas) and [notes](./notes) for all meetings
+past and upcoming as well as [shared rfc documents](./rfcs). Anyone may edit an
+upcoming event's agenda to *attend* or *propose an agenda item*.
 
 All meetings occur via video conference, however participating company
 offices are welcome to host guests.
 
 Meetings are typically scheduled for the first Thursday of each month at 9:00am
-Pacific US time. Check the [`agendas/`](./agendas) for the exact date and time
+Pacific US time. Check the [agendas](./agendas) for the exact date and time
 of upcoming meetings.
 
 Keep track of future upcoming meetings by subscribing to the
