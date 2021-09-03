@@ -11,7 +11,7 @@ Notes from the 2020/5/28 meeting: https://gist.github.com/leebyron/f7f9d81c7ca52
 
 ### Contributing
 
-To help bring this idea to reality, you can contribute [PRs to this RFC document.](https://github.com/graphql/graphql-spec/edit/main/rfcs/InputUnion.md)
+To help bring this idea to reality, you can contribute [PRs to this RFC document.](https://github.com/graphql/graphql-wg/edit/main/rfcs/InputUnion.md)
 
 # 📜 Problem Statement
 
