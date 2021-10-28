@@ -73,9 +73,13 @@ The following table is a rough outline of who is responsible for decisions. In k
 
 The GraphQL TSC can be reached at [tsc@lists.foundation.graphql.org](https://lists.foundation.graphql.org/g/tsc). The mailing list is open to anyone who has signed the GraphQL Specification membership agreement (for [individual](https://individual-spec-membership.graphql.org/) or [corporate](https://corporate-spec-membership.graphql.org/) members), but anybody can view the archives.
 
-### Slack
+### Github
 
-GraphQL maintains a [Slack](https://slack.graphql.org) for communication and collaboration, which is open for anyone to join. Once you join [Slack](https://slack.graphql.org), you can participate in any public channels.
+The [graphql-wg](https://github.com/graphql/graphql-wg/) repository hosts issues, discussions, and working files used by the TSC and the rest of the working group.
+
+### Discord
+
+GraphQL maintains a [Discord](https://discord.graphql.org) for communication and collaboration, which is open for anyone to join. Once you join [Discord](https://discord.graphql.org), you can participate in any public channels.
 
 ### Calendars
 
