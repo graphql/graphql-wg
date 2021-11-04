@@ -55,7 +55,7 @@ schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selectio
 The proposed client-controlled optional designator would have identical semantics to the current 
 schema-defined default behaviour. Fields that resolve to `null` return `null` for that field with no additional side effects.
 
-## Validation
+## ✅ Validation
 
 If a developer executed an operation with two fields name `foo`, one a `String` and the other an `Int`, the operation would be declared invalid by the server. The same is true if one of the fields is designated required but both are otherwise the same type. In this
 example, `someValue` could be either a `String` or a `String!` which are two different
