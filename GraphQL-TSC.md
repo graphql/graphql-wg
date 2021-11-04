@@ -126,9 +126,9 @@ The current voting members of the GraphQL TSC are:
 | [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2021 |
 | [Brielle Harrison](https://github.com/nyteshade)   | PayPal                | Nov 1, 2020 | Dec 31, 2021 |
 | [Dan Schafer](https://github.com/dschafer)         | Facebook              | Nov 1, 2020 | Dec 31, 2022 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Self                  | Nov 1, 2020 | Dec 31, 2021 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2021 |
 | [Matt Mahoney](https://github.com/mjmahone)        | Facebook              | Nov 1, 2020 | Dec 31, 2021 |
-| [James Baxley](https://github.com/jbaxleyiii)      | Apollo GraphQL        | Nov 1, 2020 | Dec 31, 2021 |
+| [James Baxley](https://github.com/jbaxleyiii)      | Carbon Health         | Nov 1, 2020 | Dec 31, 2021 |
 | [Nick Schrock](https://github.com/schrockn)        | Elementl              | Nov 1, 2020 | Dec 31, 2022 |
 | [Rob Zhu](https://github.com/robzhu)               | AWS                   | Nov 1, 2020 | Dec 31, 2022 |
 | [Sasha Solomon](https://github.com/sachee)         | Twitter               | Nov 1, 2020 | Dec 31, 2022 |
