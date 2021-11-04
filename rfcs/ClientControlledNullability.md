@@ -17,7 +17,7 @@ nullability of fields for individual operations.
 
 - **Required field** - A field which is modified with `!` such that a non-null value is required on a Nullable or Non-Nullable type.
 
-- **Optional field** - A field which is modified with `?` such that a null value is allowed on a Non-Nullable or Nullabel type.
+- **Optional field** - A field which is modified with `?` such that a null value is allowed on a Non-Nullable or Nullable type.
 
 ## 📜 Problem Statement
 
@@ -43,17 +43,17 @@ Client-controlled Non-Nullable and Nullable designators.
 
 ## 🎬 Behavior
 
-Each client controlled nulllability desegnator overrides the schema-defined nullablity of the field it's attached to for the duration of the operation.
+Each client controlled nullability designator overrides the schema-defined nullability of the field it's attached to for the duration of the operation.
 
 ### `!`
 The proposed client-controlled required designator would have identical semantics to the current 
 schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields). Specifically:
 
-  - If during ExecuteSelectionSet() a field **designated required by the oporation or** with a non-null fieldType raises a field error then that error must propagate to this entire selection set, either resolving to null if allowed or further propagated to a parent field.
+  - If during ExecuteSelectionSet() a field **designated required by the operation or** with a non-null fieldType raises a field error then that error must propagate to this entire selection set, either resolving to null if allowed or further propagated to a parent field.
 
 ### `?`
 The proposed client-controlled optional designator would have identical semantics to the current 
-schema-defined default behaviour. Fields that resolve to `null` return `null` for that field with no additional side effects.
+schema-defined default behavior. Fields that resolve to `null` return `null` for that field with no additional side effects.
 
 ## ✅ Validation
 
@@ -127,7 +127,7 @@ ergonomic to use since the developer does not need to unwrap the value each time
 ### 3rd-party GraphQL APIs
 Marking field Non-Nullable in schema is not possible in every use case. For example, when a developer is using a 
 3rd-party API such as [Github's GraphQL API](https://docs.github.com/en/graphql) they won't be able to alter Github's
-schema, but they may still want to have certain fields be required in their application. Even within an organization, ownership rules may dicatate that an developer is not allowed to alter a schema they utilize.
+schema, but they may still want to have certain fields be required in their application. Even within an organization, ownership rules may dictate that an developer is not allowed to alter a schema they utilize.
 
 ## ✅ RFC Goals
 
@@ -147,7 +147,7 @@ This syntax consciously does not cover the following use cases:
 
 ### A `@nonNull` official directive
 
-This solution offers the same benefits as the proposed solution. Additionally, this solution has good upgrade paths if we later want to provide more behavior options to developers. [Relay's `@required` directive](https://mrtnzlml.com/docs/relay/directives#required), for example, allows developers to decide how they want their clients to respond in the event that `null` is recieved for a `@required` field.
+This solution offers the same benefits as the proposed solution. Additionally, this solution has good upgrade paths if we later want to provide more behavior options to developers. [Relay's `@required` directive](https://mrtnzlml.com/docs/relay/directives#required), for example, allows developers to decide how they want their clients to respond in the event that `null` is received for a `@required` field.
 
 ```graphql
 fragment Foo on User {
