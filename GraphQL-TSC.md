@@ -73,9 +73,13 @@ The following table is a rough outline of who is responsible for decisions. In k
 
 The GraphQL TSC can be reached at [tsc@lists.foundation.graphql.org](https://lists.foundation.graphql.org/g/tsc). The mailing list is open to anyone who has signed the GraphQL Specification membership agreement (for [individual](https://individual-spec-membership.graphql.org/) or [corporate](https://corporate-spec-membership.graphql.org/) members), but anybody can view the archives.
 
-### Slack
+### Github
 
-GraphQL maintains a [Slack](https://slack.graphql.org) for communication and collaboration, which is open for anyone to join. Once you join [Slack](https://slack.graphql.org), you can participate in any public channels.
+The [graphql-wg](https://github.com/graphql/graphql-wg/) repository hosts issues, discussions, and working files used by the TSC and the rest of the working group.
+
+### Discord
+
+GraphQL maintains a [Discord](https://discord.graphql.org) for communication and collaboration, which is open for anyone to join. Once you join [Discord](https://discord.graphql.org), you can participate in any public channels.
 
 ### Calendars
 
@@ -122,9 +126,9 @@ The current voting members of the GraphQL TSC are:
 | [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2021 |
 | [Brielle Harrison](https://github.com/nyteshade)   | PayPal                | Nov 1, 2020 | Dec 31, 2021 |
 | [Dan Schafer](https://github.com/dschafer)         | Facebook              | Nov 1, 2020 | Dec 31, 2022 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Self                  | Nov 1, 2020 | Dec 31, 2021 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2021 |
 | [Matt Mahoney](https://github.com/mjmahone)        | Facebook              | Nov 1, 2020 | Dec 31, 2021 |
-| [James Baxley](https://github.com/jbaxleyiii)      | Apollo GraphQL        | Nov 1, 2020 | Dec 31, 2021 |
+| [James Baxley](https://github.com/jbaxleyiii)      | Carbon Health         | Nov 1, 2020 | Dec 31, 2021 |
 | [Nick Schrock](https://github.com/schrockn)        | Elementl              | Nov 1, 2020 | Dec 31, 2022 |
 | [Rob Zhu](https://github.com/robzhu)               | AWS                   | Nov 1, 2020 | Dec 31, 2022 |
 | [Sasha Solomon](https://github.com/sachee)         | Twitter               | Nov 1, 2020 | Dec 31, 2022 |
