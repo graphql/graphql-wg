@@ -2,7 +2,7 @@
 
 **Proposed by:**
 
-- [Alex Reilly](<social or github link here>) - Yelp iOS
+- [Alex Reilly](https://github.com/twof) - Yelp iOS
 - [Liz Jakubowski](https://github.com/lizjakubowski) - Yelp iOS
 - [Mark Larah](https://github.com/magicmark) - Yelp Web
 - [Sanae Rosen](<social or github link here>) - Yelp Android
@@ -10,72 +10,14 @@
 - [Wei Xue](https://github.com/xuewei8910) - Yelp iOS
 - [Young Min Kim](https://github.com/aprilrd) - Netflix UI
 
-This RFC proposes a syntactical construct for GraphQL clients to express that fields in an operation are **non-null**.
+This RFC proposes syntax that would allow developers to override schema-defined
+nullability of fields for individual operations.
 
 ## Definitions
 
-- **Nullability**. A feature of many programming languages (eg [Swift](https://developer.apple.com/documentation/swift/optional),
-  [Kotlin](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types), [SQL](https://www.w3schools.com/sql/sql_notnull.asp))
-  that is used to indicate whether or not a value can be `null`.
+- **Required field** - A field which is modified with `!` such that a non-null value is required on a Nullable or Non-Nullable type.
 
-  Nullability language constructs (e.g. `?` in Swift/Kotlin) have become popular due to their ability to solve ergonomic
-  problems in programming languages, such as those surrounding `NullPointerException` in Java.
-
-- **Codegen**. Short for "code generation", in this proposal refers to tools that generate code to facilitate using
-GraphQL on the client. GraphQL codegen tooling exists for many platforms:
-  - [Apollo](https://github.com/apollographql/apollo-tooling#code-generation) has a code generator for Android (Kotlin)
-    and iOS (Swift) clients
-  - [The Guild](https://www.graphql-code-generator.com/) has a TypeScript code generator for web clients
-
-  GraphQL codegen tools typically accept a schema and a set of documents as input, and output code in a language of
-  choice that represents the data returned by those operations.
-
-  For example, the Apollo iOS codegen tool generates Swift types to represent each operation document, as well as model types
-  representing the data returned from those queries. Notably, a nullable field in the schema becomes an `Optional`
-  property on the generated Swift model type, represented by `?` following the type name.
-
-  In the example below, the `Business` schema type has a nullable field called `name`.
-  ```graphql
-  # Schema
-  type Business {
-    # The unique identifier for the business (non-nullable)
-    id: String!
-  
-    # The name of the business (nullable)
-    name: String
-  }
-
-  # Document
-  query GetBusinessName($id: String!) {
-    business(id: $id) {
-      name
-    }
-  }
-  ```
-  At build time, Apollo generates the following Swift code (note: the code has been shortened for clarity).
-  ```swift
-  struct GetBusinessNameQuery {
-    let id: String
-
-    struct Data {
-      let business: Business?
-
-      struct Business {
-        /// Since the `Business.name` schema field is nullable, the corresponding codegen Swift property is `Optional`
-        let name: String?
-      }
-    }
-  }
-  ```
-  The query can then be fetched, and the resulting data handled, as follows:
-  ```swift
-  GraphQL.fetch(query: GetBusinessNameQuery(id: "foo"), completion: { result in
-    guard case let .success(gqlResult) = result, let business = gqlResult.data?.business else { return }
-
-    // Often, the client needs to provide a default value in case `name` is `null`.
-    print(business?.name ?? "null")
-  }
-  ```
+- **Optional field** - A field which is modified with `?` such that a null value is allowed on a Non-Nullable or Nullabel type.
 
 ## 📜 Problem Statement
 
@@ -88,33 +30,47 @@ From the [official GraphQL best practice](https://graphql.org/learn/best-practic
 > simply system failures, authorization can often be granular, where individual fields within a request can
 > have different authorization rules.
 
-The problem with the SDL nonNull (!) is that it eliminates the possibility of partial failure on a given type.
-This forces the SDL author to decide for which fields partial failure is acceptable. A GraphQL schema author 
-may not be in the best position to decide whether partial failure is acceptable for a given canvas.
+The problem with the SDL Non-Nullable (!) is that it eliminates the possibility of partial failure on a given type.
+This forces schema authors to decide for which fields partial failure is acceptable. A GraphQL schema author 
+may not be in the best position to predict whether partial failure will be acceptable or unacceptable for every canvas that makes use of a field.
 
 While the schema can have nullable fields for valid reasons (such as federation), in some cases the client wants 
 to decide if it accepts a `null` value for the result to simplify the client-side logic.
 
 ## 🧑‍💻 Proposed Solution
 
-A client-controlled Non-Null designator.
+Client-controlled Non-Nullable and Nullable designators.
 
 ## 🎬 Behavior
 
-The proposed client-controlled Non-Null designator would have identical semantics to the current 
-SDL-defined [Non-Null](https://spec.graphql.org/June2018/#sec-Errors-and-Non-Nullability). Specifically:
+Each client controlled nulllability desegnator overrides the schema-defined nullablity of the field it's attached to for the duration of the operation.
 
-  - If the result of resolving a field is null (either because the function to resolve the field returned null
-or because an error occurred), and that field is of a Non-Null type,
-**or the operation specifies this field as Non-Null**,
-then a field error is thrown. The error must be added to the "errors" list in the response.
+### `!`
+The proposed client-controlled required designator would have identical semantics to the current 
+schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields). Specifically:
 
-  - Since Non-Null type fields cannot be null, field errors are propagated to be handled by the parent field. 
-If the parent field may be null then it resolves to null, otherwise the field error
-is further propagated to its parent field.
+  - If during ExecuteSelectionSet() a field **designated required by the oporation or** with a non-null fieldType raises a field error then that error must propagate to this entire selection set, either resolving to null if allowed or further propagated to a parent field.
 
-  - If all fields from the root of the request to the source of the field error return Non-Null types or are 
-    specified as Non-Null in the operation, then the "data" entry in the response should be null.
+### `?`
+The proposed client-controlled optional designator would have identical semantics to the current 
+schema-defined default behaviour. Fields that resolve to `null` return `null` for that field with no additional side effects.
+
+## Validation
+
+If a developer executed an operation with two fields name `foo`, one a `String` and the other an `Int`, the operation would be declared invalid by the server. The same is true if one of the fields is designated required but both are otherwise the same type. In this
+example, `someValue` could be either a `String` or a `String!` which are two different
+types and therefor can not be merged:
+
+```graphql
+fragment conflictingDifferingResponses on Pet {
+  ... on Dog {
+    someValue: nickname
+  }
+  ... on Cat {
+    someValue: nickname!
+  }
+}
+```
 
 ## ✏️ Proposed syntax
 
@@ -130,59 +86,114 @@ query GetBusinessName($id: String!) {
 ### `!`
 
 We have chosen `!` because `!` is already being used in the GraphQL spec to indicate that a field in the schema
-is non-nullable, so it will feel familiar to GraphQL developers.
+is Non-Nullable, so it will feel familiar to GraphQL developers.
+
+### `?`
+
+We have chosen `?` because `?` is used in a few other languages (Swift, Kotlin)
+that have `!` to mean something like the opposite of `!`.
 
 ## Use cases
+
+### Improve the developer experience using GraphQL client code generators
+Handling nullable values on the client is a major source of frustration for developers, especially when using
+types generated by client code generators in strongly-typed languages.
+The proposed required designator would allow GraphQL clients to generate types with more precise
+nullability requirements for a particular feature. For example, using a GraphQL client like Apollo GraphQL on 
+mobile, the following query
+```graphql
+query GetBusinessName($id: String!) {
+  business(id: $id) {
+    name!
+  }
+}
+```
+would be translated to the following type in Swift.
+```swift
+struct GetBusinessNameQuery {
+  let id: String
+  struct Data {
+    let business: Business?
+    struct Business {
+      /// Lack of `?` indicates that `name` will never be `null`
+      let name: String
+    }
+  }
+}
+```
+If a null business name is not acceptable for the feature executing this query, this generated type is more 
+ergonomic to use since the developer does not need to unwrap the value each time it’s accessed.
+
+### 3rd-party GraphQL APIs
+Marking field Non-Nullable in schema is not possible in every use case. For example, when a developer is using a 
+3rd-party API such as [Github's GraphQL API](https://docs.github.com/en/graphql) they won't be able to alter Github's
+schema, but they may still want to have certain fields be required in their application. Even within an organization, ownership rules may dicatate that an developer is not allowed to alter a schema they utilize.
 
 ## ✅ RFC Goals
 
 - Non-nullable syntax that is based off of syntax that developers will already be familiar with
-- Enable GraphQL codegen tools to generate more ergonomic types
+- Nullable syntax that is based off of syntax that developers will already be familiar with
+- Enable GraphQL client code generation tools to generate more ergonomic types
 
 ## 🚫 RFC Non-goals
+This syntax consciously does not cover the following use cases:
+
+- **Default Values**
+  The syntax being used in this proposal causes queries to propagate an error in the case that
+  a `null` is found for a required field. As an alternative, some languages provide syntax (eg `??` for Swift)
+  that says "if a field would be `null` return some other value instead". We have not covered that behavior in this proposal, but leave it open to be covered by future proposals.
 
 ## 🗳️ Alternatives considered
 
 ### A `@nonNull` official directive
 
-This solution offers the same benefits as the proposed solution. Since many GraphQL codegen tools already support the `@skip` and `@include` directives, this solution likely has a faster turnaround.
+This solution offers the same benefits as the proposed solution. Additionally, this solution has good upgrade paths if we later want to provide more behavior options to developers. [Relay's `@required` directive](https://mrtnzlml.com/docs/relay/directives#required), for example, allows developers to decide how they want their clients to respond in the event that `null` is recieved for a `@required` field.
+
+```graphql
+fragment Foo on User {
+  address @required(action: THROW) {
+    city @required(action: LOG)
+  }
+}
+```
+
+With our current proposal, we don't have a great way to offer this kind of flexibility that would mesh nicely with existing GraphQL syntax.
 
 ### A `@nonNull` custom directive
 
-This is an alternative being used at some of the companies represented in this proposal for the time being.
+This is an alternative being used at some of the companies represented in this proposal.
 
 While this solution simplifies some client-side logic, it does not meaningfully improve the developer experience for clients.
 
-* The cache implementations of GraphQL client libraries also need to understand the custom directive to behave correctly. Currently, when a client library caches a null field based on an operation without a directive, it will return the null field for another operation with this directive.
-* For clients that rely on codegen, codegen types typically cannot be customized based on a custom directive. See https://github.com/dotansimha/graphql-code-generator/discussions/5676 for an example. As a result, the optional codegen properties still need to be unwrapped in the code.
+* The cache implementations of "smart" GraphQL clients also need to understand the custom directive to behave correctly. Currently, when a client library caches a `null` field based on an operation without a directive, it will return the `null` field for another operation with this directive.
+* For clients that rely on client code generation, generated types typically cannot be customized based on a custom directive. See https://github.com/dotansimha/graphql-code-generator/discussions/5676 for an example. As a result, the optional generated properties still need to be unwrapped in the code.
 
 This feels like a common enough need to call for a language feature. A single language feature would enable more unified public tooling around GraphQL.
 
 ### Make Schema Fields Non-Nullable Instead
 
-It is intuitive that one should simply mark fields that are not intended to be null as non-null in the schema.
+It is intuitive that one should simply mark fields that are not intended to be `null` Non-Nullable in the schema.
 For example, in the following GraphQL schema:
 
 ```graphql
-    type Business {
-      name: String
-      isStarred: Boolean
-    }
+type Business {
+  name: String
+  isStarred: Boolean
+}
 ```
 
-If we intend to always have a name and isStarred for a Business, it may be tempting to mark these fields as Non-Null:
+If we intend to always have a `name` and `isStarred` for a `Business`, it may be tempting to mark these fields Non-Nullable:
 
 ```graphql
-    type Business {
-      name: String!
-      isStarred: Boolean!
-    }
+type Business {
+  name: String!
+  isStarred: Boolean!
+}
 ```
 
-Marking Schema fields as non-null can introduce particular problems in a distributed environment where there is a possibility
-of partial failure regardless of whether the field is intended to have null as a valid state.
+Marking schema fields Non-Nullable may introduce problems in a distributed environment where partial failure is a possibility regardless of whether the field is intended to have `null` as a valid state.
 
-When a non-nullable field results in null, the GraphQL server will recursively step through the field’s ancestors to find the next nullable field. In the following GraphQL response:
+When a Non-Nullable field results in `null`, the GraphQL server will recursively step through the field’s ancestors to find the next nullable field. In the following GraphQL response:
 
 ```json
 {
@@ -195,7 +206,7 @@ When a non-nullable field results in null, the GraphQL server will recursively s
 }
 ```
 
-If isStarred is non-nullable but returns null and business is nullable, the result will be:
+If isStarred is Non-Nullable but returns `null` and business is nullable, the result will be:
 
 ```json
 {
@@ -205,7 +216,7 @@ If isStarred is non-nullable but returns null and business is nullable, the resu
 }
 ```
 
-Even if name returns valid results, the response would no longer provide this data. If business is non-nullable, the response will be:
+Even if `name` returns valid results, the response would no longer provide this data. If business is Non-Nullable, the response will be:
 ```json
 {
   "data": null
@@ -213,60 +224,17 @@ Even if name returns valid results, the response would no longer provide this da
 ```
 
 In the case that the service storing user stars is unavailable, the UI may want to go ahead and render the component 
-without a star (effectively defaulting isStarred to false). Non-Null in the schema makes it impossible for the client 
-to receive partial results from the server, and thus potentially forces the entire component to fail rendering.
+without a star (effectively defaulting `isStarred` to `false`). A Non-Nullable field in the schema makes it impossible for the client 
+to receive partial results from the server, and thus potentially forces the entire component to fail to render.
 
-More discussion on [when to use non-null can be found here](https://medium.com/@calebmer/when-to-use-graphql-non-null-fields-4059337f6fc8)
+More discussion on [when to use Non-Nullable can be found here](https://medium.com/@calebmer/when-to-use-graphql-non-null-fields-4059337f6fc8)
 
-Additionally, marking a field non-null is not possible in every use case. For example, when a developer is using a 
-3rd-party API such as [Github's GraphQL API](https://docs.github.com/en/graphql) they won't be able to alter Github's
-schema, but they may still want to have certain fields be non-nullable in their application.
+Also see [3rd-party GraphQL APIs](#3rd-party-GraphQL-APIs) for an instance where altering the schema of the service a developer is utilizing wouldn't be possible.
 
 ### Write wrapper types that null-check fields
 This is the alternative being used at some of the companies represented in this proposal for the time being.
-It's quite labor intensive and the work is quite rote. It more or less undermines the purpose of
-having code generation.
+It's labor intensive and rote work. It more or less undermines any gains from code generation.
 
 ### Alternatives to `!`
 #### `!!`
 This would follow the precedent set by Kotlin.
-
-### Make non-nullability apply recursively
-For example, everything in this tree would be non-nullable
-```graphql
-query! {
-  business(id: 4) {
-    name
-  }
-}
-```
-
-## 🙅 Syntax Non-goals
-
-This syntax consciously does not cover the following use cases:
-
-- **Default Values**
-  The syntax being used in this proposal causes queries to error out in the case that
-  a `null` is found. As an alternative, some languages provide syntax (eg `??` for Swift)
-  that says "if a value would be `null` make it some other value instead". We are
-  not interested in covering that in this proposal.
-  
-## Work Items
-Patches that will need to be made if this proposal is accepted. The 
-[RFC proposal process](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
-requires that a proof of concept is implemented in a GraphQL library. As work items are completed,
-PRs will be linked here.
-- Spec Changes
-- Official Libraries
-  - GraphQL.js: https://github.com/graphql/graphql-js/pull/2824
-- 3rd Party Libraries
-  - [Apollo Android](https://github.com/apollographql/apollo-android)
-    - Code Gen
-    - Cache
-  - [Apollo iOS](https://github.com/apollographql/apollo-ios)
-    - Code Gen
-    - Cache
-  - [Apollo JS](https://github.com/apollographql/apollo-client)
-    - Code Gen
-    - Cache
-  - [GraphQL Code Generator by The Guild](https://github.com/dotansimha/graphql-code-generator)
