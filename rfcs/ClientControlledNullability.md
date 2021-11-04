@@ -15,27 +15,36 @@ nullability of fields for individual operations.
 
 ## Definitions
 
-- **Required field** - A field which is modified with `!` such that a non-null value is required on a Nullable or Non-Nullable type.
+- **Required field** - A field which is modified with `!` such that a non-null value is required on 
+a Nullable or Non-Nullable type.
 
-- **Optional field** - A field which is modified with `?` such that a null value is allowed on a Non-Nullable or Nullable type.
+- **Optional field** - A field which is modified with `?` such that a null value is allowed on a 
+Non-Nullable or Nullable type.
 
 ## 📜 Problem Statement
 
-In our experience, client developers have been frustrated that the vast majority of fields are nullable.
-We’ve done this in accordance with official best practice, and we largely agree that this is good practice. 
-From the [official GraphQL best practice](https://graphql.org/learn/best-practices/#nullability):
+In our experience, client developers have been frustrated that the vast majority of fields are
+nullable. We’ve done this in accordance with official best practice, and we largely agree that this
+is good practice. From the 
+[official GraphQL best practice](https://graphql.org/learn/best-practices/#nullability):
 
-> This is because there are many things that can go awry in a networked service backed by databases and other
-> services. A database could go down, an asynchronous action could fail, an exception could be thrown. Beyond
-> simply system failures, authorization can often be granular, where individual fields within a request can
+> This is because there are many things that can go awry in a networked service backed by databases
+and other
+> services. A database could go down, an asynchronous action could fail, an exception could be
+thrown. Beyond
+> simply system failures, authorization can often be granular, where individual fields within 
+a request can
 > have different authorization rules.
 
-The problem with the SDL Non-Nullable (!) is that it eliminates the possibility of partial failure on a given type.
-This forces schema authors to decide for which fields partial failure is acceptable. A GraphQL schema author 
-may not be in the best position to predict whether partial failure will be acceptable or unacceptable for every canvas that makes use of a field.
+The problem with the SDL Non-Nullable (!) is that it eliminates the possibility of partial failure
+on a given type. This forces schema authors to decide for which fields partial failure is
+acceptable. A GraphQL schema author 
+may not be in the best position to predict whether partial failure will be acceptable or 
+unacceptable for every canvas that makes use of a field.
 
-While the schema can have nullable fields for valid reasons (such as federation), in some cases the client wants 
-to decide if it accepts a `null` value for the result to simplify the client-side logic.
+While the schema can have nullable fields for valid reasons (such as federation), in some cases the
+client wants to decide if it accepts a `null` value for the result to simplify the client-side
+logic.
 
 ## 🧑‍💻 Proposed Solution
 
