@@ -169,11 +169,13 @@ Because we work in a distributed environment, the voting process must account fo
 * A notice is sent via email that the vote will conclude in three business days, reminding those who haven't voted that they should do so. The vote will conclude at the end of this time.
 * The election results will not change if additional TSC members vote.
 
-#### Ensuring efficient votes
+#### TSC voting member eligibility
 
 A TSC member must attend two of the previous five meetings to be considered a "TSC voting member" and be eligible to vote. Should a TSC member miss three or more of the prior five meetings, they will no longer vote or be counted toward the total number of voting members. This is to ensure broad participation as well as to avoid voting deadlocks.
 
 A member may regain their voting status by attending two meetings and may participate in votes in the second meeting.
+
+Elections of TSC members are exempted from this rule. All TSC members whose seats are not up for re-election may vote regardless of their past attendance.
 
 #### Resignation or removal of TSC members
 
