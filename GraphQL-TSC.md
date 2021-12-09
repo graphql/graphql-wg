@@ -111,13 +111,13 @@ If you have questions about these processes, please contact [operations@graphql.
 
 TSC meeting are open to anybody who wishes to participate. Aside from items which require a formal vote (such as approving specification verions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC will use the consensus decision-making process as often as possible.
 
-The TSC will also include a number of individuals who have been elected as voting members. These individuals are expected to be active participants on the TSC, and to be engaged and responsive on matters that require a formal vote.
+The TSC will also include a number of individuals who have been elected as members. These individuals are expected to be active participants on the TSC, and to be engaged and responsive on matters that require a formal vote.
 
 You must add yourself to the meeting agenda via PR in order to be able to join a GraphQL specification meeting.
 
-### TSC Voting Members
+### TSC Members
 
-The current voting members of the GraphQL TSC are:
+The current members of the GraphQL TSC are:
 
 | Name                                               | Affiliation           | Term begins | Term ends    |
 | -------------------------------------------------- | --------------------- | ----------- | ------------ |
@@ -133,13 +133,13 @@ The current voting members of the GraphQL TSC are:
 | [Rob Zhu](https://github.com/robzhu)               | AWS                   | Nov 1, 2020 | Dec 31, 2022 |
 | [Sasha Solomon](https://github.com/sachee)         | Twitter               | Nov 1, 2020 | Dec 31, 2022 |
 
-### Becoming a TSC Voting Member
+### Becoming a TSC Member
 
-The [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) describes the composition of the TSC. The GraphQL TSC has 10 elected members, plus the Executive Director. TSC members serve a two-year term. Each year, half of the TSC voting seats will be up for election. There are no term limits.
+The [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) describes the composition of the TSC. The GraphQL TSC has 10 elected members, plus the Executive Director. TSC members serve a two-year term, and there is no limit to the number of terms a member can serve. Each year, half of the TSC member seats will be up for election.
 
 ### Election process
 
-After November 1st, the TSC will collect self-nominations from the community. After December 1st, the TSC members who are not up for election will vote on the candidates using a multiple-candidate method. The elected reps will begin their term on January 1st.
+After November 1st, the TSC will collect self-nominations from the community. After December 1st, the TSC members who are not up for election will vote on the candidates using a multiple-winner method. The elected TSC members will begin their term on January 1st.
 
 #### Initial period
 
@@ -164,24 +164,22 @@ The ballots may be public or private depending upon the situation, but the aggre
 
 #### Minimum threshold for votes
 
-Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. At least half of the voting members of the TSC must cast a ballot in order for the vote to be valid. Once the voting threshold has been met, one of these two critera must be satisfied to conclude the vote:
+Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. A quorum of at least half (or supermajority when relevent) of the TSC voting members must cast a ballot in order for the vote to be valid. Once the voting threshold has been met, one of these two critera must be satisfied to conclude the vote:
 
 * A notice is sent via email that the vote will conclude in three business days, reminding those who haven't voted that they should do so. The vote will conclude at the end of this time.
 * The election results will not change if additional TSC members vote.
 
 #### Ensuring efficient votes
 
-Should a TSC member miss three or more of the prior five meetings, they will no longer vote or be counted toward the total number of voting members. This is to ensure broad participation as well as to avoid voting deadlocks.
+A TSC member must attend two of the previous five meetings to be considered a "TSC voting member" and be eligible to vote. Should a TSC member miss three or more of the prior five meetings, they will no longer vote or be counted toward the total number of voting members. This is to ensure broad participation as well as to avoid voting deadlocks.
 
-A voting member may regain their status by attending two consecutive meetings. They may participate in votes in the second meeting.
+A member may regain their voting status by attending two meetings and may participate in votes in the second meeting.
 
-#### Resignation of voting members
+#### Resignation or removal of TSC members
 
-If a rep resigns before the end of their term, the TSC may collect nominations and vote on a replacement representative to complete the term. The self-nomination period should be at least two weeks before holding a vote.
+A TSC member may voluntarily resign at any time before the end of their term by notifying the TSC chair. A TSC member may also be involuntarily removed by a supermajority (2/3) vote by eligible TSC voting members less any with a conflict of interest.
 
-#### Removing a voting member
-
-TSC members may be removed by a supermajority (2/3) vote by eligible voting members less any with a conflict of interest. The seat may then be filled for the remainder of the term.
+After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement representative to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
 
 ## Policies and procedures
 
@@ -197,9 +195,9 @@ Pull requests against this document that do not conflict with the [Technical Cha
 * There are two approvals by TSC members (not including the author)
 * The PR has been open for at least 72 hours
 
-Pull requests that change governance of the TSC (excluding the charter) must be open for at least 14 days, unless consensus is reached in a meeting with quorum of voting members.
+Pull requests that change governance of the TSC (excluding the charter) must be open for at least 14 days, unless consensus is reached in a meeting with quorum of TSC voting members.
 
-If consensus cannot be reached, a pull request may still be landed after a vote by the Voting members to override outstanding objections.
+If consensus cannot be reached, a pull request may still be landed after a vote by the TSC voting members to override outstanding objections.
 
 An exception is made for errata or to update meeting logistics. These may be landed immediately, provided all EasyCLA checks have passed.
 
