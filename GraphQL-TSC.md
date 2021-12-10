@@ -153,7 +153,13 @@ To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior
 | 2023 - 2024 | Nov 1, 2022      | Dec 1, 2022 | Jan 1, 2023 | Dec 31, 2024 |
 | 2024 - 2025 | Nov 1, 2023      | Dec 1, 2023 | Jan 1, 2024 | Dec 31, 2025 |
 
-### Voting process
+#### Resignation or removal of TSC members
+
+A TSC member may voluntarily resign at any time before the end of their term by notifying the TSC chair. A TSC member may also be involuntarily removed by a supermajority (2/3) vote by TSC members.
+
+After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement representative to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
+
+## Voting process
 
 When something cannot be decided by consensus or a formal vote is required, the TSC will use a method appropriate to the situation:
 
@@ -162,24 +168,43 @@ When something cannot be decided by consensus or a formal vote is required, the 
 
 The ballots may be public or private depending upon the situation, but the aggregate results should always be published.
 
-#### Minimum threshold for votes
+### Defining a quorum of "attending" members
 
-Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. A quorum of at least half (or supermajority when relevent) of the TSC voting members must cast a ballot in order for the vote to be valid. Once the voting threshold has been met, one of these two critera must be satisfied to conclude the vote:
+To balance preserving the voting ability of all TSC members with the desire for the voting process to remain efficient and avoid deadlocks, we define a valid quorum based on members' recent attendance of GraphQL Working Group meetings.
+
+A quorum is a majority (more than half, or 2/3 for a supermajority vote) of the TSC *attending members*. A quorum must cast a ballot in order for a vote to be valid.
+
+A TSC *attending member* is a member who has attended one of the previous three meetings. Should a TSC member miss three consecutive meetings, they will no longer be counted when determining quorum (but may still vote). A member starts counting towards quorum as of attending a meeting.
+
+### Voting process
+
+Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. Once the threshold of a quorum has been met and a vote is valid, one of these two critera must be satisfied to conclude a vote:
 
 * A notice is sent via email that the vote will conclude in three business days, reminding those who haven't voted that they should do so. The vote will conclude at the end of this time.
-* The election results will not change if additional TSC members vote.
+* The election results would not change with the addition of another vote.
 
-#### Ensuring efficient votes
+Once a valid vote is concluded, the result is determined by the number of votes recieved at that time (as opposed to the total number of TSC members):
 
-A TSC member must attend two of the previous five meetings to be considered a "TSC voting member" and be eligible to vote. Should a TSC member miss three or more of the prior five meetings, they will no longer vote or be counted toward the total number of voting members. This is to ensure broad participation as well as to avoid voting deadlocks.
+* For a simple majority (or supermajority), the votes in favor must exceed half (or 2/3) of the total number of votes.
+* For the Condorcet method, all votes received at the time the vote is concluded are considered.
 
-A member may regain their voting status by attending two meetings and may participate in votes in the second meeting.
+TSC members are not required to vote. An abstention vote is not considered part of the total set of votes, nor towards a voting quorum.
 
-#### Resignation or removal of TSC members
+<details>
+<summary>Example</summary>
 
-A TSC member may voluntarily resign at any time before the end of their term by notifying the TSC chair. A TSC member may also be involuntarily removed by a supermajority (2/3) vote by eligible TSC voting members less any with a conflict of interest.
+Consider this scenario for a simple majority vote:
 
-After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement representative to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
+* 6 of 11 TSC members are considered *attending* members by having attended one of the last three WG meetings.
+* Being a simple majority, more than half of this 6 must cast votes to consider the vote valid. 4 votes are cast, so the vote is valid.
+* An email is sent out reminding more members to cast a vote within three business days.
+* 1 additional TSC *attending* member casts a vote.
+* 2 members who are not considered an *attending* member also cast a vote.
+* Three days pass, the vote is concluded.
+* A total of 7 votes have been cast.
+* The votes in favor must exceed half of the 7 total votes.
+* At least 4 votes must be in favor for the vote to pass.
+</details>
 
 ## Policies and procedures
 
@@ -195,9 +220,9 @@ Pull requests against this document that do not conflict with the [Technical Cha
 * There are two approvals by TSC members (not including the author)
 * The PR has been open for at least 72 hours
 
-Pull requests that change governance of the TSC (excluding the charter) must be open for at least 14 days, unless consensus is reached in a meeting with quorum of TSC voting members.
+Pull requests that change governance of the TSC (excluding the charter) must be open for at least 14 days, unless consensus is reached in a meeting with quorum of TSC *attending* members.
 
-If consensus cannot be reached, a pull request may still be landed after a vote by the TSC voting members to override outstanding objections.
+If consensus cannot be reached, a pull request may still be landed after a vote by TSC members to override outstanding objections.
 
 An exception is made for errata or to update meeting logistics. These may be landed immediately, provided all EasyCLA checks have passed.
 
