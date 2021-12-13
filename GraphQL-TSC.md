@@ -193,10 +193,29 @@ Once a valid vote is concluded, the result is determined by the number of votes 
 TSC members are not required to vote. There are three ways an *attending* member may reply to choose not to vote, each with a different intent and impact on the voting process:
 
 * **Present:** A reply of "present" causes an *attending* member to count towards quorum, but does not count towards the number of votes. This has the practical impact of allowing progress towards reaching quorum while lowering the number of "yes" votes required for a motion to pass. A member may reply "present" if they support a motion reaching a result, but do not have a preference if it passes or fails.
-* **Absent/Abstain:** A reply of "abstention" causes an *attending* member to neither count towards quorum, nor towards the number of votes. This is implied for any absent *attending* member which does not reply to a vote. The has the practical impact of hindering progress towards reaching quorum. A member may reply "abstain" if they do not support a motion reaching either result.
+* **Absent/Abstain:** A reply of "abstention" causes an *attending* member to neither count towards quorum, nor towards the number of votes. This is implied for any absent *attending* member which does not reply to a vote. This has the practical impact of hindering progress towards reaching quorum. A member may reply "abstain" if they do not support a motion reaching either result.
 * **Recused:** A reply of "recusal" causes a member to not count as an *attending* member for the purposes of this vote. This has the practical impact of both lowering the number of *attending* members required to reach quorum, and the number of "yes" votes required for a motion to pass. A member may reply "recused" if they want to remove themselves to minimize their impact on a vote, often due to a conflict of interest.
 
 Note: Non-attending members do not count towards quorum, and should they not vote are effectively recused.
+
+### Voting procedure
+
+Bringing this all together, here's a step-by-step procedure for administering a TSC vote:
+
+1. Formally open a vote for a motion by opening a GitHub issue.
+   * Most votes are held publicly, for those held privately, open an issue in a private forum.
+1. Take attendence of all TSC members over the prior three meetings to determine *attending members*.
+   * If a vote is raised during a meeting, count the live meeting as the most recent of the three.
+1. Determine the *quorum threshold* as the next number larger than half of *attending members*, or 2/3 for a supermajority.
+   * Examples: For 8 attending, a quorum threshold is 5. For 11 attending, quorum threshold is 6. For 9 attending, a supermajority quorum threshold is 7.
+1. Gather votes from *all members* until the number of votes from *attending members* reaches *quorum threshold*.
+   * A reply of "present" or "recused" may require recalculating *attending members* and/or *quorum threshold*.
+   * Send recurring reminders to remaining *attending members*.
+1. Message that the vote will be closed in 3 business days, make good faith attempt at reaching out to all remaining members.
+   * Conclude the vote early if, for single-winner votes, 6 *yes votes* or 5 *no votes* are received for a majority vote, or 8 *yes votes* or 3 *no votes* for a supermajority, as no additional set of votes could change the outcome.
+   * Any "present" or "recused" replies lower the thresholds for early conclusion.
+1. The resulting motion passes if the number of *yes votes* is a majority (or 2/3 supermajority) of *vote count*.
+1. Should a vote take place in a private forum, post the result in a public forum.
 
 <details>
 <summary>Example</summary>
