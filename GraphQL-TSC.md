@@ -157,7 +157,7 @@ To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior
 
 A TSC member may voluntarily resign at any time before the end of their term by notifying the TSC chair. A TSC member may also be involuntarily removed by a supermajority (2/3) vote by TSC members.
 
-After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement representative to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
+After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement member to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
 
 ## Voting process
 
@@ -181,14 +181,22 @@ A TSC *attending member* is a member who has attended one of the previous three 
 Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. Once the threshold of a quorum has been met and a vote is valid, one of these two critera must be satisfied to conclude a vote:
 
 * A notice is sent via email that the vote will conclude in three business days, reminding those who haven't voted that they should do so. The vote will conclude at the end of this time.
-* The election results would not change with the addition of another vote.
+* The election results would not change if all remaining members were to vote.
 
-Once a valid vote is concluded, the result is determined by the number of votes recieved at that time (as opposed to the total number of TSC members):
+Once a valid vote is concluded, the result is determined by the number of votes received at that time (as opposed to the total number of TSC members):
 
 * For a simple majority (or supermajority), the votes in favor must exceed half (or 2/3) of the total number of votes.
 * For the Condorcet method, all votes received at the time the vote is concluded are considered.
 
-TSC members are not required to vote. An abstention vote is not considered part of the total set of votes, nor towards a voting quorum.
+### Non-votes
+
+TSC members are not required to vote. There are three ways an *attending* member may reply to choose not to vote, each with a different intent and impact on the voting process:
+
+* **Present:** A reply of "present" causes an *attending* member to count towards quorum, but does not count towards the number of votes. This has the practical impact of allowing progress towards reaching quorum while lowering the number of "yes" votes required for a motion to pass. A member may reply "present" if they support a motion reaching a result, but do not have a preference if it passes or fails.
+* **Absent/Abstain:** A reply of "abstention" causes an *attending* member to neither count towards quorum, nor towards the number of votes. This is implied for any absent *attending* member which does not reply to a vote. The has the practical impact of hindering progress towards reaching quorum. A member may reply "abstain" if they do not support a motion reaching either result.
+* **Recused:** A reply of "recusal" causes a member to not count as an *attending* member for the purposes of this vote. This has the practical impact of both lowering the number of *attending* members required to reach quorum, and the number of "yes" votes required for a motion to pass. A member may reply "recused" if they want to remove themselves to minimize their impact on a vote, often due to a conflict of interest.
+
+Note: Non-attending members do not count towards quorum, and should they not vote are effectively recused.
 
 <details>
 <summary>Example</summary>
@@ -196,14 +204,15 @@ TSC members are not required to vote. An abstention vote is not considered part 
 Consider this scenario for a simple majority vote:
 
 * 6 of 11 TSC members are considered *attending* members by having attended one of the last three WG meetings.
-* Being a simple majority, more than half of this 6 must cast votes to consider the vote valid. 4 votes are cast, so the vote is valid.
-* An email is sent out reminding more members to cast a vote within three business days.
+* Being a simple majority, more than half of this 6 must cast votes to reach quorum and consider the vote valid.
+* 4 votes by *attending* members are cast, reaching quorum. The vote's outcome will be valid.
+* An notice is sent out reminding all remaining members to cast a vote within three business days.
 * 1 additional TSC *attending* member casts a vote.
-* 2 members who are not considered an *attending* member also cast a vote.
+* 3 non-attending members also cast a vote.
 * Three days pass, the vote is concluded.
-* A total of 7 votes have been cast.
-* The votes in favor must exceed half of the 7 total votes.
-* At least 4 votes must be in favor for the vote to pass.
+* A total of 8 votes have been cast.
+* The votes in favor must exceed half of the 8 total votes.
+* There must be at least 5 "yes" votes for the motion to pass.
 </details>
 
 ## Policies and procedures
