@@ -139,7 +139,7 @@ The [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQ
 
 ### Election process
 
-After November 1st, the TSC will collect self-nominations from the community. After December 1st, the TSC members who are not up for election will vote on the candidates using a multiple-winner method. The elected TSC members will begin their term on January 1st.
+After November 1st, the TSC will collect self-nominations from the community. After December 1st, the TSC members with terms not up for election will vote on the candidates using a multiple-winner method, members with expiring terms are recused from this vote due to conflict of interest. The elected TSC members will begin their term on January 1st.
 
 #### Initial period
 
@@ -176,6 +176,8 @@ A quorum is a majority (more than half, or 2/3 for a supermajority vote) of the 
 
 A TSC *attending member* is a member who has attended one of the previous three meetings. Should a TSC member miss three consecutive meetings, they will no longer be counted when determining quorum (but may still vote). A member starts counting towards quorum as of attending a meeting.
 
+Note: A member may be recused (i.e. for a member election) in which case they do not count as an *attending member* for the purpose of that vote.
+
 ### Voting process
 
 Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. Once the threshold of a quorum has been met and a vote is valid, one of these two critera must be satisfied to conclude a vote:
@@ -185,8 +187,8 @@ Because we work in a distributed environment, the voting process must account fo
 
 Once a valid vote is concluded, the result is determined by the number of votes received at that time (as opposed to the total number of TSC members):
 
-* For a simple majority (or supermajority), the votes in favor must exceed half (or 2/3) of the total number of votes.
-* For the Condorcet method, all votes received at the time the vote is concluded are considered.
+* For a single-winner simple majority (or supermajority), the votes in favor must exceed half (or 2/3) of the total number of votes.
+* For a multiple-winner method, all votes received at the time the vote is concluded are considered.
 
 ### Non-votes
 
@@ -204,21 +206,24 @@ Bringing this all together, here's a step-by-step procedure for administering a 
 
 1. Formally open a vote for a motion by opening a GitHub issue.
    * Most votes are held publicly, for those held privately, open an issue in a private forum.
-1. Take attendence of all TSC members over the prior three meetings to determine *attending members*.
+1. Take attendence of all TSC members over the prior three meetings to determine *attending members* minus any recused.
    * If a vote is raised during a meeting, count the live meeting as the most recent of the three.
+   * For an election vote, members with expiring terms are recused and not counted towards *attending members*.
 1. Determine the *quorum threshold* as the next number larger than half of *attending members*, or 2/3 for a supermajority.
    * Examples: For 8 attending, a quorum threshold is 5. For 11 attending, quorum threshold is 6. For 9 attending, a supermajority quorum threshold is 7.
-1. Gather votes from *all members* until the number of votes from *attending members* reaches *quorum threshold*.
-   * A reply of "present" or "recused" may require recalculating *attending members* and/or *quorum threshold*.
+1. Gather votes from *all non-recused members* until the number of votes from *attending members* reaches *quorum threshold*.
+   * A reply of "recused" requires recalculating *attending members* and *quorum threshold*.
+   * A reply of "abstain" or "recused" does not count towards *quorum threshold*.
    * Send recurring reminders to remaining *attending members*.
 1. Message that the vote will be closed in 3 business days, make good faith attempt at reaching out to all remaining members.
-   * Conclude the vote early if, for single-winner votes, 6 *yes votes* or 5 *no votes* are received for a majority vote, or 8 *yes votes* or 3 *no votes* for a supermajority, as no additional set of votes could change the outcome.
-   * Any "present" or "recused" replies lower the thresholds for early conclusion.
+   * Conclude the vote early if no additional set of votes could change the outcome: e.g. for single-winner votes, 6 *yes votes* or 5 *no votes* are received for a majority vote, or 8 *yes votes* or 3 *no votes* for a supermajority.
+   * Any "non-vote" replies lower the thresholds for early conclusion.
 1. The resulting motion passes if the number of *yes votes* is a majority (or 2/3 supermajority) of *vote count*.
+   * For a multiple-winner vote, the stack-ranked votes are prepared and fed to a multiple-winner algorithm.
 1. Should a vote take place in a private forum, post the result in a public forum.
 
 <details>
-<summary>Example</summary>
+<summary>Typical example</summary>
 
 Consider this scenario for a simple majority vote:
 
@@ -232,6 +237,24 @@ Consider this scenario for a simple majority vote:
 * A total of 8 votes have been cast.
 * The votes in favor must exceed half of the 8 total votes.
 * There must be at least 5 "yes" votes for the motion to pass.
+</details>
+
+<details>
+<summary>Election example</summary>
+
+Consider this scenario for a member election:
+
+* 6 of 11 TSC members are considered *attending* members by having attended one of the last three WG meetings.
+* However, 2 of those members have expiring terms and are recused for the member election.
+* Thus 4 remain *attending* members for the purpose of this vote.
+* More than half of this 4 (thus, 3) must cast votes to reach quorum and consider the vote valid.
+* 3 votes by non-recused *attending* members are cast, reaching quorum. The vote's outcome will be valid.
+* An notice is sent out reminding all remaining non-recused members to cast a vote within three business days.
+* 1 additional TSC *attending* member casts a vote.
+* 1 non-attending member also casts a vote.
+* Three days pass, the vote is concluded.
+* A total of 5 votes have been cast.
+* The multiple-winner votes are input to a Condorcet algorithm to determine the outcome.
 </details>
 
 ## Policies and procedures
