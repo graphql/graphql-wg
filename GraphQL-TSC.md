@@ -123,15 +123,24 @@ The current members of the GraphQL TSC are:
 | -------------------------------------------------- | --------------------- | ----------- | ------------ |
 | [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
 | [Andi Marek](https://github.com/andimarek)         | GraphQL Java          | Nov 1, 2020 | Dec 31, 2022 |
-| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2021 |
-| [Brielle Harrison](https://github.com/nyteshade)   | PayPal                | Nov 1, 2020 | Dec 31, 2021 |
+| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2023 |
 | [Dan Schafer](https://github.com/dschafer)         | Facebook              | Nov 1, 2020 | Dec 31, 2022 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2021 |
-| [Matt Mahoney](https://github.com/mjmahone)        | Facebook              | Nov 1, 2020 | Dec 31, 2021 |
-| [James Baxley](https://github.com/jbaxleyiii)      | Carbon Health         | Nov 1, 2020 | Dec 31, 2021 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2023 |
+| [Marc-Andre Giroux](https://github.com/xuorig)     | Netflix               | Jan 1, 2022 | Dec 31, 2023 |
+| [Matt Mahoney](https://github.com/mjmahone)        | Facebook              | Nov 1, 2020 | Dec 31, 2023 |
+| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2023 |
 | [Nick Schrock](https://github.com/schrockn)        | Elementl              | Nov 1, 2020 | Dec 31, 2022 |
 | [Rob Zhu](https://github.com/robzhu)               | AWS                   | Nov 1, 2020 | Dec 31, 2022 |
 | [Sasha Solomon](https://github.com/sachee)         | Twitter               | Nov 1, 2020 | Dec 31, 2022 |
+
+#### Emeriti
+
+We thank all our prior TSC members for their contribution:
+
+| Name                                               | Affiliation           | Term began  | Term ended   |
+| -------------------------------------------------- | --------------------- | ----------- | ------------ |
+| [Brielle Harrison](https://github.com/nyteshade)   | PayPal                | Nov 1, 2020 | Dec 31, 2021 |
+| [James Baxley](https://github.com/jbaxleyiii)      | Carbon Health         | Nov 1, 2020 | Dec 31, 2021 |
 
 ### Becoming a TSC Member
 
