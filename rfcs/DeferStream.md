@@ -82,53 +82,65 @@ This also applies to the `initialCount` argument on the `@stream` directive. Cli
 
 ## Example Query with `@defer` and `@stream`
 
-```
-{
-  viewer {
-    id
-    friends(first: 2) @stream(initialCount: 1, label: "friendStream") {
-	  id
+```graphql
+query {
+  person(id: "cGVvcGxlOjE=") {
+    ...HomeWorldFragment @defer(label: "homeWorldDefer")
+    name
+    films @stream(initialCount: 2, label: "filmsStream") {
+      title
     }
   }
-  ...GroupAdminFragment @defer(label: "groupAdminDefer")
 }
-
-fragment GroupAdminFragment {
-   managed_groups {
-      id
-   }
+fragment HomeWorldFragment on Person {
+  homeworld {
+    name
+  }
 }
+```
 
-// Response payloads
+**Response Payloads**
 
-// payload 1
+Payload 1
+```json
 {
-    data: {id: 1},
-    hasNext: true
+  "data": {
+    "person": {
+      "name": "Luke Skywalker",
+      "films": [
+        { "title": "A New Hope" },
+        { "title": "The Empire Strikes Back" }
+      ]
+    }
+  },
+  "hasNext": true
 }
 
-// payload 2
-{
-  label: "friendStream"
-  path: [“viewer”, “friends”, 1],
-  data: {id: 4},
-  hasNext: true
-}
+```
 
-// payload 3
+Payload 2
+```json
 {
-  label: "friendStream"
-  path: [“viewer”, “friends”, 2],
-  data: {id: 5},
-  hasNext: true
+  "label": "homeWorldDefer",
+  "path": ["person"],
+  "data": {
+    "homeworld": {
+      "name": "Tatooine"
+    }
+  },
+  "hasNext": true
 }
+```
 
-// payload 4
+Payload 3
+```json
 {
-  label: "groupAdminDefer",
-  path: [“viewer”],
-  data: {managed_groups: [{id: 1, id: 2}]}
-  hasNext: false
+  "label": "filmsStream",
+  "path": ["person", "films", 2],
+  "data": {
+    "title": "Return of the Jedi"
+  },
+  "hasNext": false
 }
 ```
 
