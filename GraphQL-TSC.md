@@ -286,6 +286,16 @@ If consensus cannot be reached, a pull request may still be landed after a vote 
 
 An exception is made for errata or to update meeting logistics. These may be landed immediately, provided all EasyCLA checks have passed.
 
+### Security policy
+
+The GraphQL TSC is in an elevated position of trust within the GraphQL community. Security concerns that impact repos under the [`graphql` GitHub org](https://github.com/graphql/) (including reference implementations and official tools) may be responsibly disclosed to the TSC via [any current TSC member](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members-1), with the expectation that they will be discussed and triaged by the TSC as a whole.
+ 
+Our goal is to provide complete, accurate, and actionable disclosures once a reported issue has been sufficiently understood and there has been a reasonable opportunity to deploy fixes responsibly. At no time should a TSC member release information on a pre-disclosed vulnerability to anyone besides other TSC members, Foundation staff, legal counsel, or required authorities unless there is consensus to do so. A TSC member may call for a formal vote to determine an appropriate path forward at any time in the process, if needed.
+
+In the case of responsible disclosures, the TSC is expected to work in good faith toward a resolution that is in the best interest of the community, including coordinating with maintainers on pre-disclosure patches and the CVE process. As responsible and knowledgable stewards of the GraphQL ecosystem, the TSC is empowered to negotiate the priority level and timelines for announcements and fixes.
+
+In the case of irresponsible disclosure, regardless of the circumstances, the TSC is expected to make themselves available to convene urgently and to decide upon a communications and action plan.
+
 ### Adding and archiving projects under the GraphQL Specification
 
 The TSC may add and archive specifications, projects, and their corresponding repositories by a majority vote.
