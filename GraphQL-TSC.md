@@ -288,7 +288,7 @@ An exception is made for errata or to update meeting logistics. These may be lan
 
 ### Security policy
 
-The GraphQL TSC is in an elevated position of trust within the GraphQL community. Security concerns that impact repos under the [`graphql` GitHub org](https://github.com/graphql/) (including reference implementations and official tools) may be responsibly disclosed to the TSC via [any current TSC member](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members-1), with the expectation that they will be discussed and triaged by the TSC as a whole.
+The GraphQL TSC is in an elevated position of trust within the GraphQL community. Security concerns that impact repos under the [`graphql` GitHub org](https://github.com/graphql/) (including reference implementations and official tools) may be responsibly disclosed to the TSC via [any current TSC member](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members-1), with the expectation that they will be discussed and triaged by the TSC as a whole. You may reach a subset of current TSC members via [security@graphql.org](mailto:security@graphql.org).
  
 Our goal is to provide complete, accurate, and actionable disclosures once a reported issue has been sufficiently understood and there has been a reasonable opportunity to deploy fixes responsibly. At no time should a TSC member release information on a pre-disclosed vulnerability to anyone besides other TSC members, Foundation staff, legal counsel, or required authorities unless there is consensus to do so. A TSC member may call for a formal vote to determine an appropriate path forward at any time in the process, if needed.
 
