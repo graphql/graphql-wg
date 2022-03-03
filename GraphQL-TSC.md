@@ -211,7 +211,7 @@ Each repository will be managed by the EasyCLA signature tool, ensuring that all
 
 GraphQL Contributors as individuals are welcome to express opinions and messages of political advocacy in any of their personal spaces (e.g. personal Twitter, blog) as well as within GitHub issues and PR discussions, provided it adheres to our [Code of Conduct](https://github.com/graphql/foundation/blob/main/CODE-OF-CONDUCT.md). We require approval via GraphQL TSC vote prior to posting opinions or messages of political advocacy using the voice of the GraphQL project (e.g. within technical docs, project websites, project Twitter, READMEs, or anything merged into a git repository under the GraphQL organization).
 
-In addition to prior approval from the TSC, all expressed opinions or messages of political advocacy from the GraphQL project should be clear about their purpose and intent, use the appropriate surfaces and channels, be paired with tangible action from the project, and provide a clear call-to-action for community members.
+In addition to prior approval from the TSC, all expressed opinions or messages of political advocacy from the GraphQL project should be clear about their purpose and intent, use the appropriate surfaces and channels, have a fixed time frame for when a message would be added to and removed from any surface, be paired with tangible action from the project, and provide a clear call-to-action for community members.
 
 ### IP Policy
 
