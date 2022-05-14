@@ -283,3 +283,31 @@ generation.
 #### `!!`
 This would follow the precedent set by Kotlin. It's more verbose and diverges from GraphQL's SDL
 precedent.
+
+## Decision Log
+
+### `?` as a counterpart to `!`
+
+### List syntax
+Developers from Apollo suggested early on that users would want to apply CCN syntax to list elements. The possiblitly had been suggested earlier than that as well, but it was put off because neither Netflix nor Relay's CCN counterparts had the feature, and it hadn't been a problem yet. However there was enough interest during community feedback sessions to adopt it into the proposal. [Discussions](https://github.com/graphql/graphql-wg/discussions/864) around which specific syntax to adopt happened over the following months.
+
+Options other than the one that was landed on included the following:
+
+```graphql
+twoDimensionalList!!?
+```
+The folks that voted against this option felt that it was unclear how it should be interpreted, whether operators should be applied from the outside-in, or inside-out.
+
+```graphql
+twoDimensionalList as [[Int!]!]
+twoDimensionalList <= [[Int!]!]
+```
+The folks that voted against this option felt that this option read like a type-cast, and that the inclusion of a type placed an undue burden on client developers. Validation would fail if the type was incorrect, and didn't provide much additional value.
+
+```graphql
+twoDimensionalList[[!]!]?
+```
+This syntax, called "the bracket syntax" during discussions selected for adoption by majority vote at the [March 3rd, 2022 GraphQL Working Group Meeting](https://github.com/graphql/graphql-wg/blob/main/agendas/2022/2022-03-03.md). 9 out of 10 participants voted for this option with the final vote going to the `<= [[Int!]!]` option.
+
+### `!` propagates `null` to nearest `?` rather than nearest nullable field
+
