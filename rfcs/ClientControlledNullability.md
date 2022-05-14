@@ -307,7 +307,14 @@ The folks that voted against this option felt that this option read like a type-
 ```graphql
 twoDimensionalList[[!]!]?
 ```
-This syntax, called "the bracket syntax" during discussions selected for adoption by majority vote at the [March 3rd, 2022 GraphQL Working Group Meeting](https://github.com/graphql/graphql-wg/blob/main/agendas/2022/2022-03-03.md). 9 out of 10 participants voted for this option with the final vote going to the `<= [[Int!]!]` option.
+This syntax, called "the bracket syntax" during discussions was selected for adoption by majority vote at the [March 3rd, 2022 GraphQL Working Group Meeting](https://github.com/graphql/graphql-wg/blob/main/agendas/2022/2022-03-03.md). 9 out of 10 participants voted for this option with the final vote going to the `<= [[Int!]!]` option. 
+
+Initally there was a restriction on the bracket syntax where the depth of the syntax needed to match depth of the field's list type, but participants at the same meeting felt that restriction should be loosened so that developers could opt to apply the syntax to only the field itself and ignore the elements of the list. Under that new rule the following would also be valid, and the two examples would be equivilent.
+
+```graphql
+twoDimensionalList!
+twoDimensionalList[[]]!
+```
 
 ### `!` propagates `null` to nearest `?` rather than nearest nullable field
 
