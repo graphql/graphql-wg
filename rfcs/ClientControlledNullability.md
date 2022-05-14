@@ -286,10 +286,20 @@ precedent.
 
 ## Decision Log
 
+This proposal started out with a very simple premise and implementation, and has gotten more complex as the community has explored edge cases and facets about how GraphQL is actually used in practice. For example this proposal starts out by talking about accomodating the "best practices" that are recommended by the GraphQL documentation and the community, but we discovered pretty early on that there are legitimate use cases where the "best practices" are rightfully ignored. One of those use cases is covered in "`?` as a counterpart to `!`". 
+
+In order to cover instances like that, we've needed to justify additional complexity which can be difficult to understand for newcomers without (at this point a full year) of context. This decision log was written with newcomers in mind to avoid rediscussing issues that have already been hashed out, and to make it easier to understand why certain decisions have been made.
+
 ### `?` as a counterpart to `!`
 
+Lee was the first person [to suggest](https://github.com/graphql/graphql-spec/issues/867#issuecomment-840807186) that the inverse of `!` should exist and that it should be represented by `?`. The [reasoning](https://github.com/graphql/graphql-spec/issues/867#issuecomment-841372320) was that it "completes the story of control" and provides a garanteed stopping point for `null` propagation if we're using the existing `null` propagation rules. The feeling was that "introducing ! without ? is like introducing `throw` without `catch`". 
+
+Lee also surfaced that there are some use cases like his own at Robinhood where do to financial data regulations most fields are marked `Non-Nullable` rather than nullable, so they have the oposite problem where they sometimes want to be able to halt `null` propagation, rather than the inverse use case which this proposal origianlly supported.
+
+Since there seemed to be general consensus that `?` was a good addition to the proposal, it was adopted in without a vote.
+
 ### List syntax
-Developers from Apollo suggested early on that users would want to apply CCN syntax to list elements. The possiblitly had been suggested earlier than that as well, but it was put off because neither Netflix nor Relay's CCN counterparts had the feature, and it hadn't been a problem yet. However there was enough interest during community feedback sessions to adopt it into the proposal. [Discussions](https://github.com/graphql/graphql-wg/discussions/864) around which specific syntax to adopt happened over the following months.
+Developers from Apollo [suggested](https://github.com/graphql/graphql-spec/pull/895#issuecomment-961442966) early on that users would want to apply CCN syntax to list elements. The possiblitly had been suggested earlier than that as well, but it was put off because neither Netflix nor Relay's CCN counterparts had the feature, and it hadn't been a problem yet. However there was enough interest during community feedback sessions to adopt it into the proposal. [Discussions](https://github.com/graphql/graphql-wg/discussions/864) around which specific syntax to adopt happened over the following months.
 
 Options other than the one that was landed on included the following:
 
@@ -317,4 +327,4 @@ twoDimensionalList[[]]!
 ```
 
 ### `!` propagates `null` to nearest `?` rather than nearest nullable field
-
+The selected mechanics were most requested by the folks at Meta working on [Relay](https://relay.dev/). Relay has 
