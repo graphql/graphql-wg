@@ -294,9 +294,13 @@ In order to cover instances like that, we've needed to justify additional comple
 
 Lee was the first person [to suggest](https://github.com/graphql/graphql-spec/issues/867#issuecomment-840807186) that the inverse of `!` should exist and that it should be represented by `?`. The [reasoning](https://github.com/graphql/graphql-spec/issues/867#issuecomment-841372320) was that it "completes the story of control" and provides a garanteed stopping point for `null` propagation if we're using the existing `null` propagation rules. The feeling was that "introducing ! without ? is like introducing `throw` without `catch`". 
 
-Lee also surfaced that there are some use cases like his own at Robinhood where do to financial data regulations most fields are marked `Non-Nullable` rather than nullable, so they have the oposite problem where they sometimes want to be able to halt `null` propagation, rather than the inverse use case which this proposal origianlly supported.
+Lee also surfaced that there are some use cases like his own at Robinhood where they're trying to balance developer experience and data preservation, and have opted to mark quite a few fields `Non-Null`. Data preservation is very important because Robinhood is working with financial data, so they have the oposite problem where they sometimes want to be able to halt `null` propagation, rather than the inverse use case which this proposal origianlly supported.
+
+Developers from Apollo indicated that many of their customers face problems around schema breaking where the solution to developer experience gripes is to make a breaking change and swap a field from nullable to `Non-Nullable` or vice versa, which can be a labor intensive process.
 
 Since there seemed to be general consensus that `?` was a good addition to the proposal, it was adopted in without a vote.
+
+Subsequently there was discussion around whether `?` could be introduced in a later proposal, and there was general agreement that the usability of `!` is limited without `?`, and the selected `null` propagation behavior described below solidifies the decision to introduce both additions in a single proposal.
 
 ### List syntax
 Developers from Apollo [suggested](https://github.com/graphql/graphql-spec/pull/895#issuecomment-961442966) early on that users would want to apply CCN syntax to list elements. The possiblitly had been suggested earlier than that as well, but it was put off because neither Netflix nor Relay's CCN counterparts had the feature, and it hadn't been a problem yet. However there was enough interest during community feedback sessions to adopt it into the proposal. [Discussions](https://github.com/graphql/graphql-wg/discussions/864) around which specific syntax to adopt happened over the following months.
@@ -326,5 +330,17 @@ twoDimensionalList!
 twoDimensionalList[[]]!
 ```
 
+There are however some open concerns that the first of the two examples could be ambiguous as to whether the `!` applies to the field as a whole or to the list elements.
+
 ### `!` propagates `null` to nearest `?` rather than nearest nullable field
-The selected mechanics were most requested by the folks at Meta working on [Relay](https://relay.dev/). Relay has 
+The selected mechanics were most requested by the folks at Meta working on [Relay](https://relay.dev/). Relay wanted this behavior for a few reasons
+- Relay presents a fascade of fragment isolation for its own [`@required` directive](https://relay.dev/docs/next/guides/required-directive/). If a field is `null`, rather than merging fragments and propagating `null` to all sibling fields on selection sets that use that fragment, the most popular option as chosen by ~90% of developers is to have the request throw and utilize React's error boundaries. It also has the option to do `null` propagation, but that too is bound to a single fragment. Because of this, it likely won't be able to use CCN at first, but developers would like to be able to use it in the future once [Fragment Modularity](https://github.com/graphql/graphql-wg/blob/main/rfcs/FragmentModularity.md) makes it into the spec. The selected option preserves the possiblity of Relay and other clients that utilize fragments heavily using CCN in the future.
+- The throwing option that Relay provides on their `@required` directive effectively allows developers to indicate "If some required field is missing, throw out everything from this field to the fragment boundary" which is tighter client control than was offered by the intial iteration of this proposal where `!` only transformed a field into a `Non-Null`. In that case, the server still had control over where `null` propagation halted with which fields the schema said were nullable. The selected `null` propagation option is slightly closer to the most popular `@required` option in that way. 
+
+With the intial iteration of this proposal if users wanted to guarantee that all fields through multiple parents should be lost in the event that a child is `null`, they would need to mark each level with a `!`, but the selected option avoids that.
+
+With the selected option, forgetting to include a `?` is potentially dangerous because it would result in more fields being lost than intended, all the way up to the `data` field in the worst case scenario. There were concerns that that was a blocker, but arguments were made that because most queries are relatively small, it wasn't actually that dangerous. Clients have also often been treating the existence of any errors as a failed request and thrown out entire responses, so in effect, clients been choosing the "worst case scenerio" when given the option.
+
+The behavior where `!` propagates `null` to nearest `?` was selected for adoption by majority vote at the [March 3rd, 2022 GraphQL Working Group Meeting](https://github.com/graphql/graphql-wg/blob/main/agendas/2022/2022-03-03.md). 7 out of 8 participants voted for this option with the final vote going to behavior where the `!` would be non-destructive. 
+
+The non-destructive option was turned down because having different behavior per-client wasn't desirable, and it provided no benefits to naive clients (like a bash script) because extra processing would be required for it to be a value-add.
