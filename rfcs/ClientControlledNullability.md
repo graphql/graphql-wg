@@ -15,11 +15,9 @@ nullability of fields for individual operations.
 
 ## Definitions
 
-- **Required field** - A field which is modified with `!` such that a non-null value is required on 
-a Nullable or Non-Nullable type.
+- **Required field** - A field which is marked with `!`.
 
-- **Optional field** - A field which is modified with `?` such that a null value is allowed on a 
-Non-Nullable or Nullable type.
+- **Optional field** - A field which is marked with `?`.
 
 ## 📜 Problem Statement
 
@@ -36,11 +34,10 @@ thrown. Beyond
 a request can
 > have different authorization rules.
 
-The problem with the SDL Non-Nullable (!) is that it eliminates the possibility of partial failure
+The problem with the SDL Non-Nullable (`!`) is that it eliminates the possibility of partial failure
 on a given type. This forces schema authors to decide for which fields partial failure is
-acceptable. A GraphQL schema author 
-may not be in the best position to predict whether partial failure will be acceptable or 
-unacceptable for every canvas that makes use of a field.
+acceptable. A GraphQL schema author may not be in the best position to predict whether partial failure
+will be acceptable or unacceptable for every canvas that makes use of a field.
 
 While the schema can have nullable fields for valid reasons (such as federation), in some cases the
 client wants to decide if it accepts a `null` value for the result to simplify the client-side
@@ -56,34 +53,29 @@ Each client controlled nullability designator overrides the schema-defined nulla
 it's attached to for the duration of the operation.
 
 ### `!`
-The proposed client-controlled required designator would have identical semantics to the current 
+The proposed client-controlled required designator would have similar, but not identical semantics to the current 
 schema-defined 
 [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields). 
-Specifically:
-
-  - If during ExecuteSelectionSet() a field **designated required by the operation or** with a
-    non-null fieldType raises a field error then that error must propagate to this entire selection
-    set, either resolving to null if allowed or further propagated to a parent field.
+Specifically if a required field resolves to `null`, then `null` propagation extends to the nearest optional parent rather than the nearest nullable parent. In the event that no optional parent exists, the `data` field of the response will be `null`.
 
 ### `?`
 The proposed client-controlled optional designator would have identical semantics to the current 
-schema-defined default behavior. Fields that resolve to `null` return `null` for that field with no
-additional side effects.
+schema-defined default behavior. Fields that resolve to `null` return `null` for that field. Additionally, fields marked with `?` act as a stopping point for `null` propagation caused by required fields.
 
 ## ✅ Validation
 
 If a developer executed an operation with two fields name `foo`, one a `String` and the other an 
 `Int`, the operation would be declared invalid by the server. The same is true if one of the fields
-is designated required but both are otherwise the same type. In this example, `someValue` could be
+is designated required but both are otherwise the same type. In this example, `nickname` could be
 either a `String` or a `String!` which are two different types and therefor can not be merged:
 
 ```graphql
 fragment conflictingDifferingResponses on Pet {
   ... on Dog {
-    someValue: nickname
+    nickname
   }
   ... on Cat {
-    someValue: nickname!
+    nickname!
   }
 }
 ```
@@ -94,7 +86,7 @@ The client can express that a schema field is required by using the `!` syntax i
 definition:
 ```graphql
 query GetBusinessName($id: String!) {
-  business(id: $id) {
+  business(id: $id)? {
     name!
   }
 }
@@ -120,7 +112,7 @@ requirements for a particular feature. For example, using a GraphQL client like 
 mobile, the following query
 ```graphql
 query GetBusinessName($id: String!) {
-  business(id: $id) {
+  business(id: $id)? {
     name!
   }
 }
@@ -143,7 +135,7 @@ is more ergonomic to use since the developer does not need to unwrap the value e
 accessed.
 
 ### 3rd-party GraphQL APIs
-Marking field Non-Nullable in schema is not possible in every use case. For example, when a
+Marking a field Non-Nullable in schema is not possible in every use case. For example, when a
 developer is using a 3rd-party API such as 
 [Github's GraphQL API](https://docs.github.com/en/graphql) they won't be able to alter Github's
 schema, but they may still want to have certain fields be required in their application. Even within
@@ -246,7 +238,7 @@ field’s ancestors to find the next nullable field. In the following GraphQL re
 }
 ```
 
-If isStarred is Non-Nullable but returns `null` and business is nullable, the result will be:
+If `isStarred` is Non-Nullable but resolves to `null` and business is nullable, the result will be:
 
 ```json
 {
@@ -256,7 +248,7 @@ If isStarred is Non-Nullable but returns `null` and business is nullable, the re
 }
 ```
 
-Even if `name` returns valid results, the response would no longer provide this data. If business is
+Even if `isStarred` resolves to a valid result, the response would no longer provide this data. If business is
 Non-Nullable, the response will be:
 ```json
 {
@@ -264,7 +256,7 @@ Non-Nullable, the response will be:
 }
 ```
 
-In the case that the service storing user stars is unavailable, the UI may want to go ahead and 
+In the case that the service storing business stars is unavailable, the UI may want to go ahead and 
 render the component without a star (effectively defaulting `isStarred` to `false`). A Non-Nullable 
 field in the schema makes it impossible for the client to receive partial results from the server, 
 and thus potentially forces the entire component to fail to render.
@@ -286,9 +278,9 @@ precedent.
 
 ## Decision Log
 
-This proposal started out with a very simple premise and implementation, and has gotten more complex as the community has explored edge cases and facets about how GraphQL is actually used in practice. For example this proposal starts out by talking about accomodating the "best practices" that are recommended by the GraphQL documentation and the community, but we discovered pretty early on that there are legitimate use cases where the "best practices" are rightfully ignored. One of those use cases is covered in "`?` as a counterpart to `!`". 
+This proposal started out with a very simple premise and implementation, and has gotten more complex as the community has explored edge cases and facets about how GraphQL is actually used in practice. For example this proposal starts out by talking about accomodating the "best practices" that are recommended by the GraphQL documentation and the community, but we discovered pretty early on that there are legitimate use cases where the "best practices" are rightfully ignored. Some of those use cases are covered in "`?` as a counterpart to `!`". 
 
-In order to cover instances like that, we've needed to justify additional complexity which can be difficult to understand for newcomers without (at this point a full year) of context. This decision log was written with newcomers in mind to avoid rediscussing issues that have already been hashed out, and to make it easier to understand why certain decisions have been made.
+In order to cover instances like that, we've needed to justify additional complexity which can be difficult to understand for newcomers without (at this point a full year) of context. This decision log was written with newcomers in mind to avoid rediscussing issues that have already been hashed out, and to make it easier to understand why certain decisions have been made. At the time of writing, the decisions here aren't set in stone, so any future discussions can use this log as a starting point.
 
 ### `?` as a counterpart to `!`
 
