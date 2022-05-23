@@ -17,11 +17,7 @@ Though these are all separate solutions to similar problems, there are various c
 * Actually fetching the relevant data, and combining it to fulfil the GraphQL request
 * etc
 
-Not wanting to cause an [XKCD#927](https://xkcd.com/927/) situation…
-
-![XKCD 927](https://user-images.githubusercontent.com/129910/166689080-bc45979a-6e70-4d4f-9bcc-f8f3daea1ee6.png)
-
-… but, it feels like it would be of benefit to the ecosystem at large if there were a shared specification that covers a few of these needs.
+It feels like it would be of benefit to the ecosystem at large if there were a shared specification that covers a few of these needs.
 
 If this is of interest to you, please enter your name, GitHub handle, and organization below:
 
