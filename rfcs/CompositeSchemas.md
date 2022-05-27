@@ -22,8 +22,16 @@ It feels like it would be of benefit to the ecosystem at large if there were a s
 
 If this is of interest to you, please enter your name, GitHub handle, and organization below:
 
-| Name               | GitHub          | Organization       | Location
-| :----------------- | :-------------- | :----------------- | :-----------------
-| Benjie Gillam      | Benjie          | Graphile           | Chandler's Ford, UK
-| Michael Staib      | michaelstaib    | ChilliCream Inc.   | Zurich, CH
-| Matteo Collina     | mcollina        | NearForm           | Forlì, IT
+| Name              | GitHub        | Organization     | Location            |
+| :---------------- | :------------ | :--------------- | :------------------ |
+| Benjie Gillam     | @Benjie       | Graphile         | Chandler's Ford, UK |
+| Yaacov Rydzinski  | @yaacovCR     | Individual       | Neve Daniel, IL     |
+| Roman Ivantsov    | @rivantsov    | Microsoft        | Redmond, WA, US     |
+| Tim Suchanek      | @timsuchanek  | GraphCDN         | Berlin, DE          |
+| Saihajpreet Singh | @saihaj       | The Guild        | Ottawa, ON, CA      |
+| Matteo Collina    | @mcollina     | NearForm         | Forlì, IT           |
+| Uri Goldshtein    | @urigo        | The Guild        | Tel Aviv, IL        |
+| Marc-Andre Giroux | @xuorig       | Netflix          | Montreal, Canada    |
+| Praveen Durairaju | @praveenweb   | Hasura           | Bangalore, India    |
+| Hugh Willson      | @hwillson     | Apollo           | Ottawa, ON, CA      |
+| Michael Staib     | @michaelstaib | ChilliCream Inc. | Zurich, CH          |
