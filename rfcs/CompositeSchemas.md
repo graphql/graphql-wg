@@ -24,3 +24,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Name               | GitHub          | Organization       | Location
 | :----------------- | :-------------- | :----------------- | :-----------------
 | Benjie Gillam      | Benjie          | Graphile           | Chandler's Ford, UK
+| Michael Staib      | michaelstaib    | ChilliCream Inc.   | Zurich, CH
