@@ -25,3 +25,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | :----------------- | :-------------- | :----------------- | :-----------------
 | Benjie Gillam      | Benjie          | Graphile           | Chandler's Ford, UK
 | Michael Staib      | michaelstaib    | ChilliCream Inc.   | Zurich, CH
+| Matteo Collina     | mcollina        | NearForm           | Forlì, IT
