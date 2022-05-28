@@ -6,6 +6,7 @@ There's a _lot_ of different ways of combining multiple GraphQL schemas together
 - GraphQL modules and other "extend type"-based approaches
 - Federation (Apollo's v1 and v2, Mercurius, WunderGraph, Hot Chocolate, etc)
 - Hasura's GraphQL Joins
+- Atlassian's Nadel
 
 Though these are all separate solutions to similar problems, there are various concerns that most of them have to consider:
 
