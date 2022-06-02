@@ -36,3 +36,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Praveen Durairaju | @praveenweb   | Hasura           | Bangalore, India    |
 | Hugh Willson      | @hwillson     | Apollo           | Ottawa, ON, CA      |
 | Michael Staib     | @michaelstaib | ChilliCream Inc. | Zurich, CH          |
+| Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
