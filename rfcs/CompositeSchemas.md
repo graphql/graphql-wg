@@ -38,3 +38,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Michael Staib     | @michaelstaib | ChilliCream Inc. | Zurich, CH          |
 | Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
 | Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
+| Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
