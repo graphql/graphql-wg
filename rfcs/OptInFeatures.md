@@ -1,4 +1,4 @@
-  
+
 
 # RFC: Opt-in features
 
@@ -127,7 +127,7 @@ Cons:
 
 ### marker directives
 
-The spec defines a directive named @requiresOptIn (and in doing so introduces the need to be able to apply directives to directives)
+The spec defines a directive named @requiresOptIn (and in doing so introduces the need to be able to apply directives to directive definitions)
 
 ```graphql
 directive @requiresOptIn on DIRECTIVE_DEFINITION
@@ -161,3 +161,16 @@ Pros:
 Cons:
 * more complex
 * requires a grammar change
+
+## 🪵 Decision Log
+
+This proposal started out with a very simple premise and implementation, and has gotten more complex as
+the community has explored edge cases and facets about how GraphQL is actually used in practice. 
+
+This decision log was written with newcomers in mind to avoid rediscussing issues that have already been hashed out,
+and to make it easier to understand why certain decisions have been made. At the time of writing,
+the decisions here aren't set in stone, so any future discussions can use this log as a starting point.
+
+### directive name
+
+Initially, the directive name was `@experimental` then `@optIn` to account for other use cases than just experimental status before [settling on `@requiresOptIn`](https://github.com/graphql/graphql-wg/pull/1006#discussion_r889467023) because it is both more explicit and leave room for clients to use an `@optIn` directive.
