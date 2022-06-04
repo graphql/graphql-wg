@@ -127,18 +127,30 @@ Cons:
 
 ### marker directives
 
+The spec defines a directive named @requiresOptIn (and in doing so introduces the need to be able to apply directives to directives)
+
 ```graphql
-directive @requiresOptIn
+directive @requiresOptIn on DIRECTIVE_DEFINITION
 ```
 
-The user then define their own directives:
+Services create a directive for each distinct opt-in feature they want in their schema:
 
 ```graphql
 # optIn usage defines @experimentalDeploymentApi as an opt-in marker
-directive @experimentalDeploymentApi @requiresOptIn
+directive @experimentalDeploymentApi on FIELD_DEFINITION @requiresOptIn
 
 type Query {
   deployment: Deployment @experimentalDeploymentApi
+}
+
+enum WorkspaceKind {
+  CROSS_PROJECT
+  CROSS_COMPANY
+}
+directive @workspaces(kind: WorkspaceKind) on FIELD_DEFINITION @requiresOptIn
+
+type Deployment {
+  workspaces: [Workspace] @workspaces(kind: CROSS_COMPANY)
 }
 ```
 
