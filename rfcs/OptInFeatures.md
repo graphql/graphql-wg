@@ -79,7 +79,7 @@ type Session {
 > This section is a proposal based on the current introspection mechanism. A more global mechanism (
 > see [#300](https://github.com/graphql/graphql-spec/issues/300)) would make it obsolete
 
-`@requiresOptIn` features should be hidden from introspection by default and include if `includeOptIn` contains the
+`@requiresOptIn` features should be hidden from introspection by default and include if `includeRequiresOptIn` contains the
 given feature:
 
 ```graphql
@@ -89,8 +89,8 @@ type __Type {
 
     # [...] other fields omitted for clarity
 
-    # includeOptIn is a list of features to include
-    fields(includeDeprecated: Boolean = false, includeOptIn: [String!]): [__Field!]
+    # includeRequiresOptIn is a list of features to include
+    fields(includeDeprecated: Boolean = false, includeRequiresOptIn: [String!]): [__Field!]
 }
 ```
 
@@ -106,7 +106,7 @@ type __Field {
 
     # list of @requiresOptIn features required to use this field
     requiresOptIn: [String!]
-    args(includeDeprecated: Boolean = false, includeOptIn: [String!]): [__InputValue!]!
+    args(includeDeprecated: Boolean = false, includeRequiresOptIn: [String!]): [__InputValue!]!
 }
 ```
 
@@ -114,7 +114,7 @@ A given field is included in introspection results if all the conditions are sat
 condition is true:
 
 ```
-includeOptIn.containsAll(field.requiresOptIn) && (includeDeprecated || !field.isDeprecated)
+includeRequiresOptIn.containsAll(field.requiresOptIn) && (includeDeprecated || !field.isDeprecated)
 ```
 
 ### Validation
@@ -199,4 +199,4 @@ the decisions here aren't set in stone, so any future discussions can use this l
 
 Initially, the directive name was `@experimental` then `@optIn` to account for other use cases than just experimental
 status before [settling on `@requiresOptIn`](https://github.com/graphql/graphql-wg/pull/1006#discussion_r889467023)
-because it is both more explicit and leave room for clients to use an `@optIn` directive.
+because it is both more explicit and leaves room for clients to use an `@optIn` directive.
