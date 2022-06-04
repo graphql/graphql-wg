@@ -6,8 +6,6 @@
 
 ## 📜 Problem Statement
 
-  
-
 GraphQL has a [built-in mechanism for deprecation](https://spec.graphql.org/draft/#sec--deprecated) allowing to gracefully remove features from the schema. The lifecycle of a feature can typically be represented as `stable` -> `deprecated` -> `removed`.  
 
 In a lot of cases though, a feature lifecycle includes an experimental phase where it has just been added and can be changed without warning. In this state, the feature is usable and feedback is encouraged but isn't considered stable enough to be put in production. The feature lifecycle becomes `experimental` -> `stable` -> `deprecated` -> `removed` .
@@ -31,19 +29,20 @@ This proposal is not about security and/or hiding parts of a schema. Its goal is
 
 * GitHub uses [schema previews](https://docs.github.com/en/graphql/overview/schema-previews) to opt-in new features.
 * Kotlin has [OptIn requirements](https://kotlinlang.org/docs/opt-in-requirements.html) that started out as `@Experimental` before [being changed to `@OptIn`](https://youtrack.jetbrains.com/issue/KT-26216/Generalize-Experimental-API)
+* Atlassian has [a `@beta` directive](https://developer.atlassian.com/platform/atlassian-graphql-api/graphql/#schema-changes) that is enforced during execution. A client must provide a `X-ExperimentalApi: $Feature` HTTP header or the request will fail.
 
 ## 🧑‍💻 Proposed solution
 
-### The `@optIn` directive
+### The `@requiresOptIn` directive
 
-It is proposed to add an `@optIn` directive to the specification:
+It is proposed to add an `@requiresOptIn` directive to the specification:
 
 ```graphql
 """
 Indicates that the given field, argument, input field or enum value requires
 giving explicit consent before being used.
 """
-directive @optIn(feature: String!) repeatable
+directive @requiresOptIn(feature: String!) repeatable
     on FIELD_DEFINITION 
     | ARGUMENT_DEFINITION 
     | INPUT_FIELD_DEFINITION 
@@ -57,8 +56,8 @@ type Session {
   id: ID!
   title: String!
   # [...]
-  startInstant: Instant @optIn(feature: "experimentalInstantApi")
-  endInstant: Instant @optIn(feature: "experimentalInstantApi")
+  startInstant: Instant @requiresOptIn(feature: "experimentalInstantApi")
+  endInstant: Instant @requiresOptIn(feature: "experimentalInstantApi")
 }
 ```
 
@@ -66,7 +65,7 @@ type Session {
 
 > This section is a proposal based on the current introspection mechanism. A more global mechanism (see [#300](https://github.com/graphql/graphql-spec/issues/300)) would make it obsolete
 
-`@optIn` features should be hidden from introspection by default and include if `includeOptIn` contains the given feature:
+`@requiresOptIn` features should be hidden from introspection by default and include if `includeOptIn` contains the given feature:
 
 ```graphql
 type __Type {
@@ -80,7 +79,7 @@ type __Type {
 }
 ```
 
-Tools can get a list of `@optIn` features required to use a field (or input field, argument, enum value) using `requiresOptIn`:
+Tools can get a list of `@requiresOptIn` features required to use a field (or input field, argument, enum value) using `requiresOptIn`:
 ```graphql
 type __Field {
   name: String!
@@ -88,7 +87,7 @@ type __Field {
 
   # [...] other fields omitted for clarity
 
-  # list of @optIn features required to use this field
+  # list of @requiresOptIn features required to use this field
   requiresOptIn: [String!]
   args(includeDeprecated: Boolean = false, includeOptIn: [String!]): [__InputValue!]!
 }
@@ -102,9 +101,9 @@ includeOptIn.containsAll(field.requiresOptIn) && (includeDeprecated || !field.is
 
 ### Validation
 
-Similarly to [deprecation](https://spec.graphql.org/draft/#sel-FAHnBZNCAACCwDqvK), the `@optIn` directive must not appear on required (non-null without a default) arguments or input object field definitions.
+Similarly to [deprecation](https://spec.graphql.org/draft/#sel-FAHnBZNCAACCwDqvK), the `@requiresOptIn` directive must not appear on required (non-null without a default) arguments or input object field definitions.
 
-In other words, `@optIn`  arguments or input fields, must be either nullable or have a default value.
+In other words, `@requiresOptIn`  arguments or input fields, must be either nullable or have a default value.
 
 ## 🗳️ Alternate solutions
 
@@ -129,14 +128,14 @@ Cons:
 ### marker directives
 
 ```graphql
-directive @optIn
+directive @requiresOptIn
 ```
 
 The user then define their own directives:
 
 ```graphql
 # optIn usage defines @experimentalDeploymentApi as an opt-in marker
-directive @experimentalDeploymentApi @optin
+directive @experimentalDeploymentApi @requiresOptIn
 
 type Query {
   deployment: Deployment @experimentalDeploymentApi
