@@ -1,5 +1,7 @@
 # RFC: Opt-in features
 
+**Proposed by:** [Martin Bonnin](https://twitter.com/martinbonnin)
+
 This document is a work in progress. A lot of the questions about introspection are closely related
 to [#300](https://github.com/graphql/graphql-spec/issues/300) (`Expose user-defined meta-information via introspection API in form of directives`)
 and will therefore need to be revisited based on the progress there.
