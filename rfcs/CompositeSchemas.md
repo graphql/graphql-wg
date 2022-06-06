@@ -39,3 +39,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
 | Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
 | Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
+| Caleb Thomas      | @linux-jedi   | Meta             | Brooklyn, NY, US    |
