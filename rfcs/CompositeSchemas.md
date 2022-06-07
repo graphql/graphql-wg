@@ -25,21 +25,21 @@ It feels like it would be of benefit to the ecosystem at large if there were a s
 If this is of interest to you, please enter your name, GitHub handle, and organization below:
 
 <!-- prettier-ignore -->
-| Name              | GitHub         | Organization     | Location            |
-| :---------------- | :------------- | :--------------- | :------------------ |
-| Benjie Gillam     | @Benjie        | Graphile         | Chandler's Ford, UK |
-| Yaacov Rydzinski  | @yaacovCR      | Individual       | Neve Daniel, IL     |
-| Roman Ivantsov    | @rivantsov     | Microsoft        | Redmond, WA, US     |
-| Tim Suchanek      | @timsuchanek   | GraphCDN         | Berlin, DE          |
-| Saihajpreet Singh | @saihaj        | The Guild        | Ottawa, ON, CA      |
-| Matteo Collina    | @mcollina      | NearForm         | Forlì, IT           |
-| Uri Goldshtein    | @urigo         | The Guild        | Tel Aviv, IL        |
-| Marc-Andre Giroux | @xuorig        | Netflix          | Montreal, Canada    |
-| Praveen Durairaju | @praveenweb    | Hasura           | Bangalore, India    |
-| Hugh Willson      | @hwillson      | Apollo           | Ottawa, ON, CA      |
-| Michael Staib     | @michaelstaib  | ChilliCream Inc. | Zurich, CH          |
-| Nicholas DeJaco   | @ndejaco2      | Amazon           | Seattle, WA, US     |
-| Rafael Abreu      | @grillorafael  | Individual       | Dublin, IE.         |
-| Julian Mayorga    | @okjulian      | GraphQLApps      | RS, Brazil          |
-| Nathan Chapman    | @nathanchapman | Individual       | Austin, TX, US      |
-| Bobbie Cochrane   | @bobbiejc      | StepZen          | Oriental, NC        |
+| Name              | GitHub        | Organization     | Location            |
+| :---------------- | :------------ | :--------------- | :------------------ |
+| Benjie Gillam     | @Benjie       | Graphile         | Chandler's Ford, UK |
+| Yaacov Rydzinski  | @yaacovCR     | Individual       | Neve Daniel, IL     |
+| Roman Ivantsov    | @rivantsov    | Microsoft        | Redmond, WA, US     |
+| Tim Suchanek      | @timsuchanek  | GraphCDN         | Berlin, DE          |
+| Saihajpreet Singh | @saihaj       | The Guild        | Ottawa, ON, CA      |
+| Matteo Collina    | @mcollina     | NearForm         | Forlì, IT           |
+| Uri Goldshtein    | @urigo        | The Guild        | Tel Aviv, IL        |
+| Marc-Andre Giroux | @xuorig       | Netflix          | Montreal, Canada    |
+| Praveen Durairaju | @praveenweb   | Hasura           | Bangalore, India    |
+| Hugh Willson      | @hwillson     | Apollo           | Ottawa, ON, CA      |
+| Michael Staib     | @michaelstaib | ChilliCream Inc. | Zurich, CH          |
+| Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
+| Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
+| Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
+| Nathan Chapman    | @nathanchapman | Individual      | Austin, TX, US      |
+| Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
