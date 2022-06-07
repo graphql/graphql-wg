@@ -24,6 +24,7 @@ It feels like it would be of benefit to the ecosystem at large if there were a s
 
 If this is of interest to you, please enter your name, GitHub handle, and organization below:
 
+<!-- prettier-ignore -->
 | Name              | GitHub        | Organization     | Location            |
 | :---------------- | :------------ | :--------------- | :------------------ |
 | Benjie Gillam     | @Benjie       | Graphile         | Chandler's Ford, UK |
@@ -40,4 +41,5 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
 | Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
 | Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
+| Nathan Chapman    | @nathanchapman | Individual      | Austin, TX, US      |
 | Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
