@@ -7,6 +7,7 @@ There's a _lot_ of different ways of combining multiple GraphQL schemas together
 - Federation (Apollo's v1 and v2, Mercurius, WunderGraph, Hot Chocolate, etc)
 - Hasura's GraphQL Joins
 - Atlassian's Nadel
+- StepZen
 
 Though these are all separate solutions to similar problems, there are various concerns that most of them have to consider:
 
@@ -39,3 +40,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
 | Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
 | Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
+| Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
