@@ -40,7 +40,7 @@ features to client developer and therefore needs to expose that information.
 * GitHub uses [schema previews](https://docs.github.com/en/graphql/overview/schema-previews) to opt-in new features.
 * Kotlin has [OptIn requirements](https://kotlinlang.org/docs/opt-in-requirements.html) that started out
   as `@Experimental`
-  before [being changed to `@OptIn`](https://youtrack.jetbrains.com/issue/KT-26216/Generalize-Experimental-API)
+  before [being changed to `@RequiresOptIn`](https://youtrack.jetbrains.com/issue/KT-26216/Generalize-Experimental-API)
 * Atlassian
   has [a `@beta` directive](https://developer.atlassian.com/platform/atlassian-graphql-api/graphql/#schema-changes) that
   is enforced during execution. A client must provide a `X-ExperimentalApi: $Feature` HTTP header or the request will
