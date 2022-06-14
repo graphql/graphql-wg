@@ -45,3 +45,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
 | Chi Chan          | @chikit       | Meta             | San Jose, CA, US    |
 | Agata Witkowska   | @agata-wit    | Tyk              | Gdansk, PL          |
+| Ralf Handl        | @ralfhandl    | SAP SE           | Walldorf, DE        |
