@@ -44,3 +44,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Nathan Chapman    | @nathanchapman | Individual      | Austin, TX, US      |
 | Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
 | Chi Chan          | @chikit       | Meta             | San Jose, CA, US    |
+| Agata Witkowska   | @agata-wit    | Tyk              | Gdansk, PL          |
