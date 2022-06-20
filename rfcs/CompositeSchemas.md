@@ -7,6 +7,7 @@ There's a _lot_ of different ways of combining multiple GraphQL schemas together
 - Federation (Apollo's v1 and v2, Mercurius, WunderGraph, Hot Chocolate, etc)
 - Hasura's GraphQL Joins
 - Atlassian's Nadel
+- StepZen
 
 Though these are all separate solutions to similar problems, there are various concerns that most of them have to consider:
 
@@ -23,6 +24,7 @@ It feels like it would be of benefit to the ecosystem at large if there were a s
 
 If this is of interest to you, please enter your name, GitHub handle, and organization below:
 
+<!-- prettier-ignore -->
 | Name              | GitHub        | Organization     | Location            |
 | :---------------- | :------------ | :--------------- | :------------------ |
 | Benjie Gillam     | @Benjie       | Graphile         | Chandler's Ford, UK |
@@ -40,3 +42,9 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
 | Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
 | Caleb Thomas      | @linux-jedi   | Meta             | Brooklyn, NY, US    |
+| Nathan Chapman    | @nathanchapman | Individual      | Austin, TX, US      |
+| Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
+| Chi Chan          | @chikit       | Meta             | San Jose, CA, US    |
+| Agata Witkowska   | @agata-wit    | Tyk              | Gdansk, PL          |
+| Predrag Gruevski  | @obi1kenobi   | Kensho           | Boston, MA, US      |
+| Dariusz Kuc       | @dariuszkuc   | Apollo           | Chicago, IL, US
