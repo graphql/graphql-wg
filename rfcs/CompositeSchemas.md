@@ -41,10 +41,10 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Nicholas DeJaco   | @ndejaco2     | Amazon           | Seattle, WA, US     |
 | Rafael Abreu      | @grillorafael | Individual       | Dublin, IE.         |
 | Julian Mayorga    | @okjulian     | GraphQLApps      | RS, Brazil          |
+| Caleb Thomas      | @linux-jedi   | Meta             | Brooklyn, NY, US    |
 | Nathan Chapman    | @nathanchapman | Individual      | Austin, TX, US      |
 | Bobbie Cochrane   | @bobbiejc     | StepZen          | Oriental, NC        |
 | Chi Chan          | @chikit       | Meta             | San Jose, CA, US    |
 | Agata Witkowska   | @agata-wit    | Tyk              | Gdansk, PL          |
 | Predrag Gruevski  | @obi1kenobi   | Kensho           | Boston, MA, US      |
 | Dariusz Kuc       | @dariuszkuc   | Apollo           | Chicago, IL, US
-
