@@ -47,4 +47,6 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Chi Chan          | @chikit       | Meta             | San Jose, CA, US    |
 | Agata Witkowska   | @agata-wit    | Tyk              | Gdansk, PL          |
 | Predrag Gruevski  | @obi1kenobi   | Kensho           | Boston, MA, US      |
-| Dariusz Kuc       | @dariuszkuc   | Apollo           | Chicago, IL, US
+| Dariusz Kuc       | @dariuszkuc   | Apollo           | Chicago, IL, US     |
+| John Starich      | @JohnStarich  | IBM              | Austin, TX, US      |
+| Jason Webb        | @jwebb49      | Intuit           | San Diego, CA, US   |
