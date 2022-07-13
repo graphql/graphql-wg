@@ -51,3 +51,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | John Starich      | @JohnStarich  | IBM              | Austin, TX, US      |
 | Jason Webb        | @jwebb49      | Intuit           | San Diego, CA, US   |
 | Laurin Quast      | @n1rual       | The Guild        | Mannheim, DE        |
+| Jens Neuse        | @jensneuse    | WunderGraph      | Bretten, DE         |
