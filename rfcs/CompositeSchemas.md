@@ -54,3 +54,4 @@ If this is of interest to you, please enter your name, GitHub handle, and organi
 | Jens Neuse        | @jensneuse    | WunderGraph      | Bretten, DE         |
 | Dustin Deus       | @starptech    | WunderGraph      | Wuppertal, DE       |
 | Martijn Walraven  | @martijnwalraven | Apollo        | Amsterdam, NL       |
+| Jonny Green       | @jonnydgreen  | Unity            | Bath, UK            |
