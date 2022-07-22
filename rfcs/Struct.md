@@ -1,12 +1,12 @@
 # Polymorphic-capable composite symmetric input/output type (`struct`)
 
-> _a.k.a "Symmetric-Transput Replete Unadulterated Composite Type" S.T.R.U.C.T._
+> _a.k.a "Structured, Type-safe, Returnable and Union-Capable Type" S.T.R.U.C.T._
 
 GraphQL currently has two types that are suitable for both input and output:
-scalar and enum. These are both "leaf" types that generally[1] possess no
+scalar and enum. These are both "leaf" types that generally[^1] possess no
 structure.
 
-[1]: Custom scalars may possess internal structure, a common example of this is
+[^1]: Custom scalars may possess internal structure, a common example of this is
 the 'JSON' scalar, however this structure is not defined by nor can it be
 queried via GraphQL (`specifiedBy` notwithstanding).
 
