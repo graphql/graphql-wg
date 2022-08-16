@@ -1,5 +1,8 @@
 # Metadata Structs
 
+**THIS PROPOSAL HAS BEEN SUPERCEDED BY
+[AnnotationStructs](./AnnotationStructs.md).**
+
 Schema metadata has long been desired, please see this long discussion:
 
 https://github.com/graphql/graphql-spec/issues/300
