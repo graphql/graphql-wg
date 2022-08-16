@@ -183,7 +183,7 @@ To balance preserving the voting ability of all TSC members with the desire for 
 
 A quorum is a majority (more than half, or 2/3 for a supermajority vote) of the TSC *attending members*. A quorum must cast a ballot in order for a vote to be valid.
 
-A TSC *attending member* is a member who has attended a TSC meeting in the past 100 days. Should a TSC member not attend a TSC meeting for more than 100 days, they will no longer be counted when determining quorum (but may still vote). A member starts counting towards quorum as of attending a TSC meeting.
+A TSC *attending member* is a member who has attended a meeting in the past 100 days. Should a TSC member not attend a meeting for more than 100 days, they will no longer be counted when determining quorum (but may still vote). A member starts counting towards quorum as of attending a meeting.
 
 Note: A member may be recused (i.e. for a member election) in which case they do not count as an *attending member* for the purpose of that vote.
 
