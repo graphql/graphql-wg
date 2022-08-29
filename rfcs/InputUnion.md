@@ -1124,8 +1124,10 @@ A quick glance at the evaluation results. Remember that passing or failing a spe
 
 # ☑️ Decision Time!
 
-Following meetings of the GraphQL Input Unions working group, [Solution 7][solution-7] was
-proposed as an evolution of Solution 5, and is currently the leading solution.
+The end result of this RFC is the [RFC: OneOf Input Objects #825](https://github.com/graphql/graphql-spec/pull/825).
+
+~~Following meetings of the GraphQL Input Unions working group, [Solution 7][solution-7] was~~
+~~proposed as an evolution of Solution 5, and is currently the leading solution.~~
 
 ~~According to a simple [weight ranking](https://docs.google.com/spreadsheets/d/1ymKqI6BSTHGGHkf9IDjo0EJmOqMryS-uQRwDV77OF5g/edit?usp=sharing), here are the solutions in order:~~
 
