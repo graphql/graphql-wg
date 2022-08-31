@@ -56,6 +56,12 @@ grown. A better solution might be to allow the client to select just the
 translation that it needs from the enum value. (We also don't need any of the
 other annotations for the enum values, only the labels.)
 
+Here's a few slides about other (significantly more desirable) capabilities
+granular annotations could enable:
+
+https://docs.google.com/presentation/d/1e6o2kd3fVc_DQH1O8RxJo-idZM0kTOx-q322coNeIIo/present
+
+
 ## Solution
 
 This RFC proposes what I feel is a more capable and elegant solution than any of
