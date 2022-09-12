@@ -1,9 +1,11 @@
-GraphQL Working Group
-=====================
+# GraphQL Working Group
 
-GraphQL WG (Working Group) is a monthly virtual meeting of maintainers of
-commonly used GraphQL libraries and tools and significant contributors to the
-GraphQL community, operated by the GraphQL Foundation.
+GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers
+of commonly used GraphQL libraries and tools and significant contributors to the
+GraphQL community hosted by the [GraphQL TSC][] as part of the [GraphQL Foundation][].
+
+[graphql tsc]: ./GraphQL-TSC.md
+[graphql foundation]: https://graphql.org/foundation/
 
 The GraphQL WG's primary purpose is to discuss and agree upon
 proposed additions to the [GraphQL Specification](https://github.com/graphql/graphql-spec)
@@ -15,17 +17,43 @@ they first sign the [Specification Membership Agreement](./membership) or belong
 
 This repository holds [agendas](./agendas) and [notes](./notes) for all meetings
 past and upcoming as well as [shared rfc documents](./rfcs). Anyone may edit an
-upcoming event's agenda to *attend* or *propose an agenda item*.
+upcoming event's agenda to _attend_ or _propose an agenda item_.
 
 All meetings occur via video conference, however participating company
 offices are welcome to host guests.
 
-Meetings are typically scheduled for the first Thursday of each month at 9:00am
-Pacific US time. Check the [agendas](./agendas) for the exact date and time
-of upcoming meetings.
+# Upcoming meetings
 
-Keep track of future upcoming meetings by subscribing to the
-[Google Calendar](https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) or [ical file](https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics). (maintained in UTC because time zones are hard).
+| Meeting              | Time                            | Host                                     |
+| -------------------- | ------------------------------- | ---------------------------------------- |
+| WG (Primary)         | 1st Thu, 10:30am - 12:00noon PT | [Lee Byron](https://github.com/leebyron) |
+| WG (Secondary, APAC) | 2nd Wed, 3:30pm - 5:00pm PT     | [Lee Byron](https://github.com/leebyron) |
+| WG (Secondary, EU)   | 3rd Thu, 10:30am - 12:00noon PT | [Lee Byron](https://github.com/leebyron) |
+
+The primary monthly meeting is preferred for new agenda. The secondary meetings
+are for overflow agenda items, follow ups from the primary meeting, or agenda
+introduced by those who could not make the primary meeting time. There are two
+secondary meetings, each timed to be acceptable for those in either an Asia
+Pacific or European timezone.
+
+Meetings are typically scheduled at the times listed, however always check
+the [agenda](./agendas) for the exact date and time of an upcoming meeting. Keep
+track of future upcoming meetings by subscribing to the [Google Calendar][] or [ical][].
+
+[google calendar]: https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+[ical]: https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics
+
+### Subcommittee meetings
+
+The GraphQL WG has subcomittees who focus on the development of specific
+projects beyond the GraphQL Spec. These subcomittees make progress within their
+own meetings and report back progress and decisions to GraphQL WG meetings.
+
+| Subcommittee     | Time                          | Host                                               | Agenda Repo                                                                                       |
+| ---------------- | ----------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| GraphQL.js       | 4th Wed, 10:00am - 11:00am PT | [Ivan Goncharov](https://github.com/IvanGoncharov) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                 |
+| GraphQL HTTP     | 3rd Thu, 8:00am - 10:00am PT  | [Benjie Gillam](https://github.com/benjie)         | [graphql/graphql-over-http](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
+| Composite Schema | 2nd Thu, 8:00am - 10:00am PT  | [Benjie Gillam](https://github.com/benjie)         | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                   |
 
 ### Joining a meeting?
 
@@ -46,7 +74,7 @@ follow or run off course. When we talk about issues we care about, it's easy to
 get into heated debate. In order to respect everyone's time, and arrive to
 worthwhile outcomes, consider a few guidelines:
 
-*These guidelines are heavily inspired by [Allen Wirfs-Brock](http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf).*
+_These guidelines are heavily inspired by [Allen Wirfs-Brock](http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf)._
 
 ### Participate
 

@@ -65,36 +65,39 @@ PLEASE TAKE NOTE:
 -->
 
 | This is an open meeting: To attend or add agenda, send a Pull Request against this file. |
-| --- |
+| ---------------------------------------------------------------------------------------- |
 
+# GraphQL WG – November 2022 (Secondary, APAC)
 
-# GraphQL WG – October 2022
+The GraphQL Working Group meets regularly to discuss changes to the
+[GraphQL Specification][] and other core GraphQL projects. This is an open
+meeting in which anyone in the GraphQL community may attend.
 
-The GraphQL Working Group meets monthly to discuss proposed additions to the
-[GraphQL Specification][] and other relevant topics to core GraphQL projects.
-This is an open meeting in which anyone in the GraphQL community may attend.
+This is a secondary meeting, timed to be acceptable for those in Asia Pacific
+timezones, which typically meets on the second Wednesday of the month. The
+primary meeting is preferred for new agenda, where this meeting is for overflow
+agenda items, follow ups from the primary meeting, or agenda introduced by those
+who could not make the primary meeting time.
 
-- **Date & Time**: [October 6th 2022 18:00 - 20:00 UTC](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2022&month=10&day=6&hour=18&min=0&sec=0&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=240&iv=0)
+- **Date & Time**: [December 7th 2022 3:30pm - 5:00pm PT](https://www.timeanddate.com/worldclock/converter.html?iso=20221207T233000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
-  - *Please Note:* The date or time may change. Please check this agenda the
+  - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
-  - *Password:* graphqlwg
-- **Live Notes**: [Google Doc](about:blank)
+  - _Password:_ graphqlwg
+- **Live Notes**: [Google Doc]()
 
-[GraphQL Specification]: https://github.com/graphql/graphql-spec
+[graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
-[Google Calendar]: https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+[google calendar]: https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
 [ical file]: https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics
-
 
 ## Attendees
 
-| Name               | GitHub          | Organization       | Location
-| :----------------- | :-------------- | :----------------- | :-----------------
-| Lee Byron          | @leebyron       | GraphQL Foundation | San Francisco, CA, US
-
+| Name             | GitHub    | Organization       | Location              |
+| :--------------- | :-------- | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 
 ## Agenda
 
