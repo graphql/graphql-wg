@@ -37,7 +37,7 @@ Developers who are covered under a signed spec membership agreement are able to 
 
 ## TSC meetings
 
-The GraphQL TSC will meet monthly, at the beginning of the [GraphQL Working Group meeting](https://github.com/graphql/graphql-wg). Our goal is to meet regularly to address any agenda items quickly and openly. By combining the TSC meeting with the open attendance Working Group meetings, we are ensuring that the broader community has visibility into the operations of the TSC, and vice versa.
+The GraphQL TSC will meet monthly, at the beginning of the first [GraphQL Working Group meeting](https://github.com/graphql/graphql-wg) each month. Our goal is to meet regularly to address any agenda items quickly and openly. By combining the TSC meeting with the open attendance Working Group meetings, we are ensuring that the broader community has visibility into the operations of the TSC, and vice versa.
 
 To attend a GraphQL TSC meeting, you must follow the same process as other GraphQL meetings and open a PR to add your name to the list of attendees in the [meeting agenda](https://github.com/graphql/graphql-wg/tree/master/agendas). If you have not signed the GraphQL Specification Membership Agreement you will be prompted to do so. You cannot attend until you have completed this document, although you are welcome to listen to the replay on [YouTube](https://www.youtube.com/playlist?list=PLP1igyLx8foH30_sDnEZnxV_8pYW3SDtb).
 
@@ -183,7 +183,7 @@ To balance preserving the voting ability of all TSC members with the desire for 
 
 A quorum is a majority (more than half, or 2/3 for a supermajority vote) of the TSC *attending members*. A quorum must cast a ballot in order for a vote to be valid.
 
-A TSC *attending member* is a member who has attended one of the previous three meetings. Should a TSC member miss three consecutive meetings, they will no longer be counted when determining quorum (but may still vote). A member starts counting towards quorum as of attending a meeting.
+A TSC *attending member* is a member who has attended a meeting in the past 100 days. Should a TSC member not attend a meeting for more than 100 days, they will no longer be counted when determining quorum (but may still vote). A member starts counting towards quorum as of attending a meeting.
 
 Note: A member may be recused (i.e. for a member election) in which case they do not count as an *attending member* for the purpose of that vote.
 
