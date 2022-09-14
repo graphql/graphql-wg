@@ -51,9 +51,10 @@ own meetings and report back progress and decisions to GraphQL WG meetings.
 
 | Subcommittee     | Time                          | Host                                               | Agenda Repo                                                                                       |
 | ---------------- | ----------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| GraphQL.js       | 4th Wed, 10:00am - 11:00am PT | [Ivan Goncharov](https://github.com/IvanGoncharov) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                 |
-| GraphQL HTTP     | 3rd Thu, 8:00am - 10:00am PT  | [Benjie Gillam](https://github.com/benjie)         | [graphql/graphql-over-http](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
+| GraphiQL         | 2nd Tue, 9:00am - 11:00am PT  | [Tim Suchanek](https://github.com/timsuchanek)     | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)     |
 | Composite Schema | 2nd Thu, 8:00am - 10:00am PT  | [Benjie Gillam](https://github.com/benjie)         | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                   |
+| GraphQL HTTP     | 3rd Thu, 8:00am - 10:00am PT  | [Benjie Gillam](https://github.com/benjie)         | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
+| GraphQL.js       | 4th Wed, 10:00am - 11:00am PT | [Ivan Goncharov](https://github.com/IvanGoncharov) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                 |
 
 ### Joining a meeting?
 
