@@ -98,6 +98,7 @@ who could not make the primary meeting time.
 | Name             | GitHub    | Organization       | Location              |
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Donna Zhou       | @dondonz  | graphql-java       | Sydney, AU            |
 
 ## Agenda
 
