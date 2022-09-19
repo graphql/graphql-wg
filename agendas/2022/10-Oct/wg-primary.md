@@ -93,9 +93,9 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name                 | GitHub  | Organization | Location            |
+| :------------------- | :------ | :----------- | :------------------ |
+| Benjie Gillam (Host) | @benjie | Graphile     | Chandler's Ford, UK |
 
 ## Agenda
 
