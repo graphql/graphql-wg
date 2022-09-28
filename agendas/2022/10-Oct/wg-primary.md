@@ -116,4 +116,3 @@ hold additional secondary meetings later in the month.
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
    - [Drop defer/stream support from subscriptions in initial spec proposal](https://github.com/robrichard/defer-stream-wg/discussions/55)
    - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
-   - [hasNext field](https://github.com/robrichard/defer-stream-wg/discussions/5)
