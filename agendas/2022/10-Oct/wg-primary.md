@@ -96,6 +96,7 @@ hold additional secondary meetings later in the month.
 | Name                 | GitHub  | Organization | Location            |
 | :------------------- | :------ | :----------- | :------------------ |
 | Benjie Gillam (Host) | @benjie | Graphile     | Chandler's Ford, UK |
+| Rob Richard          | @robrichard | 1stDibs  | Jersey City, NJ, US |
 
 ## Agenda
 
@@ -111,3 +112,8 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Defer/Stream discussion (30m, Rob)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
+   - [Drop defer/stream support from subscriptions in initial spec proposal](https://github.com/robrichard/defer-stream-wg/discussions/55)
+   - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
+   - [hasNext field](https://github.com/robrichard/defer-stream-wg/discussions/5)
