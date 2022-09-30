@@ -45,6 +45,7 @@ features to client developer and therefore needs to expose that information.
   has [a `@beta` directive](https://developer.atlassian.com/platform/atlassian-graphql-api/graphql/#schema-changes) that
   is enforced during execution. A client must provide a `X-ExperimentalApi: $Feature` HTTP header or the request will
   fail.
+* Midas uses [a `hiddenIn` directive](https://engineering.getmidas.com/how-to-hide-parts-of-your-graphql-schema-c26a5364b8bd).
 
 ## 🧑‍💻 Proposed solution
 
