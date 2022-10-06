@@ -101,6 +101,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly          | @twof          | Pronto.ai        | San Francisco, CA, US |
 | Roman Ivantsov       | @rivantsov     | Microsoft        | Seattle, US           |
 | Ivan Goncharov       | @IvanGoncharov | Apollo           | Lviv, UA              |
+| Yaacov Rydzinski     | @yaacovCR      | Individual       | Neve Daniel           |
 
 ## Agenda
 
