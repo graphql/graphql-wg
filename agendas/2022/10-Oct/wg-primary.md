@@ -93,13 +93,14 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name                 | GitHub       | Organization     | Location              |
-| :------------------- | :------------| :----------------| :-------------------- |
-| Benjie Gillam (Host) | @benjie      | Graphile         | Chandler's Ford, UK   |
-| Rob Richard          | @robrichard  | 1stDibs          | Jersey City, NJ, US   |
-| Stefano Cislaghi     | @LunaticMuch | American Express | Brighton, UK          |
-| Alex Reilly          | @twof        | Pronto.ai        | San Francisco, CA, US |
-| Roman Ivantsov       | @rivantsov   | Microsoft        | Seattle, US           |
+| Name                 | GitHub         | Organization     | Location              |
+| :------------------- | :--------------| :----------------| :-------------------- |
+| Benjie Gillam (Host) | @benjie        | Graphile         | Chandler's Ford, UK   |
+| Rob Richard          | @robrichard    | 1stDibs          | Jersey City, NJ, US   |
+| Stefano Cislaghi     | @LunaticMuch   | American Express | Brighton, UK          |
+| Alex Reilly          | @twof          | Pronto.ai        | San Francisco, CA, US |
+| Roman Ivantsov       | @rivantsov     | Microsoft        | Seattle, US           |
+| Ivan Goncharov       | @IvanGoncharov | Apollo           | Lviv, UA              |
 
 ## Agenda
 
