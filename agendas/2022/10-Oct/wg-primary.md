@@ -99,6 +99,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard          | @robrichard  | 1stDibs          | Jersey City, NJ, US   |
 | Stefano Cislaghi     | @LunaticMuch | American Express | Brighton, UK          |
 | Alex Reilly          | @twof        | Pronto.ai        | San Francisco, CA, US |
+| Roman Ivantsov       | @rivantsov   | Microsoft        | Seattle, US           |
 
 ## Agenda
 
