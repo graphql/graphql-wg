@@ -98,6 +98,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam (Host) | @benjie      | Graphile         | Chandler's Ford, UK |
 | Rob Richard          | @robrichard  | 1stDibs          | Jersey City, NJ, US |
 | Stefano Cislaghi     | @LunaticMuch | American Express | Brighton, UK        |
+| Roman Ivantsov       | @rivantsov   | Microsoft        | Seattle, US         |
 
 ## Agenda
 
