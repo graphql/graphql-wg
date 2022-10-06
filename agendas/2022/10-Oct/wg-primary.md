@@ -93,11 +93,12 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name                 | GitHub       | Organization     | Location            |
-| :------------------- | :------------| :----------------| :------------------ |
-| Benjie Gillam (Host) | @benjie      | Graphile         | Chandler's Ford, UK |
-| Rob Richard          | @robrichard  | 1stDibs          | Jersey City, NJ, US |
-| Stefano Cislaghi     | @LunaticMuch | American Express | Brighton, UK        |
+| Name                 | GitHub       | Organization     | Location              |
+| :------------------- | :------------| :----------------| :-------------------- |
+| Benjie Gillam (Host) | @benjie      | Graphile         | Chandler's Ford, UK   |
+| Rob Richard          | @robrichard  | 1stDibs          | Jersey City, NJ, US   |
+| Stefano Cislaghi     | @LunaticMuch | American Express | Brighton, UK          |
+| Alex Reilly          | @twof        | Pronto.ai        | San Francisco, CA, US |
 
 ## Agenda
 
@@ -118,3 +119,4 @@ hold additional secondary meetings later in the month.
    - [Drop defer/stream support from subscriptions in initial spec proposal](https://github.com/robrichard/defer-stream-wg/discussions/55)
    - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
    - [hasNext on single response results](https://github.com/robrichard/defer-stream-wg/discussions/57)
+2. CCN update (7m, Alex)
