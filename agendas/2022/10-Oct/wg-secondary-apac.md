@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | Michael Staib.   | @michaelstaib | ChilliCream    | Sydney, AU            |
 | Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 | Phillip Kruger   | @phillip-kruger | Red Hat      | Melbourne, AU         |
+| Andi Marek       | @andimarek | GraphQL Java / Atlassian      | Brisbane, AU         |
 
 ## Agenda
 
@@ -117,5 +118,7 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. Improving custom scalar implementation spec (Andi, Donna)
-   - See proposed write-up [on GitHub](https://github.com/andimarek/graphql-scalars.com/pull/6)
+1. Improving custom scalar implementation spec (Andi, Donna, 15min-30min)
+   - We aim to improve custom Scalars specs by claryfing the mental model around them. See  [on GitHub](https://github.com/andimarek/graphql-scalars.com/pull/6) for a custom Scalars implementation guide and how a spec for the build-in Scalars would look like. 
+   - A second step is to reanimate the work around https://github.com/graphql/graphql-scalars and enable people to publish easily custom Scalars specs.
+   
