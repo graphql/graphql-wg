@@ -84,7 +84,7 @@ hold additional secondary meetings later in the month.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1kXr_PgykVLMa5HKYdL73rOYSrO41dwJgh3H1pEQC3O0/edit)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -93,9 +93,15 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name                 | GitHub         | Organization     | Location              |
+| :------------------- | :--------------| :----------------| :-------------------- |
+| Benjie Gillam (Host) | @benjie        | Graphile         | Chandler's Ford, UK   |
+| Rob Richard          | @robrichard    | 1stDibs          | Jersey City, NJ, US   |
+| Stefano Cislaghi     | @LunaticMuch   | American Express | Brighton, UK          |
+| Alex Reilly          | @twof          | Pronto.ai        | San Francisco, CA, US |
+| Roman Ivantsov       | @rivantsov     | Microsoft        | Seattle, US           |
+| Ivan Goncharov       | @IvanGoncharov | Apollo           | Lviv, UA              |
+| Yaacov Rydzinski     | @yaacovCR      | Individual       | Neve Daniel           |
 
 ## Agenda
 
@@ -111,3 +117,9 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Defer/Stream discussion (30m, Rob)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
+   - [Drop defer/stream support from subscriptions in initial spec proposal](https://github.com/robrichard/defer-stream-wg/discussions/55)
+   - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
+   - [hasNext on single response results](https://github.com/robrichard/defer-stream-wg/discussions/57)
+2. CCN update (7m, Alex)

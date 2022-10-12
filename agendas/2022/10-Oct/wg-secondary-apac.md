@@ -99,6 +99,9 @@ who could not make the primary meeting time.
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Donna Zhou       | @dondonz  | graphql-java       | Sydney, AU            |
+| Michael Staib.   | @michaelstaib | ChilliCream    | Sydney, AU            |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
+| Phillip Kruger   | @phillip-kruger | Red Hat      | Melbourne, AU         |
 
 ## Agenda
 
