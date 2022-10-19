@@ -98,7 +98,8 @@ who could not make the primary meeting time.
 | Name             | GitHub    | Organization       | Location              |
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
-| Yaacov Rydzinski | @yaacovcr | Individual         | Neve Daniel, IL
+| Yaacov Rydzinski | @yaacovcr | Individual         | Neve Daniel, IL       |
+| Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
