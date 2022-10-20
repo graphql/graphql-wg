@@ -102,7 +102,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
 | Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
-| Mark Larah       | @magicmark | Yelp.             | Austin, TX, USA       |
+| Mark Larah       | @magicmark | Yelp              | Austin, TX, USA       |
 
 ## Agenda
 
