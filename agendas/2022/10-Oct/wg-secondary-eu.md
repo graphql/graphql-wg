@@ -79,7 +79,7 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.
 
-- **Date & Time**: [October 20th 2022 10:30am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20221020T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [October 20th 2022 11:00am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20221020T180000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
