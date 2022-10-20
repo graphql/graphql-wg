@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
 | Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
+| Mark Larah       | @magicmark | Yelp.             | Austin, TX, USA       |
 
 ## Agenda
 
@@ -120,3 +121,6 @@ who could not make the primary meeting time.
 1. Incremental Delivery and Fragment Modularity (Yaacov, 30m)
    - Require aliased fragments: https://github.com/robrichard/defer-stream-wg/discussions/58
    - Respect nested defer: https://github.com/robrichard/defer-stream-wg/discussions/43
+1. Discuss use cases for `struct` proposal (Mark, 20m)
+   - Benjie's struct proposal: https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
+   - SDUI use case: https://github.com/graphql/graphql-wg/pull/1146/files
