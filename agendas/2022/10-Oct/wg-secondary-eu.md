@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
 | Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
+| Alex Reilly      | @twof.    | Pronto.ai          | San Francisco, CA, US |
 
 ## Agenda
 
@@ -120,3 +121,4 @@ who could not make the primary meeting time.
 1. Incremental Delivery and Fragment Modularity (Yaacov, 30m)
    - Require aliased fragments: https://github.com/robrichard/defer-stream-wg/discussions/58
    - Respect nested defer: https://github.com/robrichard/defer-stream-wg/discussions/43
+1. CCN updates (Alex, 7m)
