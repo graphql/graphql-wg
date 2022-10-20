@@ -101,6 +101,7 @@ who could not make the primary meeting time.
 | Yaacov Rydzinski | @yaacovcr | Individual         | Neve Daniel, IL       |
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
+| Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
 
 ## Agenda
 
