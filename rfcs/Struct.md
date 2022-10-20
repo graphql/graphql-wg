@@ -462,3 +462,73 @@ The semantics of `struct` and input objects are very similar, so it could be
 that we repurpose input objects for struct usage. This will need careful
 thought, discussion and investigation. Not least because the term `input` would
 make it confusing ;)
+
+## Use cases
+
+### Server Driven UI
+
+Server Driven UI (SDUI) is a not uncommon pattern for application data fetching,
+in which objects directly map to UI components.
+
+- https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5
+- https://engineeringblog.yelp.com/2021/11/building-a-server-driven-foundation-for-mobile-app-development.html
+
+Encoding SDUI responses as `struct`s would address query complexity issues that
+SDUI-over-GraphQL suffers from today, when adopted on a large scale. Specifically,
+selection sets have to (recursively) request all properties of all union memebers,
+which:
+
+- blows up request payload sizes
+- how far do you limit the recursion?
+- client developers have to either keep the query in sync with what the server
+  offers by hand, or introduce custom tooling and treat the query as a compile
+  target
+
+For example, imagine a schema with a very low level of abstraction over UI
+primatives:
+
+```graphql
+{ 
+  sduiView(view: "my_cool_marketing_page") {
+    ... on SDUIBox {
+      ... on SDUIButton {
+        label
+        radius
+        action
+      }
+      ... on SDUIText {
+        font
+        weight
+        body
+      }
+      ... on SDUIBox {
+        ... on SDUIButton {
+          label
+          radius
+          action
+        }
+        ... on SDUIText {
+          font
+          weight
+          body
+        }
+        ... on SDUIBox {
+          ...
+        }
+      }
+    }
+    ...
+  }
+  ...
+}
+
+This clearly poses challanges for developers maintaining this query, who might
+reasonably prefer to write a query like this:
+
+```graphql
+{ 
+  sduiView(view: "my_cool_marketing_page")
+}
+```
+
+#### Simplified client queries
