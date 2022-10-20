@@ -107,6 +107,7 @@ who could not make the primary meeting time.
 | David Glasser    | @glasser  | Apollo             | Berkeley, CA, US      |
 | Derek Kuc        | @dariuszkuc | Apollo           | Chicago, IL, US       |
 | Rob Richard      | @robrichard | 1stDibs          | Jersey City, NJ, US   |
+| Stephen Spalding | @fotoetienne | Netflix.        | Los Gatos, CA, US     |
 
 ## Agenda
 
@@ -129,3 +130,5 @@ who could not make the primary meeting time.
    - Benjie's struct proposal: https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
    - SDUI use case: https://github.com/graphql/graphql-wg/pull/1146/files
 1. CCN updates (Alex, 7m)
+1. @deprecated on OBJECT (Stephen, 5m)
+   - Use case: objects that are members of interfaces and unions
