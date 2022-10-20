@@ -104,7 +104,7 @@ who could not make the primary meeting time.
 | Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
 | Mark Larah       | @magicmark | Yelp              | Austin, TX, USA       |
 | Alex Reilly      | @twof     | Pronto.ai          | San Francisco, CA, US |
-| David Glasser    | @glasser  | Apollo.            | Berkeley, CA, US      |
+| David Glasser    | @glasser  | Apollo             | Berkeley, CA, US      |
 
 ## Agenda
 
