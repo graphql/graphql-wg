@@ -103,6 +103,7 @@ who could not make the primary meeting time.
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
 | Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
 | Mark Larah       | @magicmark | Yelp              | Austin, TX, USA       |
+| Alex Reilly      | @twof     | Pronto.ai          | San Francisco, CA, US |
 
 ## Agenda
 
@@ -124,3 +125,4 @@ who could not make the primary meeting time.
 1. Discuss use cases for `struct` proposal (Mark, 20m)
    - Benjie's struct proposal: https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
    - SDUI use case: https://github.com/graphql/graphql-wg/pull/1146/files
+1. CCN updates (Alex, 7m)
