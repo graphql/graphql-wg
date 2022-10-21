@@ -93,10 +93,11 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
-| Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Name             | GitHub       | Organization       | Location              |
+|:-----------------|:-------------|:-------------------|:----------------------|
+| Lee Byron (Host) | @leebyron    | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie      | Graphile           | Chandler's Ford, UK   |
+| Stephen Spalding | @fotoetienne | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
@@ -115,3 +116,6 @@ hold additional secondary meetings later in the month.
 1. Status of `express-graphql` project (5m, Benjie)
    - [Last published 2 years ago](https://www.npmjs.com/package/express-graphql)
    - [GraphQL Foundation is receiving emails about it](https://github.com/graphql/express-graphql/issues/807#issuecomment-1229599148)
+1. @deprecated on OBJECT (15m, Stephen)
+   - Use case: objects that are members of interfaces and unions
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/997)
