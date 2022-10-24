@@ -565,7 +565,7 @@ Since `struct`s can not themselves contain `object`s providing the structured
 content in this manner would mean that the client could not request optimised
 media (one of the reasons why a pre-rendered output was undesirable in the first
 place), or the image type itself must be a struct which seems to disallow
-arguments fields which is a common pattern to request specific transofmrations of
+arguments fields which is a common pattern to request specific transformations of
 an image.
 
 e.g. the following is a simplified example for a way to query images often used
