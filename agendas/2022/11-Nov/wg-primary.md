@@ -98,6 +98,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron    | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie      | Graphile           | Chandler's Ford, UK   |
 | Stephen Spalding | @fotoetienne | Netflix            | Los Gatos, CA, US     |
+| Michael Staib    | @michaelstaib | ChilliCream Inc.  | Zurich, CH.           |
 
 ## Agenda
 
