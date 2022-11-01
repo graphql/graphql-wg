@@ -100,6 +100,7 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne | Netflix            | Los Gatos, CA, US     |
 | Michael Staib    | @michaelstaib | ChilliCream Inc.  | Zurich, CH.           |
 | Rob Richard      | @robrichard  | 1stDibs            | Jersey City, NJ, US   |
+| Uri Goldshtein   | @urigo       | The Guild          | Tel Avuv, IL.         |
 
 ## Agenda
 
