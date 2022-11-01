@@ -99,6 +99,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie      | Graphile           | Chandler's Ford, UK   |
 | Stephen Spalding | @fotoetienne | Netflix            | Los Gatos, CA, US     |
 | Michael Staib    | @michaelstaib | ChilliCream Inc.  | Zurich, CH.           |
+| Rob Richard      | @robrichard  | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
@@ -120,3 +121,6 @@ hold additional secondary meetings later in the month.
 1. @deprecated on OBJECT (15m, Stephen)
    - Use case: objects that are members of interfaces and unions
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/997)
+1. @defer/@stream discussion (20m, Rob)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
+   - [Drop defer/stream support from subscriptions in initial spec proposal?](https://github.com/robrichard/defer-stream-wg/discussions/55)
