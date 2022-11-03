@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Saihajpreet Singh| @saihaj      | The Guild          | Ottawa, ON, CA        |
 | Denis Badurina   | @enisdenjo   | The Guild          | Vienna, AT            |
 | Matt Mahoney     | @mmahoney    | Meta               | New York, NY, US      |
+| Hugh Willson     | @hwillson    | Apollo             | Ottawa, ON, CA        |
 | Dariusz Kuc      | @dariuszkuc  | Apollo             | Chicago, IL, US       |
 
 ## Agenda
