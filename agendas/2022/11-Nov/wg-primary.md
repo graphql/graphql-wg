@@ -134,7 +134,3 @@ hold additional secondary meetings later in the month.
 1. @defer/@stream discussion (20m, Rob)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
    - [Drop defer/stream support from subscriptions in initial spec proposal?](https://github.com/robrichard/defer-stream-wg/discussions/55)
-1. References (20m, Yaacov)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/998)
-   - Background: https://github.com/robrichard/defer-stream-wg/discussions/58
-
