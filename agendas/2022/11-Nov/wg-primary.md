@@ -101,6 +101,9 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream Inc.  | Zurich, CH.           |
 | Rob Richard      | @robrichard  | 1stDibs            | Jersey City, NJ, US   |
 | Uri Goldshtein   | @urigo       | The Guild          | Tel Avuv, IL.         |
+| Saihajpreet Singh| @saihaj      | The Guild          | Ottawa, ON, CA        |
+| Denis Badurina   | @enisdenjo   | The Guild          | Vienna, AT            |
+| Matt Mahoney     | @mmahoney    | Meta               | New York, NY, US      |
 
 ## Agenda
 
