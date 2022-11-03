@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mmahoney    | Meta               | New York, NY, US      |
 | Hugh Willson     | @hwillson    | Apollo             | Ottawa, ON, CA        |
 | Dariusz Kuc      | @dariuszkuc  | Apollo             | Chicago, IL, US       |
+| Yaacov Rydzinski | @yaacovCR    | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
@@ -133,3 +134,7 @@ hold additional secondary meetings later in the month.
 1. @defer/@stream discussion (20m, Rob)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
    - [Drop defer/stream support from subscriptions in initial spec proposal?](https://github.com/robrichard/defer-stream-wg/discussions/55)
+1. References (20m, Yaacov)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/998)
+   - Background: https://github.com/robrichard/defer-stream-wg/discussions/58
+
