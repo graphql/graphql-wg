@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mmahoney      | Meta               | New York, NY, US      |
 | Hugh Willson     | @hwillson      | Apollo             | Ottawa, ON, CA        |
 | Dariusz Kuc      | @dariuszkuc    | Apollo             | Chicago, IL, US       |
+| Yaacov Rydzinski | @yaacovCR      | Individual         | Neve Daniel, IL       |
 | Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA              |
 
 ## Agenda
@@ -122,6 +123,9 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Check in on new meeting cadence
+1. GraphQL Community Grant
+   - https://twitter.com/GraphQL/status/1587847821805617152
 1. Status of `express-graphql` project (5m, Benjie)
    - [Last published 2 years ago](https://www.npmjs.com/package/express-graphql)
    - [GraphQL Foundation is receiving emails about it](https://github.com/graphql/express-graphql/issues/807#issuecomment-1229599148)
