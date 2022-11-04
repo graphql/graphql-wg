@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mmahoney    | Meta               | New York, NY, US      |
 | Hugh Willson     | @hwillson    | Apollo             | Ottawa, ON, CA        |
 | Dariusz Kuc      | @dariuszkuc  | Apollo             | Chicago, IL, US       |
+| Yaacov Rydzinski | @yaacovCR    | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
