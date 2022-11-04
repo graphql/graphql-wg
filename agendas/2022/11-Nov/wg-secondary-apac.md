@@ -99,6 +99,7 @@ who could not make the primary meeting time.
 | :--------------- | :-------- |:-------------------------| :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation       | San Francisco, CA, US |
 | Donna Zhou       | @dondonz  | graphql-java / Atlassian | Sydney, AU            |
+| Yaacov Rydzinski | @yaacovCR | Individual               | Neve Daniel           |
 
 ## Agenda
 
@@ -115,3 +116,6 @@ who could not make the primary meeting time.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. [GraphQL Scalars](https://github.com/graphql/graphql-scalars) licensing and domain setup (15m, Donna)
+1. References (20m, Yaacov)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/998)
+   - Background: https://github.com/robrichard/defer-stream-wg/discussions/58
