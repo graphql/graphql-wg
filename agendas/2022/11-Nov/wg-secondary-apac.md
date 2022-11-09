@@ -98,9 +98,10 @@ who could not make the primary meeting time.
 | Name             | GitHub    | Organization             | Location              |
 | :--------------- | :-------- |:-------------------------| :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation       | San Francisco, CA, US |
+| Andi Marek       | @andimarek| graphql-java / Atlassian | Brisbane, AU          |
 | Donna Zhou       | @dondonz  | graphql-java / Atlassian | Sydney, AU            |
+| Phillip Kruger   | @phillip-kruger | Red Hat            | Melbourne, AU         |  
 | Yaacov Rydzinski | @yaacovCR | Individual               | Neve Daniel           |
-| Andi Marek       | @andimarek  | graphql-java / Atlassian | Brisbane, AU            |
 
 ## Agenda
 
