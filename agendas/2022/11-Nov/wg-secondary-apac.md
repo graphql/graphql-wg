@@ -103,6 +103,7 @@ who could not make the primary meeting time.
 | Donna Zhou       | @dondonz  | graphql-java / Atlassian | Sydney, AU            |
 | Phillip Kruger   | @phillip-kruger | Red Hat            | Melbourne, AU         |  
 | Yaacov Rydzinski | @yaacovCR | Individual               | Neve Daniel           |
+| Benjie Gillam    | @benjie   | Graphile                 | Chandler's Ford, UK   |
 
 ## Agenda
 
