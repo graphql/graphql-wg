@@ -119,5 +119,6 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. [2023 TSC Elections](https://github.com/graphql/graphql-wg/issues/1175) (5m, Benjie)
 1. Defer & Stream (20m, Rob)
    - [Defer & Stream in Subscriptions](https://github.com/robrichard/defer-stream-wg/discussions/55)
