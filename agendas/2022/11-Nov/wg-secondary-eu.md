@@ -95,13 +95,14 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name                 | GitHub        | Organization       | Location              |
-| :------------------- | :------------ | :----------------- | :-------------------- |
-| Benjie Gillam (Host) | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Rob Richard          | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
-| Michael Staib        | @michaelstaib | ChilliCream        | Minneapolis, MN, US   |
-| Hugh Willson         | @hwillson     | Apollo             | Ottawa, ON, CA        |
-| Matt Mahoney         | @mjmahone     | Meta               | New York, NY, US
+| Name                 | GitHub         | Organization       | Location              |
+| :------------------- | :------------- | :----------------- | :-------------------- |
+| Benjie Gillam (Host) | @benjie        | Graphile           | Chandler's Ford, UK   |
+| Rob Richard          | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
+| Michael Staib        | @michaelstaib  | ChilliCream        | Minneapolis, MN, US   |
+| Hugh Willson         | @hwillson      | Apollo             | Ottawa, ON, CA        |
+| Matt Mahoney         | @mjmahone      | Meta               | New York, NY, US      |
+| Ivan Goncharov       | @IvanGoncharov | Apollo             | Lviv, UA              |
 
 ## Agenda
 
