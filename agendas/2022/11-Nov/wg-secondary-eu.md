@@ -100,6 +100,7 @@ who could not make the primary meeting time.
 | Benjie Gillam (Host) | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard          | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Michael Staib        | @michaelstaib | ChilliCream        | Minneapolis, MN, US   |
+| Hugh Willson         | @hwillson     | Apollo             | Ottawa, ON, CA        |
 
 ## Agenda
 
