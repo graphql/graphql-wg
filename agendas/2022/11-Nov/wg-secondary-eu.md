@@ -95,23 +95,23 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
-| Michael Staib    | @michaelstaib | ChilliCream        | Minneapolis, MN, US   |
+| Name                 | GitHub        | Organization       | Location              |
+| :------------------- | :------------ | :----------------- | :-------------------- |
+| Benjie Gillam (Host) | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Rob Richard          | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Michael Staib        | @michaelstaib | ChilliCream        | Minneapolis, MN, US   |
 
 ## Agenda
 
-1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Lee)
+1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Benjie)
    - [Specification Membership Agreement](https://github.com/graphql/foundation)
    - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
    - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
    - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
-1. Introduction of attendees (5m, Lee)
-1. Determine volunteers for note taking (1m, Lee)
-1. Review agenda (2m, Lee)
-1. Review previous meeting's action items (5m, Lee)
+1. Introduction of attendees (5m, Benjie)
+1. Determine volunteers for note taking (1m, Benjie)
+1. Review agenda (2m, Benjie)
+1. Review previous meeting's action items (5m, Benjie)
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
