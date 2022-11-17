@@ -101,6 +101,7 @@ who could not make the primary meeting time.
 | Rob Richard          | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Michael Staib        | @michaelstaib | ChilliCream        | Minneapolis, MN, US   |
 | Hugh Willson         | @hwillson     | Apollo             | Ottawa, ON, CA        |
+| Matt Mahoney         | @mjmahone     | Meta               | New York, NY, US
 
 ## Agenda
 
