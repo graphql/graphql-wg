@@ -97,6 +97,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
 
 ## Agenda
 
