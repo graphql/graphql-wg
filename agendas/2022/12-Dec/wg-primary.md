@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Ivan Goncharov   | @IvanGoncharov| Apollo             | Lviv, UA
 | Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 | Marc Giroux      | @xuorig       | Netflix            | Montreal, QC, CA      |
 | Mary Cutrali     | @maryelizbeth | Apollo             | Austin, TX, US        |
