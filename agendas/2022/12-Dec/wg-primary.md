@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
 
