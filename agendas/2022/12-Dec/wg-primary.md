@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
 | Mary Cutrali     | @maryelizbeth | Apollo             | Austin, TX, US        |
+| Marc Giroux      | @xuorig       | Netflix            | Montreal, QC, CA      |
 
 ## Agenda
 
