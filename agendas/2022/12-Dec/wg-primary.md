@@ -120,3 +120,5 @@ hold additional secondary meetings later in the month.
 1. 🗳 2023 Technical Steering Committee (TSC) Elections 🗳
    - [TSC Elections process & issue](https://github.com/graphql/graphql-wg/issues/1175)
    - [Self Nomination form](https://tsc-nomination.graphql.org/)
+1. Defer/Stream discussion (60m, Rob)
+   - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
