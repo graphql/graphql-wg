@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
