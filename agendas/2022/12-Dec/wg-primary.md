@@ -96,21 +96,21 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
-| Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
-| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
-| Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
-| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
-| Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
-| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
-| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
-| Mary Cutrali     | @maryelizbeth | Apollo             | Austin, TX, US        |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 | Marc Giroux      | @xuorig       | Netflix            | Montreal, QC, CA      |
+| Mary Cutrali     | @maryelizbeth | Apollo             | Austin, TX, US        |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
