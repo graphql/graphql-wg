@@ -99,6 +99,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
