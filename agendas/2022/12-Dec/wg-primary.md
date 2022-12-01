@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 
 ## Agenda
 
