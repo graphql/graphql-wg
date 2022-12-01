@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
 
 ## Agenda
 
