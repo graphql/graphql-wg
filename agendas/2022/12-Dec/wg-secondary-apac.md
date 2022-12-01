@@ -67,7 +67,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend or add agenda, send a Pull Request against this file. |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG – November 2022 (Secondary, APAC)
+# GraphQL WG – December 2022 (Secondary, APAC)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
