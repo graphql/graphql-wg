@@ -101,6 +101,7 @@ hold additional secondary meetings later in the month.
 | Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
+| Greg Wardwell    | @gwardwell    | Wayfair            | Fort Wayne, IN, US    |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 | Marc Giroux      | @xuorig       | Netflix            | Montreal, QC, CA      |
@@ -129,8 +130,7 @@ hold additional secondary meetings later in the month.
 1. 🗳 2023 Technical Steering Committee (TSC) Elections 🗳
    - [TSC Elections process & issue](https://github.com/graphql/graphql-wg/issues/1175)
    - [Self Nomination form](https://tsc-nomination.graphql.org/)
-1. Meeting cadence for 2023 (5m, Lee)
-1. Next steps for `@oneOf` (5m, Hugh)
-   - Is the [`@oneOf` proposal](https://github.com/graphql/graphql-spec/pull/825) still being considered, or has it been superseded by the [Struct proposal](https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md#composite-type-capable-of-input-polymorphism)?
 1. Defer/Stream discussion (60m, Rob)
    - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
+1. Next steps for `@oneOf` (5m, Hugh)
+   - Is the [`@oneOf` proposal](https://github.com/graphql/graphql-spec/pull/825) still being considered, or has it been superseded by the [Struct proposal](https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md#composite-type-capable-of-input-polymorphism)?
