@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
