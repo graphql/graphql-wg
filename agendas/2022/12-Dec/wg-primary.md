@@ -103,6 +103,8 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
+| Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
 
 ## Agenda
@@ -122,3 +124,5 @@ hold additional secondary meetings later in the month.
 1. 🗳 2023 Technical Steering Committee (TSC) Elections 🗳
    - [TSC Elections process & issue](https://github.com/graphql/graphql-wg/issues/1175)
    - [Self Nomination form](https://tsc-nomination.graphql.org/)
+1. Defer/Stream discussion (60m, Rob)
+   - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
