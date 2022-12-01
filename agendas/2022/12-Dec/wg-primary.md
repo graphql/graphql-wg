@@ -100,6 +100,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 
 ## Agenda
 
