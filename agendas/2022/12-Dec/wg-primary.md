@@ -103,6 +103,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
+| Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
