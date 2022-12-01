@@ -22,6 +22,8 @@ upcoming event's agenda to _attend_ or _propose an agenda item_.
 All meetings occur via video conference, however participating company
 offices are welcome to host guests.
 
+To learn more, read our guide on how to [join a meeting](./JoiningAMeeting.md).
+
 # Upcoming meetings
 
 | Meeting              | Time                            | Host                                     |
