@@ -101,6 +101,7 @@ hold additional secondary meetings later in the month.
 | Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 
 ## Agenda
 
