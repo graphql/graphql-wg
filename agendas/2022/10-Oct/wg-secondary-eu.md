@@ -79,7 +79,7 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.
 
-- **Date & Time**: [October 20th 2022 10:30am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20221020T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [October 20th 2022 11:00am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20221020T180000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -98,6 +98,16 @@ who could not make the primary meeting time.
 | Name             | GitHub    | Organization       | Location              |
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Yaacov Rydzinski | @yaacovcr | Individual         | Neve Daniel, IL       |
+| Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
+| Hugh Willson     | @hwillson | Apollo             | Ottawa, ON, CA        |
+| Mark Larah       | @magicmark | Yelp              | Austin, TX, USA       |
+| Alex Reilly      | @twof     | Pronto.ai          | San Francisco, CA, US |
+| David Glasser    | @glasser  | Apollo             | Berkeley, CA, US      |
+| Derek Kuc        | @dariuszkuc | Apollo           | Chicago, IL, US       |
+| Rob Richard      | @robrichard | 1stDibs          | Jersey City, NJ, US   |
+| Stephen Spalding | @fotoetienne | Netflix         | Los Gatos, CA, US     |
 
 ## Agenda
 
@@ -113,3 +123,13 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Incremental Delivery and Fragment Modularity (Yaacov, 30m)
+   - Require aliased fragments: https://github.com/robrichard/defer-stream-wg/discussions/58
+   - Respect nested defer: https://github.com/robrichard/defer-stream-wg/discussions/43
+1. Discuss use cases for `struct` proposal (Mark, 20m)
+   - Benjie's struct proposal: https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
+   - SDUI use case: https://github.com/graphql/graphql-wg/pull/1146/files
+1. CCN updates (Alex, 7m)
+1. @deprecated on OBJECT (Stephen, 5m)
+   - Use case: objects that are members of interfaces and unions
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/997)

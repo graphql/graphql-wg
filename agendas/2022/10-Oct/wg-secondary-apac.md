@@ -86,7 +86,7 @@ who could not make the primary meeting time.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1kXr_PgykVLMa5HKYdL73rOYSrO41dwJgh3H1pEQC3O0/edit)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | Michael Staib.   | @michaelstaib | ChilliCream    | Sydney, AU            |
 | Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 | Phillip Kruger   | @phillip-kruger | Red Hat      | Melbourne, AU         |
+| Andi Marek       | @andimarek | GraphQL Java / Atlassian      | Brisbane, AU         |
 
 ## Agenda
 
@@ -117,3 +118,7 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Improving custom scalar implementation spec (Andi, Donna, 15min-30min)
+   - We aim to improve custom Scalars specs by claryfing the mental model around them. See  [on GitHub](https://github.com/andimarek/graphql-scalars.com/pull/6) for a custom Scalars implementation guide and how a spec for the build-in Scalars would look like. 
+   - A second step is to reanimate the work around https://github.com/graphql/graphql-scalars and enable people to publish easily custom Scalars specs.
+   

@@ -84,7 +84,7 @@ hold additional secondary meetings later in the month.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1ZD9ym858g6nGOhrV5hDxkF5kY0rzNnm6pYJMToS0rlw/edit?usp=sharing)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -93,9 +93,24 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name             | GitHub        | Organization       | Location              |
+| :--------------- | :------------ | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Bobbie Cochrane  | @bobbiejc     | StepZen            | Oriental, NC, US.     |
+| Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
+| Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
+| Marc Giroux      | @xuorig       | Netflix            | Montreal, QC, CA      |
+| Mary Cutrali     | @maryelizbeth | Apollo             | Austin, TX, US        |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
@@ -111,3 +126,11 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. 🗳 2023 Technical Steering Committee (TSC) Elections 🗳
+   - [TSC Elections process & issue](https://github.com/graphql/graphql-wg/issues/1175)
+   - [Self Nomination form](https://tsc-nomination.graphql.org/)
+1. Meeting cadence for 2023 (5m, Lee)
+1. Next steps for `@oneOf` (5m, Hugh)
+   - Is the [`@oneOf` proposal](https://github.com/graphql/graphql-spec/pull/825) still being considered, or has it been superseded by the [Struct proposal](https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md#composite-type-capable-of-input-polymorphism)?
+1. Defer/Stream discussion (60m, Rob)
+   - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)

@@ -462,3 +462,146 @@ The semantics of `struct` and input objects are very similar, so it could be
 that we repurpose input objects for struct usage. This will need careful
 thought, discussion and investigation. Not least because the term `input` would
 make it confusing ;)
+
+## Use cases
+
+### Server Driven UI
+
+Server Driven UI (SDUI) is a not uncommon pattern for application data fetching,
+in which objects directly map to UI components.
+
+- https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5
+- https://engineeringblog.yelp.com/2021/11/building-a-server-driven-foundation-for-mobile-app-development.html
+
+Encoding SDUI responses as `struct`s would address query complexity issues that
+SDUI-over-GraphQL suffers from today, when adopted on a large scale. Specifically,
+selection sets have to (recursively) request all properties of all union memebers,
+which:
+
+- blows up request payload sizes
+- how far do you limit the recursion?
+- client developers have to either keep the query in sync with what the server
+  offers by hand, or introduce custom tooling and treat the query as a compile
+  target
+
+For example, imagine a schema with a very low level of abstraction over UI
+primatives:
+
+```graphql
+{ 
+  sduiView(view: "my_cool_marketing_page") {
+    ... on SDUIBox {
+      ... on SDUIButton {
+        label
+        radius
+        action
+      }
+      ... on SDUIText {
+        font
+        weight
+        body
+      }
+      ... on SDUIBox {
+        ... on SDUIButton {
+          label
+          radius
+          action
+        }
+        ... on SDUIText {
+          font
+          weight
+          body
+        }
+        ... on SDUIBox {
+          ...
+        }
+      }
+    }
+    ...
+  }
+  ...
+}
+
+This clearly poses challanges for developers maintaining this query, who might
+reasonably prefer to write a query like this:
+
+```graphql
+{ 
+  sduiView(view: "my_cool_marketing_page")
+}
+```
+
+### Enabling cross-platform user content
+
+In an application that allows creating user content (like a blog, or a social 
+media platform) quite a few fields can be input using structured data such as a
+title, publishing date, hero image. However, the most important part, the body of
+the content, is often structured but arbitrary content. 
+
+Various services solve this in different ways but usually suffer from one of
+various drawbacks. Allowing either the raw input (e.g. Markdown) or providing
+specific rendered formats. However, this means that either every client becomes
+tied to the input format and the service can no longer change this (e.g. upgrade
+to a newer Markdown format) or the client must jump through hoops to access data
+within the rendered blob (e.g. to load an optimised image or video embedded in
+the content).
+
+The `struct` approach outlined in this RFC would solve these issues by allowing
+the GraphQL server to provide this user data in a structured format. The server
+can now change the input formats it accepts as the output can be normalised JSON
+content. Similarly clients can either request the whole document and render it as
+they see fit or query for specific parts of the user content.
+
+This allows different clients to render different formats (e.g. HTML for the web 
+or native components for a mobile app) without being tied to the server's input
+format (e.g. Markdown or HTML) and without having to parse a server rendered 
+representation (e.g. Plain-Text, HTML or Markdown).
+
+The schema for this example would be similar to the schema provided in the Struct
+Union excample. The use-case does highlight one drawback with respect to the
+constraints outlined in the use-case.
+
+Since `struct`s can not themselves contain `object`s providing the structured
+content in this manner would mean that the client could not request optimised
+media (one of the reasons why a pre-rendered output was undesirable in the first
+place), or the image type itself must be a struct which seems to disallow
+arguments fields which is a common pattern to request specific transformations of
+an image.
+
+e.g. the following is a simplified example for a way to query images often used
+by Shopify or specific image-resizing services that support GraphQL.
+
+```gql
+type Image implements Node {
+    id: ID!
+    """
+    The location of the image as a URL.
+
+    If no transform options are specified, then the original image will be preserved including any pre-applied transforms.
+
+    All transformation options are considered "best-effort". Any transformation that the original image type doesn't support will be ignored.
+
+    If you need multiple variations of the same image, then you can use [GraphQL aliases](https://graphql.org/learn/queries/#aliases).
+    """
+    url(transform: ImageTransformInput): Url!
+}
+
+"""
+The available options for transforming an image.
+
+All transformation options are considered "best-effort". Any transformation that the original image type doesn't support will be ignored.
+"""
+input ImageTransformInput {
+    """
+    Image height in pixels between 1 and 5760.
+    """
+    width: Int
+    """
+    Image width in pixels between 1 and 5760.
+    """
+    height: Int
+}
+```
+
+
+#### Simplified client queries

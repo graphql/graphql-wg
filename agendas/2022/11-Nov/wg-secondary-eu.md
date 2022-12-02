@@ -86,7 +86,7 @@ who could not make the primary meeting time.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/19KxhIpe_idkjjWEtUs6X4vGOMDKeW9oHSQqzmQK-mjM/edit#heading=h.ddpflr6zgr9k)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -95,21 +95,30 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name                 | GitHub         | Organization       | Location              |
+| :------------------- | :------------- | :----------------- | :-------------------- |
+| Benjie Gillam (Host) | @benjie        | Graphile           | Chandler's Ford, UK   |
+| Rob Richard          | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
+| Michael Staib        | @michaelstaib  | ChilliCream        | Minneapolis, MN, US   |
+| Hugh Willson         | @hwillson      | Apollo             | Ottawa, ON, CA        |
+| Matt Mahoney         | @mjmahone      | Meta               | New York, NY, US      |
+| Ivan Goncharov       | @IvanGoncharov | Apollo             | Lviv, UA              |
+| Yaacov Rydzinski     | @yaacovCR      | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
-1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Lee)
+1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Benjie)
    - [Specification Membership Agreement](https://github.com/graphql/foundation)
    - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
    - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
    - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
-1. Introduction of attendees (5m, Lee)
-1. Determine volunteers for note taking (1m, Lee)
-1. Review agenda (2m, Lee)
-1. Review previous meeting's action items (5m, Lee)
+1. Introduction of attendees (5m, Benjie)
+1. Determine volunteers for note taking (1m, Benjie)
+1. Review agenda (2m, Benjie)
+1. Review previous meeting's action items (5m, Benjie)
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. [2023 TSC Elections](https://github.com/graphql/graphql-wg/issues/1175) (5m, Benjie)
+1. Defer & Stream (20m, Rob)
+   - [Defer & Stream in Subscriptions](https://github.com/robrichard/defer-stream-wg/discussions/55)

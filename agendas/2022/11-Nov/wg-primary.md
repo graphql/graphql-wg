@@ -84,7 +84,7 @@ hold additional secondary meetings later in the month.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/19KxhIpe_idkjjWEtUs6X4vGOMDKeW9oHSQqzmQK-mjM/edit?usp=sharing)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -93,9 +93,21 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name             | GitHub         | Organization       | Location              |
+|:-----------------|:---------------|:-------------------|:----------------------|
+| Lee Byron (Host) | @leebyron      | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie        | Graphile           | Chandler's Ford, UK   |
+| Stephen Spalding | @fotoetienne   | Netflix            | Los Gatos, CA, US     |
+| Michael Staib    | @michaelstaib  | ChilliCream Inc.   | Zurich, CH.           |
+| Rob Richard      | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
+| Uri Goldshtein   | @urigo         | The Guild          | Tel Avuv, IL.         |
+| Saihajpreet Singh| @saihaj        | The Guild          | Ottawa, ON, CA        |
+| Denis Badurina   | @enisdenjo     | The Guild          | Vienna, AT            |
+| Matt Mahoney     | @mmahoney      | Meta               | New York, NY, US      |
+| Hugh Willson     | @hwillson      | Apollo             | Ottawa, ON, CA        |
+| Dariusz Kuc      | @dariuszkuc    | Apollo             | Chicago, IL, US       |
+| Yaacov Rydzinski | @yaacovCR      | Individual         | Neve Daniel, IL       |
+| Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA              |
 
 ## Agenda
 
@@ -111,3 +123,15 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Check in on new meeting cadence
+1. GraphQL Community Grant
+   - https://twitter.com/GraphQL/status/1587847821805617152
+1. Status of `express-graphql` project (5m, Benjie)
+   - [Last published 2 years ago](https://www.npmjs.com/package/express-graphql)
+   - [GraphQL Foundation is receiving emails about it](https://github.com/graphql/express-graphql/issues/807#issuecomment-1229599148)
+1. @deprecated on OBJECT (15m, Stephen)
+   - Use case: objects that are members of interfaces and unions
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/997)
+1. @defer/@stream discussion (20m, Rob)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/742)
+   - [Drop defer/stream support from subscriptions in initial spec proposal?](https://github.com/robrichard/defer-stream-wg/discussions/55)
