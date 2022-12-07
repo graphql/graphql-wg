@@ -101,6 +101,7 @@ who could not make the primary meeting time.
 | Donna Zhou       | @dondonz      | graphql-java / Atlassian | Sydney, AU      |
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle US            |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
