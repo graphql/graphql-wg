@@ -95,10 +95,11 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
-| Donna Zhou       | @dondonz  | graphql-java / Atlassian | Sydney, AU      |
+| Name             | GitHub        | Organization       | Location              |
+| :--------------- | :--------     | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Donna Zhou       | @dondonz      | graphql-java / Atlassian | Sydney, AU      |
+| Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle US            |
 
 ## Agenda
 
@@ -115,3 +116,12 @@ who could not make the primary meeting time.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Licensing & final legal sign-off for GraphQL Scalars project (5m, Donna)
+1. Review a few active approved simple PRs and merge
+     [974](https://github.com/graphql/graphql-spec/pull/974), 
+     [975](https://github.com/graphql/graphql-spec/pull/975), 
+     [980](https://github.com/graphql/graphql-spec/pull/980), 
+     [981](https://github.com/graphql/graphql-spec/pull/981), 
+     [982](https://github.com/graphql/graphql-spec/pull/982), 
+     [983](https://github.com/graphql/graphql-spec/pull/983), 
+     [985](https://github.com/graphql/graphql-spec/pull/985) 
+     
