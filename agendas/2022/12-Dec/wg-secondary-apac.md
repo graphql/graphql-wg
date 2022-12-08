@@ -95,13 +95,14 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :--------     | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Donna Zhou       | @dondonz      | graphql-java / Atlassian | Sydney, AU      |
-| Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle US            |
-| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Name             | GitHub      | Organization             | Location              |
+|:-----------------|:------------|:-------------------------|:----------------------|
+| Lee Byron (Host) | @leebyron   | GraphQL Foundation       | San Francisco, CA, US |
+| Donna Zhou       | @dondonz    | graphql-java / Atlassian | Sydney, AU            |
+| Roman Ivantsov   | @rivantsov  | Microsoft                | Seattle US            |
+| Matt Mahoney     | @mjmahone   | Meta                     | New York, NY, US      |
+| Benjie Gillam    | @benjie     | Graphile                 | Chandler's Ford, UK   |
+| Russell You      | @russellyou | graphql-java / Atlassian | Sydney, AU            |
 
 ## Agenda
 
