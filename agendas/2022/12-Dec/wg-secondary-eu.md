@@ -116,3 +116,5 @@ who could not make the primary meeting time.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Field error resulting from insufficient validation of variables (15m, Benjie)
    - [spec#1002: Issue with reproduction](https://github.com/graphql/graphql-spec/issues/1002)
+1. Add a style guide to the GraphQL specification (15m, Benjie)
+   - [PR](https://github.com/graphql/graphql-spec/pull/1003)
