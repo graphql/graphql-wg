@@ -112,6 +112,8 @@ hold additional secondary meetings later in the month.
 | Roman Ivantsov   | @rivantsov    | Microsoft          | Seattle, WA, US       |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Doc Jones        | @doc-jones    | Postman            | Raleigh, NC.          |
+
 
 ## Agenda
 
