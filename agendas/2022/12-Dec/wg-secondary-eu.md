@@ -101,6 +101,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Hugh Willson     | @hwillson | Apollo             | Manotick, ON, CA      |
 | Rob Richard      | @robrichard | 1stDibs          | Jersey City, NJ, US   |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 | Ivan Goncharov   | @IvanGoncharov | Apollo        | Lviv, UA              |
 
 ## Agenda
