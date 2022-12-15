@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | Hugh Willson     | @hwillson | Apollo             | Manotick, ON, CA      |
 | Rob Richard      | @robrichard | 1stDibs          | Jersey City, NJ, US   |
 | Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
+| Ivan Goncharov   | @IvanGoncharov | Apollo        | Lviv, UA              |
 
 ## Agenda
 
