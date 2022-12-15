@@ -118,3 +118,5 @@ who could not make the primary meeting time.
    - [spec#1002: Issue with reproduction](https://github.com/graphql/graphql-spec/issues/1002)
 1. Add a style guide to the GraphQL specification (15m, Benjie)
    - [PR](https://github.com/graphql/graphql-spec/pull/1003)
+1. Update from stream/defer breakout group and new proposal (20m, Rob and Benjie)
+   - [Proposal](https://github.com/robrichard/defer-stream-wg/discussions/52#discussioncomment-4380643)
