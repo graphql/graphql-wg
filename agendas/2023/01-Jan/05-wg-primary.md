@@ -100,6 +100,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
