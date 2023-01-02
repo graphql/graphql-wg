@@ -68,7 +68,7 @@ PLEASE TAKE NOTE:
 -->
 
 | This is an open meeting: To attend, read [JoiningAMeeting.md](https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md) then edit and PR this file. (Edit ✎ 🡕) |
-| ---------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 # GraphQL WG – January 2023 (Primary)
 
@@ -120,3 +120,7 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (15m, Matt)
+1. Default Value Validation Status Check (5m, Yaacov)
+   - [Lee's original PR stack](https://github.com/graphql/graphql-js/pull/3049)
+   - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
+   - [Reference from 2021](https://github.com/graphql/graphql-wg/blob/6cb3298d3a4e4667bd5f85da9e9676d407ba4e55/notes/2021/2021-09-02.md?plain=1#L123-L128)
