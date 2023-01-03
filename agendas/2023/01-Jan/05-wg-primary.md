@@ -119,4 +119,7 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (15m, Matt)
+1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (30m, Matt)
+   - [Updated Spec PR to include spec text changes](https://github.com/graphql/graphql-spec/pull/865)
+   - [Updated graphql-js with working implementation and validation](https://github.com/graphql/graphql-js/pull/3152)
+   - Discuss whether Fragment Arguments PR is ready for [Stage 2: Draft](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#stage-2-draft).
