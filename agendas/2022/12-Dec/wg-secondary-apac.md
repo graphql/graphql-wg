@@ -95,9 +95,14 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name             | GitHub      | Organization             | Location              |
+|:-----------------|:------------|:-------------------------|:----------------------|
+| Lee Byron (Host) | @leebyron   | GraphQL Foundation       | San Francisco, CA, US |
+| Donna Zhou       | @dondonz    | graphql-java / Atlassian | Sydney, AU            |
+| Roman Ivantsov   | @rivantsov  | Microsoft                | Seattle US            |
+| Matt Mahoney     | @mjmahone   | Meta                     | New York, NY, US      |
+| Benjie Gillam    | @benjie     | Graphile                 | Chandler's Ford, UK   |
+| Russell You      | @russellyou | graphql-java / Atlassian | Sydney, AU            |
 
 ## Agenda
 
@@ -113,3 +118,13 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Licensing & final legal sign-off for GraphQL Scalars project (5m, Donna)
+1. Review a few active approved simple PRs and merge
+     [974](https://github.com/graphql/graphql-spec/pull/974), 
+     [975](https://github.com/graphql/graphql-spec/pull/975), 
+     [980](https://github.com/graphql/graphql-spec/pull/980), 
+     [981](https://github.com/graphql/graphql-spec/pull/981), 
+     [982](https://github.com/graphql/graphql-spec/pull/982), 
+     [983](https://github.com/graphql/graphql-spec/pull/983), 
+     [985](https://github.com/graphql/graphql-spec/pull/985) 
+     
