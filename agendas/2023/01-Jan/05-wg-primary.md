@@ -101,6 +101,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
@@ -120,7 +121,11 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (15m, Matt)
-1. Default Value Validation Status Check (5m, Yaacov)
+1. Default Value Validation Status Check (15m, Yaacov)
    - [Lee's original PR stack](https://github.com/graphql/graphql-js/pull/3049)
    - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
    - [Reference from 2021](https://github.com/graphql/graphql-wg/blob/6cb3298d3a4e4667bd5f85da9e9676d407ba4e55/notes/2021/2021-09-02.md?plain=1#L123-L128)
+1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (30m, Matt)
+   - [Updated Spec PR to include spec text changes](https://github.com/graphql/graphql-spec/pull/865)
+   - [Updated graphql-js with working implementation and validation](https://github.com/graphql/graphql-js/pull/3152)
+   - Discuss whether Fragment Arguments PR is ready for [Stage 2: Draft](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#stage-2-draft).
