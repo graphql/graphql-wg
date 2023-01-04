@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Roman Ivantsov   | @rivantsov    | Individual         | Seattle, WA           |
 
 ## Agenda
 
@@ -120,7 +121,7 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (15m, Matt)
+1. Review of pending approved PRs (5m, Roman)
 1. Default Value Validation Status Check (15m, Yaacov)
    - [Lee's original PR stack](https://github.com/graphql/graphql-js/pull/3049)
    - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
