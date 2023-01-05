@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Roman Ivantsov   | @rivantsov    | Individual         | Seattle, WA           |
 | Benjie Gillam ✎ | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Adarsh Divakaran | @adarshdigievo | Strollby          | Trivandrum, IN      |
 
 ## Agenda
 
