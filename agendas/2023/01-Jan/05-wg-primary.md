@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam ✎ | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Adarsh Divakaran | @adarshdigievo | Strollby          | Trivandrum, IN      |
+| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 
 ## Agenda
 
