@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Roman Ivantsov   | @rivantsov    | Individual         | Seattle, WA           |
 
 ## Agenda
@@ -141,3 +142,5 @@ hold additional secondary meetings later in the month.
    - [Updated Spec PR to include spec text changes](https://github.com/graphql/graphql-spec/pull/865)
    - [Updated graphql-js with working implementation and validation](https://github.com/graphql/graphql-js/pull/3152)
    - Discuss whether Fragment Arguments PR is ready for [Stage 2: Draft](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#stage-2-draft).
+1. Updates on defer/stream (15m, Rob)
+   - [Proposal to merge deferred fragments](https://github.com/robrichard/defer-stream-wg/discussions/52#discussioncomment-4479271)
