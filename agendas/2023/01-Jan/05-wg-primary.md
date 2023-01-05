@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Roman Ivantsov   | @rivantsov    | Individual         | Seattle, WA           |
 | Benjie Gillam ✎ | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 
 ## Agenda
 
