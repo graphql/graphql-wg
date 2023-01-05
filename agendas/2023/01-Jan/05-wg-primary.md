@@ -103,6 +103,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Roman Ivantsov   | @rivantsov    | Individual         | Seattle, WA           |
 
 ## Agenda
 
@@ -122,6 +123,17 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Updates on [Fragment Arguments](https://github.com/graphql/graphql-js/pull/3152) (15m, Matt)
+1. Review of pending approved PRs (15m, Roman)
+   - making this regular part of agenda
+   - PRs ready to go: 
+     - [974](https://github.com/graphql/graphql-spec/pull/974), 
+     - [975](https://github.com/graphql/graphql-spec/pull/975), 
+     - [979](https://github.com/graphql/graphql-spec/pull/979),
+     - [981](https://github.com/graphql/graphql-spec/pull/981); 
+   - Calling for action to: 
+     - [983](https://github.com/graphql/graphql-spec/pull/983),
+     - [984](https://github.com/graphql/graphql-spec/pull/984),
+     - [986](https://github.com/graphql/graphql-spec/pull/986)
 1. Default Value Validation Status Check (15m, Yaacov)
    - [Lee's original PR stack](https://github.com/graphql/graphql-js/pull/3049)
    - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
