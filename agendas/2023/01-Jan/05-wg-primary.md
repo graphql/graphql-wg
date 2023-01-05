@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Adarsh Divakaran | @adarshdigievo | Strollby          | Trivandrum, IN      |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, US       |
+| Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 
 ## Agenda
 
