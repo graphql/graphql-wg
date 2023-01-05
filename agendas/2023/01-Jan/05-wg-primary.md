@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Roman Ivantsov   | @rivantsov    | Individual         | Seattle, WA           |
+| Benjie Gillam ✎ | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
