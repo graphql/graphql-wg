@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Adarsh Divakaran | @adarshdigievo | Strollby          | Trivandrum, IN      |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
