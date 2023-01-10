@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Donna Zhou       | @dondonz  | graphql-java / Atlassian | Sydney, AU      |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 
 ## Agenda
 
@@ -120,3 +121,8 @@ who could not make the primary meeting time.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. [Licensing & final legal sign-off for GraphQL Scalars project](https://github.com/graphql/graphql-wg/issues/1206) (5m, Donna)
+1. [Fragment Arguments](https://github.com/graphql/graphql-spec/pull/865): Identify Open Concerns to Address (known concerns below) (10m, Matt)
+   - Do we allow shadowing global variables?
+   - PR with Variable Definitions instead of Fragment Argument Definitions.
+   - Do we need PR Reviews to know if there are other concerns?
+   - Maybe: additional graphql-js PR to use local scope, aka graphql-spec algorithm, rather than visit replacement?
