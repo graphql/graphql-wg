@@ -105,6 +105,7 @@ who could not make the primary meeting time.
 | Matt Mahoney     | @mjmahone   | Meta               | New York, NY, US      |
 | Roman Ivantsov   | @rivantsov  | Individual         | Seattle, WA, US       |
 | Anthony Miller   | @AnthonyMDev| Apollo GraphQL         | Las Vegas, NV, US       |
+| Andi Marek   | @andimarek| GraphQL Java         | Brisbane, AU      |
 
 ## Agenda
 
