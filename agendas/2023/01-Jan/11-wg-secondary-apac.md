@@ -103,6 +103,7 @@ who could not make the primary meeting time.
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Donna Zhou       | @dondonz  | graphql-java / Atlassian | Sydney, AU      |
 | Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
+| Roman Ivantsov   | @rivantsov| Individual         | Seattle, WA, US       |
 
 ## Agenda
 
