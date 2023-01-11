@@ -89,7 +89,7 @@ who could not make the primary meeting time.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1dYY8QjAjdkAhQwuocJESSnSg83urtdAgf5HT-3R-DW4/edit?usp=sharing)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
