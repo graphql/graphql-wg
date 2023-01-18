@@ -122,3 +122,4 @@ who could not make the primary meeting time.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Defer/Stream updates (20m, Rob)
    - [Remove labels and merge deferred fragments under the same object](https://github.com/robrichard/defer-stream-wg/discussions/64)
+   - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
