@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | Roman Ivantsov   | @rivantsov| Individual         | Seattle, WA, US       |
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek     | @bod      | Apollo             | Lyon, FR              |
+| Hugh Willson     | @hwillson | Apollo             | Manotick, ON, CA      |
 
 ## Agenda
 
