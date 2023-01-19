@@ -107,6 +107,7 @@ who could not make the primary meeting time.
 | Rob Richard      | @robrichard   | 1stDibs        | Jersey City, NJ, US   |
 | Roman Ivantsov   | @rivantsov| Individual         | Seattle, WA, US       |
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @bod      | Apollo             | Lyon, FR              |
 
 ## Agenda
 
