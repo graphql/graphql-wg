@@ -174,10 +174,21 @@ terms of achieving our goals, but have slightly different trade-offs:
 2. enable `input` to be used in output too, turning it into a `struct`
 3. introduce a new `struct` type
 
-I've gone full circle on this, and am currently thinking that option 2 is our
-best bet. The main reason for this is that in the other scenarios `struct` and
+I've gone full circle on this, and am currently thinking that option 1 is our
+best bet.
+
+Option 2 is tempting because in the other scenarios `struct` and
 `input` will overlap significantly and it will be less than clear when to use
-one rather than the other.
+one rather than the other. However, it suffers from some backwards-compatibility
+concerns - namely that an input object being used on output is likely to confuse
+existing tooling such as GraphiQL, and it's entirely unknown to them whether an
+input object should require a selection set or not.
+
+Option 1 feels like it could be done in a more backwards-compatible manner since
+the majority of existing tools and clients would not look at the `fields` entry
+on a scalar (so would not be confused by it) and already handle custom scalars
+such as the `JSON` scalar returning structured output, and can continue to omit
+a selection set on this enhanced scalar, thus continuing to operate correctly.
 
 **NOTE**: this syntax, these keywords, etc. are not set in stone. Discussion is
 very welcome!
