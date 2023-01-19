@@ -103,6 +103,7 @@ who could not make the primary meeting time.
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
 | Rob Richard      | @robrichard   | 1stDibs        | Jersey City, NJ, US   |
+| Roman Ivantsov   | @rivantsov| Individual         | Seattle, WA, US       |
 
 ## Agenda
 
@@ -123,3 +124,4 @@ who could not make the primary meeting time.
 1. Defer/Stream updates (20m, Rob)
    - [Remove labels and merge deferred fragments under the same object](https://github.com/robrichard/defer-stream-wg/discussions/64)
    - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
+1. Discussion of [Backward Compatibility](https://github.com/graphql/graphql-wg/discussions/1232) (20m, Roman)
