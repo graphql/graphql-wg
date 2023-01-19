@@ -109,7 +109,8 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek     | @bod      | Apollo             | Lyon, FR              |
 | Hugh Willson     | @hwillson | Apollo             | Manotick, ON, CA      |
-| Matt Mahoney     | @mmahoney | Meta               | New York, NY, US      |
+| Yaacov Rydzinski | @yaacovCR | Individual         | Neve Daniel, IL       |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 
 ## Agenda
 
