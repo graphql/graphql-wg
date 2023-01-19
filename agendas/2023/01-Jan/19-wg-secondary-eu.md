@@ -111,6 +111,7 @@ who could not make the primary meeting time.
 | Hugh Willson     | @hwillson | Apollo             | Manotick, ON, CA      |
 | Yaacov Rydzinski | @yaacovCR | Individual         | Neve Daniel, IL       |
 | Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
+| Ivan Goncharov   | @IvanGoncharov | Apollo        | Lviv, UA              |
 
 ## Agenda
 
