@@ -98,12 +98,15 @@ who could not make the primary meeting time.
 
 ## Attendees
 
+<!-- prettier-ignore -->
+
 | Name             | GitHub    | Organization       | Location              |
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
 | Rob Richard      | @robrichard   | 1stDibs        | Jersey City, NJ, US   |
 | Roman Ivantsov   | @rivantsov| Individual         | Seattle, WA, US       |
+| Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
