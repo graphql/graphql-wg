@@ -122,6 +122,7 @@ hold additional secondary meetings later in the month.
    - This meeting is being recorded, so be mindful of the audience - we can take some of these communications private if need be
    - GraphiQL's last publish was partially unsuccessful due to token issues: https://github.com/graphql/graphiql/issues/2997
    - GraphQL Foundation should have a more robust process for handling planned or emergency token revokation for individuals
+   - [Rikki has proposed a solution](https://gist.github.com/benjie/739e119b68422a14864486a9ff0b2a8c)
 1. Advance argument name uniqueness to Stage 3 (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/891)
    - [GraphQL.js implementation is merged](https://github.com/graphql/graphql-js/pull/3208)
