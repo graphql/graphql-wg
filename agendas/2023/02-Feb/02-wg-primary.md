@@ -118,6 +118,10 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. **TSC**: Management of build and publish infrastructure, secrets, etc (20m, Benjie / Rikki)
+   - This meeting is being recorded, so be mindful of the audience - we can take some of these communications private if need be
+   - GraphiQL's last publish was partially unsuccessful due to token issues: https://github.com/graphql/graphiql/issues/2997
+   - GraphQL Foundation should have a more robust process for handling planned or emergency token revokation for individuals
 1. Advance argument name uniqueness to Stage 3 (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/891)
    - [GraphQL.js implementation is merged](https://github.com/graphql/graphql-js/pull/3208)
