@@ -100,6 +100,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA
 
 ## Agenda
 
@@ -129,3 +130,6 @@ hold additional secondary meetings later in the month.
 1. Advance argument name uniqueness to Stage 3 (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/891)
    - [GraphQL.js implementation is merged](https://github.com/graphql/graphql-js/pull/3208)
+1. `@defer`: fully deduplicate response (30m, Ivan)
+   - [RFC] (https://github.com/robrichard/defer-stream-wg/discussions/65#discussioncomment-4757697)
+   - GraphQL.js implementation: TBD
