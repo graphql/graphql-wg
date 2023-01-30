@@ -123,6 +123,9 @@ hold additional secondary meetings later in the month.
    - GraphiQL's last publish was partially unsuccessful due to token issues: https://github.com/graphql/graphiql/issues/2997
    - GraphQL Foundation should have a more robust process for handling planned or emergency token revokation for individuals
    - [Rikki has proposed a solution](https://gist.github.com/benjie/739e119b68422a14864486a9ff0b2a8c)
+1. Fix ambiguity around when schema definition may be omitted (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/987); previously discussed in September
+   - Aim: merge this (mostly) editorial change
 1. Advance argument name uniqueness to Stage 3 (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/891)
    - [GraphQL.js implementation is merged](https://github.com/graphql/graphql-js/pull/3208)
