@@ -100,6 +100,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
 | Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Matt Mahoney     | @mjmahone      | Meta              | New York, NY, US      |
 | Rob Richard      | @robrichard    | 1stDibs           | Jersey City, NJ, US   |
