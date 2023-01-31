@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Matt Mahoney     | @mjmahone      | Meta              | New York, NY, US      |
+| Rob Richard      | @robrichard    | 1stDibs           | Jersey City, NJ, US   |
 
 ## Agenda
 
