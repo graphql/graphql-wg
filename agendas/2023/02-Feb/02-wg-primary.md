@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Matt Mahoney     | @mjmahone      | Meta              | New York, NY, US      |
 | Rob Richard      | @robrichard    | 1stDibs           | Jersey City, NJ, US   |
+| Yaacov Rydzinski | @yaacovCR      | Individual        | Neve Daniel, IL       |
 
 ## Agenda
 
@@ -137,3 +138,7 @@ hold additional secondary meetings later in the month.
 1. `@defer`: fully deduplicate response (30m, Ivan)
    - [RFC] (https://github.com/robrichard/defer-stream-wg/discussions/65#discussioncomment-4757697)
    - GraphQL.js implementation: TBD
+1. Default Value Validation Status Check (5m, Yaacov)
+   - [Lee's original implementation PR stack at graphql-js](https://github.com/graphql/graphql-js/pull/3049)
+   - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
+   - [Benjie's Spec PR](https://github.com/graphql/graphql-spec/pull/793)
