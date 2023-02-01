@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone      | Meta              | New York, NY, US      |
 | Rob Richard      | @robrichard    | 1stDibs           | Jersey City, NJ, US   |
 | Yaacov Rydzinski | @yaacovCR      | Individual        | Neve Daniel, IL       |
+| Kewei Qu         | @Keweiqu       | Meta              | San Francisco, CA, US |
 
 ## Agenda
 
