@@ -173,8 +173,15 @@ After a TSC seat vacancy the remaining TSC will collect self-nominations and vot
 
 When something cannot be decided by consensus or a formal vote is required, the TSC will use a method appropriate to the situation:
 
-- Simple majority for single-winner votes.
-- Condorcet method for multiple-winner votes.
+| Situation                      | Response         | Method                                   |
+| ------------------------------ | ---------------- | ---------------------------------------- |
+| Binary choice                  | Single choice    | Simple majority as per [procedure][]     |
+| Many choices, single winner    | Rank all choices | [Condorcet Beatpath/Schulze][]           |
+| Many choices, multiple winners | Rank all choices | [Single Transferable Vote (STV), Meek][] |
+
+[procedure]: #voting-procedure
+[condorcet beatpath/schulze]: https://en.wikipedia.org/wiki/Schulze_method
+[single transferable vote (stv), meek]: https://en.wikipedia.org/wiki/Counting_single_transferable_votes#Meek
 
 The ballots may be public or private depending upon the situation, but the aggregate results should always be published.
 
@@ -197,18 +204,33 @@ Because we work in a distributed environment, the voting process must account fo
 
 Once a valid vote is concluded, the result is determined by the number of votes received at that time (as opposed to the total number of TSC members):
 
-- For a single-winner simple majority (or supermajority), the votes in favor must exceed half (or 2/3) of the total number of votes.
-- For a multiple-winner method, all votes received at the time the vote is concluded are considered.
+- For a binary choice, the votes in favor must exceed half for a majority (or 2/3 for a supermajority) of the total number of votes.
+- For ranked choices, all votes received at the time the vote is concluded are considered.
 
 ### Non-votes
 
 TSC members are not required to vote. There are three ways an _attending_ member may reply to choose not to vote, each with a different intent and impact on the voting process:
 
 - **Present:** A reply of "present" causes an _attending_ member to count towards quorum, but does not count towards the number of votes. This has the practical impact of allowing progress towards reaching quorum while lowering the number of "yes" votes required for a motion to pass. A member may reply "present" if they support a motion reaching a result, but do not have a preference if it passes or fails.
-- **Absent/Abstain:** A reply of "abstention" causes an _attending_ member to neither count towards quorum, nor towards the number of votes. This is implied for any absent _attending_ member which does not reply to a vote. This has the practical impact of hindering progress towards reaching quorum. A member may reply "abstain" if they do not support a motion reaching either result.
-- **Recused:** A reply of "recusal" causes a member to not count as an _attending_ member for the purposes of this vote. This has the practical impact of both lowering the number of _attending_ members required to reach quorum, and the number of "yes" votes required for a motion to pass. A member may reply "recused" if they want to remove themselves to minimize their impact on a vote, often due to a conflict of interest.
+- **Absent/Abstain:** A reply of "abstain" causes an _attending_ member to neither count towards quorum, nor towards the number of votes. This is implied for any absent _attending_ member which does not reply to a vote. This has the practical impact of hindering progress towards reaching quorum. A member may reply "abstain" if they do not support a motion reaching either result.
+- **Recused:** A reply of "recused" causes a member to not count as an _attending_ member for the purposes of this vote. This has the practical impact of both lowering the number of _attending_ members required to reach quorum, and the number of "yes" votes required for a motion to pass. A member may reply "recused" if they want to remove themselves to minimize their impact on a vote, often due to a conflict of interest.
 
 Note: Non-attending members do not count towards quorum, and should they not vote are effectively recused.
+
+#### All possible vote scenarios
+
+Given the two kinds of TSC members (_attending_ and _non-attending_, defined above) and the possible votes or non-votes (also defined above),
+here is a table describing the impact of each vote scenario on the variables used in the voting procedure below.
+
+| Vote                                    | Counts as _attending_ | Counts towards _quorum_ | Counts towards a choice |
+| --------------------------------------- | :-------------------: | :---------------------: | :---------------------: |
+| _Attending_ member choice (i.e. yes/no) |          ✅           |           ✅            |           ✅            |
+| _Attending_ member "present"            |          ✅           |           ✅            |           ❌            |
+| _Attending_ member is absent            |          ✅           |           ❌            |           ❌            |
+| _Attending_ member abstains             |          ✅           |           ❌            |           ❌            |
+| _Attending_ member recused              |          ❌           |           ❌            |           ❌            |
+| _Non-attending_ member choice           |          ❌           |           ❌            |           ✅            |
+| _Non-attending_ member non-vote         |          ❌           |           ❌            |           ❌            |
 
 ### Voting procedure
 
