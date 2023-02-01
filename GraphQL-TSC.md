@@ -102,11 +102,11 @@ Our Zoom account supports recording and livestreaming. We strongly encourage you
 
 If you have questions about these processes, please contact [operations@graphql.org](mailto:operations@graphql.org) and we can help provide context for why they are in place.
 
-## TSC Members
+## TSC Membership
 
 ### Who can participate on the TSC
 
-TSC meeting are open to anybody who wishes to participate. Aside from items which require a formal vote (such as approving specification verions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC will use the consensus decision-making process as often as possible.
+TSC meetings are open to anybody who wishes to participate. Aside from items which require a formal vote (such as approving specification verions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC will use the consensus decision-making process as often as possible.
 
 The TSC will also include a number of individuals who have been elected as members. These individuals are expected to be active participants on the TSC, and to be engaged and responsive on matters that require a formal vote.
 
@@ -119,16 +119,16 @@ The current members of the GraphQL TSC are:
 | Name                                               | Affiliation           | Term begins | Term ends    |
 | -------------------------------------------------- | --------------------- | ----------- | ------------ |
 | [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
-| [Andi Marek](https://github.com/andimarek)         | GraphQL Java          | Nov 1, 2020 | Dec 31, 2022 |
+| [Andi Marek](https://github.com/andimarek)         | Atlassian             | Nov 1, 2020 | Dec 31, 2024 |
 | [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2023 |
-| [Dan Schafer](https://github.com/dschafer)         | Facebook              | Nov 1, 2020 | Dec 31, 2022 |
 | [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2023 |
+| [Kewei Qu](https://github.com/Keweiqu)             | Meta                  | Jan 1, 2023 | Dec 31, 2024 |
 | [Marc-Andre Giroux](https://github.com/xuorig)     | Netflix               | Jan 1, 2022 | Dec 31, 2023 |
-| [Matt Mahoney](https://github.com/mjmahone)        | Facebook              | Nov 1, 2020 | Dec 31, 2023 |
+| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Dec 31, 2023 |
 | [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2023 |
-| [Nick Schrock](https://github.com/schrockn)        | Elementl              | Nov 1, 2020 | Dec 31, 2022 |
-| [Rob Zhu](https://github.com/robzhu)               | AWS                   | Nov 1, 2020 | Dec 31, 2022 |
-| [Sasha Solomon](https://github.com/sachee)         | Twitter               | Nov 1, 2020 | Dec 31, 2022 |
+| [Rob Richard](https://github.com/robrichard)       | 1stDibs               | Jan 1, 2023 | Dec 31, 2024 |
+| [Stephen Spalding](https://github.com/fotoetienne) | Netflix               | Jan 1, 2023 | Dec 31, 2024 |
+| [Uri Goldshtein](https://github.com/urigo)         | The Guild             | Jan 1, 2023 | Dec 31, 2024 |
 
 #### Emeriti
 
@@ -138,6 +138,10 @@ We thank all our prior TSC members for their contribution:
 | ------------------------------------------------ | ------------- | ----------- | ------------ |
 | [Brielle Harrison](https://github.com/nyteshade) | PayPal        | Nov 1, 2020 | Dec 31, 2021 |
 | [James Baxley](https://github.com/jbaxleyiii)    | Carbon Health | Nov 1, 2020 | Dec 31, 2021 |
+| [Dan Schafer](https://github.com/dschafer)       | Facebook      | Nov 1, 2020 | Dec 31, 2022 |
+| [Nick Schrock](https://github.com/schrockn)      | Elementl      | Nov 1, 2020 | Dec 31, 2022 |
+| [Rob Zhu](https://github.com/robzhu)             | AWS           | Nov 1, 2020 | Dec 31, 2022 |
+| [Sasha Solomon](https://github.com/sachee)       | Twitter       | Nov 1, 2020 | Dec 31, 2022 |
 
 ### Becoming a TSC Member
 
@@ -153,11 +157,11 @@ To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior
 
 #### Election dates
 
-| Term        | Nominations open | Voting open | Term begins | Term ends    |
-| ----------- | ---------------- | ----------- | ----------- | ------------ |
-| 2022 - 2023 | Nov 1, 2021      | Dec 1, 2021 | Jan 1, 2022 | Dec 31, 2023 |
-| 2023 - 2024 | Nov 1, 2022      | Dec 1, 2022 | Jan 1, 2023 | Dec 31, 2024 |
-| 2024 - 2025 | Nov 1, 2023      | Dec 1, 2023 | Jan 1, 2024 | Dec 31, 2025 |
+| Term          | Nominations open | Voting open   | Term begins | Term ends    |
+| ------------- | ---------------- | ------------- | ----------- | ------------ |
+| ~2023 - 2024~ | ~Nov 1, 2022~    | ~Dec 1, 2022~ | Jan 1, 2023 | Dec 31, 2024 |
+| 2024 - 2025   | Nov 1, 2023      | Dec 1, 2023   | Jan 1, 2024 | Dec 31, 2025 |
+| 2025 - 2026   | Nov 1, 2024      | Dec 1, 2024   | Jan 1, 2025 | Dec 31, 2026 |
 
 #### Resignation or removal of TSC members
 
