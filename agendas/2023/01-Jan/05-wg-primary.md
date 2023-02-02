@@ -110,7 +110,6 @@ hold additional secondary meetings later in the month.
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
-| Mike Cohen       | @mcohen75     | Indeed             | Austin, TX, US        |
 
 ## Agenda
 
