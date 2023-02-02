@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Hugh Willson      | @hwillson      | Apollo             | Manotick, ON, CA      |
 | Marc-Andre Giroux | @xuorig        | Netflix            | Montreal, QC, CA      |
 | Benoit Lubek      | @BoD           | Apollo             | Lyon, FR              |
+| Michael Staib.    | @michaelstaib  | ChilliCream        | Zurich, CH.           |
 
 
 ## Agenda
