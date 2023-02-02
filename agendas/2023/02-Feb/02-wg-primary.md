@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib.    | @michaelstaib  | ChilliCream        | Zurich, CH.           |
 | Derek Kuc         | @dariuszkuc    | Apollo             | Chicago, IL, US       |
 | Uri Goldshtein    | @urigo         | The Guild          | Tel Aviv, IL          |
+| Mike Cohen        | @mcohen75      | Indeed             | Austin, TX, US        |
 
 
 ## Agenda
