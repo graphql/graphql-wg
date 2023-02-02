@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard    | 1stDibs           | Jersey City, NJ, US   |
 | Yaacov Rydzinski | @yaacovCR      | Individual        | Neve Daniel, IL       |
 | Kewei Qu         | @Keweiqu       | Meta              | San Francisco, CA, US |
+| Stefano Cislaghi | @LunaticMuch   | American Express  | Brighton, UK          |
 
 ## Agenda
 
