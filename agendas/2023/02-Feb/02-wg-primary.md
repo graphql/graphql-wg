@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Stefano Cislaghi  | @LunaticMuch   | American Express   | Brighton, UK          |
 | Hugh Willson      | @hwillson      | Apollo             | Manotick, ON, CA      |
 | Marc-Andre Giroux | @xuorig        | Netflix            | Montreal, QC, CA      |
+| Michael Staib.    | @michaelstaib  | ChilliCream        | Zurich, CH.           |
 
 
 ## Agenda
