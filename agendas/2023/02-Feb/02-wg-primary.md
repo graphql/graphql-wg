@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Marc-Andre Giroux | @xuorig        | Netflix            | Montreal, QC, CA      |
 | Benoit Lubek      | @BoD           | Apollo             | Lyon, FR              |
 | Michael Staib.    | @michaelstaib  | ChilliCream        | Zurich, CH.           |
+| Derek Kuc         | @dariuszkuc    | Apollo             | Chicago, IL, US       |
 | Uri Goldshtein    | @urigo         | The Guild          | Tel Aviv, IL          |
 
 
