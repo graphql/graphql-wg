@@ -96,18 +96,20 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Denis Badurina   | @enisdenjo    | The Guild          | Vienna, AT            |
-| Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
-| Matt Mahoney     | @mjmahone      | Meta              | New York, NY, US      |
-| Rob Richard      | @robrichard    | 1stDibs           | Jersey City, NJ, US   |
-| Yaacov Rydzinski | @yaacovCR      | Individual        | Neve Daniel, IL       |
-| Kewei Qu         | @Keweiqu       | Meta              | San Francisco, CA, US |
-| Stefano Cislaghi | @LunaticMuch   | American Express  | Brighton, UK          |
-| Hugh Willson     | @hwillson      | Apollo            | Manotick, ON, CA      |
+| Name              | GitHub         | Organization       | Location              |
+| :---------------- | :------------- | :----------------- | :-------------------- |
+| Lee Byron (Host)  | @leebyron      | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam     | @benjie        | Graphile           | Chandler's Ford, UK   |
+| Denis Badurina    | @enisdenjo     | The Guild          | Vienna, AT            |
+| Ivan Goncharov    | @IvanGoncharov | Apollo             | Lviv, UA              |
+| Matt Mahoney      | @mjmahone      | Meta               | New York, NY, US      |
+| Rob Richard       | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
+| Yaacov Rydzinski  | @yaacovCR      | Individual         | Neve Daniel, IL       |
+| Kewei Qu          | @Keweiqu       | Meta               | San Francisco, CA, US |
+| Stefano Cislaghi  | @LunaticMuch   | American Express   | Brighton, UK          |
+| Hugh Willson      | @hwillson      | Apollo             | Manotick, ON, CA      |
+| Marc-Andre Giroux | @xuorig        | Netflix            | Montreal, QC, CA      |
+
 
 ## Agenda
 
