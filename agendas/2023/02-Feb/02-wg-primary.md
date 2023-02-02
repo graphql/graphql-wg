@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR      | Individual        | Neve Daniel, IL       |
 | Kewei Qu         | @Keweiqu       | Meta              | San Francisco, CA, US |
 | Stefano Cislaghi | @LunaticMuch   | American Express  | Brighton, UK          |
+| Hugh Willson     | @hwillson      | Apollo            | Manotick, ON, CA      |
 
 ## Agenda
 
