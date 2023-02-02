@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek      | @BoD           | Apollo             | Lyon, FR              |
 | Michael Staib.    | @michaelstaib  | ChilliCream        | Zurich, CH.           |
 | Derek Kuc         | @dariuszkuc    | Apollo             | Chicago, IL, US       |
+| Uri Goldshtein    | @urigo         | The Guild          | Tel Aviv, IL          |
 
 
 ## Agenda
