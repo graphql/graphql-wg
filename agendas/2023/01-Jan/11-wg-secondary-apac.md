@@ -89,7 +89,7 @@ who could not make the primary meeting time.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1dYY8QjAjdkAhQwuocJESSnSg83urtdAgf5HT-3R-DW4/edit?usp=sharing)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -98,9 +98,14 @@ who could not make the primary meeting time.
 
 ## Attendees
 
-| Name             | GitHub    | Organization       | Location              |
-| :--------------- | :-------- | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Name             | GitHub      | Organization       | Location              |
+| :--------------- | :--------   | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron   | GraphQL Foundation | San Francisco, CA, US |
+| Donna Zhou       | @dondonz    | graphql-java / Atlassian | Sydney, AU      |
+| Matt Mahoney     | @mjmahone   | Meta               | New York, NY, US      |
+| Roman Ivantsov   | @rivantsov  | Individual         | Seattle, WA, US       |
+| Anthony Miller   | @AnthonyMDev| Apollo GraphQL         | Las Vegas, NV, US       |
+| Andi Marek   | @andimarek| GraphQL Java         | Brisbane, AU      |
 
 ## Agenda
 
@@ -118,3 +123,9 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. [Licensing & final legal sign-off for GraphQL Scalars project](https://github.com/graphql/graphql-wg/issues/1206) (5m, Donna)
+1. [Fragment Arguments](https://github.com/graphql/graphql-spec/pull/865): Identify Open Concerns to Address (known concerns below) (10m, Matt)
+   - Do we allow shadowing global variables?
+   - PR with Variable Definitions instead of Fragment Argument Definitions.
+   - Do we need PR Reviews to know if there are other concerns?
+   - Maybe: additional graphql-js PR to use local scope, aka graphql-spec algorithm, rather than visit replacement?
