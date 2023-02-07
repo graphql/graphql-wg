@@ -103,6 +103,7 @@ who could not make the primary meeting time.
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Donna Zhou       | @dondonz  | graphql-java/Atlassian | Sydney, AU        |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 
 ## Agenda
 
@@ -123,3 +124,8 @@ who could not make the primary meeting time.
 1. Fix ambiguity around when schema definition may be omitted (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/987) - currently stage 1, looking to advance
    - [GraphQL.js implementation](https://github.com/graphql/graphql-js/pull/3839)
+1. Fragment Arguments (10m, Matt)
+   - [graphql-js PR](https://github.com/graphql/graphql-js/pull/3835) is waiting for review
+     - Do we need a flag? It's difficult to evaluate usage without graphql-js syntax support: can we can merge as-is without a flag?
+   - [Relay has PR](https://github.com/facebook/relay/pull/4214/commits/104d1eec479b4be9b378542a246c2d5159efa2cc) enables the new syntax over directives
+     - Blocker for Relay adoption within Meta is graphql-js, and therefore prettier, syntax support.
