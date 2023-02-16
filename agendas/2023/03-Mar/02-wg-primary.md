@@ -68,7 +68,7 @@ PLEASE TAKE NOTE:
 -->
 
 | This is an open meeting: To attend, read [JoiningAMeeting.md](https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md) then edit and PR this file. (Edit ✎ 🡕) |
-| ---------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 # GraphQL WG – March 2023 (Primary)
 
@@ -96,9 +96,9 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Name             | GitHub           | Organization       | Location              |
+| :--------------- | :--------------- | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron        | GraphQL Foundation | San Francisco, CA, US |
 | Jonathan Brennan | @jonathanawesome | Grafbase           | Austin, TX, US        |
 
 ## Agenda
