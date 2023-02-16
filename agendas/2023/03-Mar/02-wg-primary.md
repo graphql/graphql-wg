@@ -99,6 +99,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Jonathan Brennan | @jonathanawesome | Grafbase           | Austin, TX, US        |
 
 ## Agenda
 
@@ -120,3 +121,4 @@ hold additional secondary meetings later in the month.
 1. RFC "Root" operation types and schema definitions (15m, Lee)
    - [RFC spec text](https://github.com/graphql/graphql-spec/pull/1015)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3846)
+1. Discuss GraphiQL v3 big features and request-for-help (10m, Jonathan)
