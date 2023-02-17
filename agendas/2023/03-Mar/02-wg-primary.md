@@ -123,4 +123,4 @@ hold additional secondary meetings later in the month.
    - [RFC spec text](https://github.com/graphql/graphql-spec/pull/1015)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3846)
 1. Discuss GraphiQL v3 big features and request-for-help (10m, Jonathan)
-1. `@graphiql/*` npm write access issues blocking releases since January
+1. `@graphiql/*` npm write access issues blocking releases since January (10m, Rikki)
