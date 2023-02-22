@@ -101,6 +101,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron        | GraphQL Foundation | San Francisco, CA, US |
 | Jonathan Brennan | @jonathanawesome | Grafbase           | Austin, TX, US        |
 | Rikki Schulte    | @acao            | Recarb             | Berlin, DE            |
+| Yaacov Rydzinski | @yaacovCR        | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
@@ -124,3 +125,8 @@ hold additional secondary meetings later in the month.
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3846)
 1. Discuss GraphiQL v3 big features and request-for-help (10m, Jonathan)
 1. `@graphiql/*` npm write access issues blocking releases since January (10m, Rikki)
+1. Default Value Validation Status Check (5m, Yaacov)
+   - [Lee's original implementation PR stack at graphql-js](https://github.com/graphql/graphql-js/pull/3049)
+   - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
+   - [Benjie's Spec PR](https://github.com/graphql/graphql-spec/pull/793)
+   - [Text for Changelog with emphasis on BREAKING CHANGES](https://github.com/graphql/graphql-js/pull/3814#issuecomment-1438334765)
