@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Jonathan Brennan | @jonathanawesome | Grafbase           | Austin, TX, US        |
 | Rikki Schulte    | @acao            | Recarb             | Berlin, DE            |
 | Yaacov Rydzinski | @yaacovCR        | Individual         | Neve Daniel, IL       |
+| Rob Richard      | @robrichard      | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
@@ -130,3 +131,5 @@ hold additional secondary meetings later in the month.
    - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
    - [Benjie's Spec PR](https://github.com/graphql/graphql-spec/pull/793)
    - [Text for Changelog with emphasis on BREAKING CHANGES](https://github.com/graphql/graphql-js/pull/3814#issuecomment-1438334765)
+1. Defer & Stream (20m, Rob)
+   - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
