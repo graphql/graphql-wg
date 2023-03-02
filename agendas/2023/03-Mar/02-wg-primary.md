@@ -103,6 +103,7 @@ hold additional secondary meetings later in the month.
 | Rikki Schulte    | @acao            | Recarb             | Berlin, DE            |
 | Yaacov Rydzinski | @yaacovCR        | Individual         | Neve Daniel, IL       |
 | Rob Richard      | @robrichard      | 1stDibs            | Jersey City, NJ, US   |
+| Benoit Lubek     | @BoD             | Apollo             | Lyon, FR              |
 
 ## Agenda
 
