@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard      | 1stDibs            | Jersey City, NJ, US   |
 | Hugh Willson     | @hwillson        | Apollo             | Manotick, ON, CA      |
 | Benoit Lubek     | @BoD             | Apollo             | Lyon, FR              |
+| Michael Staib    | @michaelstaib    | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
@@ -135,3 +136,5 @@ hold additional secondary meetings later in the month.
    - [Text for Changelog with emphasis on BREAKING CHANGES](https://github.com/graphql/graphql-js/pull/3814#issuecomment-1438334765)
 1. Defer & Stream (20m, Rob)
    - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
+1. GraphQL over HTTP Status Codes (10m, Michael)
+   - [application/graphql-response+json](https://github.com/graphql/graphql-over-http/blob/main/spec/GraphQLOverHTTP.md#applicationgraphql-responsejson)
