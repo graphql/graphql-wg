@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR        | Individual         | Neve Daniel, IL       |
 | Rob Richard      | @robrichard      | 1stDibs            | Jersey City, NJ, US   |
 | Hugh Willson     | @hwillson        | Apollo             | Manotick, ON, CA      |
+| Benoit Lubek     | @BoD             | Apollo             | Lyon, FR              |
 
 ## Agenda
 
