@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Uri Goldshtein    | @urigo            | The Guild          | Tel Aviv, IL          |
 | Mike Cohen        | @mcohen75         | Indeed             | Austin, TX, US        |
 | Thomas Heyenbrock | @thomasheyenbrock | Stellate           | Munich, DE.           |
+| Ivan Goncharov    | @IvanGoncharov    | Apollo             | Lviv, UA              |
 
 
 ## Agenda
