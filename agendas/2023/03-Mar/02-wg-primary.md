@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib    | ChilliCream        | Zurich, CH            |
 | Derek Kuc        | @dariuszkuc      | Apollo             | Chicago, IL, US       |
 | Benjie Gillam    | @benjie          | Graphile           | Chandler's Ford, UK   |
+| Matt Mahoney     | @mjmahone        | Meta               | New York, NY, US
 
 ## Agenda
 
