@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Hugh Willson     | @hwillson        | Apollo             | Manotick, ON, CA      |
 | Benoit Lubek     | @BoD             | Apollo             | Lyon, FR              |
 | Michael Staib    | @michaelstaib    | ChilliCream        | Zurich, CH            |
+| Derek Kuc        | @dariuszkuc      | Apollo             | Chicago, IL, US       |
 
 ## Agenda
 
