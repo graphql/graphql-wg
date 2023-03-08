@@ -102,6 +102,7 @@ who could not make the primary meeting time.
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Denis Badurina   | @enisdenjo| The Guild          | Le Corbier, FR        |
 
 ## Agenda
 
