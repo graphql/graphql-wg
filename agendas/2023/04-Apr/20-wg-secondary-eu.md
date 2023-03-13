@@ -70,7 +70,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md](https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md) then edit and PR this file. (Edit ✎ 🡕) |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG – April 2022 (Secondary, EU)
+# GraphQL WG – April 2023 (Secondary, EU)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -82,7 +82,7 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.
 
-- **Date & Time**: [April 20th 2022 10:30am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20230420T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [April 20th 2023 10:30am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20230420T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
