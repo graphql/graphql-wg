@@ -104,6 +104,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Denis Badurina   | @enisdenjo| The Guild          | Le Corbier, FR        |
 | Rob Richard      | @robrichard | 1stDibs          | Jersey City, NJ, US   |
+| Ivan Goncharov   | @IvanGoncharov | Apollo        | Lviv, UA              |
 
 ## Agenda
 
