@@ -99,10 +99,11 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Benjie (Host)    | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @chillicream  | ChilliCream        | Zurich, CH.           |
-| Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+
 
 ## Agenda
 
