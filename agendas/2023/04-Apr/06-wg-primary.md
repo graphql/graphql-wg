@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @chillicream  | ChilliCream        | Zurich, CH.           |
+| Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
 
 ## Agenda
 
