@@ -100,6 +100,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Benjie (Host)    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @chillicream  | ChilliCream        | Zurich, CH.           |
 
 ## Agenda
