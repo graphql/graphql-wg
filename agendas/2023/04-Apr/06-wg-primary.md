@@ -121,5 +121,7 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Field merging approach to incremental delivery (45m, Benjie and Rob)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1018)
+   - [Solution Criteria](https://github.com/robrichard/defer-stream-wg/blob/main/Solution-Criteria.md)
+   - [CollectSubfields Spec PR](https://github.com/graphql/graphql-spec/pull/999)
+   - [Alternative Proposal Spec PR](https://github.com/graphql/graphql-spec/pull/1018)
    - [More example queries](https://github.com/robrichard/defer-stream-wg/discussions/65#discussioncomment-5217957)
