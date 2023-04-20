@@ -103,6 +103,7 @@ who could not make the primary meeting time.
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream Inc | Zurich, CH |
 | Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Rob Richard.     | @robrichard | 1stDibs          | Jersey City, NJ, IS   |
 
 ## Agenda
 
