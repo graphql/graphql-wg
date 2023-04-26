@@ -119,6 +119,6 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Incremental Delivery Update (45m, Rob)
-   - Over the past few months the incremental delivery working group has been working on the issues of data duplication, response amplification, and data consistency. The result of this is an updated `@defer`, which contains some significant differences from the previous iterations. We would now like to get wider feedback on this proposal.
+   - Over the past few months the incremental delivery working group has been working on the issues of data duplication, response amplification, and data consistency. The result of this is an updated `@defer` proposal, which contains some significant differences from the previous iterations. We would now like to get wider feedback on this proposal.
    - [Explanation and examples of this updated proposal](https://gist.github.com/robrichard/309687cc1046428169277ac6473c18fa)
 
