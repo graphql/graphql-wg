@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Korinne Alpers   | @korinne      | Apollo             | Morro Bay, CA, US     |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 
 ## Agenda
 
