@@ -103,6 +103,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Korinne Alpers   | @korinne      | Apollo             | Morro Bay, CA, US     |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Kewei Qu.        | @keweiqu      | Meta.              | San Francisco, CA, US |
 
 ## Agenda
 
