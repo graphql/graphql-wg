@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Korinne Alpers   | @korinne      | Apollo             | Morro Bay, CA, US     |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Kewei Qu.        | @keweiqu      | Meta.              | San Francisco, CA, US |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
