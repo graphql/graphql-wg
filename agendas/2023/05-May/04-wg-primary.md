@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Korinne Alpers   | @korinne      | Apollo             | Morro Bay, CA, US     |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 
