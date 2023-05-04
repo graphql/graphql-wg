@@ -99,12 +99,14 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Korinne Alpers   | @korinne      | Apollo             | Morro Bay, CA, US     |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Kewei Qu.        | @keweiqu      | Meta.              | San Francisco, CA, US |
+| Korinne Alpers   | @korinne      | Apollo             | Morro Bay, CA, US     |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+
 
 ## Agenda
 
