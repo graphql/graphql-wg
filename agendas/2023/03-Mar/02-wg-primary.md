@@ -68,7 +68,7 @@ PLEASE TAKE NOTE:
 -->
 
 | This is an open meeting: To attend, read [JoiningAMeeting.md](https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md) then edit and PR this file. (Edit ✎ 🡕) |
-| ---------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 # GraphQL WG – March 2023 (Primary)
 
@@ -87,7 +87,7 @@ hold additional secondary meetings later in the month.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1d_cjXW3P_gTGk0zatcXj7LU-jPYnmYWXikvumDx-apU/edit#)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -96,9 +96,19 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Name             | GitHub           | Organization       | Location              |
+| :--------------- | :--------------- | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron        | GraphQL Foundation | San Francisco, CA, US |
+| Jonathan Brennan | @jonathanawesome | Grafbase           | Austin, TX, US        |
+| Rikki Schulte    | @acao            | Recarb             | Berlin, DE            |
+| Yaacov Rydzinski | @yaacovCR        | Individual         | Neve Daniel, IL       |
+| Rob Richard      | @robrichard      | 1stDibs            | Jersey City, NJ, US   |
+| Hugh Willson     | @hwillson        | Apollo             | Manotick, ON, CA      |
+| Benoit Lubek     | @BoD             | Apollo             | Lyon, FR              |
+| Michael Staib    | @michaelstaib    | ChilliCream        | Zurich, CH            |
+| Derek Kuc        | @dariuszkuc      | Apollo             | Chicago, IL, US       |
+| Benjie Gillam    | @benjie          | Graphile           | Chandler's Ford, UK   |
+| Matt Mahoney     | @mjmahone        | Meta               | New York, NY, US
 
 ## Agenda
 
@@ -117,3 +127,17 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. RFC "Root" operation types and schema definitions (15m, Lee)
+   - [RFC spec text](https://github.com/graphql/graphql-spec/pull/1015)
+   - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3846)
+1. Discuss GraphiQL v3 big features and request-for-help (10m, Jonathan)
+1. `@graphiql/*` npm write access issues blocking releases since January (10m, Rikki)
+1. Default Value Validation Status Check (5m, Yaacov)
+   - [Lee's original implementation PR stack at graphql-js](https://github.com/graphql/graphql-js/pull/3049)
+   - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
+   - [Benjie's Spec PR](https://github.com/graphql/graphql-spec/pull/793)
+   - [Text for Changelog with emphasis on BREAKING CHANGES](https://github.com/graphql/graphql-js/pull/3814#issuecomment-1438334765)
+1. Defer & Stream (20m, Rob)
+   - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
+1. GraphQL over HTTP Status Codes (10m, Michael)
+   - [application/graphql-response+json](https://github.com/graphql/graphql-over-http/blob/main/spec/GraphQLOverHTTP.md#applicationgraphql-responsejson)

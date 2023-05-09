@@ -82,7 +82,7 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.
 
-- **Date & Time**: [February 8th 2022 3:30pm - 5:00pm PT](https://www.timeanddate.com/worldclock/converter.html?iso=20230208T233000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [February 8th 2023 3:30pm - 5:00pm PT](https://www.timeanddate.com/worldclock/converter.html?iso=20230208T233000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -101,6 +101,9 @@ who could not make the primary meeting time.
 | Name             | GitHub    | Organization       | Location              |
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Donna Zhou       | @dondonz  | graphql-java/Atlassian | Sydney, AU        |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
 
 ## Agenda
 
@@ -118,3 +121,11 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Fix ambiguity around when schema definition may be omitted (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/987) - currently stage 1, looking to advance
+   - [GraphQL.js implementation](https://github.com/graphql/graphql-js/pull/3839)
+1. Fragment Arguments (10m, Matt)
+   - [graphql-js PR](https://github.com/graphql/graphql-js/pull/3835) is waiting for review
+     - Do we need a flag? It's difficult to evaluate usage without graphql-js syntax support: can we can merge as-is without a flag?
+   - [Relay has PR](https://github.com/facebook/relay/pull/4214/commits/104d1eec479b4be9b378542a246c2d5159efa2cc) enables the new syntax over directives
+     - Blocker for Relay adoption within Meta is graphql-js, and therefore prettier, syntax support.

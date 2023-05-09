@@ -70,7 +70,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md](https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md) then edit and PR this file. (Edit ✎ 🡕) |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG – January 2022 (Secondary, EU)
+# GraphQL WG – January 2023 (Secondary, EU)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -82,14 +82,14 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.
 
-- **Date & Time**: [January 19th 2022 10:30am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20230119T183000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [January 19th 2023 10:30am - 12:00noon PT](https://www.timeanddate.com/worldclock/converter.html?iso=20230119T183000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc]()
+- **Live Notes**: [Google Doc](https://docs.google.com/document/d/1dYY8QjAjdkAhQwuocJESSnSg83urtdAgf5HT-3R-DW4/edit)
 
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
@@ -98,10 +98,20 @@ who could not make the primary meeting time.
 
 ## Attendees
 
+<!-- prettier-ignore -->
+
 | Name             | GitHub    | Organization       | Location              |
 | :--------------- | :-------- | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron | GraphQL Foundation | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream    | Zurich, CH            |
+| Rob Richard      | @robrichard   | 1stDibs        | Jersey City, NJ, US   |
+| Roman Ivantsov   | @rivantsov| Individual         | Seattle, WA, US       |
+| Benjie Gillam    | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @bod      | Apollo             | Lyon, FR              |
+| Hugh Willson     | @hwillson | Apollo             | Manotick, ON, CA      |
+| Yaacov Rydzinski | @yaacovCR | Individual         | Neve Daniel, IL       |
+| Matt Mahoney     | @mjmahone | Meta               | New York, NY, US      |
+| Ivan Goncharov   | @IvanGoncharov | Apollo        | Lviv, UA              |
 
 ## Agenda
 
@@ -119,3 +129,7 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Defer/Stream updates (20m, Rob)
+   - [Remove labels and merge deferred fragments under the same object](https://github.com/robrichard/defer-stream-wg/discussions/64)
+   - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
+1. Discussion of [Backward Compatibility](https://github.com/graphql/graphql-wg/discussions/1232) (20m, Roman)
