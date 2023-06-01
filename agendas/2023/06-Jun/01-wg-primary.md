@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Adarsh Divakaran | @adarshdigievo| Strollby           | Kerala, India, IN     |
 | Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH.           |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
