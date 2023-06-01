@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH.           |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
