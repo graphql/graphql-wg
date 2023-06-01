@@ -100,6 +100,10 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Abhinand C       | @abhinand-c   | Strollby           | Kerala, India (IN)    |
+| Bemoit Lubek     | @BoD          | Apollo             | Lyon, France          |
+| Adarsh Divakaran | @adarshdigievo| Strollby           | Kerala, India, IN     |
+| Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
 
 ## Agenda
 
@@ -122,3 +126,8 @@ hold additional secondary meetings later in the month.
    - [Lee's original implementation PR stack at graphql-js](https://github.com/graphql/graphql-js/pull/3049)
    - [Last rebased to main on 2023.05.31](https://github.com/graphql/graphql-js/pull/3814)
    - [Benjie's Spec PR](https://github.com/graphql/graphql-spec/pull/793)
+1. Clarification on Nested List Input Coercion (5m, Abhinand)
+   - [Issue on mismatch of Nested List Input Coercion in spec and implementation](https://github.com/graphql/graphql-js/issues/3858)
+1. CollectSubFields (30m, Yaacov)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/999)
+   - [Use Case: Incremental Delivery with Deduplication](https://github.com/graphql/graphql-spec/pull/1026)
