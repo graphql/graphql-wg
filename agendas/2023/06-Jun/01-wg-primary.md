@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Bemoit Lubek     | @BoD          | Apollo             | Lyon, France          |
 | Adarsh Divakaran | @adarshdigievo| Strollby           | Kerala, India, IN     |
 | Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH.           |
 
 ## Agenda
 
