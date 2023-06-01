@@ -109,7 +109,6 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
-
 ## Agenda
 
 1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Lee)
