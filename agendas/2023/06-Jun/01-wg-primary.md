@@ -135,3 +135,6 @@ hold additional secondary meetings later in the month.
 1. CollectSubFields (30m, Yaacov)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/999)
    - [Use Case: Incremental Delivery with Deduplication](https://github.com/graphql/graphql-spec/pull/1026)
+1. @deprecated on OBJECT - next steps (15m, Stephen)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/997)
+   - [GraphQL-JS PR](https://github.com/graphql/graphql-js/pull/3818)
