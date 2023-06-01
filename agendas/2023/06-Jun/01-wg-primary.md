@@ -99,14 +99,14 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Abhinand C       | @abhinand-c   | Strollby           | Kerala, India (IN)    |
-| Bemoit Lubek     | @BoD          | Apollo             | Lyon, France          |
 | Adarsh Divakaran | @adarshdigievo| Strollby           | Kerala, India, IN     |
+| Bemoit Lubek     | @BoD          | Apollo             | Lyon, France          |
 | Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH.           |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
-| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
