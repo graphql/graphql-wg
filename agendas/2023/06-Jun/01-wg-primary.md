@@ -99,6 +99,8 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Bemoit Lubek     | @BoD          | Apollo             | Lyon, France          |
+
 
 ## Agenda
 
