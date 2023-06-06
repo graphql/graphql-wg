@@ -109,7 +109,7 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Ivan Goncharov   | @IvanGoncharov | Apollo            | Lviv, UA              |
-| Kewei Qu.        | @keweiqu      | Meta               | San Francisco, CA, US |
+| Kewei Qu         | @keweiqu      | Meta               | San Francisco, CA, US |
 
 
 ## Agenda
