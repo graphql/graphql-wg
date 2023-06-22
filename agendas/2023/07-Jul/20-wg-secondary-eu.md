@@ -77,9 +77,11 @@ The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
 meeting in which anyone in the GraphQL community may attend.
 
-This is our primary monthly meeting, which typically meets on the first Thursday
-of the month. In the case we have additional agenda items or follow ups, we also
-hold additional secondary meetings later in the month.
+This is a secondary meeting, timed to be acceptable for those in European
+timezones, which typically meets on the third Thursday of the month. The
+primary meeting is preferred for new agenda, where this meeting is for overflow
+agenda items, follow ups from the primary meeting, or agenda introduced by those
+who could not make the primary meeting time.
 
 - **Date & Time**: [July 20, 2023 at 10:30 AM - 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20230720T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
