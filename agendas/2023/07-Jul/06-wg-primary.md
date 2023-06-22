@@ -77,7 +77,7 @@ The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
 meeting in which anyone in the GraphQL community may attend.
 
-This is our primary monthly meeting, which typically meets on the first Thursday
+This is the primary monthly meeting, which typically meets on the first Thursday
 of the month. In the case we have additional agenda items or follow ups, we also
 hold additional secondary meetings later in the month.
 

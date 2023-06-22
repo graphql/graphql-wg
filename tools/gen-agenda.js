@@ -51,6 +51,22 @@ function fillMeetingTemplate(meeting) {
   const prior1Meeting = getPriorMeeting(meeting);
   const prior2Meeting = getPriorMeeting(prior1Meeting);
 
+  const meetingDescription = [
+    `This is the primary monthly meeting, which typically meets on the first Thursday
+of the month. In the case we have additional agenda items or follow ups, we also
+hold additional secondary meetings later in the month.`,
+    `This is a secondary meeting, timed to be acceptable for those in Asia Pacific
+timezones, which typically meets on the second Wednesday of the month. The
+primary meeting is preferred for new agenda, where this meeting is for overflow
+agenda items, follow ups from the primary meeting, or agenda introduced by those
+who could not make the primary meeting time.`,
+    `This is a secondary meeting, timed to be acceptable for those in European
+timezones, which typically meets on the third Thursday of the month. The
+primary meeting is preferred for new agenda, where this meeting is for overflow
+agenda items, follow ups from the primary meeting, or agenda introduced by those
+who could not make the primary meeting time.`,
+  ][meeting.num];
+
   return `<!--
 
 # How to join (copied directly from /JoiningAMeeting.md)
@@ -68,9 +84,7 @@ The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
 meeting in which anyone in the GraphQL community may attend.
 
-This is our primary monthly meeting, which typically meets on the first Thursday
-of the month. In the case we have additional agenda items or follow ups, we also
-hold additional secondary meetings later in the month.
+${meetingDescription}
 
 - **Date & Time**: [${t(meeting.dateTimeDuration)}](${t(meeting.timeLink)})
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
