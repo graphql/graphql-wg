@@ -59,7 +59,7 @@ ${howToJoin}
 
 -->
 
-| This is an open meeting: To attend, read [JoiningAMeeting.md](https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md) then edit and PR this file. (Edit ✎ 🡕) |
+| This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
 # GraphQL WG – ${t(meeting.monthName)} ${t(meeting.year)} (${t(meeting.name)})
@@ -81,6 +81,7 @@ hold additional secondary meetings later in the month.
   - _Password:_ graphqlwg
 - **Live Notes**: [Google Doc Notes][]
 
+[joiningameeting.md]: https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
 [google calendar]: https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
@@ -97,24 +98,24 @@ hold additional secondary meetings later in the month.
 ## Agenda
 
 1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Lee)
-  - [Specification Membership Agreement](https://github.com/graphql/foundation)
-  - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
-  - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
-  - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
+   - [Specification Membership Agreement](https://github.com/graphql/foundation)
+   - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
+   - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
+   - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
 1. Introduction of attendees (5m, Lee)
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
 1. Review prior secondary meetings (5m, Lee)
-  - [${t(prior2Meeting.monthName)} WG ${t(prior2Meeting.name)}](${t(
+   - [${t(prior2Meeting.monthName)} WG ${t(prior2Meeting.name)}](${t(
     prior2Meeting.url
   )})
-  - [${t(prior1Meeting.monthName)} WG ${t(prior1Meeting.name)}](${t(
+   - [${t(prior1Meeting.monthName)} WG ${t(prior1Meeting.name)}](${t(
     prior1Meeting.url
   )})
 1. Review previous meeting's action items (5m, Lee)
-  - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
-  - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-  - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+   - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
+   - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
+   - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 `;
 }
 
