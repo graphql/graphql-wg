@@ -13,6 +13,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { inspect } = require("util");
 
 // Get arguments
 const [year, month] = process.argv
@@ -67,7 +68,7 @@ agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.`,
   ][meeting.num];
 
-  return `<!--
+  return t`<!--
 
 # How to join (copied directly from /JoiningAMeeting.md)
 
@@ -78,7 +79,7 @@ ${howToJoin}
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG – ${t(meeting.monthName)} ${t(meeting.year)} (${t(meeting.name)})
+# GraphQL WG – ${meeting.monthName} ${meeting.year} (${meeting.name})
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -86,7 +87,7 @@ meeting in which anyone in the GraphQL community may attend.
 
 ${meetingDescription}
 
-- **Date & Time**: [${t(meeting.dateTimeDuration)}](${t(meeting.timeLink)})
+- **Date & Time**: [${meeting.dateTimeDuration}](${meeting.timeLink})
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -120,12 +121,8 @@ ${meetingDescription}
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
 1. Review prior secondary meetings (5m, Lee)
-   - [${t(prior2Meeting.monthName)} WG ${t(prior2Meeting.name)}](${t(
-    prior2Meeting.url
-  )})
-   - [${t(prior1Meeting.monthName)} WG ${t(prior1Meeting.name)}](${t(
-    prior1Meeting.url
-  )})
+   - [${prior2Meeting.monthName} WG ${prior2Meeting.name}](${prior2Meeting.url})
+   - [${prior1Meeting.monthName} WG ${prior1Meeting.name}](${prior1Meeting.url})
 1. Review previous meeting's action items (5m, Lee)
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
@@ -133,11 +130,23 @@ ${meetingDescription}
 `;
 }
 
-function t(v) {
-  if (!v) {
-    throw new Error(`Missing value`);
+function t(strings, ...placeholders) {
+  let string = "";
+  for (let i = 0, l = strings.length; i < l; i++) {
+    string += strings[i];
+    if (i < l - 1) {
+      const v = placeholders[i];
+      if (!v) {
+        throw new Error(
+          `Placeholder ${i} in template string is falsy (val = ${inspect(v, {
+            colors: true,
+          })})`
+        );
+      }
+      string += String(v);
+    }
   }
-  return v;
+  return string;
 }
 
 function getMeeting(year, month, num) {
