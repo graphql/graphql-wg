@@ -37,28 +37,29 @@ if (month < 1 || month > 12) {
   process.exit(1);
 }
 
+// Repository root assuming this script is in a subdirectory.
+const repoRoot = path.resolve(__dirname, "../");
+
+// Get JoiningAMeeting contents
+const howToJoin = fs
+  .readFileSync(path.join(repoRoot, "JoiningAMeeting.md"), "utf8")
+  .split("\n## How to join\n\n")[1];
+
 // For all three meetings in a month, fill and write the template
 for (num = 0; num < 3; num++) {
   const meeting = getMeeting(year, month, num);
   const contents = fillMeetingTemplate(meeting);
 
-  // Create missing directories recursively
-  fs.mkdirSync(path.dirname(meeting.filePath), { recursive: true });
-
-  // Write file
-  fs.writeFileSync(meeting.filePath, contents);
-
-  console.log(`Wrote file: ${meeting.repoPath}`);
+  // Create missing directories recursively and write file.
+  const absPath = path.join(repoRoot, meeting.filePath);
+  fs.mkdirSync(path.dirname(absPath), { recursive: true });
+  fs.writeFileSync(absPath, contents);
+  console.log(`Wrote file: ${meeting.filePath}`);
 }
 
 // --------------------------------------------------------------------------
 
 function fillMeetingTemplate(meeting) {
-  // Get JoiningAMeeting contents
-  const howToJoin = fs
-    .readFileSync(path.resolve(__dirname, "../JoiningAMeeting.md"), "utf8")
-    .split("\n## How to join\n\n")[1];
-
   const prior1Meeting = getPriorMeeting(meeting);
   const prior2Meeting = getPriorMeeting(prior1Meeting);
 
@@ -206,10 +207,8 @@ function getMeeting(year, month, num) {
   });
 
   const fileName = ["wg-primary", "wg-secondary-apac", "wg-secondary-eu"][num];
-  const repoPath = `agendas/${year}/${month2D}-${monthShort}/${day2D}-${fileName}.md`;
-
-  const filePath = path.resolve(__dirname, "../", repoPath);
-  const url = `https://github.com/graphql/graphql-wg/blob/main/${repoPath}`;
+  const filePath = `agendas/${year}/${month2D}-${monthShort}/${day2D}-${fileName}.md`;
+  const url = `https://github.com/graphql/graphql-wg/blob/main/${filePath}`;
 
   return {
     num,
@@ -220,7 +219,6 @@ function getMeeting(year, month, num) {
     monthName,
     dateTimeRange,
     timeLink,
-    repoPath,
     filePath,
     url,
   };
