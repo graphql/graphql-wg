@@ -81,7 +81,7 @@ This is the primary monthly meeting, which typically meets on the first Thursday
 of the month. In the case we have additional agenda items or follow ups, we also
 hold additional secondary meetings later in the month.
 
-- **Date & Time**: [July 6, 2023 at 10:30 AM - 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20230706T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [July 6, 2023, 10:30 AM – 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20230706T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,

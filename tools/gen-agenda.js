@@ -25,6 +25,17 @@ if (!year || !month) {
 `);
   process.exit(1);
 }
+const today = new Date();
+if (year < today.getFullYear() - 3 || year > today.getFullYear() + 9) {
+  console.error(
+    `Invalid year '${year}', please select a recent or close future year`
+  );
+  process.exit(1);
+}
+if (month < 1 || month > 12) {
+  console.error(`Invalid month '${month}', must be between 1 and 12`);
+  process.exit(1);
+}
 
 // For all three meetings in a month, fill and write the template
 for (num = 0; num < 3; num++) {
@@ -67,7 +78,7 @@ agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.`,
   ][meeting.num];
 
-  return `<!--
+  return t`<!--
 
 # How to join (copied directly from /JoiningAMeeting.md)
 
@@ -78,7 +89,7 @@ ${howToJoin}
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG – ${t(meeting.monthName)} ${t(meeting.year)} (${t(meeting.name)})
+# GraphQL WG – ${meeting.monthName} ${meeting.year} (${meeting.name})
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -86,7 +97,7 @@ meeting in which anyone in the GraphQL community may attend.
 
 ${meetingDescription}
 
-- **Date & Time**: [${t(meeting.dateTimeDuration)}](${t(meeting.timeLink)})
+- **Date & Time**: [${meeting.dateTimeRange}](${meeting.timeLink})
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -120,12 +131,8 @@ ${meetingDescription}
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
 1. Review prior secondary meetings (5m, Lee)
-   - [${t(prior2Meeting.monthName)} WG ${t(prior2Meeting.name)}](${t(
-    prior2Meeting.url
-  )})
-   - [${t(prior1Meeting.monthName)} WG ${t(prior1Meeting.name)}](${t(
-    prior1Meeting.url
-  )})
+   - [${prior2Meeting.monthName} WG ${prior2Meeting.name}](${prior2Meeting.url})
+   - [${prior1Meeting.monthName} WG ${prior1Meeting.name}](${prior1Meeting.url})
 1. Review previous meeting's action items (5m, Lee)
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
@@ -133,11 +140,12 @@ ${meetingDescription}
 `;
 }
 
-function t(v) {
-  if (!v) {
-    throw new Error(`Missing value`);
-  }
-  return v;
+function t(strings, ...values) {
+  return strings.reduce((out, string, i) => {
+    const value = values[i - 1];
+    if (!value) throw new Error(`Template value #${i}: ${value}`);
+    return out + value + string;
+  });
 }
 
 function getMeeting(year, month, num) {
@@ -151,7 +159,7 @@ function getMeeting(year, month, num) {
   //  - The first meeting is first Thursday.
   //  - Second is the following Wednesday after the first.
   //  - Third is two weeks following the first, also on a Thursday.
-  const monthStartWeekday = new Date(year, month - 1, 1).getDay();
+  const monthStartWeekday = new Date(year, month - 1, 1, 12).getDay();
   const firstThursday = new Date(
     year,
     month - 1,
@@ -162,37 +170,41 @@ function getMeeting(year, month, num) {
   // Get the actual Date instance representing the start time of this meeting
   const dateTime = getDateTime(year, month, day, time);
 
-  // Month names
-  const monthName = dateTime.toLocaleString("en-US", { month: "long" });
-
-  // Get the full date and time duration string
-  const end = new Date(dateTime);
-  end.setMinutes(dateTime.getMinutes() + length);
-  const dateTimeDuration =
-    dateTime.toLocaleDateString("en-US", {
-      timeZone: "America/Los_Angeles",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      hour12: true,
-      hour: "numeric",
-      minute: "numeric",
-    }) +
-    " - " +
-    end.toLocaleTimeString("en-US", {
-      timeZone: "America/Los_Angeles",
-      hour12: true,
-      hour: "numeric",
-      minute: "numeric",
-      timeZoneName: "short",
-    });
+  // Get the full date and time range string
+  const endTime = new Date(dateTime);
+  endTime.setMinutes(dateTime.getMinutes() + length);
+  const dateTimeRange = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour12: true,
+    hour: "numeric",
+    minute: "numeric",
+    timeZoneName: "short",
+  }).formatRange(dateTime, endTime);
 
   const isoTime = dateTime.toISOString().replace(/[:-]/g, "").slice(0, 15);
   const timeLink = `https://www.timeanddate.com/worldclock/converter.html?iso=${isoTime}&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240`;
 
-  const monthShort = dateTime.toLocaleString("en-US", { month: "short" });
-  const month2D = dateTime.toLocaleString("en-US", { month: "2-digit" });
-  const day2D = dateTime.toLocaleString("en-US", { day: "2-digit" });
+  // Date parts for formatting below
+  const monthName = dateTime.toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    month: "long",
+  });
+  const monthShort = dateTime.toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    month: "short",
+  });
+  const month2D = dateTime.toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    month: "2-digit",
+  });
+  const day2D = dateTime.toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    day: "2-digit",
+  });
+
   const fileName = ["wg-primary", "wg-secondary-apac", "wg-secondary-eu"][num];
   const repoPath = `agendas/${year}/${month2D}-${monthShort}/${day2D}-${fileName}.md`;
 
@@ -206,7 +218,7 @@ function getMeeting(year, month, num) {
     day,
     name,
     monthName,
-    dateTimeDuration,
+    dateTimeRange,
     timeLink,
     repoPath,
     filePath,
@@ -230,13 +242,13 @@ function getPriorMeeting(meeting) {
 
 // Times are in Pacific Time
 function getDateTime(year, month, date, time) {
-  const iso = new Date(year, month - 1, date).toISOString();
+  const yyyy = String(year);
+  const mm = String(month).padStart(2, "0");
+  const dd = String(date).padStart(2, "0");
   // Timezones are hard. This iterates through a few offsets until we find the
   // one which has a time which matches the expected time.
   for (let offset = 7; offset <= 8; offset++) {
-    const d = new Date(
-      iso.slice(0, 11) + time + iso.slice(16, -1) + "-0" + offset + ":00"
-    );
+    const d = new Date(`${yyyy}-${mm}-${dd}T${time}:00-0${offset}:00`);
     if (
       time ===
       d.toLocaleTimeString("en-US", {
