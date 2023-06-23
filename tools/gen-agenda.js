@@ -171,7 +171,7 @@ function getMeeting(year, month, num) {
   //  - The first meeting is first Thursday.
   //  - Second is the following Wednesday after the first.
   //  - Third is two weeks following the first, also on a Thursday.
-  const monthStartWeekday = new Date(year, month - 1, 1).getDay();
+  const monthStartWeekday = new Date(year, month - 1, 1, 12).getDay();
   const firstThursday = new Date(
     year,
     month - 1,
@@ -210,9 +210,18 @@ function getMeeting(year, month, num) {
   const isoTime = dateTime.toISOString().replace(/[:-]/g, "").slice(0, 15);
   const timeLink = `https://www.timeanddate.com/worldclock/converter.html?iso=${isoTime}&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240`;
 
-  const monthShort = dateTime.toLocaleString("en-US", { month: "short" });
-  const month2D = dateTime.toLocaleString("en-US", { month: "2-digit" });
-  const day2D = dateTime.toLocaleString("en-US", { day: "2-digit" });
+  const monthShort = dateTime.toLocaleString("en-US", {
+    month: "short",
+    timeZone: "America/Los_Angeles",
+  });
+  const month2D = dateTime.toLocaleString("en-US", {
+    month: "2-digit",
+    timeZone: "America/Los_Angeles",
+  });
+  const day2D = dateTime.toLocaleString("en-US", {
+    day: "2-digit",
+    timeZone: "America/Los_Angeles",
+  });
   const fileName = ["wg-primary", "wg-secondary-apac", "wg-secondary-eu"][num];
   const repoPath = `agendas/${year}/${month2D}-${monthShort}/${day2D}-${fileName}.md`;
 
@@ -250,13 +259,13 @@ function getPriorMeeting(meeting) {
 
 // Times are in Pacific Time
 function getDateTime(year, month, date, time) {
-  const iso = new Date(year, month - 1, date).toISOString();
+  const yyyy = String(year);
+  const mm = String(month).padStart(2, "0");
+  const dd = String(date).padStart(2, "0");
   // Timezones are hard. This iterates through a few offsets until we find the
   // one which has a time which matches the expected time.
   for (let offset = 7; offset <= 8; offset++) {
-    const d = new Date(
-      iso.slice(0, 11) + time + iso.slice(16, -1) + "-0" + offset + ":00"
-    );
+    const d = new Date(`${yyyy}-${mm}-${dd}T${time}:00-0${offset}:00`);
     if (
       time ===
       d.toLocaleTimeString("en-US", {
