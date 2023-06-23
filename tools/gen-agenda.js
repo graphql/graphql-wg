@@ -26,6 +26,17 @@ if (!year || !month) {
 `);
   process.exit(1);
 }
+const today = new Date();
+if (year < today.getFullYear() - 3 || year > today.getFullYear() + 9) {
+  console.error(
+    `Invalid year '${year}', please select a recent or close future year`
+  );
+  process.exit(1);
+}
+if (month < 1 || month > 12) {
+  console.error(`Invalid month '${month}', must be between 1 and 12`);
+  process.exit(1);
+}
 
 // For all three meetings in a month, fill and write the template
 for (num = 0; num < 3; num++) {
