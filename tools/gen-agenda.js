@@ -13,7 +13,6 @@
 
 const fs = require("fs");
 const path = require("path");
-const { inspect } = require("util");
 
 // Get arguments
 const [year, month] = process.argv
@@ -98,7 +97,7 @@ meeting in which anyone in the GraphQL community may attend.
 
 ${meetingDescription}
 
-- **Date & Time**: [${meeting.dateTimeDuration}](${meeting.timeLink})
+- **Date & Time**: [${meeting.dateTimeRange}](${meeting.timeLink})
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -141,23 +140,12 @@ ${meetingDescription}
 `;
 }
 
-function t(strings, ...placeholders) {
-  let string = "";
-  for (let i = 0, l = strings.length; i < l; i++) {
-    string += strings[i];
-    if (i < l - 1) {
-      const v = placeholders[i];
-      if (!v) {
-        throw new Error(
-          `Placeholder ${i} in template string is falsy (val = ${inspect(v, {
-            colors: true,
-          })})`
-        );
-      }
-      string += String(v);
-    }
-  }
-  return string;
+function t(strings, ...values) {
+  return strings.reduce((out, string, i) => {
+    const value = values[i - 1];
+    if (!value) throw new Error(`Template value #${i}: ${value}`);
+    return out + value + string;
+  });
 }
 
 function getMeeting(year, month, num) {
@@ -182,46 +170,41 @@ function getMeeting(year, month, num) {
   // Get the actual Date instance representing the start time of this meeting
   const dateTime = getDateTime(year, month, day, time);
 
-  // Month names
-  const monthName = dateTime.toLocaleString("en-US", { month: "long" });
-
-  // Get the full date and time duration string
-  const end = new Date(dateTime);
-  end.setMinutes(dateTime.getMinutes() + length);
-  const dateTimeDuration =
-    dateTime.toLocaleDateString("en-US", {
-      timeZone: "America/Los_Angeles",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      hour12: true,
-      hour: "numeric",
-      minute: "numeric",
-    }) +
-    " - " +
-    end.toLocaleTimeString("en-US", {
-      timeZone: "America/Los_Angeles",
-      hour12: true,
-      hour: "numeric",
-      minute: "numeric",
-      timeZoneName: "short",
-    });
+  // Get the full date and time range string
+  const endTime = new Date(dateTime);
+  endTime.setMinutes(dateTime.getMinutes() + length);
+  const dateTimeRange = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour12: true,
+    hour: "numeric",
+    minute: "numeric",
+    timeZoneName: "short",
+  }).formatRange(dateTime, endTime);
 
   const isoTime = dateTime.toISOString().replace(/[:-]/g, "").slice(0, 15);
   const timeLink = `https://www.timeanddate.com/worldclock/converter.html?iso=${isoTime}&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240`;
 
-  const monthShort = dateTime.toLocaleString("en-US", {
-    month: "short",
+  // Date parts for formatting below
+  const monthName = dateTime.toLocaleString("en-US", {
     timeZone: "America/Los_Angeles",
+    month: "long",
+  });
+  const monthShort = dateTime.toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    month: "short",
   });
   const month2D = dateTime.toLocaleString("en-US", {
-    month: "2-digit",
     timeZone: "America/Los_Angeles",
+    month: "2-digit",
   });
   const day2D = dateTime.toLocaleString("en-US", {
-    day: "2-digit",
     timeZone: "America/Los_Angeles",
+    day: "2-digit",
   });
+
   const fileName = ["wg-primary", "wg-secondary-apac", "wg-secondary-eu"][num];
   const repoPath = `agendas/${year}/${month2D}-${monthShort}/${day2D}-${fileName}.md`;
 
@@ -235,7 +218,7 @@ function getMeeting(year, month, num) {
     day,
     name,
     monthName,
-    dateTimeDuration,
+    dateTimeRange,
     timeLink,
     repoPath,
     filePath,
