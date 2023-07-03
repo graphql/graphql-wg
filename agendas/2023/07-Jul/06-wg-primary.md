@@ -103,6 +103,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Yaacov Rydzinski | @robrichard   | Individual         | Neve Daniel, IL       |
 
 
 ## Agenda
