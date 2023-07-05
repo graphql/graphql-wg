@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Yaacov Rydzinski | @robrichard   | Individual         | Neve Daniel, IL       |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Anthony Miller   | @AnthonyMDev  | Apollo GraphQL     | Las Vegas, NV, US     |
 
 
 ## Agenda
