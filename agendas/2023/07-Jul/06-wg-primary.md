@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @robrichard   | Individual         | Neve Daniel, IL       |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Anthony Miller   | @AnthonyMDev  | Apollo GraphQL     | Las Vegas, NV, US     |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
