@@ -102,11 +102,11 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Anthony Miller   | @AnthonyMDev  | Apollo GraphQL     | Las Vegas, NV, US     |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Yaacov Rydzinski | @robrichard   | Individual         | Neve Daniel, IL       |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Anthony Miller   | @AnthonyMDev  | Apollo GraphQL     | Las Vegas, NV, US     |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
