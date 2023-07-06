@@ -109,7 +109,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Yaacov Rydzinski | @robrichard   | Individual         | Neve Daniel, IL       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park,    CA, US |
-
+| Ivan Goncharov   | @IvanGoncharov | Apollo GraphQL    | Lviv, UA              |
 
 ## Agenda
 
