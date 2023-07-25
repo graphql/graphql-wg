@@ -102,6 +102,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Alex Reilly | @twof     | Pronto.ai | San Francisco, CA, US |
 
 
 ## Agenda
