@@ -17,8 +17,6 @@ nullability of fields for individual operations.
 
 - **Required field** - A field which is marked with `!`.
 
-- **Optional field** - A field which is marked with `?`.
-
 ## 📜 Problem Statement
 
 In our experience, client developers have been frustrated that the vast majority of fields are
@@ -45,24 +43,16 @@ logic.
 
 ## 🧑‍💻 Proposed Solution
 
-Client-controlled Non-Nullable and Nullable designators.
+A client-controlled Non-Nullable designator.
 
 ## 🎬 Behavior
 
-Each client controlled nullability designator overrides the schema-defined nullability of the field
+Each client-controlled nullability designator overrides the schema-defined nullability of the field
 it's attached to for the duration of the operation.
 
 ### `!`
-The proposed client-controlled required designator would have similar, but not identical semantics to the current 
-schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields). 
-Specifically if a required field resolves to `null`, then `null` propagation extends to the nearest optional
-parent rather than the nearest nullable parent. In the event that no optional parent exists, the `data` field
-of the response will be `null`.
-
-### `?`
-The proposed client-controlled optional designator would have identical semantics to the current 
-schema-defined default behavior. Fields that resolve to `null` return `null` for that field. Additionally,
-fields marked with `?` act as a stopping point for `null` propagation caused by required fields.
+The proposed client-controlled required designator would have identical semantics to the current 
+schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields).
 
 ## ✅ Validation
 
@@ -98,11 +88,6 @@ query GetBusinessName($id: String!) {
 
 We have chosen `!` because `!` is already being used in the GraphQL spec to indicate that a field in
 the schema is Non-Nullable, so it will feel familiar to GraphQL developers.
-
-### `?`
-
-We have chosen `?` because `?` is used in a few other languages (Swift, Kotlin) that have `!` to 
-mean something like the opposite of `!`.
 
 ## Use cases
 
@@ -147,7 +132,6 @@ utilize.
 ## ✅ RFC Goals
 
 - Non-nullable syntax that is based off of syntax that developers will already be familiar with
-- Nullable syntax that is based off of syntax that developers will already be familiar with
 - Enable GraphQL client code generation tools to generate more ergonomic types
 
 ## 🚫 RFC Non-goals
