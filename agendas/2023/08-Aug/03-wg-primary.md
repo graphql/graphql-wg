@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly | @twof     | Pronto.ai | San Francisco, CA, US |
 | Calvin Cestari | @calvincestari | Apollo | Vancouver, BC, CA |
 | Benjie Gillam | @benjie | Graphile | Chandler's Ford, UK |
+| Martin Bonnin | @martinbonnin | Apollo | Paris, FR |
 
 
 ## Agenda
