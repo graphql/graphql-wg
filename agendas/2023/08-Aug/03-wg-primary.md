@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam | @benjie | Graphile | Chandler's Ford, UK |
 | Benoit Lubek | @BoD | Apollo | Lyon, FR |
 | Martin Bonnin | @martinbonnin | Apollo | Paris, FR |
+| Rob Richard   | @robrichard   | 1stDibs | Jersey City, NJ, US |
 
 
 ## Agenda
