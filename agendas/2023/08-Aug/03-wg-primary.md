@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard   | @robrichard   | 1stDibs | Jersey City, NJ, US |
 | Matt Mahoney | @mjmahone | Meta | New York, NY, US
 | Ivan Goncharov | @IvanGoncharov | Apollo | Lviv, UA
+| Anthony Miller | @AnthonyMDev | Apollo | Las Vegas, NV, US |
 
 
 ## Agenda
