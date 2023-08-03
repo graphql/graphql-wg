@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney | @mjmahone | Meta | New York, NY, US
 | Ivan Goncharov | @IvanGoncharov | Apollo | Lviv, UA
 | Anthony Miller | @AnthonyMDev | Apollo | Las Vegas, NV, US |
+| Michael Staib | @michaelstaib | ChilliCream Inc | Zurich, CH |
 
 
 ## Agenda
