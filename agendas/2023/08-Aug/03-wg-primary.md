@@ -128,4 +128,4 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Update on Client Controlled Nullability proposal (15m, Calvin)
 1. SDL Omissions (10m, if any time left, Martin)
-   - [Spec edits](https://github.com/graphql/graphql-spec/pull/1036#pullrequestreview-1560519719)
+   - [Spec edits](https://github.com/graphql/graphql-spec/pull/1036)
