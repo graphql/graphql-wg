@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Calvin Cestari | @calvincestari | Apollo | Vancouver, BC, CA |
 | Benjie Gillam | @benjie | Graphile | Chandler's Ford, UK |
 | Benoit Lubek | @BoD | Apollo | Lyon, FR |
+| Martin Bonnin | @martinbonnin | Apollo | Paris, FR |
 
 
 ## Agenda
