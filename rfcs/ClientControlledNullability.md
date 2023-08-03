@@ -17,8 +17,6 @@ nullability of fields for individual operations.
 
 - **Required field** - A field which is marked with `!`.
 
-- **Optional field** - A field which is marked with `?`.
-
 ## 📜 Problem Statement
 
 In our experience, client developers have been frustrated that the vast majority of fields are
@@ -45,24 +43,16 @@ logic.
 
 ## 🧑‍💻 Proposed Solution
 
-Client-controlled Non-Nullable and Nullable designators.
+A client-controlled Non-Nullable designator.
 
 ## 🎬 Behavior
 
-Each client controlled nullability designator overrides the schema-defined nullability of the field
+Each client-controlled nullability designator overrides the schema-defined nullability of the field
 it's attached to for the duration of the operation.
 
 ### `!`
-The proposed client-controlled required designator would have similar, but not identical semantics to the current 
-schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields). 
-Specifically if a required field resolves to `null`, then `null` propagation extends to the nearest optional
-parent rather than the nearest nullable parent. In the event that no optional parent exists, the `data` field
-of the response will be `null`.
-
-### `?`
-The proposed client-controlled optional designator would have identical semantics to the current 
-schema-defined default behavior. Fields that resolve to `null` return `null` for that field. Additionally,
-fields marked with `?` act as a stopping point for `null` propagation caused by required fields.
+The proposed client-controlled required designator would have identical semantics to the current 
+schema-defined [Non-Null](https://spec.graphql.org/draft/#sec-Executing-Selection-Sets.Errors-and-Non-Null-Fields).
 
 ## ✅ Validation
 
@@ -98,11 +88,6 @@ query GetBusinessName($id: String!) {
 
 We have chosen `!` because `!` is already being used in the GraphQL spec to indicate that a field in
 the schema is Non-Nullable, so it will feel familiar to GraphQL developers.
-
-### `?`
-
-We have chosen `?` because `?` is used in a few other languages (Swift, Kotlin) that have `!` to 
-mean something like the opposite of `!`.
 
 ## Use cases
 
@@ -147,7 +132,6 @@ utilize.
 ## ✅ RFC Goals
 
 - Non-nullable syntax that is based off of syntax that developers will already be familiar with
-- Nullable syntax that is based off of syntax that developers will already be familiar with
 - Enable GraphQL client code generation tools to generate more ergonomic types
 
 ## 🚫 RFC Non-goals
@@ -280,6 +264,23 @@ precedent.
 
 ## Decision Log
 
+### `!` as the only designator in the RFC (July 2023)
+
+At the July 26th meeting of the CCN sub-WG it was decided to simplify the RFC for the sake of progress. This 
+reverses the "`?` as a counterpart to the `!`" designator.
+
+The increased scope of the RFC with the nullability designator `?` has stalled the RFC for more than two 
+years ([the initial RFC from April 2021](https://github.com/twof/graphql-spec/pull/1/files)).
+
+One of the contentious discussions we encountered was around the proposed behaviors of the nullability designator 
+`?`. Regardless of the chosen path, it had unintuitive semantics (see graphql/client-controlled-nullability-wg#2), 
+which require other RFCs, such as [fragment boundaries](https://github.com/graphql/graphql-wg/blob/main/rfcs/FragmentModularity.md), or new ideas like inline errors.
+
+Even though we recognize the value of having a counterpart to `!`, we made a tradeoff decision to provide value 
+to the community sooner than later.
+
+### Prior to July 2023
+
 This proposal started out with a very simple premise and implementation, and has gotten more complex as 
 the community has explored edge cases and facets about how GraphQL is actually used in practice. For 
 example this proposal starts out by talking about accommodating the "best practices" that are recommended 
@@ -293,7 +294,7 @@ log was written with newcomers in mind to avoid rediscussing issues that have al
 and to make it easier to understand why certain decisions have been made. At the time of writing, 
 the decisions here aren't set in stone, so any future discussions can use this log as a starting point.
 
-### `?` as a counterpart to `!`
+#### `?` as a counterpart to `!`
 
 Lee was the first person [to suggest](https://github.com/graphql/graphql-spec/issues/867#issuecomment-840807186) 
 that the inverse of `!` should exist and that it should be represented by `?`. The 
@@ -317,7 +318,8 @@ Subsequently there was discussion around whether `?` could be introduced in a la
 agreement that the usability of `!` is limited without `?`, and the selected `null` propagation behavior described 
 below solidifies the decision to introduce both additions in a single proposal.
 
-### List syntax
+#### List syntax
+
 Developers from Apollo [suggested](https://github.com/graphql/graphql-spec/pull/895#issuecomment-961442966) early
 on that users would want to apply CCN syntax to list elements. The possibility had been suggested earlier than 
 that as well, but it was put off because neither Netflix nor Relay's CCN counterparts had the feature, and it 
@@ -361,7 +363,8 @@ twoDimensionalList[[]]!
 There are however some open concerns that the first of the two examples could be ambiguous as to whether 
 the `!` applies to the field as a whole or to the list elements.
 
-### `!` propagates `null` to nearest `?` rather than nearest nullable field
+#### `!` propagates `null` to nearest `?` rather than nearest nullable field
+
 The selected mechanics were most requested by the folks at Meta working on [Relay](https://relay.dev/). 
 Relay wanted this behavior for a few reasons
 - Relay presents a facade of fragment isolation for its own 
