@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin | @martinbonnin | Apollo | Paris, FR |
 | Rob Richard   | @robrichard   | 1stDibs | Jersey City, NJ, US |
 | Matt Mahoney | @mjmahone | Meta | New York, NY, US
+| Anthony Miller | @AnthonyMDev | Apollo | Las Vegas, NV, US |
 
 
 ## Agenda
