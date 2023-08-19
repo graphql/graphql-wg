@@ -35,9 +35,13 @@ A GraphQL client can choose to test the support by requesting a document with th
 
 TBD
 
-### Option A: TBD
+### Option A: Extending a schema for schema introspection
 
-### Option B: TBD
+We can add a new field `__features` under the `__Schema` type. `__features` can return a list of features in some shape.
+
+### Option B: Add a new root-level meta field next to `__schema` and `__type`
+
+`__feature` will take an argument for a feature name such as `non-nullable-designator`` and returns _some info_ or `null`.
 
 ### Option C: TBD
 
