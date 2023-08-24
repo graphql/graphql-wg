@@ -86,7 +86,7 @@ back into a tree on the client. A better solution would be to stick to the
 tenets of GraphQL and return the data in the shape that the client needs, fully
 type-safe.
 
-### Symmetric transput composite type
+### Symmetric transput composite type
 
 Currently when a user wants to be able to input and output the exact same data
 in a future-proof way, they must use a scalar or enum. This is one of the things
