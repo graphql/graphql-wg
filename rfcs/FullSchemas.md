@@ -57,7 +57,7 @@ This proposal is more opinionated but also less flexible than proposal 1. It's e
 Introspection is the tool that was designed for clients to consume schemas, so it could be argued that client should use that. However:
 
 1. Some servers have introspection disabled making it hard for clients to get an introspection schema
-2. In general, SDL is a much more readable anc concise representation than the introspection JSON, making it more suited for workflows where the file is read by humans (IDEs, codegen, etc...)
+2. In general, SDL is a much more readable and concise representation than the introspection JSON, making it more suited for workflows where the file is read by humans (IDEs, codegen, etc...)
 3. SDL schemas can represent applied directives, which introspection can't (see [#300](https://github.com/graphql/graphql-spec/issues/300)). Tools could use that information to provide a better developer experience, add functionality, etc... 
 
 ### Q: Wouldn't that make inconsistent SDL documents containing unused definitions?
