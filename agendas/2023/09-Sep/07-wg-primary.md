@@ -106,7 +106,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Andreas Hubel    | @saerdnaer    | Independent        | Munich, DE            |
-
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 
 ## Agenda
 
@@ -127,3 +127,5 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Changing `ExecuteSelectionSet` to `ExecuteGroupedFieldSet` (20m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1039)
+1. Full Schemas (20m, Martin)
+   - [RFC](https://github.com/graphql/graphql-wg/pull/1375)
