@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Andreas Hubel    | @saerdnaer    | Independent        | Munich, DE            |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 
 ## Agenda
 
