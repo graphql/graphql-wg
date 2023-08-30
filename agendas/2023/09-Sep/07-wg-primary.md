@@ -108,6 +108,8 @@ hold additional secondary meetings later in the month.
 | Andreas Hubel    | @saerdnaer    | Independent        | Munich, DE            |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
+| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
+
 
 ## Agenda
 
