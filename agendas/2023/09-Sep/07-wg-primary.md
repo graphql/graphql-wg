@@ -112,6 +112,8 @@ hold additional secondary meetings later in the month.
 | Tianyu Yao       | @tyao1        | Meta               | Foser City, CA        |
 | Jordan Eldredge  | @captbaritone | Meta               | Alameda, CA           |
 | Monica Tang      | @monicatang   | Meta               | San Francisco, CA     |
+| Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
+| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 
 ## Agenda
 
@@ -130,9 +132,11 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. Changing `ExecuteSelectionSet` to `ExecuteGroupedFieldSet` (20m, Benjie)
-   - [RFC](https://github.com/graphql/graphql-spec/pull/1039)
+1. Explicit `BlockString` definition (5m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1042) - editorial?
 1. Full Schemas (20m, Martin)
    - [RFC](https://github.com/graphql/graphql-wg/pull/1375)
 1. Relay Error Handling (20m, Itamar)
    - [Intro Post](https://github.com/facebook/relay/issues/4416)
+1. Changing `ExecuteSelectionSet` to `ExecuteGroupedFieldSet` (20m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1039)
