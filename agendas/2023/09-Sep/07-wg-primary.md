@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Monica Tang      | @monicatang   | Meta               | San Francisco, CA     |
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
