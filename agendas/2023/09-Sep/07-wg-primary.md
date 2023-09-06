@@ -107,9 +107,13 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Andreas Hubel    | @saerdnaer    | Independent        | Munich, DE            |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Itamar Kestenbaum| @itamark      | Meta               | Plainsboro, NJ        |
+| Ryan Holdren     | @RyanHoldren  | Meta               | Vancouver, CA         |
+| Tianyu Yao       | @tyao1        | Meta               | Foser City, CA        |
+| Jordan Eldredge  | @captbaritone | Meta               | Alameda, CA           |
+| Monica Tang      | @monicatang   | Meta               | San Francisco, CA     |
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
-
 
 ## Agenda
 
@@ -132,5 +136,7 @@ hold additional secondary meetings later in the month.
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1042) - editorial?
 1. Full Schemas (20m, Martin)
    - [RFC](https://github.com/graphql/graphql-wg/pull/1375)
+1. Relay Error Handling (20m, Itamar)
+   - [Intro Post](https://github.com/facebook/relay/issues/4416)
 1. Changing `ExecuteSelectionSet` to `ExecuteGroupedFieldSet` (20m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1039)
