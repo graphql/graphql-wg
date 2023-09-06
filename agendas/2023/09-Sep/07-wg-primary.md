@@ -107,11 +107,11 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Andreas Hubel    | @saerdnaer    | Independent        | Munich, DE            |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
-| Itamar Kestenbaum| @itamark      | Meta               | Plainsboro, NJ        |
-| Ryan Holdren     | @RyanHoldren  | Meta               | Vancouver, BC         |
-| Tianyu Yao       | @tyao1        | Meta               | Foser City, CA        |
-| Jordan Eldredge  | @captbaritone | Meta               | Alameda, CA           |
-| Monica Tang      | @monicatang   | Meta               | San Francisco, CA     |
+| Itamar Kestenbaum| @itamark      | Meta               | Plainsboro, NJ, US    |
+| Ryan Holdren     | @RyanHoldren  | Meta               | Vancouver, BC, CA     |
+| Tianyu Yao       | @tyao1        | Meta               | Foser City, CA, US    |
+| Jordan Eldredge  | @captbaritone | Meta               | Alameda, CA, US       |
+| Monica Tang      | @monicatang   | Meta               | San Francisco, CA, US |
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
