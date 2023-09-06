@@ -108,7 +108,7 @@ hold additional secondary meetings later in the month.
 | Andreas Hubel    | @saerdnaer    | Independent        | Munich, DE            |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Itamar Kestenbaum| @itamark      | Meta               | Plainsboro, NJ        |
-| Ryan Holdren     | @RyanHoldren  | Meta               | Vancouver, CA         |
+| Ryan Holdren     | @RyanHoldren  | Meta               | Vancouver, BC         |
 | Tianyu Yao       | @tyao1        | Meta               | Foser City, CA        |
 | Jordan Eldredge  | @captbaritone | Meta               | Alameda, CA           |
 | Monica Tang      | @monicatang   | Meta               | San Francisco, CA     |
