@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
