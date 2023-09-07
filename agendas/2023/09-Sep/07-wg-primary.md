@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Young Min Kim    | @aprilrd      | The Trade Desk     | San Francisco, CA, US |
+| Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 
 ## Agenda
 
