@@ -114,10 +114,12 @@ hold additional secondary meetings later in the month.
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Calvin Cestari  | @calvincestari | Apollo             | Vancouver, BC, CA     |
 | Young Min Kim    | @aprilrd      | The Trade Desk     | San Francisco, CA, US |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Robert Balicki   | @statisticsftw| Pinterest          | New York, NY, US      |
+| Anthony Miller   | @AnthonyMDev  | Apollo             | Las Vegas, NV, US     |
 
 ## Agenda
 
