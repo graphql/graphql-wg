@@ -144,6 +144,7 @@ hold additional secondary meetings later in the month.
    - [RFC](https://github.com/graphql/graphql-wg/pull/1375)
 1. Relay Error Handling (20m, Itamar)
    - [Intro Post](https://github.com/facebook/relay/issues/4416)
+   - [Slides shared in this monthly](https://docs.google.com/presentation/d/1rfWeBcyJkiNqyxPxUIKxgbExmfdjA70t)
 1. Changing `ExecuteSelectionSet` to `ExecuteGroupedFieldSet` (20m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1039)
 1. Client Controlled Nullability updates (20m, Young)
