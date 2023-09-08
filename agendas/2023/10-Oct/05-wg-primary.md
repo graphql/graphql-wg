@@ -99,10 +99,10 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-
+| Name             | GitHub         | Organization       | Location              |
+| :--------------- | :------------- | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron      | GraphQL Foundation | San Francisco, CA, US |
+| Robert Balicki   | @statisticsftw | Pinterest          | New York, NY, US      |
 
 ## Agenda
 

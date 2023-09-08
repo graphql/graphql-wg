@@ -118,6 +118,7 @@ hold additional secondary meetings later in the month.
 | Young Min Kim    | @aprilrd      | The Trade Desk     | San Francisco, CA, US |
 | Dariusz Kuc      | @dariuszkuc   | Apollo             | Chicago, IL, US       |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Robert Balicki   | @statisticsftw| Pinterest          | New York, NY, US      |
 | Anthony Miller   | @AnthonyMDev  | Apollo             | Las Vegas, NV, US     |
 
 ## Agenda
