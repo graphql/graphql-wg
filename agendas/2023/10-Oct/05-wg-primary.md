@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron      | GraphQL Foundation | San Francisco, CA, US |
 | Robert Balicki   | @statisticsftw | Pinterest          | New York, NY, US      |
 | Jordan Eldredge  | @captbaritone  | Meta (Relay)       | San Francisco, CA, US |
+| Calvin Cestari   | @calvincestari | Apollo             | Vancouver, BC, CA     |
 
 ## Agenda
 
