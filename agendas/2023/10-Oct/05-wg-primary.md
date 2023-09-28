@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Robert Balicki   | @statisticsftw | Pinterest          | New York, NY, US      |
 | Jordan Eldredge  | @captbaritone  | Meta (Relay)       | San Francisco, CA, US |
 | Calvin Cestari   | @calvincestari | Apollo             | Vancouver, BC, CA     |
+| Ernie Turner     | @ernieturner   | Coinbase           | Bozeman, MT, US       |
 
 ## Agenda
 
