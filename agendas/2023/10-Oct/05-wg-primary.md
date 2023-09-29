@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Jordan Eldredge  | @captbaritone  | Meta (Relay)       | San Francisco, CA, US |
 | Calvin Cestari   | @calvincestari | Apollo             | Vancouver, BC, CA     |
 | Ernie Turner     | @ernieturner   | Coinbase           | Bozeman, MT, US       |
+| Benjie Gillam    | @benjie        | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -124,5 +125,5 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. Client Controlled Nullability and True Nullability Schema (20m, Jordan)
+1. Client Controlled Nullability and True Nullability Schema (30m, Jordan/Benjie)
    - [True Nullability Schema](https://github.com/graphql/graphql-wg/discussions/1394)
