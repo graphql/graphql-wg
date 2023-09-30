@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Calvin Cestari   | @calvincestari | Apollo             | Vancouver, BC, CA     |
 | Ernie Turner     | @ernieturner   | Coinbase           | Bozeman, MT, US       |
 | Benjie Gillam    | @benjie        | Graphile           | Chandler's Ford, UK   |
+| Alex Reilly      | @twof          | Independent        | San Francisco, CA, US |
 
 ## Agenda
 
