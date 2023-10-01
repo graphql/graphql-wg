@@ -116,6 +116,25 @@ Example:
 > Documents are only executable by a GraphQL service if they are
 > {ExecutableDocument} and contain at least one {OperationDefinition}.
 
+### Source schema document
+
+**Definition**: the textual representation (using GraphQL query language) of the
+type system definitions or extensions to be used by a GraphQL service, excluding
+the built-in definitions provided by the service.
+
+Note: The source schema document is generally manually written and passed as
+input to a GraphQL service implementation.
+
+### Full schema document
+
+**Definition**: the textual representation (using GraphQL query language) of the
+type system definitions supported by a GraphQL service, including the built-in
+definitions provided by the service.
+Full schema documents allow validation of any executable document.
+
+Note: The full schema document is generally machine written and produced as an
+output of a GraphQL service implementation.
+
 ### (GraphQL) variables
 
 **Definition**: placeholder for a value within an operation that may be
