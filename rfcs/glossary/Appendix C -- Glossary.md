@@ -165,3 +165,12 @@ Example:
 > Request errors are raised before execution begins. This may occur due to a
 > parse grammar or validation error in the requested document, an inability to
 > determine which operation to execute, or invalid input values for variables.
+
+### (GraphQL) service
+
+**Definition**: a software capable of executing a GraphQL request and returning
+a GraphQL response according to this specification. 
+
+Note: The specification has no concept of client and server. While most 
+services are implemented as servers, this is not a requirement and execution
+can happen anywhere as long as it conforms to the specification.
