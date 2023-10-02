@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Ernie Turner     | @ernieturner   | Coinbase           | Bozeman, MT, US       |
 | Benjie Gillam    | @benjie        | Graphile           | Chandler's Ford, UK   |
 | Alex Reilly      | @twof          | Independent        | San Francisco, CA, US |
+| Martin Bonnin    | @martinbonnin  | Apollo             | Paris, FR             |
 
 ## Agenda
 
@@ -128,3 +129,5 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Client Controlled Nullability and True Nullability Schema (30m, Jordan/Benjie)
    - [True Nullability Schema](https://github.com/graphql/graphql-wg/discussions/1394)
+1. Full Schemas (15min, Martin)
+   - [Terminology + Appendix C: built-in definitions](https://github.com/graphql/graphql-wg/discussions/1391)
