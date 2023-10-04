@@ -130,5 +130,6 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Client Controlled Nullability and True Nullability Schema (30m, Jordan/Benjie)
    - [True Nullability Schema](https://github.com/graphql/graphql-wg/discussions/1394)
+   - [Null-Only-On-Error type (asterisk) RFC](https://github.com/graphql/graphql-spec/pull/1048)
 1. Full Schemas (15min, Martin)
    - [Terminology + Appendix C: built-in definitions](https://github.com/graphql/graphql-wg/discussions/1391)
