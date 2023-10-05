@@ -110,7 +110,8 @@ hold additional secondary meetings later in the month.
 | Alex Reilly      | @twof          | Independent        | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin  | Apollo             | Paris, FR             |
 | Benoit Lubek     | @BoD           | Apollo             | Lyon, FR              |
-| Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA
+| Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA              |
+| Rob Richard      | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
