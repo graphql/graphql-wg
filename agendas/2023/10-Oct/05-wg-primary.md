@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD           | Apollo             | Lyon, FR              |
 | Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA              |
 | Rob Richard      | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
+| Kewei Qu         | @Keweiqu       | Meta               | Menlo Park, CA, US    |
 
 ## Agenda
 
