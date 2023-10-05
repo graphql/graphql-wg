@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD           | Apollo             | Lyon, FR              |
 | Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA              |
 | Rob Richard      | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
+| Anthony Miller   | @AnthonyMDev   | Apollo             | Las Vegas, NV, US     |
 | Kewei Qu         | @Keweiqu       | Meta               | Menlo Park, CA, US    |
 | Stephen Spalding | @fotoetienne   | Netflix            | Los Gatos, CA, US     |
 | Michael Staib    | @michaelstaib  | ChilliCream        | Zurich, CH            |
