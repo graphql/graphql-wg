@@ -139,3 +139,4 @@ hold additional secondary meetings later in the month.
    - [Null-Only-On-Error type (asterisk) RFC](https://github.com/graphql/graphql-spec/pull/1048)
 1. Full Schemas (15min, Martin)
    - [Terminology + Appendix C: built-in definitions](https://github.com/graphql/graphql-wg/discussions/1391)
+   - [spec edits](https://github.com/graphql/graphql-spec/pull/1049)
