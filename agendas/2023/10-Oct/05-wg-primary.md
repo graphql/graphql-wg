@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
 | Kewei Qu         | @Keweiqu       | Meta               | Menlo Park, CA, US    |
 | Stephen Spalding | @fotoetienne   | Netflix            | Los Gatos, CA, US     |
+| Michael Staib    | @michaelstaib  | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
