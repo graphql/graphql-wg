@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Ivan Goncharov   | @IvanGoncharov | Apollo             | Lviv, UA              |
 | Rob Richard      | @robrichard    | 1stDibs            | Jersey City, NJ, US   |
 | Kewei Qu         | @Keweiqu       | Meta               | Menlo Park, CA, US    |
+| Stephen Spalding | @fotoetienne   | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
