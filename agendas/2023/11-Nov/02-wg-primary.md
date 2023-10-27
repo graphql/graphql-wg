@@ -121,5 +121,6 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. GraphQL-over-HTTP is [advancing to stage 2](https://github.com/graphql/graphql-over-http/pull/275) (5m, Benjie)
 1. [Support non-list variables for list arguments](https://github.com/graphql/graphql-spec/issues/1033) (15m, Benjie)
    - Representing on behalf of @Shane32
