@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Shane Krueger    | @shane32      | Zbox Global        | Detroit, MI, US       |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
 
 ## Agenda
 
@@ -127,3 +128,6 @@ hold additional secondary meetings later in the month.
 1. GraphQL-over-HTTP is [advancing to stage 2](https://github.com/graphql/graphql-over-http/pull/275) (5m, Benjie)
 1. [Support non-list variables for list arguments](https://github.com/graphql/graphql-spec/issues/1033) (15m, Benjie)
    - Representing on behalf of @Shane32
+1. [Strict Semantic Nullability](https://github.com/graphql/graphql-wg/discussions/1410) (15m, Jordan)
+   - Align on next steps
+   - Meta's tentative plans to explore this space
