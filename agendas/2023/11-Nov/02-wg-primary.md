@@ -101,8 +101,8 @@ hold additional secondary meetings later in the month.
 
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Lee Byron (Host, Joining late) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam (Co-host)    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Shane Krueger    | @shane32      | Zbox Global        | Detroit, MI, US       |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
