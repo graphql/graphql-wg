@@ -109,6 +109,8 @@ hold additional secondary meetings later in the month.
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Anthony Miller   | @AnthonyMDev  | Apollo             | Las Vegas, NV, USA    |
+| Calvin Cestari   | @calvincestari| Apollo             | Vancouver, CA         |
 
 ## Agenda
 
