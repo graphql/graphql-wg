@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Shane Krueger    | @shane32      | Zbox Global        | Detroit, MI, US       |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
