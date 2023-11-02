@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
