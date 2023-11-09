@@ -127,3 +127,6 @@ who could not make the primary meeting time.
 1. Forbid deprecating object field if interface field isn't deprecated (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1053)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3986)
+1. Fix bug in CoerceArgumentValues() algorithm (15m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
+   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
