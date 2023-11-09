@@ -130,3 +130,6 @@ who could not make the primary meeting time.
 1. Fix bug in CoerceArgumentValues() algorithm (15m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
    - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
+1. Fix bug in coercion table for lists (5m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1057)
+   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
