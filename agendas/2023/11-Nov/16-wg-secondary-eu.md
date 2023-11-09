@@ -124,12 +124,12 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Fix bug in coercion table for lists (5m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1057)
+   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
 1. Forbid deprecating object field if interface field isn't deprecated (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1053)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3986)
 1. Fix bug in CoerceArgumentValues() algorithm (15m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
-   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
-1. Fix bug in coercion table for lists (5m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1057)
    - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
