@@ -127,9 +127,11 @@ who could not make the primary meeting time.
 1. Forbid deprecating object field if interface field isn't deprecated (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1053)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3986)
-1. Fix bug in CoerceArgumentValues() algorithm (15m, Benjie)
+1. Fix bug in CoerceArgumentValues() algorithm (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
    - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
+1. Define "selection set" and clarify serial selection set execution (10m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1032)
 1. Detail variables in list input coercion rules (30m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1058)
    - Previously discussed (but incorrectly interpreted) in December 2022: https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
