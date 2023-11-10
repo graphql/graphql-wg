@@ -133,3 +133,7 @@ who could not make the primary meeting time.
 1. Detail variables in list input coercion rules (30m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1058)
    - Previously discussed (but incorrectly interpreted) in December 2022: https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
+1. Introduce Strict and Legacy All Variable Usages Are Allowed validation rules (20m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1059)
+   - Aim: before I go about implementing this in GraphQL.js, are we agreed this is the right solution?
+   - Question: should we enable the new algorithm by default in the next major bump of GraphQL.js, and enable users to opt-in to the old version if they need to?
