@@ -99,10 +99,11 @@ hold additional secondary meetings later in the month.
 
 ## Attendees
 
+<!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -114,10 +115,54 @@ hold additional secondary meetings later in the month.
 1. Introduction of attendees (5m, Lee)
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
-1. Review prior secondary meetings (5m, Lee)
-   - [November WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/08-wg-secondary-apac.md)
-   - [November WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/16-wg-secondary-eu.md)
-1. Review previous meeting's action items (5m, Lee)
-   - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
+1. ~~Review prior secondary meetings (5m, Lee)~~
+   - ~~[November WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/08-wg-secondary-apac.md)~~
+   - ~~[November WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/16-wg-secondary-eu.md)~~
+1. Review previous meeting's action items (30m, Benjie)
+   - https://github.com/graphql/graphql-wg/issues/1345 - everyone review default
+     value validation
+     - Sufficient review time has elapsed
+   - https://github.com/graphql/graphql-wg/issues/695 - no `@skip`/`@include` on
+     subscriptions - raise GraphQL.js PR
+     - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3974) raised
+   - https://github.com/graphql/graphql-wg/issues/1331 - if interface field
+     deprecated, then object field should be deprecated
+     - [Spec PR](https://github.com/graphql/graphql-spec/pull/1053) and
+       [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3986) raised
+   - https://github.com/graphql/graphql-wg/issues/1336 - coercing variable
+     values in lists; clarify spec text
+     - Discussed December 2022, but the issue was misinterpretted; it relates to
+       variables inside _lists_, not in arguments directly
+     - Spec editorial PR:
+       [fix bug in list coercion example table](https://github.com/graphql/graphql-spec/pull/1057/files)
+     - Agenda item below: "Detail variables in list input coercion rules"
+   - https://github.com/graphql/graphql-wg/issues/1414 - example of executing
+     _selection set_ serially, readers expect an operation; clarify
+     - Spec PR:
+       [define "selection set" and clarify examples in section 6](https://github.com/graphql/graphql-spec/pull/1032)
+   - https://github.com/graphql/graphql-wg/issues/1337 - forbid nullable
+     variable with default in non-nullable position
+     - Agenda item below: "Introduce Strict and Legacy All Variable Usages Are
+       Allowed validation rules"
+   - https://github.com/graphql/graphql-wg/issues/1413 - close all aging action
+     items
+     - [Stale closed items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc+label%3Astale+)
+     - Note: not all items closed were "action items"
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-   - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+   - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?type=classic&query=is%3Aopen+sort%3Aupdated-desc)
+1. Fix bug in CoerceArgumentValues() algorithm (10m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
+   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
+1. Detail variables in list input coercion rules (15m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1058)
+   - GraphQL.js already implements the correct behavior?
+   - Previously discussed (but incorrectly interpreted) in December 2022:
+     https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
+1. Introduce Strict and Legacy All Variable Usages Are Allowed validation rules
+   (15m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1059)
+   - Aim: before I go about implementing this in GraphQL.js, are we agreed this
+     is the right solution?
+   - Question: should we enable the new algorithm by default in the next major
+     bump of GraphQL.js, and enable users to opt-in to the old version if they
+     need to?
