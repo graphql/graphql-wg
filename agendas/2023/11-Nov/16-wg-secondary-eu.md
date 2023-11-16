@@ -124,21 +124,5 @@ who could not make the primary meeting time.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. Fix bug in coercion table for lists (5m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1057)
-   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
-1. Forbid deprecating object field if interface field isn't deprecated (10m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1053)
-   - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3986)
-1. Fix bug in CoerceArgumentValues() algorithm (10m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
-   - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
-1. Define "selection set" and clarify serial selection set execution (10m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1032)
-1. Detail variables in list input coercion rules (30m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1058)
-   - Previously discussed (but incorrectly interpreted) in December 2022: https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
-1. Introduce Strict and Legacy All Variable Usages Are Allowed validation rules (20m, Benjie)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1059)
-   - Aim: before I go about implementing this in GraphQL.js, are we agreed this is the right solution?
-   - Question: should we enable the new algorithm by default in the next major bump of GraphQL.js, and enable users to opt-in to the old version if they need to?
+
+Meeting cancelled due to lack of attendance.
