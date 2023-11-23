@@ -118,6 +118,7 @@ hold additional secondary meetings later in the month.
 1. Introduction of attendees (5m, Lee)
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
+1. "Client controlled nullability WG" is now the "Nullability WG" (1m, Benjie)
 1. ~~Review prior secondary meetings (5m, Lee)~~
    - ~~[November WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/08-wg-secondary-apac.md)~~
    - ~~[November WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/16-wg-secondary-eu.md)~~
