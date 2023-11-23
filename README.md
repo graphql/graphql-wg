@@ -63,7 +63,7 @@ own meetings and report back progress and decisions to GraphQL WG meetings.
 | GraphiQL         | 2nd Tue, 9:00am - 11:00am PT  | [Tim Suchanek](https://github.com/timsuchanek)     | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)     |
 | GraphQL.js       | 4th Wed, 10:00am - 11:00am PT | [Ivan Goncharov](https://github.com/IvanGoncharov) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                 |
 | Incremental Delivery | Most Mondays, 7:00am - 8:00am PT | [Rob Richard](https://github.com/robrichard)    | [robrichard/defer-stream-wg](https://github.com/robrichard/defer-stream-wg)
-| Client Controlled Nullability | 4th Wed, 12:00pm - 1:00pm PT | [Stephen Spalding](https://github.com/fotoetienne) | [graphql/client-controlled-nullability-wg](https://github.com/graphql/client-controlled-nullability-wg) |
+| Nullability | 4th Wed, 12:00pm - 1:00pm PT | [Stephen Spalding](https://github.com/fotoetienne) | [graphql/nullability-wg](https://github.com/graphql/nullability-wg) |
 
 #### Subcommittees on hiatus
 
