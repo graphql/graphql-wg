@@ -105,6 +105,8 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 
 ## Agenda
 
@@ -151,6 +153,12 @@ hold additional secondary meetings later in the month.
      - Note: not all items closed were "action items"
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?type=classic&query=is%3Aopen+sort%3Aupdated-desc)
+1. Subcommittee to work on standardizing distributed schemas (15m, Jeff/Hugh)
+   - There has been a lot of new excitement across the community around standardizing on an approach for working with distributed schemas, ranging from Open Federation to Fusion
+   - We (Apollo) are excited about these developments, and are looking forward to working with others on this standardization approach
+   - We haven't seen the afore mentioned standardization efforts be brought to the Working Group yet, so we'd like to get the ball rolling and start discussions
+   - Should we start the [composite schema](https://github.com/graphql/composite-schemas-wg) subcommittee back up, to collaborate more closely? Or would folks like to explore an alternative approach?
+   - Regardless, let's get the discussions going - super exciting!
 1. Fix bug in CoerceArgumentValues() algorithm (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
    - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
