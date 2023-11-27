@@ -125,14 +125,16 @@ hold additional secondary meetings later in the month.
 1. Review previous meeting's action items (30m, Benjie)
    - https://github.com/graphql/graphql-wg/issues/1345 - everyone review default
      value validation
-     - Sufficient review time has elapsed
+     - Sufficient review time has elapsed; [RFC](https://github.com/graphql/graphql-spec/pull/793) is at stage 2 already - needs GraphQL.js merge for stage 3
    - https://github.com/graphql/graphql-wg/issues/695 - no `@skip`/`@include` on
      subscriptions - raise GraphQL.js PR
      - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3974) raised
+     - Can we bump [RFC](https://github.com/graphql/graphql-spec/pull/860) to RFC2?
    - https://github.com/graphql/graphql-wg/issues/1331 - if interface field
      deprecated, then object field should be deprecated
      - [Spec PR](https://github.com/graphql/graphql-spec/pull/1053) and
        [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3986) raised
+     - Advance to RFC1?
    - https://github.com/graphql/graphql-wg/issues/1336 - coercing variable
      values in lists; clarify spec text
      - Discussed December 2022, but the issue was misinterpretted; it relates to
@@ -163,16 +165,18 @@ hold additional secondary meetings later in the month.
 1. Fix bug in CoerceArgumentValues() algorithm (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
    - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
+   - Spec bug: RFC process, or editorial?
 1. Detail variables in list input coercion rules (15m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1058)
    - GraphQL.js already implements the correct behavior?
    - Previously discussed (but incorrectly interpreted) in December 2022:
      https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
+   - Not really changing behavior, just _defining_ the status quo... Editorial, or RFC process?
 1. Introduce Strict and Legacy All Variable Usages Are Allowed validation rules
    (15m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1059)
    - Aim: before I go about implementing this in GraphQL.js, are we agreed this
-     is the right solution?
+     is the right solution? RFC1?
    - Question: should we enable the new algorithm by default in the next major
      bump of GraphQL.js, and enable users to opt-in to the old version if they
      need to?
