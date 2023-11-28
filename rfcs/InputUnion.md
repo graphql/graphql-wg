@@ -658,7 +658,7 @@ inputunion AnimalInput @discriminator(field: "species") =
 * [P. Error states and messages should be clear and helpful][criteria-p]
   * ✅
 * [Q. No new polymorphic type construct should be introduced][criteria-q]
-  * 🚫️ ``ìnputunion```is a new type construct
+  * 🚫️ ``ìnputunion`` is a new type construct
 
 ## 💡 3. Order based discrimination
 
@@ -848,7 +848,7 @@ input DogInput {
 * [P. Error states and messages should be clear and helpful][criteria-p]
   * 🚫 Structural uniqueness checks are very complex and have many hard-to-describe failure states.
 * [Q. No new polymorphic type construct should be introduced][criteria-q]
-  * 🚫️ ``ìnputunion```is a new type construct
+  * 🚫️ ``ìnputunion`` is a new type construct
 
 ## 💡 5. One Of (Tagged Union)
 
@@ -1056,7 +1056,7 @@ https://github.com/graphql/graphql-spec/pull/733
 * [P. Error states and messages should be clear and helpful][criteria-p]
   * ✅
 * [Q. No new polymorphic type construct should be introduced][criteria-q]
-  * 🚫️ ``tagged```is a new type construct
+  * 🚫️ ``tagged`` is a new type construct
 
 ### Summary of spec changes
 

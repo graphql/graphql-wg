@@ -5,7 +5,7 @@
 - [Alex Reilly](https://github.com/twof) - Yelp iOS
 - [Liz Jakubowski](https://github.com/lizjakubowski) - Yelp iOS
 - [Mark Larah](https://github.com/magicmark) - Yelp Web
-- [Sanae Rosen](<social or github link here>) - Yelp Android
+- Sanae Rosen - Yelp Android
 - [Stephen Spalding](https://github.com/fotoetienne) - Netflix GraphQL Server Infrastructure
 - [Wei Xue](https://github.com/xuewei8910) - Yelp iOS
 - [Young Min Kim](https://github.com/aprilrd) - Netflix UI
