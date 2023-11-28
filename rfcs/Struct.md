@@ -532,6 +532,7 @@ primatives:
   }
   ...
 }
+```
 
 This clearly poses challanges for developers maintaining this query, who might
 reasonably prefer to write a query like this:
