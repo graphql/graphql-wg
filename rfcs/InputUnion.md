@@ -542,7 +542,7 @@ type Mutation {
 * [P. Error states and messages should be clear and helpful][criteria-p]
   * ✅
 * [Q. No new polymorphic type construct should be introduced][criteria-q]
-  * 🚫️ ``ìnputunion```is a new type construct
+  * 🚫️ ``ìnputunion`` is a new type construct
 
 ## 💡 2. Explicit configurable Discriminator field
 

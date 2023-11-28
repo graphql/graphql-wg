@@ -41,7 +41,7 @@ We can add a new field `__features` under the `__Schema` type. `__features` can 
 
 ### Option B: Add a new root-level meta field next to `__schema` and `__type`
 
-`__feature` will take an argument for a feature name such as `non-nullable-designator`` and returns _some info_ or `null`.
+`__feature` will take an argument for a feature name such as `non-nullable-designator` and returns _some info_ or `null`.
 
 ### Option C: TBD
 
