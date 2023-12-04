@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
+| Phil Prasek      | @prasek       | Apollo             | Seattle, WA, US       |
 
 ## Agenda
 
