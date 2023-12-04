@@ -119,10 +119,16 @@ hold additional secondary meetings later in the month.
 1. Introduction of attendees (5m, Lee)
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
-1. "Client controlled nullability WG" is now the "Nullability WG" (1m, Benjie)
+1. Updates from the group formerly known as the Client Controlled Nullability WG (5m, Alex)
 1. ~~Review prior secondary meetings (5m, Lee)~~
    - ~~[November WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/08-wg-secondary-apac.md)~~
    - ~~[November WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/16-wg-secondary-eu.md)~~
+1. Subcommittee to work on standardizing distributed schemas (15m, Jeff/Hugh)
+   - There has been a lot of new excitement across the community around standardizing on an approach for working with distributed schemas, ranging from Open Federation to Fusion
+   - We (Apollo) are excited about these developments, and are looking forward to working with others on this standardization approach
+   - We haven't seen the afore mentioned standardization efforts be brought to the Working Group yet, so we'd like to get the ball rolling and start discussions
+   - Should we start the [composite schema](https://github.com/graphql/composite-schemas-wg) subcommittee back up, to collaborate more closely? Or would folks like to explore an alternative approach?
+   - Regardless, let's get the discussions going - super exciting!
 1. Review previous meeting's action items (30m, Benjie)
    - https://github.com/graphql/graphql-wg/issues/1345 - everyone review default
      value validation
@@ -145,7 +151,7 @@ hold additional secondary meetings later in the month.
      - Agenda item below: "Detail variables in list input coercion rules"
    - https://github.com/graphql/graphql-wg/issues/1414 - example of executing
      _selection set_ serially, readers expect an operation; clarify
-     - Spec PR:
+     - Spec editorial PR:
        [define "selection set" and clarify examples in section 6](https://github.com/graphql/graphql-spec/pull/1032)
    - https://github.com/graphql/graphql-wg/issues/1337 - forbid nullable
      variable with default in non-nullable position
@@ -157,12 +163,6 @@ hold additional secondary meetings later in the month.
      - Note: not all items closed were "action items"
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?type=classic&query=is%3Aopen+sort%3Aupdated-desc)
-1. Subcommittee to work on standardizing distributed schemas (15m, Jeff/Hugh)
-   - There has been a lot of new excitement across the community around standardizing on an approach for working with distributed schemas, ranging from Open Federation to Fusion
-   - We (Apollo) are excited about these developments, and are looking forward to working with others on this standardization approach
-   - We haven't seen the afore mentioned standardization efforts be brought to the Working Group yet, so we'd like to get the ball rolling and start discussions
-   - Should we start the [composite schema](https://github.com/graphql/composite-schemas-wg) subcommittee back up, to collaborate more closely? Or would folks like to explore an alternative approach?
-   - Regardless, let's get the discussions going - super exciting!
 1. Fix bug in CoerceArgumentValues() algorithm (10m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1056)
    - No GraphQL.js PR needed, GraphQL.js already implements the correct behavior
@@ -173,7 +173,6 @@ hold additional secondary meetings later in the month.
    - Previously discussed (but incorrectly interpreted) in December 2022:
      https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
    - Not really changing behavior, just _defining_ the status quo... Editorial, or RFC process?
-1. Updates from the group formerly known as the Client Controlled Nullability WG (5m, Alex)
 1. Introduce Strict and Legacy All Variable Usages Are Allowed validation rules
    (15m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1059)
