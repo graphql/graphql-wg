@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
+| Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
 
 ## Agenda
 
@@ -172,6 +173,7 @@ hold additional secondary meetings later in the month.
    - Previously discussed (but incorrectly interpreted) in December 2022:
      https://github.com/graphql/graphql-wg/blob/main/notes/2022/2022-12.md?rgh-link-date=2023-07-08T08%3A09%3A10Z#field-error-resulting-from-insufficient-validation-of-variables-15m-benjie
    - Not really changing behavior, just _defining_ the status quo... Editorial, or RFC process?
+1. Updates from the group formerly known as the Client Controlled Nullability WG (5m, Alex)
 1. Introduce Strict and Legacy All Variable Usages Are Allowed validation rules
    (15m, Benjie)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1059)
