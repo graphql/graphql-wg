@@ -106,7 +106,6 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
-| Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
 
 ## Agenda
@@ -123,7 +122,7 @@ hold additional secondary meetings later in the month.
 1. ~~Review prior secondary meetings (5m, Lee)~~
    - ~~[November WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/08-wg-secondary-apac.md)~~
    - ~~[November WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/16-wg-secondary-eu.md)~~
-1. Subcommittee to work on standardizing distributed schemas (15m, Jeff/Hugh)
+1. Subcommittee to work on standardizing distributed schemas (15m, Jeff)
    - There has been a lot of new excitement across the community around standardizing on an approach for working with distributed schemas, ranging from Open Federation to Fusion
    - We (Apollo) are excited about these developments, and are looking forward to working with others on this standardization approach
    - We haven't seen the afore mentioned standardization efforts be brought to the Working Group yet, so we'd like to get the ball rolling and start discussions
