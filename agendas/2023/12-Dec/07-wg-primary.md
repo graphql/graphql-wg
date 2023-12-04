@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Hugh Willson     | @hwillson     | Apollo             | Manotick, ON, CA      |
 | Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
+| Phil Prasek      | @prasek       | Apollo             | Seattle, WA, US       |
 
 ## Agenda
 
