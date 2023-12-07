@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Antoine Boyer    | @tinnou       | Netflix            | San Jose, CA, US      |
 | Rafael Staib     | @rstaib       | ChilliCream        | ChilliCream, CH       |
+| Ivan Goncarov    | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
