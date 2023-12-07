@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Antoine Boyer    | @tinnou       | Netflix            | San Jose, CA, US      |
 | Rafael Staib     | @rstaib       | ChilliCream        | ChilliCream, CH       |
+| Jens Neuse       | @jensneuse    | WunderGraph        | Frankfurt, GER        |
 
 ## Agenda
 
