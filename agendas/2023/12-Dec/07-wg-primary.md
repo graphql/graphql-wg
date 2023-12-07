@@ -116,6 +116,7 @@ hold additional secondary meetings later in the month.
 | Anthony Miller   | @AnthonyMDev  | Apollo             | Las Vegas, NV, US     |
 | Ivan Goncarov    | @IvanGoncharov | Apollo            | Lviv, UA              |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Marc Giroux      | @xuorig       | Netflix            | Montreal, Canada      |
 
 ## Agenda
 
