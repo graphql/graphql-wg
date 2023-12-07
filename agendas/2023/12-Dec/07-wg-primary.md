@@ -114,6 +114,9 @@ hold additional secondary meetings later in the month.
 | Antoine Boyer    | @tinnou       | Netflix            | San Jose, CA, US      |
 | Rafael Staib     | @rstaib       | ChilliCream        | ChilliCream, CH       |
 | Jens Neuse       | @jensneuse    | WunderGraph        | Frankfurt, GER        |
+| Anthony Miller   | @AnthonyMDev  | Apollo             | Las Vegas, NV, US     |
+| Ivan Goncarov    | @IvanGoncharov | Apollo            | Lviv, UA              |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
