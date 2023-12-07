@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Phil Prasek      | @prasek       | Apollo             | Seattle, WA, US       |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 | Michael Staib    | @michaelstaib | ChilliCream        | ChilliCream, CH       |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 
 ## Agenda
 
