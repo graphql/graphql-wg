@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Anthony Miller   | @AnthonyMDev  | Apollo             | Las Vegas, NV, US     |
 
 
 ## Agenda
