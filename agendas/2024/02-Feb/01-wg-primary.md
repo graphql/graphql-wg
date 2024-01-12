@@ -71,7 +71,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG – February 2024 (Primary)
+# GraphQL WG — February 2024 (Primary)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -88,17 +88,18 @@ hold additional secondary meetings later in the month.
     this agenda document is the source of truth.
 - **Video Conference Link**: https://zoom.us/j/593263740
   - _Password:_ graphqlwg
-- **Live Notes**: [Google Doc Notes][]
+- **Live Notes**: [Live Notes][]
 
-[joiningameeting.md]: https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md
 [graphql specification]: https://github.com/graphql/graphql-spec
 [calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
 [google calendar]: https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
 [ical file]: https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics
-[google doc notes]: https://docs.google.com/document/d/1q-sT4k8-c0tcDYJ8CxPZkJ8UY4Nhk3HbKsRxosu_7YE/edit?usp=sharing
+[JoiningAMeeting.md]: https://github.com/graphql/graphql-wg/blob/main/JoiningAMeeting.md
+[live notes]: https://docs.google.com/document/d/1q-sT4k8-c0tcDYJ8CxPZkJ8UY4Nhk3HbKsRxosu_7YE/edit?usp=sharing
 
 ## Attendees
 
+<!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
@@ -106,18 +107,18 @@ hold additional secondary meetings later in the month.
 
 ## Agenda
 
-1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Lee)
+1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Host)
    - [Specification Membership Agreement](https://github.com/graphql/foundation)
    - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
    - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
    - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
-1. Introduction of attendees (5m, Lee)
-1. Determine volunteers for note taking (1m, Lee)
-1. Review agenda (2m, Lee)
-1. Review prior secondary meetings (5m, Lee)
-   - [January WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/01-Jan/10-wg-secondary-apac.md)
-   - [January WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/01-Jan/18-wg-secondary-eu.md)
-1. Review previous meeting's action items (5m, Lee)
+1. Introduction of attendees (5m, Host)
+1. Determine volunteers for note taking (1m, Host)
+1. Review agenda (2m, Host)
+1. Review prior secondary meetings (5m, Host)
+   - [GraphQL WG — January 2024 (Secondary, APAC)](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/01-Jan/10-wg-secondary-apac.md)
+   - [GraphQL WG — January 2024 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/01-Jan/18-wg-secondary-eu.md)
+1. Review previous meeting's action items (5m, Host)
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
