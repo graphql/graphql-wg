@@ -114,25 +114,25 @@ You must add yourself to the meeting agenda via PR in order to be able to join a
 
 ### TSC Members
 
-The current members of the GraphQL TSC are:
+The current members of the GraphQL TSC are (in chair, name order):
 
 | Name                                               | Affiliation           | Term begins | Term ends    |
 | -------------------------------------------------- | --------------------- | ----------- | ------------ |
 | [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
 | [Andi Marek](https://github.com/andimarek)         | Atlassian             | Nov 1, 2020 | Dec 31, 2024 |
-| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2023 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2023 |
+| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2025 |
+| [Denis Badurina](https://github.com/enisdenjo)     | The Guild             | Feb 1, 2024 | Dec 31, 2025 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2025 |
 | [Kewei Qu](https://github.com/Keweiqu)             | Meta                  | Jan 1, 2023 | Dec 31, 2024 |
-| [Marc-Andre Giroux](https://github.com/xuorig)     | Netflix               | Jan 1, 2022 | Dec 31, 2023 |
-| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Dec 31, 2023 |
-| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2023 |
+| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Dec 31, 2025 |
+| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2025 |
 | [Rob Richard](https://github.com/robrichard)       | 1stDibs               | Jan 1, 2023 | Dec 31, 2024 |
 | [Stephen Spalding](https://github.com/fotoetienne) | Netflix               | Jan 1, 2023 | Dec 31, 2024 |
 | [Uri Goldshtein](https://github.com/urigo)         | The Guild             | Jan 1, 2023 | Dec 31, 2024 |
 
 #### Emeriti
 
-We thank all our prior TSC members for their contribution:
+We thank all our prior TSC members for their contribution (in time order):
 
 | Name                                             | Affiliation   | Term began  | Term ended   |
 | ------------------------------------------------ | ------------- | ----------- | ------------ |
@@ -142,6 +142,7 @@ We thank all our prior TSC members for their contribution:
 | [Nick Schrock](https://github.com/schrockn)      | Elementl      | Nov 1, 2020 | Dec 31, 2022 |
 | [Rob Zhu](https://github.com/robzhu)             | AWS           | Nov 1, 2020 | Dec 31, 2022 |
 | [Sasha Solomon](https://github.com/sachee)       | Twitter       | Nov 1, 2020 | Dec 31, 2022 |
+| [Marc-Andre Giroux](https://github.com/xuorig)   | Netflix        | Jan 1, 2022 | Jan 31, 2024 |
 
 ### Becoming a TSC Member
 
@@ -157,11 +158,13 @@ To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior
 
 #### Election dates
 
-| Term          | Nominations open | Voting open   | Term begins | Term ends    |
-| ------------- | ---------------- | ------------- | ----------- | ------------ |
-| ~2023 - 2024~ | ~Nov 1, 2022~    | ~Dec 1, 2022~ | Jan 1, 2023 | Dec 31, 2024 |
-| 2024 - 2025   | Nov 1, 2023      | Dec 1, 2023   | Jan 1, 2024 | Dec 31, 2025 |
-| 2025 - 2026   | Nov 1, 2024      | Dec 1, 2024   | Jan 1, 2025 | Dec 31, 2026 |
+| Term          | Nominations open | Voting open   | Term begins   | Term ends      |
+| ------------- | ---------------- | ------------- | ------------- | -------------- |
+| ~2022 - 2023~ | ~Nov 1, 2021~    | ~Dec 1, 2021~ | ~Jan 1, 2022~ | Jan 31, 2024   |
+| ~2023 - 2024~ | ~Nov 1, 2022~    | ~Dec 1, 2022~ | ~Jan 1, 2023~ | Dec 31, 2024   |
+| ~2024 - 2025~ | ~Dec 1, 2023~    | ~Jan 1, 2024~ | Feb 1, 2024   | Dec 31, 2025   |
+| 2025 - 2026   | Nov 1, 2024      | Dec 1, 2024   | Jan 1, 2025   | Dec 31, 2026   |
+| 2026 - 2027   | Nov 1, 2025      | Dec 1, 2025   | Jan 1, 2026   | Dec 31, 2027   |
 
 #### Resignation or removal of TSC members
 
