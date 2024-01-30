@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
@@ -125,3 +126,5 @@ hold additional secondary meetings later in the month.
 1. New version for fragment-arguments (1m, Jovi)
    - https://github.com/graphql/graphql-spec/pull/1010
    - https://github.com/graphql/graphql-js/pull/4015
+1. Using MUST for error paths  (5m, Benoit)
+   - https://github.com/graphql/graphql-spec/pull/1073
