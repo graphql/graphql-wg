@@ -103,10 +103,11 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
-| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
-| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
