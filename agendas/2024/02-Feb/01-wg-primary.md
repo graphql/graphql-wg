@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
