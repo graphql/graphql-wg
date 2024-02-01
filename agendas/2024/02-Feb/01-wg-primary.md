@@ -131,6 +131,7 @@ hold additional secondary meetings later in the month.
 1. TSC updates (5m, Lee)
    - [Election conclusion](https://github.com/graphql/graphql-wg/issues/1446)
    - TSC <> Foundation Board
+1. Call for graphql-js maintainers (5m, Lee/Benjie)
 1. New version for fragment-arguments (5m, Jovi)
    - https://github.com/graphql/graphql-spec/pull/1010
    - https://github.com/graphql/graphql-js/pull/4015
