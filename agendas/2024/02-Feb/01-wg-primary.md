@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | New York, NY, US      |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
