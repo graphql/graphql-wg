@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Jordan Eldredge  | @captbaritone | Meta (Relay)       | New York, NY, US      |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
