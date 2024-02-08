@@ -2,6 +2,8 @@
 
 **Proposed by:** [Mark Larah](https://twitter.com/mark_larah) - Yelp
 
+**Spec pull request**: https://github.com/graphql/graphql-spec/pull/794
+
 This RFC proposes formalizing "Schema Coordinates" - a human readable syntax to
 uniquely identify a type, field, field argument, enum value, directive or
 directive argument defined in a GraphQL Schema.
