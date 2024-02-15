@@ -103,6 +103,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -122,3 +123,8 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Get some of Benjie's editorial PR's merged (15m, Benjie)
+   - [#1016](https://github.com/graphql/graphql-spec/pull/1016) - fix a single word
+   - [#1032](https://github.com/graphql/graphql-spec/pull/1032) - define "selection set" (already has 2 TSC approvals)
+   - [#894](https://github.com/graphql/graphql-spec/pull/894) - clarify "before execution starts" still includes the "request error"s that can be raised in `ExecuteRequest()` (variable coercion failure; not exactly one subscription field assertion failure)
+   - [#1069](https://github.com/graphql/graphql-spec/pull/1069) - enforce consistent punctuation in the spec (with CI check)
