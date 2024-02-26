@@ -104,6 +104,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Curtis Li        | @cuhtis       | Meta               | New York, NY, US      |
 
 
 ## Agenda
@@ -128,3 +129,6 @@ hold additional secondary meetings later in the month.
    - [#1032](https://github.com/graphql/graphql-spec/pull/1032) - define "selection set" (already has 2 TSC approvals)
    - [#894](https://github.com/graphql/graphql-spec/pull/894) - clarify "before execution starts" still includes the "request error"s that can be raised in `ExecuteRequest()` (variable coercion failure; not exactly one subscription field assertion failure)
    - [#1069](https://github.com/graphql/graphql-spec/pull/1069) - enforce consistent punctuation in the spec (with CI check)
+1. String literal aliases proposal (15m, Curtis, Matt)
+   - [#1082](https://github.com/graphql/graphql-spec/pull/1082) - Proposed spec changes for string literal aliases
+   - [#4023](https://github.com/graphql/graphql-js/pull/4023) - Add parser support for string literal aliases
