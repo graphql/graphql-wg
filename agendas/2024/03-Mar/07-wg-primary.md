@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Curtis Li        | @cuhtis       | Meta               | New York, NY, US      |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 
 ## Agenda
