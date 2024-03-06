@@ -136,3 +136,7 @@ hold additional secondary meetings later in the month.
 1. String literal aliases proposal (15m, Curtis, Matt)
    - [#1082](https://github.com/graphql/graphql-spec/pull/1082) - Proposed spec changes for string literal aliases
    - [#4023](https://github.com/graphql/graphql-js/pull/4023) - Add parser support for string literal aliases
+1. Call for reviews (2m, Jovi)
+   - [#1078](https://github.com/graphql/graphql-spec/pull/1078) - Minor wording change
+   - [#1081](https://github.com/graphql/graphql-spec/pull/1081) - Fragment arguments amendments
+   - [#4015](https://github.com/graphql/graphql-js/pull/4015) - Fragment arguments parsing in GraphQL.JS (execution PR linked in description)
