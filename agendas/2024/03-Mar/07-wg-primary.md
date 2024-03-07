@@ -143,3 +143,6 @@ hold additional secondary meetings later in the month.
    - [#1032](https://github.com/graphql/graphql-spec/pull/1032) - define "selection set" (already has 2 TSC approvals)
    - [#894](https://github.com/graphql/graphql-spec/pull/894) - clarify "before execution starts" still includes the "request error"s that can be raised in `ExecuteRequest()` (variable coercion failure; not exactly one subscription field assertion failure)
    - [#1069](https://github.com/graphql/graphql-spec/pull/1069) - enforce consistent punctuation in the spec (with CI check)
+1. Add 'extensions' to request (5m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/976)
+   - Aim: advance to RFC1, or reject to RFCX.
