@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
