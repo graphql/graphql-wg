@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
