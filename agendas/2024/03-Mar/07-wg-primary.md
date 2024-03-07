@@ -102,8 +102,8 @@ hold additional secondary meetings later in the month.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benjie Gillam (Host) | @benjie   | Graphile           | Chandler's Ford, UK   |
+| Lee Byron        | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Curtis Li        | @cuhtis       | Meta               | New York, NY, US      |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jovi De Croock   | @jovidecroock | Stellate           | Aalst, BE             |
@@ -128,17 +128,18 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. [GraphQL Grant Refresh](https://graphql.org/blog/2024-03-07-graphql-community-grant-refresh/) (5m, Benjie)
+1. Strict error paths (5m, Martin)
+   - [#1073](https://github.com/graphql/graphql-spec/pull/1073) - Strict error paths 
+1. Call for reviews (5m, Jovi)
+   - [#1078](https://github.com/graphql/graphql-spec/pull/1078) - Minor wording change
+   - [#1081](https://github.com/graphql/graphql-spec/pull/1081) - Fragment arguments amendments
+   - [#4015](https://github.com/graphql/graphql-js/pull/4015) - Fragment arguments parsing in GraphQL.JS (execution PR linked in description)
+1. String literal aliases proposal (15m, Curtis, Matt)
+   - [#1082](https://github.com/graphql/graphql-spec/pull/1082) - Proposed spec changes for string literal aliases
+   - [#4023](https://github.com/graphql/graphql-js/pull/4023) - Add parser support for string literal aliases
 1. Get some of Benjie's editorial PR's merged (15m, Benjie)
    - [#1016](https://github.com/graphql/graphql-spec/pull/1016) - fix a single word
    - [#1032](https://github.com/graphql/graphql-spec/pull/1032) - define "selection set" (already has 2 TSC approvals)
    - [#894](https://github.com/graphql/graphql-spec/pull/894) - clarify "before execution starts" still includes the "request error"s that can be raised in `ExecuteRequest()` (variable coercion failure; not exactly one subscription field assertion failure)
    - [#1069](https://github.com/graphql/graphql-spec/pull/1069) - enforce consistent punctuation in the spec (with CI check)
-1. Strict error paths (5m, Martin)
-   - [#1073](https://github.com/graphql/graphql-spec/pull/1073) - Strict error paths 
-1. String literal aliases proposal (15m, Curtis, Matt)
-   - [#1082](https://github.com/graphql/graphql-spec/pull/1082) - Proposed spec changes for string literal aliases
-   - [#4023](https://github.com/graphql/graphql-js/pull/4023) - Add parser support for string literal aliases
-1. Call for reviews (2m, Jovi)
-   - [#1078](https://github.com/graphql/graphql-spec/pull/1078) - Minor wording change
-   - [#1081](https://github.com/graphql/graphql-spec/pull/1081) - Fragment arguments amendments
-   - [#4015](https://github.com/graphql/graphql-js/pull/4015) - Fragment arguments parsing in GraphQL.JS (execution PR linked in description)
