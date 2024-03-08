@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
 
