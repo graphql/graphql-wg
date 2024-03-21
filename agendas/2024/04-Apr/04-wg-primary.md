@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -124,5 +125,6 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Note: [ID _must_ be serialized as String](https://github.com/graphql/graphql-spec/pull/1086) was merged (1m, Benjie)
 1. strict error paths (5m, Martin)
    - Are we ready to merge https://github.com/graphql/graphql-spec/pull/1073?
