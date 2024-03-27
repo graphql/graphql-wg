@@ -131,3 +131,6 @@ hold additional secondary meetings later in the month.
 1. Ordering of schema elements (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1063)
    - Question: should fields, input fields, arguments be defined as an "ordered map" rather than an "ordered set" (previously a "list")?
+1. Request `extensions` (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/976)
+   - Previously: [2024-03-07](https://github.com/graphql/graphql-wg/blob/main/notes/2024/2024-03.md#add-extensions-to-request-5m-benjie), [2022-09-01](https://github.com/graphql/graphql-wg/blob/623a7bc464406509e0cf41c847e4e4322d577764/notes/2022/2022-09-01.md#specifying-extensions-property-on-requests-10m-benjie) ([video](https://youtu.be/MEi1u6L__Ck?list=PLP1igyLx8foH30_sDnEZnxV_8pYW3SDtb&t=3225))
