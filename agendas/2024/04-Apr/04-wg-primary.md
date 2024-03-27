@@ -128,6 +128,9 @@ hold additional secondary meetings later in the month.
 1. Note: [ID _must_ be serialized as String](https://github.com/graphql/graphql-spec/pull/1086) was merged (1m, Benjie)
 1. strict error paths (5m, Martin)
    - Are we ready to merge https://github.com/graphql/graphql-spec/pull/1073?
+1. Define 'selection set' (5m, Benjie)
+   - [Editorial PR](https://github.com/graphql/graphql-spec/pull/1032)
+   - Already 4 WG member approvals; aim: merge
 1. Ordering of schema elements (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1063)
    - Question: should fields, input fields, arguments be defined as an "ordered map" rather than an "ordered set" (previously a "list")?
