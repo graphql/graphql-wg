@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
+| Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 
 ## Agenda
 
