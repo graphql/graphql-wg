@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | Michael Staib      | Zurich, CH            |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 
 ## Agenda
 
