@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Michael Staib    | @michaelstaib | Michael Staib      | Zurich, CH            |
 
 ## Agenda
 
