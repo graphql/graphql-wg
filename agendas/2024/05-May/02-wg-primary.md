@@ -127,3 +127,6 @@ hold additional secondary meetings later in the month.
 1. Request for feedback on `graphql`-js change regarding "dev-mode" detection (`process.env`, `globalThis.process.env`) (2m, Benjie)
    - https://github.com/graphql/graphql-js/issues/4075
    - If you are impacted by this, please take a look and give us feedback, we want to make a decision next GraphQL-JS-WG Meeting.
+1. Restricting `graphql`-js exports to one or few entry points. (2m, Jeff)
+   - https://github.com/graphql/graphql-js/issues/4074
+   - Looking for feedback from dependent library authors if they would be impacted by this change and if someone has specific concerns.
