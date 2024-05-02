@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 
 ## Agenda
