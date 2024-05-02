@@ -111,7 +111,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Rob Richard      | @robrichard   | 1stDibs            | Jersey City, NJ, US   |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
-
+| Yaacov Rydzinski | @yaacovCR     | Individual         | JFK, NY, US           |
 
 ## Agenda
 
