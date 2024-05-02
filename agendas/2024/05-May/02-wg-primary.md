@@ -110,7 +110,7 @@ hold additional secondary meetings later in the month.
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
-
+| Yaacov Rydzinski | @yaacovCR     | Individual         | JFK, NY, US           |
 
 ## Agenda
 
