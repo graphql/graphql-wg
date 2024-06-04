@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
+| Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park,    CA, US |
 
 
 ## Agenda
