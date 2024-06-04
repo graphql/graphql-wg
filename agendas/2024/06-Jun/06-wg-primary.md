@@ -126,4 +126,5 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Open pull requests (1m, Jovi)
-  - [Had two WG approves, now one](https://github.com/graphql/graphql-spec/pull/1078)
+   - [Had two WG approves, now one](https://github.com/graphql/graphql-spec/pull/1078)
+   - Moving the Fragment arguments RFC to [RFC2](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2147284040)
