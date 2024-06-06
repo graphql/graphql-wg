@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford,   UK |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York,      NY, US |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
