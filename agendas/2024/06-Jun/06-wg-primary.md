@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park,    CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford,   UK |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York,      NY, US |
 
 
