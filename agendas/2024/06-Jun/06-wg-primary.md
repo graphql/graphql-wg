@@ -131,3 +131,7 @@ hold additional secondary meetings later in the month.
    - [PR; two approvals](https://github.com/graphql/graphql-spec/pull/1078)
 1. Move Fragment Arguments RFC to RFC2? (10m, Jovi)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2147284040)
+1. Define data collections used in the spec (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1091)
+   - And depending how that goes; the follow-up PR to encourage retaining ordering of unordered collections where possible: https://github.com/graphql/graphql-spec/pull/1092
+   - And if that gets merged; the follow-up PR to update and make more consistent the types of things defined in the spec: https://github.com/graphql/graphql-spec/pull/1063
