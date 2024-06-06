@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York,      NY, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 
 ## Agenda
