@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York,      NY, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 
 ## Agenda
