@@ -137,3 +137,6 @@ hold additional secondary meetings later in the month.
    - [RFC](https://github.com/graphql/graphql-spec/pull/1091)
    - And depending how that goes; the follow-up PR to encourage retaining ordering of unordered collections where possible: https://github.com/graphql/graphql-spec/pull/1092
    - And if that gets merged; the follow-up PR to update and make more consistent the types of things defined in the spec: https://github.com/graphql/graphql-spec/pull/1063
+1. Fix reference mistake in subscription execution (5m, Benjie)
+   - [PR](https://github.com/graphql/graphql-spec/pull/994)
+   - [Formatting fix PR](https://github.com/graphql/graphql-spec/pull/1084)
