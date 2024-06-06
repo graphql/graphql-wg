@@ -129,6 +129,8 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Editorial change to "composite" term (2m, Jovi)
    - [PR; two approvals](https://github.com/graphql/graphql-spec/pull/1078)
+1. Editorial: show how the parts of a request are passed to ExecuteRequest (5m, Benjie)
+   - [PR](https://github.com/graphql/graphql-spec/pull/1090)
 1. Move Fragment Arguments RFC to RFC2? (10m, Jovi)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2147284040)
 1. Define data collections used in the spec (10m, Benjie)
