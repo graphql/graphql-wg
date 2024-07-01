@@ -105,7 +105,8 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| David A. Ventimiglia ✏️| @dventimihasura     | Hasura | San Francisco, CA, US |
+| David A. Ventimiglia ✏️ | @dventimihasura     | Hasura | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -125,3 +126,9 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. [Directive validation](https://github.com/graphql/graphql-spec/pull/1089): require at least one location (5m, Benjie)
+1. [@oneOf update](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
+1. [Define data collections](https://github.com/graphql/graphql-spec/pull/1102) (5m, Benjie)
+1. [Adding "extensions" to request](https://github.com/graphql/graphql-spec/pull/976) (5m, Benjie)
+1. [Semantic Nullability Schema](https://github.com/graphql/nullability-wg/discussions/58) - update from Nullability WG (45m, Benjie)
+   - [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRlilp1jau8JytrSt4BSLPpublvAs2KJkeOrM_WJkW2QNoP6H2kg3ledFiknawU06nWQTLCAwdut7LZ/pub?start=false&loop=false&delayms=60000)
