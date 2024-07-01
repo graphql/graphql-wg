@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | David A. Ventimiglia ✏️ | @dventimihasura     | Hasura | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
 
 
 ## Agenda
