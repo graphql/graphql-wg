@@ -73,19 +73,17 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG — July 2024 (Secondary, APAC)
+# GraphQL WG — July 2024 (Primary)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
 meeting in which anyone in the GraphQL community may attend.
 
-This is a secondary meeting, timed to be acceptable for those in Asia Pacific
-timezones, which typically meets on the second Wednesday of the month. The
-primary meeting is preferred for new agenda, where this meeting is for overflow
-agenda items, follow ups from the primary meeting, or agenda introduced by those
-who could not make the primary meeting time.
+This is the primary monthly meeting, which typically meets on the first Thursday
+of the month. In the case we have additional agenda items or follow ups, we also
+hold additional secondary meetings later in the month.
 
-- **Date & Time**: [July 10, 2024, 4:00 – 5:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20240710T230000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [July 4, 2024, 10:30 AM – 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20240704T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -107,6 +105,9 @@ who could not make the primary meeting time.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| David A. Ventimiglia ✏️ | @dventimihasura     | Hasura | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
 
 
 ## Agenda
@@ -119,7 +120,16 @@ who could not make the primary meeting time.
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
+1. Review prior secondary meetings (5m, Host)
+   - [GraphQL WG — June 2024 (Secondary, APAC)](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/06-Jun/12-wg-secondary-apac.md)
+   - [GraphQL WG — June 2024 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/06-Jun/20-wg-secondary-eu.md)
 1. Review previous meeting's action items (5m, Host)
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. [Directive validation](https://github.com/graphql/graphql-spec/pull/1089): require at least one location (5m, Benjie)
+1. [@oneOf update](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
+1. [Define data collections](https://github.com/graphql/graphql-spec/pull/1102) (5m, Benjie)
+1. [Adding "extensions" to request](https://github.com/graphql/graphql-spec/pull/976) (5m, Benjie)
+1. [Semantic Nullability Schema](https://github.com/graphql/nullability-wg/discussions/58) - update from Nullability WG (45m, Benjie)
+   - [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRlilp1jau8JytrSt4BSLPpublvAs2KJkeOrM_WJkW2QNoP6H2kg3ledFiknawU06nWQTLCAwdut7LZ/pub?start=false&loop=false&delayms=60000)
