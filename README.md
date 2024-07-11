@@ -70,6 +70,7 @@ own meetings and report back progress and decisions to GraphQL WG meetings.
 | Incremental Delivery | 2nd Mon, 10:00am - 11:00am EST | [Rob Richard](https://github.com/robrichard)       | [robrichard/defer-stream-wg](https://github.com/robrichard/defer-stream-wg)                                     |
 | Nullability          | 4th Wed, 19:00 - 20:00 UTC     | [Stephen Spalding](https://github.com/fotoetienne) | [graphql/client-controlled-nullability-wg](https://github.com/graphql/client-controlled-nullability-wg)         |
 | Composite Schema     | 2nd Thu, 16:00am - 17:00am UTC | [Benjie Gillam](https://github.com/benjie)         | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
+| GraphQL.js           | 4th Wed, 10:00am - 11:00am PT  | [Jovi DeCroock](https://github.com/JoviDeCroock)   | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
 
 #### Subcommittees on hiatus
 
@@ -80,7 +81,6 @@ is on hiatus, please raise an issue in the WG repository and mention the host.
 <!-- prettier-ignore -->
 | Subcommittee         | Time                           | Host                                               | Agenda Repo                                                                                                     |
 | -------------------- | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| GraphQL.js           | 4th Wed, 10:00am - 11:00am PT  | [Ivan Goncharov](https://github.com/IvanGoncharov) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
 
 ### Joining a meeting?
 
