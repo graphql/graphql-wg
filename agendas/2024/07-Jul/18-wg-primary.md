@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Calvin Cestari   | @calvincestari| Apollo             | Vancouver, Canada     |
+| James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
 
 
 ## Agenda
