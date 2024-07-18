@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Martin Bonnin    | @martinbonnin | ApolloGraph        | Paris, FRA            |
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
+| Calvin Cestari   | @calvincestari| Apollo             | Vancouver, Canada     |
 
 
 ## Agenda
