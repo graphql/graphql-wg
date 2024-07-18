@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | ApolloGraph        | Paris, FRA            |
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 
 
 ## Agenda
