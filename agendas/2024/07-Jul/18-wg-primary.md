@@ -105,13 +105,11 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| David A. Ventimiglia ✏️ | @dventimihasura     | Hasura | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Alex Reilly      | @twof         | Independent        | San Francisco, CA, US |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Martin Bonnin    | @martinbonnin | ApolloGraph        | Paris, FRA            |
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Calvin Cestari   | @calvincestari| Apollo             | Vancouver, Canada     |
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
