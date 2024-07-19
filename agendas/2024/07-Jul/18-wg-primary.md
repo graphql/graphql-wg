@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Ernie Turner     | @ernieturner  | Coinbase           | Bozeman, MT, US       |
 | Calvin Cestari   | @calvincestari| Apollo             | Vancouver, Canada     |
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 
 ## Agenda
