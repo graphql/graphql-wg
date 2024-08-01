@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | JoviDe Croock    | @jovideroock  | Independent        | Aalst, BE             |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
