@@ -102,11 +102,13 @@ hold additional secondary meetings later in the month.
 ## Attendees
 
 <!-- prettier-ignore -->
+
 | Name             | GitHub        | Organization          | Location              |
 | :--------------- | :------------ | :-------------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation    | San Francisco, CA, US |
 | JoviDe Croock    | @jovideroock  | Independent           | Aalst, BE             |
 | Stephen Spalding | @fotoetienne  | GraphQL TSC / Netflix | Los Gatos, CA, US     |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
