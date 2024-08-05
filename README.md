@@ -1,3 +1,5 @@
+![GraphQLConf 2024 banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/cd43e796-fd2e-41dd-b4e1-f03557e62b30)
+
 # GraphQL Working Group
 
 GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers
