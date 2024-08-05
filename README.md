@@ -1,4 +1,4 @@
-![GraphQLConf 2024 banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/cd43e796-fd2e-41dd-b4e1-f03557e62b30)
+[![GraphQLConf 2024 banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/cd43e796-fd2e-41dd-b4e1-f03557e62b30)](https://graphql.org/conf/2024/?utm_source=github&utm_medium=graphql_js&utm_campaign=readme)
 
 # GraphQL Working Group
 
