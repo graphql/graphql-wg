@@ -116,7 +116,7 @@ Payload 1
   "pending": [
     { "id": 0, "label": "homeWorldDefer", "path": ["person"] },
     { "id": 1, "label": "filmsStream", "path": ["person", "films"] }
-  ]
+  ],
   "hasNext": true
 }
 
@@ -132,7 +132,8 @@ Payload 2
         "homeworld": {
           "name": "Tatooine"
         }
-      },
+      }
+    }
   ],
   "completed": [{"id": "0"}],
   "hasNext": true
