@@ -128,3 +128,5 @@ hold additional secondary meetings later in the month.
 1. [Fix coercion table for list](https://github.com/graphql/graphql-spec/pull/1057/files) - editorial? (10m, Benjie)
 1. [Validate that operation type exists](https://github.com/graphql/graphql-spec/pull/1098) (10m, Benjie)
 1. [Advance @oneOf to RFC3?](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
+1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (15m, Benjie)
+   - Needed by Yaacov, Rob and Benjie's various implementations of incremental delivery, and also by [Jovi's fragment arguments](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2329504269) PR
