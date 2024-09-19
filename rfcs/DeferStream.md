@@ -1,7 +1,7 @@
 RFC: GraphQL Defer and Stream Directives
 -------
 
-*Working Draft - July 2020*
+*Working Draft - September 2024*
 
 # Introduction
 
@@ -65,12 +65,12 @@ The `@stream` directive may be provided for a field of `List` type so that the b
 When an operation contains `@defer` or `@stream` directives, the GraphQL execution will return multiple payloads. The first payload is the same shape as a standard GraphQL response. Any fields that were only requested on a fragment that is deferred will not be present in this payload. Any list fields that are streamed will only contain the initial list items.
 
 Each subsequent payload will be an object with the following properties:
-* `label`: The string that was passed to the label argument of the `@defer` or `@stream` directive that corresponds to this result.
-* `data`: The data that is being delivered incrementally.
-* `path`: a list of keys (with plural indexes) from the root of the response to the insertion point that informs the client how to patch a subsequent delta payload into the original payload.
-* `hasNext`: A boolean that is present and `true` when there are more payloads that will be sent for this operation. The last payload in a multi-payload response should return `hasNext: false`. `hasNext` is not required for single-payload responses to preserve backwards compatibility.
-* `errors`: An array that will be present and contain any field errors that are produced while executing the deferred or streamed selection set.
-* `extensions`: For implementors to extend the protocol.
+* `pending`: A list of objects that informs clients of payloads that will be incrementally delivered. Contains the `path` and `label` of the corresponding `defer` or `stream` directive, and a unique `id` that can be used to associate with future `incremental` and `complete` objects.
+* `incremental`: A list of objects containing the data that is being delivered incrementally. Contains a `data` field for data from a `@defer`, or an `items` field for list items from a `@stream`. The `path` of this data is determined by concatenating the `path` from the associated `pending` object with the optional `subPath` field.
+* `completed`: A list of objects that informs clients that all of the incremental data for the associated `@defer` or `@stream` has been delivered. Clients should use the `id` to determine the associated `@defer` or `@stream` from a previous `pending` object.
+* `hasNext`: A boolean that is present and `true` when there are more payloads that will be sent for this operation. The last payload in a multi-payload response must return `hasNext: false`. `hasNext` must not be present for single-payload responses to preserve backwards compatibility.
+* `errors`: An array that will contain any field errors that are produced while executing the deferred or streamed selection set. If the error did not bubble above an `incremental` object boundary, it will be present on the `incremental` object. If an error bubbles above the boundary, causing the `@defer` or `@stream` to fail, it will be present on the `completed` object.
+* `extensions`: For implementers to extend the protocol.
 
 Note: The `label` field is not a unique identifier for payloads. There may be multiple payloads with the same label for either payloads for `@stream`, or payloads from a `@defer` fragment under a list field. The combination of `label` and `path` will be unique among all payloads.
 
@@ -113,6 +113,10 @@ Payload 1
       ]
     }
   },
+  "pending": [
+    { "id": 0, "label": "homeWorldDefer", "path": ["person"] },
+    { "id": 1, "label": "filmsStream", "path": ["person", "films"] }
+  ],
   "hasNext": true
 }
 
@@ -121,13 +125,17 @@ Payload 1
 Payload 2
 ```json
 {
-  "label": "homeWorldDefer",
-  "path": ["person"],
-  "data": {
-    "homeworld": {
-      "name": "Tatooine"
+  "incremental":[
+    {
+      "id": "0",
+      "data": {
+        "homeworld": {
+          "name": "Tatooine"
+        }
+      }
     }
-  },
+  ],
+  "completed": [{"id": "0"}],
   "hasNext": true
 }
 ```
@@ -135,14 +143,18 @@ Payload 2
 Payload 3
 ```json
 {
-  "label": "filmsStream",
-  "path": ["person", "films", 2],
-  "data": {
-    "title": "Return of the Jedi"
-  },
+  "incremental":[
+    {
+      "id": "1",
+      "items": [{"title": "Return of the Jedi"}]
+    }
+  ],
+  "completed": [{"id": "1"}],
   "hasNext": false
 }
 ```
+
+See more examples in https://github.com/graphql/defer-stream-wg/discussions/69
 
 ## Benefits of incremental delivery
 * Make GraphQL a great choice for applications which demand responsiveness.
@@ -163,7 +175,7 @@ For GraphQL communications built on top of HTTP, a natural and compatible techno
 ## Caveats
 
 ### Type Generation
-Supporting `@defer` can add complexity to type-generating clients. Separate types will need to be generated for the different deferred fragments. These clients will need to use the `label` field to determine which fragments have been fulfilled to ensure the application is using the correct types. 
+Supporting `@defer` can add complexity to type-generating clients. Separate types will need to be generated for the different deferred fragments. These clients will need to use the `pending` and `completed` fields to determine which fragments have been fulfilled to ensure the application is using the correct types. 
 
 ### Object Consistency
 The GraphQL spec does not currently support object identification or consistency. It is currently possible for the same object to be returned in multiple places in a query. If that object changes while the resolvers are running, the query could return inconsistent results. `@defer`/`@stream` does not increase the likelihood of this, as the server still attempts to resolve everything as fast as it can. The only difference is some results can be returned to the client sooner. This proposal does not attempt to address this issue.
@@ -186,108 +198,82 @@ The GraphQL WG is not ruling out supporting `@defer` on fields in the future if 
 
 ### Client re-renders
 
-With incremental delivery, where multiple responses are delivered in one request, client code could re-render its UI multiple times in a short period of time. This could degrade performance of the application, negating the performance gains from using `@defer` or `@stream`. There are a few approaches that could be taken to mitigate this. Each of these approaches are orthogonal to one another, i.e. the working group could decide that more than one of these should be included in the spec or be labeled as best practices.
+With incremental delivery, where multiple responses are delivered in one request, client code could re-render its UI multiple times in a short period of time. This could degrade performance of the application, negating the performance gains from using `@defer` or `@stream`. There are a few approaches that the spec allows that could be taken to mitigate this.
 
-These solutions require the GraphQL client to efficiently process multiple responses at the same time. (Relay support added here: https://github.com/facebook/relay/commit/b4c92a23ae061943ea7a2ddb5e2f7686d3af8c0e)
-
-1. __Client relies on transport to receive multiple responses.__ If the incremental responses are being sent over HTTP connection with chunked encoding, the client may receive multiple responses in a single read of HTTP stream and process them at the same time. This is only likely to happen when the responses are small and sent very close together. This would not work for all possible transport types, e.g. web sockets where each frame is received separately.
-
-For example, the client might receive several responses at once:
-```
-
----
-Content-Type: application/json
-Content-Length: 125
-
-{
-    "path": ["viewer","itemSearch","edges",5],
-    "data": {
-        "node": {
-            "item": {
-                "attribute": "Vintage 1950s Swedish Scandinavian Modern"
-            }
-        }
-    }
-}
-
----
-Content-Type: application/json
-Content-Length: 126
-
-{
-    "path": ["viewer","itemSearch","edges",6],
-    "data": {
-        "node": {
-            "item": {
-                "attribute": "Mid-20th Century Italian Hollywood Regency"
-            }
-        }
-    }
-}
-
----
-Content-Type: application/json
-Content-Length: 124
-
-{
-    "path": ["viewer","itemSearch","edges",7],
-    "data": {
-        "node": {
-            "item": {
-                "attribute": "Vintage 1950s Italian Mid-Century Modern"
-            }
-        }
-    }
-}
-```
-
-It could then process each of these before triggering a re-render.
-
-2. __Client side debounce.__ GraphQL clients can debounce the processing of responses before triggering a re-render. For a query that contains `@defer` or `@stream`, the client will wait a predetermined amount of time starting from when a response is received. If any additional responses are received in that time, it can process the results in one batch. This has the downside of adding latency; if no additional responses are receiving in the timeout period, the processing of the initial response is delayed by the length of the debounce timeout. There is also significant complexity in determining the most optimal amount of time for debouncing. Even if this "magic number" is determined by analzing historical performance data, it is not constant and must be re-evaluated as queries and server implementation changes over time.
-
-3. __Server sends batched responses.__ This approach changes the spec to allow GraphQL to return either the current GraphQL Response map, or a list of GraphQL Response maps. This gives the server the flexibility to determine when it is beneficial to group incremental responses together. If several responses are ready at the same time, the server can deliver them together. The server may also have knowledge of how long resolvers will take to resolve and could choose to debounce. It is also worth noting that a naive debouncing algorithm on the server could also result in degraded performance by introducing latency.
+1. __Server sends batched responses.__ The incremental delivery spec directly supports returning batches of data. This gives the server the flexibility to determine when it is beneficial to group incremental responses together. If several responses are ready at the same time, the server can deliver them together. The server may also have knowledge of how long resolvers will take to resolve and could choose to debounce. It is also worth noting that a naive debouncing algorithm on the server could also result in degraded performance by introducing latency.
 
 An example batched response:
 
-```json
----
-[
-    {
-        "path": ["viewer","itemSearch","edges",5],
-        "data": {
-            "node": {
-                "item": {
-                    "attribute": "Vintage 1950s Swedish Scandinavian Modern"
-                }
-            }
-        }
-    },
-    {
-        "path": ["viewer","itemSearch","edges",6],
-        "data": {
-            "node": {
-                "item": {
-                    "attribute": "Mid-20th Century Italian Hollywood Regency"
-                }
-            }
-        }
-    },
-    {
-        "path": ["viewer","itemSearch","edges",7],
-        "data": {
-            "node": {
-                "item": {
-                    "attribute": "Vintage 1950s Italian Mid-Century Modern"
-                }
-            }
-        }
+## Example Query with `@defer` and `@stream`
+
+```graphql
+query {
+  person(id: "cGVvcGxlOjE=") {
+    ...HomeWorldFragment @defer(label: "homeWorldDefer")
+    name
+    films @stream(initialCount: 1, label: "filmsStream") {
+      title
     }
-]
+  }
+}
+fragment HomeWorldFragment on Person {
+  homeworld {
+    name
+  }
+}
+```
+
+**Response Payloads**
+
+Payload 1
+```json
+{
+  "data": {
+    "person": {
+      "name": "Luke Skywalker",
+      "films": [
+        { "title": "A New Hope" },
+      ]
+    }
+  },
+  "pending": [
+    { "id": 0, "label": "homeWorldDefer", "path": ["person"] },
+    { "id": 1, "label": "filmsStream", "path": ["person", "films"] }
+  ]
+  "hasNext": true
+}
+
+```
+
+Payload 2
+```json5
+{
+  "incremental":[
+    // data for `homeWorldDefer` and `filmsStream` batched in same incremental array
+    {
+      "id": "0",
+      "data": {
+        "homeworld": {
+          "name": "Tatooine"
+        }
+      },
+    },
+    {
+      "id": "1",
+      "items": [
+        // multiple streamed items batched into same incremental object
+        {"title": "The Empire Strikes Back"},
+        {"title": "Return of the Jedi"}
+      ]
+    }
+  ],
+  "completed": [{"id": "0"}, {"id": "1"}],
+  "hasNext": false
+}
 ```
 
 
-
-1. __Server can ignore `@defer`/`@stream`.__ This approach allows the GraphQL server to treat `@defer` and `@stream` as hints. The server can ignore these directives and include the deferred data in previous responses. This requires clients to be written with the expectation that deferred data could arrive in either its own incrementally delivered response or part of a previously delivered response. This solution does not require the client to be able to process multiple responses at the same time.
+2. __Server can ignore `@defer`/`@stream`.__ This approach allows the GraphQL server to treat `@defer` and `@stream` as hints. The server can ignore these directives and include the deferred data in previous responses. This requires clients to be written with the expectation that deferred data could arrive in either its own incrementally delivered response or part of a previously delivered response. Clients must interpret the lack of a `pending` object for a given `@defer` or `@stream` as an indication that the data has already been delivered and will not be delivered in a future incremental payload.
 
 # Additional material
 - [1] [Lee Byron on idea of @defer and @stream](https://www.youtube.com/watch?v=ViXL0YQnioU&feature=youtu.be&t=9m4s)
