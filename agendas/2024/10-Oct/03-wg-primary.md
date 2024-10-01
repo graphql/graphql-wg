@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -130,3 +131,5 @@ hold additional secondary meetings later in the month.
 1. [Advance @oneOf to RFC3?](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (15m, Benjie)
    - Needed by Yaacov, Rob and Benjie's various implementations of incremental delivery, and also by [Jovi's fragment arguments](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2329504269) PR
+1. Incremental Delivery update (15m, Rob)
+    - [New Spec Draft](https://github.com/graphql/graphql-spec/pull/1110)
