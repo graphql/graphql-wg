@@ -108,7 +108,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Matt Mahoney     | @mjmahone     | Meta               | Brooklyn, NY, US      |
-
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, USA    |
 
 ## Agenda
 
