@@ -133,6 +133,8 @@ hold additional secondary meetings later in the month.
 1. [Validate that operation type exists](https://github.com/graphql/graphql-spec/pull/1098) (10m, Benjie)
 1. Incremental Delivery update (15m, Rob)
    - [New Spec Draft](https://github.com/graphql/graphql-spec/pull/1110)
+   - [GraphQL Conf Talk](https://youtu.be/LEyDeNoobT0)
+   - [Examples](https://github.com/graphql/defer-stream-wg/discussions/69)
 1. [Advance @oneOf to RFC3?](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
    - Hesitation from Yaacov: [do we _need_ the new validation rule?](https://github.com/benjie/graphql-spec/pull/1)
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (15m, Benjie)
