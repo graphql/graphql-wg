@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Matt Mahoney     | @mjmahone     | Meta               | Brooklyn, NY, US      |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, USA    |
+| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, USA   |
 
 ## Agenda
 
