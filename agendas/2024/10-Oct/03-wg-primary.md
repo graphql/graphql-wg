@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, USA    |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, USA   |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 
 ## Agenda
 
