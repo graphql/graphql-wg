@@ -128,8 +128,9 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. [Fix coercion table for list](https://github.com/graphql/graphql-spec/pull/1057/files) - editorial? (10m, Benjie)
 1. [Validate that operation type exists](https://github.com/graphql/graphql-spec/pull/1098) (10m, Benjie)
+1. Incremental Delivery update (15m, Rob)
+   - [New Spec Draft](https://github.com/graphql/graphql-spec/pull/1110)
 1. [Advance @oneOf to RFC3?](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
+   - Hesitation from Yaacov: [do we _need_ the new validation rule?](https://github.com/benjie/graphql-spec/pull/1)
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (15m, Benjie)
    - Needed by Yaacov, Rob and Benjie's various implementations of incremental delivery, and also by [Jovi's fragment arguments](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2329504269) PR
-1. Incremental Delivery update (15m, Rob)
-    - [New Spec Draft](https://github.com/graphql/graphql-spec/pull/1110)
