@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | Brooklyn, NY, US      |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, USA    |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, USA   |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
