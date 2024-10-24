@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
+| Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
 
 ## Agenda
 
@@ -126,3 +127,8 @@ hold additional secondary meetings later in the month.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Make `reason` non-nullable in `@deprecated` (@martinbonnin, 5 min)
    - https://github.com/graphql/graphql-spec/pull/1040
+1. Discuss enhancing deprecation (@gwardwell, 5 min)
+   - Align on next steps for expanded client use cases (union member and interface implementation deprecation)
+   - Align on next steps for service/development use cases (deprecation as communication for distributed schema development)
+   - Issue for context: https://github.com/graphql/graphql-spec/issues/1119
+   - Open object type deprecation PR: https://github.com/graphql/graphql-spec/pull/997
