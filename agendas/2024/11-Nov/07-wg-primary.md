@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 | Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
+| Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
 
 ## Agenda
 
@@ -132,3 +133,7 @@ hold additional secondary meetings later in the month.
    - Align on next steps for service/development use cases (deprecation as communication for distributed schema development)
    - Issue for context: https://github.com/graphql/graphql-spec/issues/1119
    - Open object type deprecation PR: https://github.com/graphql/graphql-spec/pull/997
+1. Incremental Delivery update (@robrichard, 15 min)
+   - Asking for review of spec edits
+   - [PR open against integration branch, containing only sections 3 & 7](https://github.com/graphql/graphql-spec/pull/1124)
+   - [Full PR](https://github.com/graphql/graphql-spec/pull/1110)
