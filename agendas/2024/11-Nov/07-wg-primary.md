@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 | Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
 | Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
+| Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
 
 ## Agenda
 
