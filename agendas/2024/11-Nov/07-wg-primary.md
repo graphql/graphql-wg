@@ -102,13 +102,15 @@ hold additional secondary meetings later in the month.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name                          | GitHub        | Organization       | Location              |
-| :---------------------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host)              | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Martin Bonnin                 | @martinbonnin | Apollo             | Paris, FR             |
-| Greg Wardwell                 | @gwardwell    | Wayfair            | Fort Wayne, IN, USA   |
-| Rob Richard                   | @robrichard   | 1stDibs            | New Jersey, US        |
-| Kewei Qu                      | @Keweiqu      | Meta               | Menlo Park, CA, US    |
+| Name             | GitHub        | Organization       | Location              |
+| :--------------- | :------------ | :----------------- | :-------------------- |
+| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
+| Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
+| Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
+| Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
+| Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
+| Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
 | Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
@@ -139,3 +141,4 @@ hold additional secondary meetings later in the month.
    - Asking for review of spec edits
    - [PR open against integration branch, containing only sections 3 & 7](https://github.com/graphql/graphql-spec/pull/1124)
    - [Full PR](https://github.com/graphql/graphql-spec/pull/1110)
+1. Nullability WG Update (@twof, 10 min)
