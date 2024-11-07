@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
 | Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
 | Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Calvin Cestari | @calvincestari | Apollo | Vancouver, BC |
 
 ## Agenda
 
