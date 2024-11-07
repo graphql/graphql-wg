@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
 | Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Yaacov Rydzinski | @yaacovcr     | Individual         | Neve Daniel           |
+| Calvin Cestari | @calvincestari | Apollo | Vancouver, BC |
 
 ## Agenda
 
