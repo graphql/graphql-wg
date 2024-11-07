@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
 | Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
 | Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
+| Benoit Lubek  | @BoD           | Apollo  | Paris, FR |
 | Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
 | Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
 | Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
