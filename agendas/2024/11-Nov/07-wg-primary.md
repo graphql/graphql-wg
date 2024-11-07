@@ -102,13 +102,14 @@ hold additional secondary meetings later in the month.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
-| Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
-| Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
-| Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
+| Name                          | GitHub        | Organization       | Location              |
+| :---------------------------- | :------------ | :----------------- | :-------------------- |
+| Lee Byron (Host)              | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Martin Bonnin                 | @martinbonnin | Apollo             | Paris, FR             |
+| Greg Wardwell                 | @gwardwell    | Wayfair            | Fort Wayne, IN, USA   |
+| Rob Richard                   | @robrichard   | 1stDibs            | New Jersey, US        |
+| Kewei Qu                      | @Keweiqu      | Meta               | Menlo Park, CA, US    |
+| Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
 
