@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Yaacov Rydzinski | @yaacovcr     | Individual         | Neve Daniel           |
 | Calvin Cestari | @calvincestari | Apollo | Vancouver, BC |
+| Stephen Spalding | @fotoetienne | Netflix | Los Gatos, CA, US |
 
 ## Agenda
 
