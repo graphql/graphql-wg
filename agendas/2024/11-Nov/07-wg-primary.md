@@ -110,6 +110,9 @@ hold additional secondary meetings later in the month.
 | Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
 | Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
 | Benoit Lubek  | @BoD           | Apollo  | Paris, FR |
+| Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
+| Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
+| Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
 
@@ -139,3 +142,4 @@ hold additional secondary meetings later in the month.
    - Asking for review of spec edits
    - [PR open against integration branch, containing only sections 3 & 7](https://github.com/graphql/graphql-spec/pull/1124)
    - [Full PR](https://github.com/graphql/graphql-spec/pull/1110)
+1. Nullability WG Update (@twof, 10 min)
