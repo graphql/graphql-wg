@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
 | Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
 | Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
+| Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
 
 ## Agenda
 
