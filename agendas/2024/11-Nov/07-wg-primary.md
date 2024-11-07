@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
 | Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
 | Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Yaacov Rydzinski | @yaacovcr     | Individual         | Neve Daniel           |
 
 ## Agenda
 
@@ -143,3 +144,11 @@ hold additional secondary meetings later in the month.
    - [PR open against integration branch, containing only sections 3 & 7](https://github.com/graphql/graphql-spec/pull/1124)
    - [Full PR](https://github.com/graphql/graphql-spec/pull/1110)
 1. Nullability WG Update (@twof, 10 min)
+1. Directive Meta-Field Proposal (@yaacovCR, 5 min)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1114)
+   - [Implementatoin PR](https://github.com/graphql/graphql-js/pull/4203)
+1. Subscriptions and Source Event Stream Errors (@yaacovCR, 15m)
+   - Can graphql-js throw on source stream errors? See: https://github.com/graphql/graphql-js/issues/4001
+   - Relation to proposed event stream edits by @leebyron at https://github.com/graphql/graphql-spec/pull/1099
+1. Interface field argument default values (@yaacovCR, 15m)
+   - Spec bug? https://github.com/graphql/graphql-spec/issues/1121
