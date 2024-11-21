@@ -47,6 +47,10 @@ hold additional secondary meetings later in the month.`,
       "https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics",
   },
   secondaryMeetings: [
+    // We decided at the primary WG in November 2024 to cancel the secondaries
+    // since they have not been leveraged for a while. We can bring them back
+    // as and when they are necessary.
+    /*
     {
       // Wednesday, not Thursday
       dayOffset: -1,
@@ -81,6 +85,7 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.`,
     },
+    */
   ],
 };
 
