@@ -201,5 +201,10 @@ can happen anywhere as long as it conforms to the specification.
 **Definition**: the software used to implement a service. Implementations may be 
 schema-first or code-first.
 
+An implementation "implements" the specification if the services it produces 
+conforms to the GraphQL specification. An implementation may implement the 
+specification but not some of its optional features. Some implementations 
+implement the specification including all optional features.
+
 Examples: graphql-js, Hot Chocolate, graphql-java, etc...
 
