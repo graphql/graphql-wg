@@ -190,6 +190,16 @@ Example:
 **Definition**: a software capable of executing a GraphQL request and returning
 a GraphQL response according to this specification. 
 
+Examples: GitHub GraphQL API, Shopify GraphQL API, etc...
+
 Note: The specification has no concept of client and server. While most 
 services are implemented as servers, this is not a requirement and execution
 can happen anywhere as long as it conforms to the specification.
+
+### (GraphQL) implementation
+
+**Definition**: the software used to implement a service. Implementations may be 
+schema-first or code-first.
+
+Examples: graphql-js, Hot Chocolate, graphql-java, etc...
+
