@@ -201,8 +201,8 @@ can happen anywhere as long as it conforms to the specification.
 
 ### (GraphQL) implementation
 
-**Definition**: a software that implements the algorithms and behaviour described
-in the specification. 
+**Definition**: software that implements the algorithms and behaviours described
+in the GraphQL specification. 
 
 Examples: graphql-js, Hot Chocolate, graphql-java, etc...
 
