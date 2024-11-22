@@ -190,8 +190,9 @@ Example:
 **Definition**: anything capable of executing a GraphQL request and returning
 a GraphQL response conforming to the specification.
 
-How the conformance is enforced is irrelevant. An HTTP cache can be a conforming
-service.
+How the conformance is implemented is irrelevant. A cache in front of another
+GraphQL service can itself be seen as a conforming service, assuming it does not
+break any conformance requirements (e.g. on cache failure).
 
 Examples: GitHub GraphQL API, Shopify GraphQL API, etc... 
 
