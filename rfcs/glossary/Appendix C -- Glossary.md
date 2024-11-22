@@ -187,10 +187,13 @@ Example:
 
 ### (GraphQL) service
 
-**Definition**: a software capable of executing a GraphQL request and returning
-a GraphQL response according to this specification. 
+**Definition**: anything capable of executing a GraphQL request and returning
+a GraphQL response conforming to the specification.
 
-Examples: GitHub GraphQL API, Shopify GraphQL API, etc...
+How the conformance is enforced is irrelevant. An HTTP cache can be a conforming
+service.
+
+Examples: GitHub GraphQL API, Shopify GraphQL API, etc... 
 
 Note: The specification has no concept of client and server. While most 
 services are implemented as servers, this is not a requirement and execution
@@ -198,13 +201,8 @@ can happen anywhere as long as it conforms to the specification.
 
 ### (GraphQL) implementation
 
-**Definition**: the software used to implement a service. Implementations may be 
-schema-first or code-first.
-
-An implementation "implements" the specification if the services it produces 
-conforms to the GraphQL specification. An implementation may implement the 
-specification but not some of its optional features. Some implementations 
-implement the specification including all optional features.
+**Definition**: a software that implements the algorithms and behaviour described
+in the specification. 
 
 Examples: graphql-js, Hot Chocolate, graphql-java, etc...
 
