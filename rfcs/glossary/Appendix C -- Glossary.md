@@ -187,8 +187,7 @@ Example:
 
 ### (GraphQL) service
 
-**Definition**: anything capable of executing a GraphQL request and returning
-a GraphQL response conforming to the specification.
+**Definition**: A GraphQL service generates a [response](https://spec.graphql.org/draft/#sec-Response) from a [request](https://spec.graphql.org/draft/#request) via [execution](https://spec.graphql.org/draft/#sec-Execution).
 
 How the conformance is implemented is irrelevant. A cache in front of another
 GraphQL service can itself be seen as a conforming service, assuming it does not
