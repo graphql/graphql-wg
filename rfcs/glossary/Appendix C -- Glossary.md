@@ -172,6 +172,18 @@ accessing this HTTP endpoint _implicitly_ defines the GraphQL schema to use.
 > When using GraphQL over HTTP, it's common to encode the GraphQL request as
 > JSON.
 
+### error
+
+**Definition**: An error is an anomalous condition that breaks the execution of an algorithm.
+
+Errors are raised during the execution of an algorithm. Callers of the algorithm may handle errors and recover from the error.
+
+Note: errors can be thought as exceptions in languages that support them.
+
+### (GraphQL) field error
+
+**Definition**: A field error is an error raised during the execution of a particular field which results in partial response data. This may occur due to an internal error during value resolution or failure to coerce the resulting value.
+
 ### (GraphQL) request error
 
 **Definition**: an error which occurs whilst preparing a GraphQL request for
