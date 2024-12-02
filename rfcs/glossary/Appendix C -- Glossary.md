@@ -178,7 +178,7 @@ accessing this HTTP endpoint _implicitly_ defines the GraphQL schema to use.
 
 Errors are raised during the execution of an algorithm. Callers of the algorithm may handle errors and recover from the error.
 
-Note: errors can be thought as exceptions in languages that support them.
+Note: Errors can be thought as exceptions in languages that support them.
 
 ### (GraphQL) field error
 
