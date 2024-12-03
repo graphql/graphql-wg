@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
 
 ## Agenda
 
@@ -139,3 +140,9 @@ hold additional secondary meetings later in the month.
   - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
 1. Be explicit about list coercion (15m, Benjie)
   - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
+1. GraphQL-JS maintenance (10m, Jovi)
+  - What are our expectations of GraphQL.JS (frequency of publishing, docs, ...)
+  - Who has access to Netlify and how can we disconnect it
+  - Can we move the domain so it points at Vercel
+  - When do we want v17
+  - Should we start EOL'ing releases
