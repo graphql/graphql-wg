@@ -144,3 +144,5 @@ hold additional secondary meetings later in the month.
   - What are our expectations of GraphQL.JS (frequency of publishing, docs, ...)
   - Who has access to Netlify and how can we disconnect it
   - Can we move the domain so it points at Vercel
+  - When do we want v17
+  - Should we start EOL'ing releases
