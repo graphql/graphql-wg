@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 ## Agenda
 
@@ -146,3 +147,6 @@ hold additional secondary meetings later in the month.
    - Can we move the domain so it points at Vercel
    - When do we want v17
    - Should we start EOL'ing releases
+1. `@defer`/`@stream` updates (10m, Rob)
+   - Editorial: move "Path" to it's own section https://github.com/graphql/graphql-spec/pull/1129
+   - Please continue reviewing https://github.com/graphql/graphql-spec/pull/1124
