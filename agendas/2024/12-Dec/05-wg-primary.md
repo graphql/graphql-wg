@@ -123,26 +123,26 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. [Move January meeting to Jan 9?](https://github.com/graphql/graphql-wg/pull/1595) (1m, Benjie)
 1. Make `deprecated.reason` non-null (5m, Martin)
-  - spec edits: https://github.com/graphql/graphql-spec/pull/1040
-  - graphql-js pull request: https://github.com/graphql/graphql-js/pull/4299#pullrequestreview-2455415595
+   - spec edits: https://github.com/graphql/graphql-spec/pull/1040
+   - graphql-js pull request: https://github.com/graphql/graphql-js/pull/4299#pullrequestreview-2455415595
 1. Add 'extensions' to request (2m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/976) - promote to RFC 2? (Does it actually _need_ any code changes?)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/976) - promote to RFC 2? (Does it actually _need_ any code changes?)
 1. Merge Lee's [Editorial changes for Event Streams](https://github.com/graphql/graphql-spec/pull/1099)? (2m, Benjie)
 1. When `sourceStream` errors, yield a `{ errors: [...] }` response (5m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/1127) - promote to RFC 1?
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1127) - promote to RFC 1?
 1. Add a validation rule that operation types exist (5m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/955) - promote to RFC 2?
+   - [RFC](https://github.com/graphql/graphql-spec/pull/955) - promote to RFC 2?
 1. Change 'original' to 'previous' to clarify multiple extensions (5m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/1123) - editorial; merge?
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1123) - editorial; merge?
 1. Implementations may not deprecate a field that the interface hasn't deprecated (10m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/1053) - promote to RFC2?
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1053) - promote to RFC2?
 1. Fix CoerceArgumentValues()' hasValue (15m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
 1. Be explicit about list coercion (15m, Benjie)
-  - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
 1. GraphQL-JS maintenance (10m, Jovi)
-  - What are our expectations of GraphQL.JS (frequency of publishing, docs, ...)
-  - Who has access to Netlify and how can we disconnect it
-  - Can we move the domain so it points at Vercel
-  - When do we want v17
-  - Should we start EOL'ing releases
+   - What are our expectations of GraphQL.JS (frequency of publishing, docs, ...)
+   - Who has access to Netlify and how can we disconnect it
+   - Can we move the domain so it points at Vercel
+   - When do we want v17
+   - Should we start EOL'ing releases
