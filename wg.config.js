@@ -40,6 +40,28 @@ hold additional secondary meetings later in the month.`,
     "ical file":
       "https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics",
   },
+
+  annualItems: [
+    {
+      month: 11,
+      allMeetings: true,
+      text: `**TSC elections**: open for self-nominations (5m, Host)
+- [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+- [Nomination form](https://tsc-nomination.graphql.org/)`,
+    },
+    {
+      month: 12,
+      text: `**TSC elections**: voting now open (2m, Host)
+- [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)`,
+    },
+    {
+      month: 1,
+      text: `**TSC**: election results (2m, Host)
+- [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+- [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)`,
+    },
+  ],
+
   secondaryMeetings: [
     // We decided at the primary WG in November 2024 to cancel the secondaries
     // since they have not been leveraged for a while. We can bring them back
