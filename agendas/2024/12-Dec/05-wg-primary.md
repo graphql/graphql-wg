@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Lenz Weber-Tronic| @phryneas     | Apollo             | Wuerzburg, DE         |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
@@ -154,3 +155,5 @@ hold additional secondary meetings later in the month.
    - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
 1. Be explicit about list coercion (15m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
+1. Interface field argument default values (@yaacovCR, 30m)
+   - Spec bug? https://github.com/graphql/graphql-spec/issues/1121
