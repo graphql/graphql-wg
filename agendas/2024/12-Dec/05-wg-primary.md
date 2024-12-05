@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Lenz Weber-Tronic| @phryneas     | Apollo             | Wuerzburg, DE         |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
