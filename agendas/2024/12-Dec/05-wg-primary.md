@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Lenz Weber-Tronic| @phryneas     | Apollo             | Wuerzburg, DE         |
 
 ## Agenda
 
