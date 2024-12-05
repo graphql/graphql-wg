@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
