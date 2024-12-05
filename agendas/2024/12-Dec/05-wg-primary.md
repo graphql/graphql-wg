@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
 
