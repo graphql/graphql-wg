@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Lenz Weber-Tronic| @phryneas     | Apollo             | Wuerzburg, DE         |
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 
 ## Agenda
 
