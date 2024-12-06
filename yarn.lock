@@ -74,6 +74,11 @@ is-fullwidth-code-point@^3.0.0:
   resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
   integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
 
+parse-diff@0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/parse-diff/-/parse-diff-0.11.1.tgz#d93ca2d225abed280782bccb1476711ca9dd84f0"
+  integrity sha512-Oq4j8LAOPOcssanQkIjxosjATBIEJhCxMCxPhMu+Ci4wdNmAEdx0O+a7gzbR2PyKXgKPvRLIN5g224+dJAsKHA==
+
 prettier@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
@@ -105,13 +110,14 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-wgutils@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/wgutils/-/wgutils-1.1.0.tgz#bd73f43f1c1b13109a797c9e19227c6f38a6b8fd"
-  integrity sha512-E5ce8Sfeu/X7abXIVhw4Q5SqMyWjtpoGSEzqLfYxGZKNCJ0z8T9htjtY+4Y+/DyE2Ui4JvHOrfcN6RCoB3KkMg==
+wgutils@^1.2.0-beta.0:
+  version "1.2.0-beta.0"
+  resolved "https://registry.yarnpkg.com/wgutils/-/wgutils-1.2.0-beta.0.tgz#9742d2ee433c7c521bd17b0fea905741f790461a"
+  integrity sha512-N09sJXrl6QOqTsMkS5PbyJPi0HTj3weY0XoFO6ULljGNB4QSCQURFDTHMMSi2Syezsb5UatPUAP4Ng03Ow3x+w==
   dependencies:
     date-fns "^2"
     date-fns-tz "^2.0.0"
+    parse-diff "0.11.1"
     yargs "^17.7.2"
     zod "^3.22.4"
 

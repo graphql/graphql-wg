@@ -1,0 +1,50 @@
+name: Agenda auto-merge
+
+on:
+  pull_request_target:
+    types: [synchronize, opened, reopened]
+
+permissions:
+  contents: write
+  pull-requests: read
+  checks: read
+
+jobs:
+  validate-and-merge:
+    if: ${{ github.event.pull_request.base.ref == 'main' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      # SECURITY: it's critical we do not check out the source pull request!
+      - name: Checkout the main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      # We need wgutils to be installed
+      - run: yarn install
+
+      - name: Wait for checks to pass
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Give 15 seconds for any checks to register
+          sleep 15
+
+          # Wait for checks to pass
+          CHECKS_OUTPUT="$(gh pr checks ${{ github.event.pull_request.number }} --fail-fast --watch --required --json bucket --jq '.state' 2>&1 || true)"
+
+          if [[ "$CHECKS_OUTPUT" == "pass" ]]; then
+            echo "$CHECKS_OUTPUT"
+          else
+            echo "PR state failed? $CHECKS_OUTPUT"
+            exit 1
+          fi
+
+      - name: Automerge if wgutils approves
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if yarn wgutils can-automerge "${{ github.event.pull_request.number }}" "${{ github.event.pull_request.head.sha }}"; then
+            gh pr merge "${{ github.event.pull_request.number }}" --squash --auto --match-head-commit "${{ github.event.pull_request.head.sha }}"
+          fi
