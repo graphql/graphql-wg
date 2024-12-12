@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -118,4 +119,14 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-
+1. Changing error handling of subscription streams? (2m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1127) - promote to RFC1?
+1. Add 'extensions' to request (2m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/976)
+   - Attempted to address [Lee's feedback](https://youtu.be/6bW3Xcks5I4?t=739) - promote to RFC3?
+1. Implementations may not deprecate a field that the interface hasn't deprecated (2m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1053) - promote to RFC3?
+1. Fix CoerceArgumentValues()' hasValue (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
+1. Be explicit about list coercion (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
