@@ -36,7 +36,7 @@ jobs:
           # Now get the result in JSON
           CHECKS_OUTPUT="$(gh pr checks ${{ github.event.pull_request.number }} --required --json bucket --jq 'map(.bucket == "pass") | all' 2>&1 || true)"
 
-          if [[ "$CHECKS_OUTPUT" == "pass" ]]; then
+          if [[ "$CHECKS_OUTPUT" == "true" ]]; then
             echo "$CHECKS_OUTPUT"
           else
             echo "PR state failed? $CHECKS_OUTPUT"
