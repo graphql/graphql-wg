@@ -32,7 +32,9 @@ jobs:
           sleep 15
 
           # Wait for checks to pass
-          CHECKS_OUTPUT="$(gh pr checks ${{ github.event.pull_request.number }} --fail-fast --watch --required --json bucket --jq '.state' 2>&1 || true)"
+          gh pr checks ${{ github.event.pull_request.number }} --fail-fast --watch --required 2>&1 || true
+          # Now get the result in JSON
+          CHECKS_OUTPUT="$(gh pr checks ${{ github.event.pull_request.number }} --fail-fast --required --json bucket --jq '.state' 2>&1 || true)"
 
           if [[ "$CHECKS_OUTPUT" == "pass" ]]; then
             echo "$CHECKS_OUTPUT"
