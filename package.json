@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "prettier": "^2.1.2",
-    "wgutils": "^1.2.0-beta.0"
+    "wgutils": "^1.2.0"
   },
   "prettier": {
     "proseWrap": "always"
