@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE        |
+| Martin Bonnin   | @martinbonnin  | Apollo             | Paris, FR        |
 
 
 ## Agenda
