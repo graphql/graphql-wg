@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -136,3 +137,7 @@ hold additional secondary meetings later in the month.
    - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
 1. Be explicit about list coercion (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
+1. Defer/Stream update (15m, Rob)
+   - Apollo Kotlin and Urql have implemented the latest proposal
+   - Editorial change for Path: https://github.com/graphql/graphql-spec/pull/1129
+   - Spec edits for Section 3: https://github.com/graphql/graphql-spec/pull/1132
