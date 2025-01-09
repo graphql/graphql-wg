@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE        |
 | Martin Bonnin   | @martinbonnin  | Apollo             | Paris, FR        |
 | Benoit Lubek    | @BoD           | Apollo             | Paris, FR        |
+| Michael Staib   | @michaelstaib  | ChilliCream        | Zurich, CH        |
 
 
 ## Agenda
