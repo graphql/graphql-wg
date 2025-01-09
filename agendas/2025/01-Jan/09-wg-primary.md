@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib   | @michaelstaib  | ChilliCream        | Zurich, CH        |
 | Jeff Auriemma   | @bignimbus     | Apollo             | Monroe, CT, USA   |
 | Matt Mahoney    | @mjmahone      | Meta               | New York, NY, US      |
+| Yaacov Rydzinski     | @yaacovCR | Individual         | Ashdod, IL            |
 
 
 ## Agenda
