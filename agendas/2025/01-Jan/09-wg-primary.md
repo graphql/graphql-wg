@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin   | @martinbonnin  | Apollo             | Paris, FR        |
 | Benoit Lubek    | @BoD           | Apollo             | Paris, FR        |
 | Michael Staib   | @michaelstaib  | ChilliCream        | Zurich, CH        |
+| Jeff Auriemma   | @bignimbus     | Apollo             | Monroe, CT, USA   |
 
 
 ## Agenda
