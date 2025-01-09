@@ -125,10 +125,12 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. **TSC elections update** (2m, Host)
    - [Election issue](https://github.com/graphql/graphql-wg/issues/1612)
+1. **TSC**: GitHub permissions (2m, Benjie)
 1. **[GraphQLConf 2025](https://graphql.org/conf/2025/) is happening!** (10m, Benjie)
    - Amsterdam, Netherlands, Sept 8-10 2025
    - How can we help you attend? (Feel free to reach out to me privately via Discord or Slack.)
    - WG track: talk or two from champions, followed by discussions... thoughts?
+   - Any suggestions for: keynotes, MCs, meaningful/engaging/fun topics, subject-matter experts
 1. Changing error handling of subscription streams? (2m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1127) - promote to RFC1?
 1. Add 'extensions' to request (2m, Benjie)
@@ -136,11 +138,11 @@ hold additional secondary meetings later in the month.
    - Attempted to address [Lee's feedback](https://youtu.be/6bW3Xcks5I4?t=739) - promote to RFC3?
 1. Implementations may not deprecate a field that the interface hasn't deprecated (2m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1053) - promote to RFC3?
-1. Fix CoerceArgumentValues()' hasValue (10m, Benjie)
-   - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
-1. Be explicit about list coercion (10m, Benjie)
-   - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
 1. Defer/Stream update (15m, Rob)
    - Apollo Kotlin and Urql have implemented the latest proposal
    - Editorial change for Path: https://github.com/graphql/graphql-spec/pull/1129
    - Spec edits for Section 3: https://github.com/graphql/graphql-spec/pull/1132
+1. Fix CoerceArgumentValues()' hasValue (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1056) - promote to RFC2? Merge as an editorial fix?
+1. Be explicit about list coercion (10m, Benjie)
+   - [RFC](https://github.com/graphql/graphql-spec/pull/1058) - promote to RFC2? Merge as an editorial fix?
