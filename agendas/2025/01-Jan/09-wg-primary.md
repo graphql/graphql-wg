@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE        |
 | Martin Bonnin   | @martinbonnin  | Apollo             | Paris, FR        |
+| Benoit Lubek    | @BoD           | Apollo             | Paris, FR        |
 
 
 ## Agenda
