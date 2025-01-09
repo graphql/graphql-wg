@@ -104,8 +104,7 @@ hold additional secondary meetings later in the month.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benjie Gillam (Host) | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE        |
 | Martin Bonnin   | @martinbonnin  | Apollo             | Paris, FR        |
