@@ -200,15 +200,33 @@ Note: A member may be recused (i.e. for a member election) in which case they do
 
 ### Voting process
 
-Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. Once the threshold of a quorum has been met and a vote is valid, one of these two critera must be satisfied to conclude a vote:
+The GraphQL TSC is a distributed group and our voting process must account for a range of time zones and schedules. TSC votes are held asynchronously and follow three distinct phases:
+
+1. Call for vote
+2. Open voting
+3. Conclusion of vote
+
+**1. Call for vote**
+
+- Only a member of the TSC may call for a vote (though any member of the community may join a GraphQL Working Group meeting to propose one)
+- A Github issue should be opened in the appropriate repository detailing the vote along with any relevant context and guidance to voting TSC members. Most votes are public and are held in the [graphql-wg](https://github.com/graphql/graphql-wg) repository. In less frequent cases a private vote may be held in a specific private repository (for example, to address security concerns).
+- A reasonable effort must be made to contact all voting TSC members by the individual calling for a vote. Best practice is to **a)** mention `@graphql/tsc` on the Github issue, and **b)** email all voting TSC members, and then optionally **c)** direct message individuals on preferred messaging platforms.
+
+**2. Open voting**
+
+Once the Github issue requiring a vote is posted and all voting TSC members have been contacted, the vote is open. Individual votes may be publicly or privately cast. Once the threshold of a quorum has been met and a vote is valid, one of these two critera must be satisfied to conclude a vote:
 
 - A notice is sent via email that the vote will conclude in three business days, reminding those who haven't voted that they should do so. The vote will conclude at the end of this time.
 - The election results would not change if all remaining members were to vote.
+
+**3. Conclusion of vote**
 
 Once a valid vote is concluded, the result is determined by the number of votes received at that time (as opposed to the total number of TSC members):
 
 - For a binary choice, the votes in favor must exceed half for a majority (or 2/3 for a supermajority) of the total number of votes.
 - For ranked choices, all votes received at the time the vote is concluded are considered.
+
+The result of the vote must be published back to the original Github issue which called for the vote.
 
 ### Non-votes
 
