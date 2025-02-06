@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
