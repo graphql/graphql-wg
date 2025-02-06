@@ -107,8 +107,9 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-| Martin Bonnin   | @martinbonnin | Apollo        | Paris, FR             |
-| Benoit Lubek    | @BoD          | Apollo        | Lyon, FR              |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
