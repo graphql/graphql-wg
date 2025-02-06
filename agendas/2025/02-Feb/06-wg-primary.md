@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 
 ## Agenda
 
@@ -122,6 +123,7 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Announce the new [Community WG](https://github.com/graphql/community-wg)? (5m, Uri)
 1. Archive [GraphQL Playground](https://github.com/graphql/graphql-playground)? (5m, Benjie)
 1. Defer/Stream updates (20m, Rob)
    - [Spec update: Move "Path" to it's own section](https://github.com/graphql/graphql-spec/pull/1129) Merge as an editorial fix?
