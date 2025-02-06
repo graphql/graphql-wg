@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
