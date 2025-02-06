@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Zach FettersMoore| @BobaFetters  | Apollo             | Ohio, US              |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
