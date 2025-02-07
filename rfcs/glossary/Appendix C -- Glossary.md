@@ -187,9 +187,22 @@ Example:
 
 ### (GraphQL) service
 
-**Definition**: a software capable of executing a GraphQL request and returning
-a GraphQL response according to this specification. 
+**Definition**: A GraphQL service generates a [response](https://spec.graphql.org/draft/#sec-Response) from a [request](https://spec.graphql.org/draft/#request) via [execution](https://spec.graphql.org/draft/#sec-Execution).
+
+How the conformance is implemented is irrelevant. A cache in front of another
+GraphQL service can itself be seen as a conforming service, assuming it does not
+break any conformance requirements (e.g. on cache failure).
+
+Examples: GitHub GraphQL API, Shopify GraphQL API, etc... 
 
 Note: The specification has no concept of client and server. While most 
 services are implemented as servers, this is not a requirement and execution
 can happen anywhere as long as it conforms to the specification.
+
+### (GraphQL) implementation
+
+**Definition**: software that implements the algorithms and behaviours described
+in the GraphQL specification. 
+
+Examples: graphql-js, Hot Chocolate, graphql-java, etc...
+
