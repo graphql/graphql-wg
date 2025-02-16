@@ -189,9 +189,9 @@ Guiding Principles. The scores are:
 The promise of this RFC - the reflection of the semantic nullability of the
 fields.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | ✅               | ✅               |
 
 Criteria score: 🥇
 
@@ -201,9 +201,9 @@ Users should be able to adopt semantic nullability into an existing schema, and
 when doing so all existing operations should remain valid, and should have the
 same meaning as they always did.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | 🚫              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | ✅               | ✅               |
 
 Criteria score: 🥇
 
@@ -213,9 +213,9 @@ GraphQL has been public for 10 years and there's a lot of content out there
 noting that GraphQL types are nullable by default (unadorned type is nullable)
 and that `!` means non-nullable. Our changes should not invalidate this content.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | 🚫              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫              | ✅               |
 
 Criteria score: 🥈
 
@@ -225,9 +225,9 @@ The GraphQL languages similarity to JSON is one of its strengths, making it
 immediately feel familiar. Syntax used should feel obvious to developers new to
 GraphQL.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| 🚫              | ✅              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| 🚫              | ✅               | ✅               | ⚠️              | ✅               |
 
 Criteria score: 🥈
 
@@ -237,9 +237,9 @@ When a user wishes to replace the value for an input field or argument with a
 variable in their GraphQL operation, the type syntax should be either identical
 or similar, and should carry the same meaning.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               |
 
 Criteria score: 🥇
 
@@ -248,9 +248,9 @@ Criteria score: 🥇
 Where a proposal allows alternative syntaxes to be used, the two syntaxes should
 not cause confusion.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               |
 
 Criteria score: 🥇
 
@@ -262,9 +262,9 @@ Template for new items:
 
 DESCRIPTION
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ❔              | ❔              | ❔              | ❔              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|
+| ?               | ?               | ?               | ?               | ?               |
 
 Criteria score: ❔
 
@@ -466,3 +466,46 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
 - [F][criteria-f]
   - 🚫 `Int` being nullable in one mode and non-nullable in the other mode is
     unexpected and will likely lead to confusion.
+
+## 💡 5. `@onError` directive
+
+**Champion**: @martinbonnin
+
+- Discussion: https://github.com/graphql/nullability-wg/discussions/85
+
+Instead of introducing a new type, this proposal introduces a new client directive allowing to control the error behaviour and opt-out of error propagation. 
+
+With `@onError(action: NULL)`, schema authors can optimize for error-handling clients and start using `!` to indicate semantically non-null fields.  
+
+```graphql
+enum __ErrorAction {
+  """
+  Non-nullable positions that error cause the error to propagate to the nearest nullable
+  ancestor position. The error is added to the "errors" list.
+  """
+  PROPAGATE
+
+  """
+  Positions that error are replaced with a `null` and an error is added to the "errors"
+  list.
+  """
+  NULL
+}
+
+directive @onError(action: __ErrorAction) on QUERY | MUTATION | SUBSCRIPTION
+```
+
+### ⚖️ Evaluation
+
+- [A][criteria-a]
+  - ✅
+- [B][criteria-b]
+  - ✅ The default `@onError` action is `PROPAGATE`, making sure existing documents are not impacted.
+- [C][criteria-c]
+  - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
+- [D][criteria-d]
+  - ⚠️ Adding `@onError` to operations is not immediately intuitive but most error-handling clients should add it automatically, making it transparent to end users. 
+- [E][criteria-e]
+  - ✅ Same syntax.
+- [F][criteria-f]
+  - ✅ Same syntax.
