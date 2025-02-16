@@ -467,7 +467,7 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
   - 🚫 `Int` being nullable in one mode and non-nullable in the other mode is
     unexpected and will likely lead to confusion.
 
-## 💡 5. `@onError` directive
+## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
 
 **Champion**: @martinbonnin
 
