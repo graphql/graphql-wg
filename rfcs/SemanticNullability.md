@@ -109,11 +109,35 @@ to handle errors in the relevant places.
 
 However, this would mean that clients such as Relay would want to add `?` in
 every position, causing an "explosion" of question marks, because really what
-Relay desired was to disable null propagation entirely.
+Relay desired was to disable error propagation entirely.
 
-## Semantic nullability
+## Disabling error propagation
 
-What we ultimately realised is that GraphQL is missing a type.
+It became clear that disabling error propagation was desired by advanced GraphQL
+clients and vital for ensuring that normalized caches were as useful as possible
+and that we could live up to the promise of GraphQL's partial success without
+compromise. But that was only part of the problem - the other part was that we
+want to see the "true" nullability of fields, the nullability if we were to
+exclude errors.
+
+Note: this RFC assumes that clients may opt out of error propagation via some
+mechanism that is outside the scope of this RFC and will be handled in a
+separate RFC (e.g. via a directive such as `@noErrorPropagation` or
+`@behavior(onError: null)`; or via a request-level flag) - in general the
+specific mechanism is unimportant and thus solutions are not expected to comment
+on it unless the choice is significant to the proposal.
+
+### Semantic nullability
+
+We realised that if we were to do this, we would need two schemas: one for when
+null bubbling is disabled, where the true nullability of fields could be
+represented; and one for the traditional error handling behavior, where
+nullability would need to factor in that errors can occur.
+
+However, maintaining two nearly-identical-except-for-nullability schemas is a
+chore... and it felt like it was solveable if we could teach GraphQL to
+understand this need... What we ultimately realised is that GraphQL is missing a
+type.
 
 Ignoring errors, if we look at our business logic we can determine if a field is
 either _semantically nullable_ (it's meaningful for this field to be null - for
@@ -143,8 +167,7 @@ non-null" type.
 # 📜 Problem Statement
 
 GraphQL needs to be able to represent semantically nullable and semantically
-non-nullable types as such whilst allowing errors to occur in either position,
-without triggering error propagation.
+non-nullable types as such when error propagation is disabled.
 
 # 📋 Solution Criteria
 
