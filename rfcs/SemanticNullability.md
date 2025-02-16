@@ -123,7 +123,7 @@ exclude errors.
 Note: this RFC assumes that clients may opt out of error propagation via some
 mechanism that is outside the scope of this RFC and will be handled in a
 separate RFC (e.g. via a directive such as `@noErrorPropagation` or
-`@behavior(onError: null)`; or via a request-level flag) - in general the
+`@behavior(onError: NULL)`; or via a request-level flag) - in general the
 specific mechanism is unimportant and thus solutions are not expected to comment
 on it unless the choice is significant to the proposal.
 
