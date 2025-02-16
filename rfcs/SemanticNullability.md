@@ -473,27 +473,7 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
 
 - Discussion: https://github.com/graphql/nullability-wg/discussions/85
 
-Instead of introducing a new type, this proposal introduces a new client directive allowing to control the error behaviour and opt-out of error propagation. 
-
-With `@onError(action: NULL)`, schema authors can optimize for error-handling clients and start using `!` to indicate semantically non-null fields.  
-
-```graphql
-enum __ErrorAction {
-  """
-  Non-nullable positions that error cause the error to propagate to the nearest nullable
-  ancestor position. The error is added to the "errors" list.
-  """
-  PROPAGATE
-
-  """
-  Positions that error are replaced with a `null` and an error is added to the "errors"
-  list.
-  """
-  NULL
-}
-
-directive @onError(action: __ErrorAction) on QUERY | MUTATION | SUBSCRIPTION
-```
+This proposal relies on the ability of clients to opt out of error propagation; instead of introducing a new type it instructs schema authors to optimize for error-handling clients and use the traditional non-null type (`!`) on all semantically non-null fields.
 
 ### ⚖️ Evaluation
 
