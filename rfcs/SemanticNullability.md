@@ -226,7 +226,7 @@ chosen, so this criteria is only concerned with traditionally nullable types.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | ✅               | ✅               |
+| ✅               | ✅               | ✅               | ✅               | 🚫                |
 
 Criteria score: 🥇
 
