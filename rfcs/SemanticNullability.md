@@ -497,10 +497,10 @@ day-to-day work.
     input and output (the difference between semantic an strict non-null does
     not occur on input)
 - [F][criteria-f]
-  - 🚫 `Int` reatains its meaning across both modes, and `Int!` means
-    non-nullable in both modes. Only the SDL ever uses `Int!!` and it still
-    means non-null, just with the additional "kills parent on exception"
-    behavior.
+  - 🚫 `Int` reatains its meaning across both modes, but `Int!` means
+    non-nullable in one mode, but semantic non-nullable in another. Only
+    the SDL ever uses `Int!!` and it still means non-null, just with the
+    additional "kills parent on exception" behavior.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
