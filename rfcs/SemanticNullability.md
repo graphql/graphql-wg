@@ -289,6 +289,20 @@ not cause confusion.
 
 Criteria score: 🥇
 
+## 🎯 G. Error propagation boundaries should not change in existing executable documents
+
+An expansion of B, this states that the proposal will not change where errors
+propagate to when error propagation is enabled (i.e. existing documents will
+still keep errors local to the same positions that they did when they were
+published), allowing for the "partial success" feature of GraphQL to continue to
+shine and not compromising the resiliency of legacy deployed app versions.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
+| --------------- | --------------- | --------------- | --------------- |
+| ✅              | ✅              | ✅              | ✅              |
+
+Criteria score: 🥇
+
 <!--
 
 Template for new items:
@@ -369,6 +383,8 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - ✅ Same syntax.
 - [F][criteria-f]
   - ✅ Same syntax.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 2. "Strict Semantic Nullability"
 
@@ -406,6 +422,8 @@ symbol) to indicate that a position may semantically be null.
   - ✅ The same syntax is used on input and output.
 - [F][criteria-f]
   - ✅ There is no alternative syntax.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
 
@@ -466,6 +484,8 @@ day-to-day work.
     non-nullable in both modes. Only the SDL ever uses `Int!!` and it still
     means non-null, just with the additional "kills parent on exception"
     behavior.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
@@ -501,3 +521,5 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
 - [F][criteria-f]
   - 🚫 `Int` being nullable in one mode and non-nullable in the other mode is
     unexpected and will likely lead to confusion.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
