@@ -535,9 +535,9 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 ### ⚖️ Evaluation
 
 - [A][criteria-a]
-  - ✅
+  - 🚫 It's not possible to indicate a position that can be null only on error.
 - [B][criteria-b]
-  - ✅ The default `@onError` action is `PROPAGATE`, making sure existing documents are not impacted.
+  - ⚠️ Existing documents will not disable null propagation and the change in nullability is backwards compatible; however since the schema uses non-null without regard to error production, existing documents will no longer be able to gracefully handle errors that happen in semantically non-nullable positions and thus their meaning has changed.
 - [C][criteria-c]
   - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
 - [D][criteria-d]
