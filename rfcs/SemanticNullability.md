@@ -250,7 +250,7 @@ and that `!` means non-nullable. Our changes should not invalidate this content.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | 🚫              | ✅               | 🚫              | ✅               |
+| ✅               | 🚫              | 🚫               | 🚫              | ✅               |
 
 Criteria score: 🥈
 
@@ -497,7 +497,7 @@ day-to-day work.
     input and output (the difference between semantic an strict non-null does
     not occur on input)
 - [F][criteria-f]
-  - ✅ `Int` reatains its meaning across both modes, and `Int!` means
+  - 🚫 `Int` reatains its meaning across both modes, and `Int!` means
     non-nullable in both modes. Only the SDL ever uses `Int!!` and it still
     means non-null, just with the additional "kills parent on exception"
     behavior.
