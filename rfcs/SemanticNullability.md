@@ -304,7 +304,17 @@ shine and not compromising the resiliency of legacy deployed app versions.
 Criteria score: 🥇
 
 * ✂️ Objection: proposal to lower the score to 🥈. With enough advance notice and a clear upgrade 
-path for legacy apps, the tradeoff might be acceptable. 
+path for legacy apps, the tradeoff might be acceptable.
+
+## 🎯 H. Implementation and spec simplicity
+
+The implementation required to make the proposal work should be simple.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|
+| ✅              | 🚫              | 🚫              | 🚫              | ✅             |
+
+Criteria score: 🥉
 
 <!--
 
@@ -388,6 +398,8 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - ✅ Same syntax.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - ✅ Implementation and spec simplicity.
 
 ## 💡 2. "Strict Semantic Nullability"
 
@@ -427,6 +439,8 @@ symbol) to indicate that a position may semantically be null.
   - ✅ There is no alternative syntax.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - 🚫 Implementation and spec simplicity.
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
 
@@ -489,6 +503,8 @@ day-to-day work.
     behavior.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - 🚫 Implementation and spec simplicity.
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
@@ -526,6 +542,8 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
     unexpected and will likely lead to confusion.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - 🚫 Implementation and spec simplicity.
 
 ## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
 
@@ -551,3 +569,5 @@ This proposal relies on the ability of clients to opt out of error propagation; 
   - ✅ Same syntax.
 - [G][criteria-g]
   - 🚫 Using non-null in more positions will change the error boundary positions when error propagation is enabled.
+- [H][criteria-h]
+  - ✅ Implementation and spec simplicity.
