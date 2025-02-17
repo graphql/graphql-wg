@@ -224,9 +224,9 @@ Note: Traditional non-nullable types will effectively become semantically
 non-nullable when error propagation is disabled no matter which solution is
 chosen, so this criteria is only concerned with traditionally nullable types.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | ✅               | 🚫👍              |
 
 Criteria score: 🥇
 
@@ -236,9 +236,9 @@ Users should be able to adopt semantic nullability into an existing schema, and
 when doing so all existing operations should remain valid, and should have the
 same meaning as they always did.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | 🚫              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | ✅               | ✅               |
 
 Criteria score: 🥇
 
@@ -248,9 +248,9 @@ GraphQL has been public for 10 years and there's a lot of content out there
 noting that GraphQL types are nullable by default (unadorned type is nullable)
 and that `!` means non-nullable. Our changes should not invalidate this content.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | 🚫              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫              | ✅               |
 
 Criteria score: 🥈
 
@@ -260,9 +260,9 @@ The GraphQL languages similarity to JSON is one of its strengths, making it
 immediately feel familiar. Syntax used should feel obvious to developers new to
 GraphQL.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| 🚫              | ✅              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| 🚫              | ✅               | ✅               | ✅              | ⚠️               |
 
 Criteria score: 🥈
 
@@ -272,9 +272,9 @@ When a user wishes to replace the value for an input field or argument with a
 variable in their GraphQL operation, the type syntax should be either identical
 or similar, and should carry the same meaning.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               |
 
 Criteria score: 🥇
 
@@ -283,9 +283,9 @@ Criteria score: 🥇
 Where a proposal allows alternative syntaxes to be used, the two syntaxes should
 not cause confusion.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               |
 
 Criteria score: 🥇
 
@@ -297,11 +297,14 @@ still keep errors local to the same positions that they did when they were
 published), allowing for the "partial success" feature of GraphQL to continue to
 shine and not compromising the resiliency of legacy deployed app versions.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ✅              | ✅              | ✅              | ✅              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|
+| ✅              | ✅              | ✅              | ✅              | 🚫              |
 
 Criteria score: 🥇
+
+* ✂️ Objection: proposal to lower the score to 🥈. With enough advance notice and a clear upgrade 
+path for legacy apps, the tradeoff might be acceptable. 
 
 <!--
 
@@ -311,9 +314,9 @@ Template for new items:
 
 DESCRIPTION
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
-| --------------- | --------------- | --------------- | --------------- |
-| ❔              | ❔              | ❔              | ❔              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|
+| ?               | ?               | ?               | ?               | ?               |
 
 Criteria score: ❔
 
@@ -523,3 +526,28 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
     unexpected and will likely lead to confusion.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+
+## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
+
+**Champion**: @martinbonnin
+
+- Discussion: https://github.com/graphql/nullability-wg/discussions/85
+
+This proposal relies on the ability of clients to opt out of error propagation; instead of introducing a new type it instructs schema authors to optimize for error-handling clients and use the traditional non-null type (`!`) on all semantically non-null fields.
+
+### ⚖️ Evaluation
+
+- [A][criteria-a]
+  - 🚫👍 The nullability used in both error-propagation and no-error-propagation modes are the same. This is a feature, not a bug!
+- [B][criteria-b]
+  - ✅ The change from nullable to non-nullable on output is backwards compatible from a type perspective; for impact on error boundaries see G.
+- [C][criteria-c]
+  - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
+- [D][criteria-d]
+  - ⚠️ Adding `@onError` to operations is not immediately intuitive but most error-handling clients should add it automatically, making it transparent to end users. 
+- [E][criteria-e]
+  - ✅ Same syntax.
+- [F][criteria-f]
+  - ✅ Same syntax.
+- [G][criteria-g]
+  - 🚫 Using non-null in more positions will change the error boundary positions when error propagation is enabled.
