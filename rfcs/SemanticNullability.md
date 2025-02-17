@@ -303,6 +303,9 @@ shine and not compromising the resiliency of legacy deployed app versions.
 
 Criteria score: 🥇
 
+* ✂️ Objection: proposal to lower the score to 🥈. With enough advance notice and a clear upgrade 
+path for legacy apps, the tradeoff might be acceptable. 
+
 <!--
 
 Template for new items:
