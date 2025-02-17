@@ -207,10 +207,22 @@ Guiding Principles. The scores are:
 - 🥈 Silver - A nice-to-have
 - 🥉 Bronze - Not necessary
 
-## 🎯 A. GraphQL should be able to indicate which positions will only be null if an error occurred
+## 🎯 A. GraphQL should be able to indicate which nullable fields should become non-nullable when error propagation is disabled
 
 The promise of this RFC - the reflection of the semantic nullability of the
-fields.
+fields without compromising requests with error propagation enabled via the
+differentiation of a "null if and only if an error occurs" type.
+
+With error propagation enabled (the traditional GraphQL behavior), it's
+recommended that fields are marked nullable if errors may happen there, even if
+the underlying value is semantically non-nullable. If we allow error-handling
+clients to disable error propagation, then these traditionally nullable
+positions can be marked (semantically) non-nullable in that mode, since with
+error propagation disabled the selection sets are no longer destroyed.
+
+Note: Traditional non-nullable types will effectively become semantically
+non-nullable when error propagation is disabled no matter which solution is
+chosen, so this criteria is only concerned with traditionally nullable types.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] |
 | --------------- | --------------- | --------------- | --------------- |
