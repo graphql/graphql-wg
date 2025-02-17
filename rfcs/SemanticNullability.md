@@ -242,11 +242,11 @@ same meaning as they always did.
 
 Criteria score: 🥇
 
-## 🎯 C. Existing meanings should be retained
+## 🎯 C. Unadorned type should mean nullable
 
 GraphQL has been public for 10 years and there's a lot of content out there
 noting that GraphQL types are nullable by default (unadorned type is nullable)
-and that `!` means non-nullable. Our changes should not invalidate this content.
+and our changes should not invalidate this content.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
@@ -488,7 +488,7 @@ day-to-day work.
 - [B][criteria-b]
   - ✅ Executable documents are not impacted by this proposal.
 - [C][criteria-c]
-  - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
+  - ✅ `Int` means nullable still.
 - [D][criteria-d]
   - ✅ `Int!` to indicate non-nullable is common in programming languages; and
     `Int!!` looks like it indicates "danger".
@@ -560,7 +560,7 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 - [B][criteria-b]
   - ✅ The change from nullable to non-nullable on output is backwards compatible from a type perspective; for impact on error boundaries see G.
 - [C][criteria-c]
-  - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
+  - ✅ `Int` means nullable still.
 - [D][criteria-d]
   - ⚠️ Adding `@onError` to operations is not immediately intuitive but most error-handling clients should add it automatically, making it transparent to end users. 
 - [E][criteria-e]
