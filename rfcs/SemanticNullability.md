@@ -226,7 +226,7 @@ chosen, so this criteria is only concerned with traditionally nullable types.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | ✅               | 🚫                |
+| ✅               | ✅               | ✅               | ✅               | 🚫👍              |
 
 Criteria score: 🥇
 
@@ -538,9 +538,9 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 ### ⚖️ Evaluation
 
 - [A][criteria-a]
-  - 🚫 It's not possible to indicate a position that can be null only on error.
+  - 🚫👍 The nullability used in both error-propagation and no-error-propagation modes are the same. This is a feature, not a bug!
 - [B][criteria-b]
-  - ⚠️ Existing documents will not disable null propagation and the change in nullability is backwards compatible; however since the schema uses non-null without regard to error production, existing documents will no longer be able to gracefully handle errors that happen in semantically non-nullable positions and thus their meaning has changed.
+  - ✅ The change from nullable to non-nullable on output is backwards compatible from a type perspective; for impact on error boundaries see G.
 - [C][criteria-c]
   - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
 - [D][criteria-d]
