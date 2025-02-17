@@ -109,11 +109,35 @@ to handle errors in the relevant places.
 
 However, this would mean that clients such as Relay would want to add `?` in
 every position, causing an "explosion" of question marks, because really what
-Relay desired was to disable null propagation entirely.
+Relay desired was to disable error propagation entirely.
 
-## Semantic nullability
+## Disabling error propagation
 
-What we ultimately realised is that GraphQL is missing a type.
+It became clear that disabling error propagation was desired by advanced GraphQL
+clients and vital for ensuring that normalized caches were as useful as possible
+and that we could live up to the promise of GraphQL's partial success without
+compromise. But that was only part of the problem - the other part was that we
+want to see the "true" nullability of fields, the nullability if we were to
+exclude errors.
+
+Note: this RFC assumes that clients may opt out of error propagation via some
+mechanism that is outside the scope of this RFC and will be handled in a
+separate RFC (e.g. via a directive such as `@noErrorPropagation` or
+`@behavior(onError: NULL)`; or via a request-level flag) - in general the
+specific mechanism is unimportant and thus solutions are not expected to comment
+on it unless the choice is significant to the proposal.
+
+### Semantic nullability
+
+We realised that if we were to do this, we would need two schemas: one for when
+null bubbling is disabled, where the true nullability of fields could be
+represented; and one for the traditional error handling behavior, where
+nullability would need to factor in that errors can occur.
+
+However, maintaining two nearly-identical-except-for-nullability schemas is a
+chore... and it felt like it was solveable if we could teach GraphQL to
+understand this need... What we ultimately realised is that GraphQL is missing a
+type.
 
 Ignoring errors, if we look at our business logic we can determine if a field is
 either _semantically nullable_ (it's meaningful for this field to be null - for
@@ -143,8 +167,7 @@ non-null" type.
 # 📜 Problem Statement
 
 GraphQL needs to be able to represent semantically nullable and semantically
-non-nullable types as such whilst allowing errors to occur in either position,
-without triggering error propagation.
+non-nullable types as such when error propagation is disabled.
 
 # 📋 Solution Criteria
 
@@ -184,10 +207,22 @@ Guiding Principles. The scores are:
 - 🥈 Silver - A nice-to-have
 - 🥉 Bronze - Not necessary
 
-## 🎯 A. GraphQL should be able to indicate which positions will only be null if an error occurred
+## 🎯 A. GraphQL should be able to indicate which nullable fields should become non-nullable when error propagation is disabled
 
 The promise of this RFC - the reflection of the semantic nullability of the
-fields.
+fields without compromising requests with error propagation enabled via the
+differentiation of a "null if and only if an error occurs" type.
+
+With error propagation enabled (the traditional GraphQL behavior), it's
+recommended that fields are marked nullable if errors may happen there, even if
+the underlying value is semantically non-nullable. If we allow error-handling
+clients to disable error propagation, then these traditionally nullable
+positions can be marked (semantically) non-nullable in that mode, since with
+error propagation disabled the selection sets are no longer destroyed.
+
+Note: Traditional non-nullable types will effectively become semantically
+non-nullable when error propagation is disabled no matter which solution is
+chosen, so this criteria is only concerned with traditionally nullable types.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
@@ -251,6 +286,20 @@ not cause confusion.
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ✅               | ✅               | 🚫              | ✅               |
+
+Criteria score: 🥇
+
+## 🎯 G. Error propagation boundaries should not change in existing executable documents
+
+An expansion of B, this states that the proposal will not change where errors
+propagate to when error propagation is enabled (i.e. existing documents will
+still keep errors local to the same positions that they did when they were
+published), allowing for the "partial success" feature of GraphQL to continue to
+shine and not compromising the resiliency of legacy deployed app versions.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|
+| ✅              | ✅              | ✅              | ✅              | 🚫              |
 
 Criteria score: 🥇
 
@@ -334,6 +383,8 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - ✅ Same syntax.
 - [F][criteria-f]
   - ✅ Same syntax.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 2. "Strict Semantic Nullability"
 
@@ -371,6 +422,8 @@ symbol) to indicate that a position may semantically be null.
   - ✅ The same syntax is used on input and output.
 - [F][criteria-f]
   - ✅ There is no alternative syntax.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
 
@@ -431,6 +484,8 @@ day-to-day work.
     non-nullable in both modes. Only the SDL ever uses `Int!!` and it still
     means non-null, just with the additional "kills parent on exception"
     behavior.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
@@ -466,6 +521,8 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
 - [F][criteria-f]
   - 🚫 `Int` being nullable in one mode and non-nullable in the other mode is
     unexpected and will likely lead to confusion.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
 
 ## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
 
@@ -489,3 +546,5 @@ This proposal relies on the ability of clients to opt out of error propagation; 
   - ✅ Same syntax.
 - [F][criteria-f]
   - ✅ Same syntax.
+- [G][criteria-g]
+  - 🚫 Using non-null in more positions will change the error boundary positions when error propagation is enabled.
