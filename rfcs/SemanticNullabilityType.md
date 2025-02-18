@@ -1,4 +1,4 @@
-# RFC: Semantic Nullability
+# RFC: Semantic Nullability Type
 
 # 📜 Problem History
 
@@ -166,8 +166,13 @@ non-null" type.
 
 # 📜 Problem Statement
 
-GraphQL needs to be able to represent semantically nullable and semantically
-non-nullable types as such when error propagation is disabled.
+GraphQL schema authors need a way to explicitly distinguish between
+**semantically nullable** (where `null` is a meaningful application-level
+value), **semantically non-nullable** (where `null` should not be expected but
+might still occur due to errors), and **strictly non-nullable** (where `null`
+must never appear, even in the presence of errors). This distinction ensures
+that schemas accurately convey application intent while defining appropriate
+error boundaries when error propagation is enabled.
 
 # 📋 Solution Criteria
 
