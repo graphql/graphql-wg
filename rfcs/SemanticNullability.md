@@ -314,10 +314,7 @@ The implementation required to make the proposal work should be simple.
 | --------------- | --------------- | --------------- | --------------- |-----------------|
 | ✅              | 🚫              | 🚫              | 🚫              | ✅             |
 
-Criteria score: 🥉
-
-* ✂️ Objection: proposal to increase the score to 🥈. Simplicity is a defining characteristic of
-a language and is vital to adoption.
+Criteria score: 🥈
 
 <!--
 
