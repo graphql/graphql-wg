@@ -106,7 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Alex Reilly  | @twof     | DoorDash | San Francisco, CA, US |
-
+| Jovi De Croock | @jovidecroock     | Independent | Aalst, BE |
 
 ## Agenda
 
@@ -119,4 +119,8 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-2. Nullability Working Group status update (Alex Reilly, 15m)
+1. Nullability Working Group status update (Alex Reilly, 15m)
+1. Fragment-Arguments (Jovi De Croock, 10m)
+   - Spec has been finished for a bit
+   - Implementation is under an experimental flag in GraphQL v17
+   - Advance to stage 2
