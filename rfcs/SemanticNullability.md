@@ -278,17 +278,6 @@ or similar, and should carry the same meaning.
 
 Criteria score: 🥇
 
-## 🎯 F. Alternative syntaxes should not cause confusion
-
-Where a proposal allows alternative syntaxes to be used, the two syntaxes should
-not cause confusion.
-
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | 🚫              | ✅               |
-
-Criteria score: 🥇
-
 ## 🎯 G. Error propagation boundaries should not change in existing executable documents
 
 An expansion of B, this states that the proposal will not change where errors
@@ -394,8 +383,6 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - 🚫 `Int*` syntax is not immediately obvious.
 - [E][criteria-e]
   - ✅ Same syntax.
-- [F][criteria-f]
-  - ✅ Same syntax.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
@@ -435,8 +422,6 @@ symbol) to indicate that a position may semantically be null.
     obvious when `?` and `!` variants exist.
 - [E][criteria-e]
   - ✅ The same syntax is used on input and output.
-- [F][criteria-f]
-  - ✅ There is no alternative syntax.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
@@ -496,11 +481,6 @@ day-to-day work.
   - ✅ Executable documents do not use `!!`, and `!` means non-nullable on both
     input and output (the difference between semantic an strict non-null does
     not occur on input)
-- [F][criteria-f]
-  - ✅ `Int` reatains its meaning across both modes, and `Int!` means
-    non-nullable in both modes. Only the SDL ever uses `Int!!` and it still
-    means non-null, just with the additional "kills parent on exception"
-    behavior.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
@@ -537,9 +517,6 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
   - 🚫 If the schema uses `@semanticNullability` but an operation document does
     not, `Int` has vastly different meanings: nullable on input but non-nullable
     on output.
-- [F][criteria-f]
-  - 🚫 `Int` being nullable in one mode and non-nullable in the other mode is
-    unexpected and will likely lead to confusion.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
@@ -564,8 +541,6 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 - [D][criteria-d]
   - ⚠️ Adding `@onError` to operations is not immediately intuitive but most error-handling clients should add it automatically, making it transparent to end users. 
 - [E][criteria-e]
-  - ✅ Same syntax.
-- [F][criteria-f]
   - ✅ Same syntax.
 - [G][criteria-g]
   - 🚫 Using non-null in more positions will change the error boundary positions when error propagation is enabled.
