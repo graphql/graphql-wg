@@ -316,6 +316,145 @@ The implementation required to make the proposal work should be simple.
 
 Criteria score: 🥈
 
+## 🎯 I. Syntax used in executable documents should be unchanged
+
+Executable documents do not differentiate between semantic and strict non-null
+since inputs never handle "errors" ("null only on error" is the same as "not
+null" on input). As such, there's no benefit to clients for the syntax of
+executable documents to change.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | 🚫               | ✅               |
+
+Criteria score: 🥇
+
+## 🎯 J. Type reasoning should remain local
+
+The type of a field (`foo: Int`) can be determined by looking at the field and
+its type; the reader should not have to read a document or schema directive to
+determine how the type should be interpreted.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ⚠️               | 🚫               | ✅               |
+
+Criteria score: 🥇
+
+## 🎯 K. Introspection must be backwards compatible
+
+We do not want to break existing tooling.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | ❔               | ✅               |
+
+Criteria score: 🥇
+
+## 🎯 L. General GraphQL consumers should only need to think about nullable vs non-nullable
+
+Schema authors and client frameworks can handle different types of nullability based around
+error handling and error propagation, but consumers (frontend developers) should only need
+to deal with nullable or non-nullable as presented to them by their client framework of choice.
+
+May contradict: M
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | ❔               | ✅               |
+
+Criteria score: 🥇
+
+## 🎯 M. The SDL should have exactly one form used by all producers and consumers
+
+The SDL should not be influenced by client features such as local extensions and
+error propagation mechanics, and should always represent the true full source
+schema SDL.
+
+May contradict: L
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ⚠️               | ❔              | ⚠️               | ❔               | ✅               |
+
+Criteria score: 🥇
+
+## 🎯 N. The solution should add value even with error propagation enabled
+
+Even when error propagation is enabled, it's valuable to be able to tell the
+difference between a field that is truly (semantically) nullable, and one
+that's only nullable because errors may occur. GraphQL-TOE can be used in such
+situations so that codegen can safely use non-nullable types in semantically
+non-nullable positions.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               |
+
+Criteria score: 🥇
+
+## 🎯 O. Should not have breaking changes for existing executable documents
+
+It should be possible to enable the solution without negatively impacting
+existing deployed clients.
+
+Per Lee:
+
+> A breaking change is a client observable change in behavior. The decade old
+> GraphQL query should work in the same way as it always has.  (We sometimes
+> allow inconsequential changes in behavior, but bubbling the error up isn't
+> inconsequential.)
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | ✅               | 🚫               |
+
+
+Note: though this criteria is currently not considered due to overlap with B
+and G, it acts as a reminder to look for other forms of breaking change, and
+helps to reason _why_ B and G are important.
+
+Criteria score: X (not considered - covered by B and G)
+
+
+## 🎯 P. The solution should result in users marking all semantically non-null fields as such
+
+When a field returns data that the business logic dictates does not and will
+never return a legitimate (non-error) null, the schema authors should have no
+hesitation over marking it as semantically non-nullable - and thus all
+semantically non-nullable fields should be marked as such.
+
+Per Benoit:
+
+> Not sure how to express it well, but I feel there should be a criteria to
+> mean something like “the solution encourages that eventually most fields in
+> most schemas are semantically non null”. As a client developer that’s kind of
+> an outcome of this whole effort I’d like to see happening.
+
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               |
+
+Criteria score: 🥇
+
+## 🎯 Q. Migrating the unadorned output type to other forms of nullability should be non-breaking
+
+The default (unadorned) type should be a type that you can migrate away from,
+once nullability expectations become more concrete, without breaking existing
+client queries.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫               | ✅               |
+
+Note: this is not necessarily a duplicate of C as it doesn't specifically
+require the unadorned type be nullable, however no proposal currently proposes
+a mechanism for moving from any non-nullable type to a nullable type in a
+non-breaking way, and thus this criteria is _currently_ discounted.
+
+Criteria score: X (not considered)
+
 <!--
 
 Template for new items:
@@ -400,6 +539,23 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
   - ✅ Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ `*` doesn't apply on input, so syntax is unchanged.
+- [J][criteria-j]
+  - ✅ Local syntax only
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ✅ Proposal encourages consumers to use client-produced SDL which only uses traditional nullability (`Type`/`Type!`)
+- [M][criteria-m]
+  - ⚠️ You can use the same SDL everywhere, but that's not what this solution
+    encourages.
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ✅ Client syntax unchanged
+- [P][criteria-p]
+  - ✅ There are no drawbacks to adding semantically non-nullable fields
 
 ## 💡 2. "Strict Semantic Nullability"
 
@@ -441,6 +597,23 @@ symbol) to indicate that a position may semantically be null.
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
   - 🚫 Implementation and spec simplicity.
+- [I][criteria-i]
+  - ❔
+- [J][criteria-j]
+  - ❔
+- [K][criteria-k]
+  - ❔
+- [L][criteria-l]
+  - ❔
+- [M][criteria-m]
+  - ❔
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ❔
+- [P][criteria-p]
+  - ❔
+
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
 
@@ -505,6 +678,29 @@ day-to-day work.
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
   - 🚫 Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ Semantic non-null not relevant to inputs, so no reason to use directive in executable documents -> syntax unchanged.
+- [J][criteria-j]
+  - ⚠️  Local reasoning holds for all but the schema authors; this is enabled
+    through the use of client-generated SDL reflecting client extensions and
+    error propagation behavior. For schema authors, local reasoning in the
+    source SDL returns whether a field is nullable or non-nullable, but does
+    not differentiate between _semantically_ non-nullable and _strictly_
+    non-nullable.
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ✅ Proposal encourages consumers to use client-produced SDL which only uses traditional nullability (`Type`/`Type!`)
+- [M][criteria-m]
+  - ⚠️ You can use the same SDL everywhere, but that's not what this solution
+    encourages.
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ✅ Client syntax unchanged
+- [P][criteria-p]
+  - ✅ There are no drawbacks to adding semantically non-nullable fields
+
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
@@ -544,6 +740,23 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
   - ✅ Error capture positions unchanged when error propagation enabled
 - [H][criteria-h]
   - 🚫 Implementation and spec simplicity.
+- [I][criteria-i]
+  - 🚫 Clients will need to move to using new syntax (`Type?`/`Type`) or have syntax incongruent with schema SDL
+- [J][criteria-j]
+  - 🚫 The nullability of `Type` cannot be determined without checking for a document directive
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ❔
+- [M][criteria-m]
+  - ❔
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ✅ Clients must opt in to new syntax with document directive
+- [P][criteria-p]
+  - ✅ There are no drawbacks to adding semantically non-nullable fields
+
 
 ## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
 
@@ -571,3 +784,19 @@ This proposal relies on the ability of clients to opt out of error propagation; 
   - 🚫 Using non-null in more positions will change the error boundary positions when error propagation is enabled.
 - [H][criteria-h]
   - ✅ Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ No change
+- [J][criteria-j]
+  - ✅ No change
+- [K][criteria-k]
+  - ✅ No change
+- [L][criteria-l]
+  - ✅ No change
+- [M][criteria-m]
+  - ✅ No change
+- [N][criteria-n]
+  - 🚫 Solution actually decreases value when error propagation is enabled due to lowered resilience to errors.
+- [O][criteria-o]
+  - 🚫 Changing fields to strictly non-null causes errors to propagate further, a breaking change. (Duplicate of G.)
+- [P][criteria-p]
+  - 🚫 Though the solution states it encourages the adoption of non-null, doing so is a breaking change for existing clients and so adopters are likely to hesitate when marking some semantically non-nullable positions as such
