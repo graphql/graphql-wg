@@ -209,6 +209,8 @@ Guiding Principles. The scores are:
 
 ## 🎯 A. GraphQL should be able to indicate which nullable fields should become non-nullable when error propagation is disabled
 
+[criteria-a]: #-a-graphql-should-be-able-to-indicate-which-nullable-fields-should-become-non-nullable-when-error-propagation-is-disabled
+
 The promise of this RFC - the reflection of the semantic nullability of the
 fields without compromising requests with error propagation enabled via the
 differentiation of a "null if and only if an error occurs" type.
@@ -231,6 +233,8 @@ chosen, so this criteria is only concerned with traditionally nullable types.
 Criteria score: 🥇
 
 ## 🎯 B. Existing executable documents should retain validity and meaning
+
+[criteria-b]: #-b-existing-executable-documents-should-retain-validity-and-meaning
 
 Users should be able to adopt semantic nullability into an existing schema, and
 when doing so all existing operations should remain valid, and should have the
