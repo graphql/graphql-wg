@@ -209,6 +209,8 @@ Guiding Principles. The scores are:
 
 ## 🎯 A. GraphQL should be able to indicate which nullable fields should become non-nullable when error propagation is disabled
 
+[criteria-a]: #-a-graphql-should-be-able-to-indicate-which-nullable-fields-should-become-non-nullable-when-error-propagation-is-disabled
+
 The promise of this RFC - the reflection of the semantic nullability of the
 fields without compromising requests with error propagation enabled via the
 differentiation of a "null if and only if an error occurs" type.
@@ -232,6 +234,8 @@ Criteria score: 🥇
 
 ## 🎯 B. Existing executable documents should retain validity and meaning
 
+[criteria-b]: #-b-existing-executable-documents-should-retain-validity-and-meaning
+
 Users should be able to adopt semantic nullability into an existing schema, and
 when doing so all existing operations should remain valid, and should have the
 same meaning as they always did.
@@ -243,6 +247,8 @@ same meaning as they always did.
 Criteria score: 🥇
 
 ## 🎯 C. Unadorned type should mean nullable
+
+[criteria-c]: #-c-unadorned-type-should-mean-nullable
 
 GraphQL has been public for 10 years and there's a lot of content out there
 noting that GraphQL types are nullable by default (unadorned type is nullable)
@@ -256,6 +262,8 @@ Criteria score: 🥈
 
 ## 🎯 D. Syntax should be obvious to programmers
 
+[criteria-d]: #-d-syntax-should-be-obvious-to-programmers
+
 The GraphQL languages similarity to JSON is one of its strengths, making it
 immediately feel familiar. Syntax used should feel obvious to developers new to
 GraphQL.
@@ -267,6 +275,8 @@ GraphQL.
 Criteria score: 🥈
 
 ## 🎯 E. Syntax used in SDL and in executable documents should be consistent with SDL
+
+[criteria-e]: #-e-syntax-used-in-sdl-and-in-executable-documents-should-be-consistent-with-sdl
 
 When a user wishes to replace the value for an input field or argument with a
 variable in their GraphQL operation, the type syntax should be either identical
@@ -280,6 +290,8 @@ Criteria score: 🥇
 
 ## 🎯 F. Alternative syntaxes should not cause confusion
 
+[criteria-f]: #-f-alternative-syntaxes-should-not-cause-confusion
+
 Where a proposal allows alternative syntaxes to be used, the two syntaxes should
 not cause confusion.
 
@@ -290,6 +302,8 @@ not cause confusion.
 Criteria score: 🥇
 
 ## 🎯 G. Error propagation boundaries should not change in existing executable documents
+
+[criteria-g]: #-g-error-propagation-boundaries-should-not-change-in-existing-executable-documents
 
 An expansion of B, this states that the proposal will not change where errors
 propagate to when error propagation is enabled (i.e. existing documents will
@@ -308,6 +322,8 @@ path for legacy apps, the tradeoff might be acceptable.
 
 ## 🎯 H. Implementation and spec simplicity
 
+[criteria-h]: #-h-implementation-and-spec-simplicity
+
 The implementation required to make the proposal work should be simple.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
@@ -317,6 +333,8 @@ The implementation required to make the proposal work should be simple.
 Criteria score: 🥈
 
 ## 🎯 I. Syntax used in executable documents should be unchanged
+
+[criteria-i]: #-i-syntax-used-in-executable-documents-should-be-unchanged
 
 Executable documents do not differentiate between semantic and strict non-null
 since inputs never handle "errors" ("null only on error" is the same as "not
@@ -331,6 +349,8 @@ Criteria score: 🥇
 
 ## 🎯 J. Type reasoning should remain local
 
+[criteria-j]: #-j-type-reasoning-should-remain-local
+
 The type of a field (`foo: Int`) can be determined by looking at the field and
 its type; the reader should not have to read a document or schema directive to
 determine how the type should be interpreted.
@@ -343,6 +363,8 @@ Criteria score: 🥇
 
 ## 🎯 K. Introspection must be backwards compatible
 
+[criteria-k]: #-k-introspection-must-be-backwards-compatible
+
 We do not want to break existing tooling.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
@@ -352,6 +374,8 @@ We do not want to break existing tooling.
 Criteria score: 🥇
 
 ## 🎯 L. General GraphQL consumers should only need to think about nullable vs non-nullable
+
+[criteria-l]: #-l-general-graphql-consumers-should-only-need-to-think-about-nullable-vs-non-nullable
 
 Schema authors and client frameworks can handle different types of nullability based around
 error handling and error propagation, but consumers (frontend developers) should only need
@@ -367,6 +391,8 @@ Criteria score: 🥇
 
 ## 🎯 M. The SDL should have exactly one form used by all producers and consumers
 
+[criteria-m]: #-m-the-sdl-should-have-exactly-one-form-used-by-all-producers-and-consumers
+
 The SDL should not be influenced by client features such as local extensions and
 error propagation mechanics, and should always represent the true full source
 schema SDL.
@@ -381,6 +407,8 @@ Criteria score: 🥇
 
 ## 🎯 N. The solution should add value even with error propagation enabled
 
+[criteria-n]: #-n-the-solution-should-add-value-even-with-error-propagation-enabled
+
 Even when error propagation is enabled, it's valuable to be able to tell the
 difference between a field that is truly (semantically) nullable, and one
 that's only nullable because errors may occur. GraphQL-TOE can be used in such
@@ -394,6 +422,8 @@ non-nullable positions.
 Criteria score: 🥇
 
 ## 🎯 O. Should not have breaking changes for existing executable documents
+
+[criteria-o]: #-o-should-not-have-breaking-changes-for-existing-executable-documents
 
 It should be possible to enable the solution without negatively impacting
 existing deployed clients.
@@ -419,6 +449,8 @@ Criteria score: X (not considered - covered by B and G)
 
 ## 🎯 P. The solution should result in users marking all semantically non-null fields as such
 
+[criteria-p]: #-p-the-solution-should-result-in-users-marking-all-semantically-non-null-fields-as-such
+
 When a field returns data that the business logic dictates does not and will
 never return a legitimate (non-error) null, the schema authors should have no
 hesitation over marking it as semantically non-nullable - and thus all
@@ -439,6 +471,8 @@ Per Benoit:
 Criteria score: 🥇
 
 ## 🎯 Q. Migrating the unadorned output type to other forms of nullability should be non-breaking
+
+[criteria-q]: #-q-migrating-the-unadorned-output-type-to-other-forms-of-nullability-should-be-non-breaking
 
 The default (unadorned) type should be a type that you can migrate away from,
 once nullability expectations become more concrete, without breaking existing
@@ -479,6 +513,8 @@ Each solution is identified with a `Number` so they can be referenced in the
 rest of the document. New solutions must be added to the end of the list.
 
 ## 💡 1. New "Semantic Non-Null" type, represented by `*`
+
+[solution-1]: #-1-new-semantic-non-null-type-represented-by-
 
 **Champion**: @benjie
 
@@ -559,6 +595,8 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
 
 ## 💡 2. "Strict Semantic Nullability"
 
+[solution-2]: #-2-strict-semantic-nullability
+
 **Champion**: @leebyron
 
 - Discussion: https://github.com/graphql/graphql-wg/discussions/1410
@@ -616,6 +654,8 @@ symbol) to indicate that a position may semantically be null.
 
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
+
+[solution-3]: #-3-new-semantic-non-null-type-usurping--syntax
 
 **Champion**: @benjie
 
@@ -704,6 +744,8 @@ day-to-day work.
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
+[solution-4]: #-4-new-semantic-non-null-type-with--used-for-nullable-types
+
 **Champion**: @twof
 
 This proposal builds on solution 3, but with a syntactic shuffle such that the
@@ -759,6 +801,8 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
 
 
 ## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
+
+[solution-5]: #-5-use-non-null-in-semantically-non-nullable-places-and-encourage-disabling-error-propagation
 
 **Champion**: @martinbonnin
 
