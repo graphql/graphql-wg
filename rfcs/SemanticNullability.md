@@ -314,7 +314,7 @@ The implementation required to make the proposal work should be simple.
 | --------------- | --------------- | --------------- | --------------- |-----------------|
 | ✅              | 🚫              | 🚫              | 🚫              | ✅             |
 
-Criteria score: 🥉
+Criteria score: 🥈
 
 <!--
 
