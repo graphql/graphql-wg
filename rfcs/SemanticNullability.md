@@ -415,11 +415,15 @@ that's only nullable because errors may occur. GraphQL-TOE can be used in such
 situations so that codegen can safely use non-nullable types in semantically
 non-nullable positions.
 
+
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ✅              | ✅               | ✅               | 🚫               |
 
 Criteria score: 🥇
+
+* ✂️ Objection: proposal to lower the score to 🥉. Do we have any evidence that some teams need this?
+
 
 ## 🎯 O. Should not have breaking changes for existing executable documents
 
