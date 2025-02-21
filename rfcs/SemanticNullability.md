@@ -452,8 +452,8 @@ Criteria score: X (not considered - covered by B and G)
 [criteria-p]: #-p-the-solution-should-result-in-users-marking-all-semantically-non-null-fields-as-such
 
 When a field returns data that the business logic dictates does not and will
-never return a legitimate (non-error) null, the schema authors should have no
-hesitation over marking it as semantically non-nullable - and thus all
+never return a legitimate (non-error) null, the schema authors should be encouraged
+to mark it semantically non-nullable - and thus all
 semantically non-nullable fields should be marked as such.
 
 Per Benoit:
@@ -466,7 +466,7 @@ Per Benoit:
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅              | ✅               | ✅               | 🚫               |
+| ✅               | ✅              | ✅               | ✅               | ✅               |
 
 Criteria score: 🥇
 
@@ -843,4 +843,4 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 - [O][criteria-o]
   - 🚫 Changing fields to strictly non-null causes errors to propagate further, a breaking change. (Duplicate of G.)
 - [P][criteria-p]
-  - 🚫 Though the solution states it encourages the adoption of non-null, doing so is a breaking change for existing clients and so adopters are likely to hesitate when marking some semantically non-nullable positions as such
+  - ✅ The solution encourages using the existing syntax to express semantic non-nullability. 
