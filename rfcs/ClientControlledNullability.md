@@ -1,3 +1,7 @@
+NOTE: this document is not being worked on at the moment; Most of the work is happening in the [Semantic Nullability RFC](SemanticNullability.md).
+
+--- 
+
 # RFC: Client Controlled Nullability
 
 **Proposed by:**
