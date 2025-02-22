@@ -512,6 +512,17 @@ The community has imagined a variety of possible solutions, synthesized here.
 Each solution is identified with a `Number` so they can be referenced in the
 rest of the document. New solutions must be added to the end of the list.
 
+Semantic nullability is only relevant to output positions, so when comparing
+syntax we will look for changes versus the current syntax used to represent
+these types:
+
+|                           | Input syntax | Output syntax |
+| ------------------------- | ------------ | ------------- |
+| Semantically nullable     | `Int`        | `Int`         |
+| Semantically non-nullable | -            | `Int`         |
+| Strictly non-nullable     | `Int!`       | `Int!`        |
+
+
 ## 💡 1. New "Semantic Non-Null" type, represented by `*`
 
 [solution-1]: #-1-new-semantic-non-null-type-represented-by-
@@ -545,11 +556,11 @@ type Post {
 
 Querying a semantic non-null field is the same as querying any other field.
 
-|                           | Existing syntax | Proposed syntax |
-| ------------------------- | --------------- | --------------- |
-| Semantically nullable     | `Int`           | `Int`           |
-| Semantically non-nullable | -               | `Int*`          |
-| Strictly non-nullable     | `Int!`          | `Int!`          |
+|                           | Input syntax    | Output syntax       |
+| ------------------------- | --------------- | ------------------- |
+| Semantically nullable     | `Int`           | `Int`               |
+| Semantically non-nullable | -               | `Int` &rArr; `Int*` |
+| Strictly non-nullable     | `Int!`          | `Int!`              |
 
 ### 🎲 Variations
 
@@ -606,11 +617,11 @@ in schemas using this directive would now be semantically non-nullable by
 default, and a new semantically nullable type is introduced (using the `?`
 symbol) to indicate that a position may semantically be null.
 
-|                           | Existing syntax | Proposed syntax |
-| ------------------------- | --------------- | --------------- |
-| Semantically nullable     | `Int`           | `Int?`          |
-| Semantically non-nullable | -               | `Int`           |
-| Strictly non-nullable     | `Int!`          | `Int!`          |
+|                           | Input syntax         | Output syntax       |
+| ------------------------- | -------------------- | ------------------- |
+| Semantically nullable     | `Int` &rArr; ???     | `Int` &rArr; `Int?` |
+| Semantically non-nullable | -                    | `Int`               |
+| Strictly non-nullable     | `Int!` &rArr; ???    | `Int!`              |
 
 ### ⚖️ Evaluation
 
@@ -661,23 +672,26 @@ symbol) to indicate that a position may semantically be null.
 
 This proposal is similar to proposal 1, but:
 
-1. It introduces a document-level directive, `@semanticNullability`, which when
-   present on a document allows the `!` suffix to be used to represent
-   semantically non-nullable types, and a new `!!` suffix to be used to
-   represent strictly non-nullable types:
+It introduces a document-level directive, `@semanticNullability`, which when
+present on a document allows the `!` suffix to be used to represent
+semantically non-nullable output types, and a new `!!` suffix to be used to
+represent strictly non-nullable output types.
 
-|                           | Syntax without directive | Syntax with directive |
-| ------------------------- | ------------------------ | --------------------- |
-| Semantically nullable     | `Int`                    | `Int`                 |
-| Semantically non-nullable | -                        | `Int!`                |
-| Strictly non-nullable     | `Int!`                   | `Int!!`               |
+The `Int!` syntax simply means "non-nullable" on input, as it always has.
+(Note: input types are always either semantically nullable or strictly
+non-nullable.)
 
-As such all documents (both SDL and executable documents) retain their current
-meaning, and the semantically non-null type can be adopted on a per-document
-basis.
+Syntax only changes when `@semanticNullability` directive is present:
 
-2. It allows using semantically non-nullable types in input positions, allowing
-   the `Int!` syntax to simply mean "non-nullable" on input.
+|                           | Input syntax | Output syntax         |
+| ------------------------- | ------------ | --------------------- |
+| Semantically nullable     | `Int`        | `Int`                 |
+| Semantically non-nullable | -            | `Int` &rArr; `Int!`   |
+| Strictly non-nullable     | `Int!`       | `Int!` &rArr; `Int!!` |
+
+All documents (both SDL and executable documents) retain their current meaning,
+and the semantically non-null type can be adopted in output positions on a
+per-document basis by adding the document directive.
 
 Since there's no difference between whether a type is "semantically" or
 "strictly" non-nullable on input (input does not represent errors), executable
@@ -752,11 +766,14 @@ This proposal builds on solution 3, but with a syntactic shuffle such that the
 unadorned type may be used as the semantically non-nullable type when the
 directive is present, and a `?` symbol is used to indicate a nullable position.
 
-|                           | Syntax without directive | Syntax with directive |
-| ------------------------- | ------------------------ | --------------------- |
-| Semantically nullable     | `Int`                    | `Int?`                |
-| Semantically non-nullable | -                        | `Int`                 |
-| Strictly non-nullable     | `Int!`                   | `Int!`                |
+Syntax only changes when `@semanticNullability` directive is present:
+
+|                           | Input syntax        | Output syntax       |
+| ------------------------- | ------------------- | ------------------- |
+| Semantically nullable     | `Int` &rArr; `Int?` | `Int` &rArr; `Int?` |
+| Semantically non-nullable | -                   | `Int`               |
+| Strictly non-nullable     | `Int!` &rArr; `Int` | `Int!`              |
+
 
 ### ⚖️ Evaluation
 
@@ -809,6 +826,12 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
 - Discussion: https://github.com/graphql/nullability-wg/discussions/85
 
 This proposal relies on the ability of clients to opt out of error propagation; instead of introducing a new type it instructs schema authors to optimize for error-handling clients and use the traditional non-null type (`!`) on all semantically non-null fields.
+
+|                           | Input syntax | Output syntax       |
+| ------------------------- | ------------ | ------------------- |
+| Semantically nullable     | `Int`        | `Int`               |
+| Semantically non-nullable | -            | `Int` &rArr; `Int!` |
+| Strictly non-nullable     | `Int!`       | `Int!`              |
 
 ### ⚖️ Evaluation
 
