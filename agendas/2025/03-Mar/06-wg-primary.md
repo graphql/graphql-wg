@@ -125,4 +125,6 @@ hold additional secondary meetings later in the month.
    - Spec has been finished for a bit
    - Implementation is under an experimental flag in GraphQL v17
    - Advance to stage 2
+1. [Forbid @skip and @include on subscription root selection](https://github.com/graphql/graphql-spec/pull/860) (10m, Benjie)
 1. Let's cut a spec release... it's been 3+ years! (15m, Benjie)
+
