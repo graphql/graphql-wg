@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly  | @twof     | DoorDash | San Francisco, CA, US |
 | Jovi De Croock | @jovidecroock     | Independent | Aalst, BE |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   | 
+| Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US | 
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US
 
 ## Agenda
