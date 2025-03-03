@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Jovi De Croock | @jovidecroock     | Independent | Aalst, BE |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   | 
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US | 
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US
 
 ## Agenda
 
@@ -128,4 +129,7 @@ hold additional secondary meetings later in the month.
    - Advance to stage 2
 1. [Forbid @skip and @include on subscription root selection](https://github.com/graphql/graphql-spec/pull/860) (10m, Benjie)
 1. Let's cut a spec release... it's been 3+ years! (15m, Benjie)
+1. Defer/Stream updates (10m, Rob)
+   - [Editorial: Add response stream to Response Section](https://github.com/graphql/graphql-spec/pull/1135)
+   - [Review Section 3 changes](https://github.com/graphql/graphql-spec/pull/1132)
 
