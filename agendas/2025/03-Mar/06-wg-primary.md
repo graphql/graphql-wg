@@ -103,11 +103,14 @@ hold additional secondary meetings later in the month.
 
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
+|:-----------------|:--------------|:-------------------|:----------------------|
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Alex Reilly  | @twof     | DoorDash | San Francisco, CA, US |
-| Jovi De Croock | @jovidecroock     | Independent | Aalst, BE |
+| Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
+| Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   | 
+| Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US | 
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 
 ## Agenda
 
@@ -125,4 +128,13 @@ hold additional secondary meetings later in the month.
    - Spec has been finished for a bit
    - Implementation is under an experimental flag in GraphQL v17
    - Advance to stage 2
+1. [Forbid @skip and @include on subscription root selection](https://github.com/graphql/graphql-spec/pull/860) (10m, Benjie)
 1. Let's cut a spec release... it's been 3+ years! (15m, Benjie)
+1. Defer/Stream updates (10m, Rob)
+   - [Editorial: Add response stream to Response Section](https://github.com/graphql/graphql-spec/pull/1135)
+   - [Review Section 3 changes](https://github.com/graphql/graphql-spec/pull/1132)
+1. Non-nullable `includeDeprecated` argument (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1142
+1. Tone of voice (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1138
+
