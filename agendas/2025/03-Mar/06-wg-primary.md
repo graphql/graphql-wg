@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US | 
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
