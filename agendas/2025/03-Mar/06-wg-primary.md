@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
@@ -138,4 +139,5 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-spec/pull/1142
 1. Tone of voice (5m, Martin)
    - https://github.com/graphql/graphql-spec/pull/1138
+1. GraphQL Open Telmetry Specification (5m, Pascal)
 
