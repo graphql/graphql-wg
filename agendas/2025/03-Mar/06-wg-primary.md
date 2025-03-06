@@ -128,6 +128,12 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. [GraphQLConf WG sessions](https://gist.github.com/benjie/0ca0fd87cee41783d8fd19d659c9ca0a) - call for opinions (5m, Benjie)
+1. Non-nullable `includeDeprecated` argument (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1142
+1. GraphQL Open Telmetry Specification (5m, Pascal)
+1. Tone of voice (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1138
 1. Nullability Working Group status update (15m, Alex Reilly)
 1. Fragment-Arguments (10m, Jovi De Croock)
    - Spec has been finished for a bit
@@ -138,9 +144,3 @@ hold additional secondary meetings later in the month.
 1. Defer/Stream updates (10m, Rob)
    - [Editorial: Add response stream to Response Section](https://github.com/graphql/graphql-spec/pull/1135)
    - [Review Section 3 changes](https://github.com/graphql/graphql-spec/pull/1132)
-1. Non-nullable `includeDeprecated` argument (5m, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1142
-1. Tone of voice (5m, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1138
-1. GraphQL Open Telmetry Specification (5m, Pascal)
-1. [GraphQLConf WG sessions](https://gist.github.com/benjie/0ca0fd87cee41783d8fd19d659c9ca0a) - call for opinions (5m, Benjie)
