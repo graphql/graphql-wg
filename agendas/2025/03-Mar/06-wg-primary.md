@@ -117,7 +117,8 @@ hold additional secondary meetings later in the month.
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
-| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US     |
+| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 
 ## Agenda
