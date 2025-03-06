@@ -143,4 +143,4 @@ hold additional secondary meetings later in the month.
 1. Tone of voice (5m, Martin)
    - https://github.com/graphql/graphql-spec/pull/1138
 1. GraphQL Open Telmetry Specification (5m, Pascal)
-
+1. [GraphQLConf WG sessions](https://gist.github.com/benjie/0ca0fd87cee41783d8fd19d659c9ca0a) - call for opinions (5m, Benjie)
