@@ -230,7 +230,7 @@ chosen, so this criteria is only concerned with traditionally nullable types.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ✅               | ✅               | ✅               | 🚫👍              | ✅        |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 ## 🎯 B. Existing executable documents should retain validity and meaning
 
@@ -244,7 +244,7 @@ same meaning as they always did.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | 🚫              | ✅               | ✅               | ✅               | ✅          |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 ## 🎯 C. Unadorned type should mean nullable
 
@@ -258,7 +258,7 @@ and our changes should not invalidate this content.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | 🚫              | ✅               | 🚫              | ✅               | ✅          |
 
-Criteria score: 🥈
+Criteria score: 🥉
 
 ## 🎯 D. Syntax should be obvious to programmers
 
@@ -272,7 +272,7 @@ GraphQL.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | 🚫              | ✅               | ✅               | ✅              | ⚠️               | ✅          |
 
-Criteria score: 🥈
+Criteria score: 🥇
 
 ## 🎯 E. Syntax used in SDL and in executable documents should be consistent with SDL
 
@@ -315,7 +315,7 @@ shine and not compromising the resiliency of legacy deployed app versions.
 | --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|
 | ✅              | ✅              | ✅              | ✅              | 🚫              | ✅          |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 * ✂️ Objection: proposal to lower the score to 🥈. With enough advance notice and a clear upgrade
 path for legacy apps, the tradeoff might be acceptable.
@@ -330,7 +330,7 @@ The implementation required to make the proposal work should be simple.
 | --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|
 | ✅              | 🚫              | 🚫              | 🚫              | ✅             | ✅          |
 
-Criteria score: 🥈
+Criteria score: 🥇
 
 ## 🎯 I. Syntax used in executable documents should be unchanged
 
@@ -345,7 +345,7 @@ executable documents to change.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 ## 🎯 J. Type reasoning should remain local
 
@@ -371,7 +371,7 @@ We do not want to break existing tooling.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ❔              | ✅               | ❔               | ✅               | ✅          |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 ## 🎯 L. General GraphQL consumers should only need to think about nullable vs non-nullable
 
@@ -387,7 +387,7 @@ May contradict: M
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ❔              | ✅               | ❔               | ✅               | ⚠️          |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 ## 🎯 M. The SDL should have exactly one form used by all producers and consumers
 
@@ -419,7 +419,7 @@ non-nullable positions.
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ✅              | ✅               | ✅               | 🚫               | ✅          |
 
-Criteria score: 🥇
+Criteria score: 🥉
 
 ## 🎯 O. Should not have breaking changes for existing executable documents
 
@@ -510,7 +510,7 @@ wrapper) should be unchanged
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 <!--
 
