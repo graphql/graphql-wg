@@ -1,3 +1,7 @@
+NOTE: this document is not being worked on at the moment, instead the Nullability WG are currently exploring an alternative solution that addresses many of the same underlying issues in a different way: [Semantic Nullability RFC](SemanticNullability.md).
+
+--- 
+
 # RFC: Client Controlled Nullability
 
 **Proposed by:**

@@ -73,7 +73,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG — March 2025 (Primary)
+# GraphQL WG — May 2025 (Primary)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -83,7 +83,7 @@ This is the primary monthly meeting, which typically meets on the first Thursday
 of the month. In the case we have additional agenda items or follow ups, we also
 hold additional secondary meetings later in the month.
 
-- **Date & Time**: [March 6, 2025, 10:30 AM – 12:00 PM PST](https://www.timeanddate.com/worldclock/converter.html?iso=20250306T183000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [May 1, 2025, 10:30 AM – 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20250501T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -103,19 +103,9 @@ hold additional secondary meetings later in the month.
 
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
-|:-----------------|:--------------|:-------------------|:----------------------|
+| :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
-| Jovi De Croock   | @jovidecroock | Independent        | Aalst, BE             |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   | 
-| Jordan Eldredge  | @captbaritone | Meta (Relay)       | San Francisco, CA, US | 
-| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
-| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
-| Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
-| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+
 
 ## Agenda
 
@@ -128,19 +118,3 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-1. [GraphQLConf WG sessions](https://gist.github.com/benjie/0ca0fd87cee41783d8fd19d659c9ca0a) - call for opinions (5m, Benjie)
-1. Non-nullable `includeDeprecated` argument (5m, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1142
-1. GraphQL Open Telmetry Specification (5m, Pascal)
-1. Tone of voice (5m, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1138
-1. Nullability Working Group status update (15m, Alex Reilly)
-1. Fragment-Arguments (10m, Jovi De Croock)
-   - Spec has been finished for a bit
-   - Implementation is under an experimental flag in GraphQL v17
-   - Advance to stage 2
-1. [Forbid @skip and @include on subscription root selection](https://github.com/graphql/graphql-spec/pull/860) (10m, Benjie)
-1. Let's cut a spec release... it's been 3+ years! (15m, Benjie)
-1. Defer/Stream updates (10m, Rob)
-   - [Editorial: Add response stream to Response Section](https://github.com/graphql/graphql-spec/pull/1135)
-   - [Review Section 3 changes](https://github.com/graphql/graphql-spec/pull/1132)
