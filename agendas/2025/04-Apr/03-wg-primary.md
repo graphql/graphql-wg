@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
 
 
 ## Agenda
@@ -146,3 +147,5 @@ hold additional secondary meetings later in the month.
      - RFC2, aim: RFC3.
      - Then: [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
        - RFC2, aim: RFC3.
+1. Reaching a consensus on Semantic Nullability (25m, Alex)
+1. Disabling error propagation proposal (10m, Alex)
