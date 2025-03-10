@@ -127,6 +127,7 @@ hold additional secondary meetings later in the month.
 1. Make `includeDeprecated` non-null (10m, Martin)
     - https://github.com/graphql/graphql-spec/pull/1142
     - advance to RFC2/RFC3?
+1. [Consistently use "response name" over "response key"](https://github.com/graphql/graphql-spec/pull/1147) (5m, Benjie)
 1. [Clarify 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (5m, Benjie)
    - Editorial, aim: merge.
 1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (2m, Benjie)
