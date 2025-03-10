@@ -132,7 +132,7 @@ hold additional secondary meetings later in the month.
 1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (2m, Benjie)
    - RFC2, no GraphQL.js changes needed. 4 TSC approvals. Plan: RFC3.
 1. [Implementations may not deprecate a field that the interface hasn't deprecated](https://github.com/graphql/graphql-spec/pull/1053) (2m, Benjie)
-   - RFC2, 4 TSC approvals, [GraphQL.js PR approved](https://github.com/graphql/graphql-js/pull/3986). Plan: RFC3.
+   - RFC2, 4 TSC approvals, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3986). Plan: RFC3.
 1. [Prevent @skip and @include on root subscription selection set](https://github.com/graphql/graphql-spec/pull/860) (5m, Benjie)
    - RFC2, GraphQL.js merged. Aim: RFC3.
 1. [Clarify 'Values of Correct Type' rule relates to literals](https://github.com/graphql/graphql-spec/pull/1118) (5m, Benjie)
