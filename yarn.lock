@@ -110,10 +110,10 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-wgutils@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/wgutils/-/wgutils-1.2.1.tgz#eeb5855468f3c728d2d3143e68e96410220d9943"
-  integrity sha512-3C7hG2oBZwpQtAgPdmdMox8v3MSEWt7ixSFS2zS4oP5RrE3mJDLToi6rbzIQvvm/VcheDbzvE6Tf27VkJ1l3NA==
+wgutils@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/wgutils/-/wgutils-1.2.5.tgz#193b96bb45553bcafa9991f5128e7154b78b64be"
+  integrity sha512-Yr6W8MFJcbzOphhOe0Knzj75QMaDbwjKQ/xRIoUgzM8SOCDC3IJJ7gE8gTrT+X2w5wmgK3HKOLT3VY+/fquQUg==
   dependencies:
     date-fns "^2"
     date-fns-tz "^2.0.0"
