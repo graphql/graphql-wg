@@ -2,6 +2,8 @@
 
 **Proposed by:** [Martin Bonnin](https://github.com/martinbonnin)
 
+**See also:** [Original proposal/spec edits by Benjie](https://github.com/graphql/graphql-spec/pull/1050)
+
 **Implementation PR**: https://github.com/graphql/graphql-js/pull/4348
 
 This RFC proposes adding a new directive `@disableErrorPropagation` that allows clients to disable error propagation for specific operations in their GraphQL queries.
@@ -178,7 +180,6 @@ While this proposal focuses on a simple boolean directive, future extensions mig
 - `PROPAGATE`: Current default behavior (errors propagate up)
 - `NULL`: Replace errored positions with null
 - `ABORT`: Abort the entire request on any error
-- `INLINE`: Replace errored positions with an error representation
 
 These additional behaviors are not part of this proposal but may be considered in future iterations.
 
@@ -221,12 +222,6 @@ enum ErrorBehavior {
   list. (No partial success.)
   """
   ABORT
-
-  """
-  Positions that error are replaced with an inline representation of the error, and
-  the path to the error is added to the "errorPaths" list.
-  """
-  INLINE
 }
 
 directive @errorBehavior(behavior: ErrorBehavior!) on QUERY | MUTATION | SUBSCRIPTION
