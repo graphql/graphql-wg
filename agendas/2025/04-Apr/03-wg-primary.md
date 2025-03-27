@@ -151,3 +151,5 @@ hold additional secondary meetings later in the month.
        - RFC2, aim: RFC3.
 1. Reaching a consensus on Semantic Nullability (25m, Alex)
 1. Disabling error propagation proposal (10m, Alex)
+2. Appendix C: Type System Definitions (5m, Martin)
+  - https://github.com/graphql/graphql-spec/pull/1037
