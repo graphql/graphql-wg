@@ -125,6 +125,7 @@ hold additional secondary meetings later in the month.
 1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (5m, Benjie)
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (5m, Benjie)
    - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
+1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152) (5m, Benjie)
 1. Make `includeDeprecated` non-null (10m, Martin)
     - https://github.com/graphql/graphql-spec/pull/1142
     - advance to RFC2/RFC3?
@@ -151,5 +152,5 @@ hold additional secondary meetings later in the month.
        - RFC2, aim: RFC3.
 1. Reaching a consensus on Semantic Nullability (25m, Alex)
 1. Disabling error propagation proposal (10m, Alex)
-2. Appendix C: Type System Definitions (5m, Martin)
+1. Appendix C: Type System Definitions (5m, Martin)
   - https://github.com/graphql/graphql-spec/pull/1037
