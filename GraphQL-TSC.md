@@ -49,6 +49,7 @@ The TSC provides technical oversight for all GraphQL development efforts within 
 - Creating, transferring, organizing, and renaming GitHub repos under the [GraphQL org](https://github.com/graphql).
 - Resolving technical or community issues that span multiple projects, or are deadlocked within a project.
 - Delegating decisions on publishing releases.
+- Rating talks for the GraphQL conf CFP.
 
 The scope of the TSC should not include decisions that can be made within one of the projects, unless there is a specific issue that cannot be resolved and requires mediation. In general, the TSC prefers that decisions be made at the lowest possible level.
 
