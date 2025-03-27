@@ -125,6 +125,8 @@ hold additional secondary meetings later in the month.
 1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (5m, Benjie)
 1. Appendix C: Type System Definitions (5m, Martin)
   - https://github.com/graphql/graphql-spec/pull/1037
+1. Provision for unknow request information (5m, Martin)
+  - https://github.com/graphql/graphql-spec/pull/1151
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (5m, Benjie)
    - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
 1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152) (5m, Benjie)
