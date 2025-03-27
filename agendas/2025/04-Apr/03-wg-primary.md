@@ -123,6 +123,8 @@ hold additional secondary meetings later in the month.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (5m, Benjie)
+1. Appendix C: Type System Definitions (5m, Martin)
+  - https://github.com/graphql/graphql-spec/pull/1037
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (5m, Benjie)
    - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
 1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152) (5m, Benjie)
@@ -130,6 +132,7 @@ hold additional secondary meetings later in the month.
     - https://github.com/graphql/graphql-spec/pull/1142
     - advance to RFC2/RFC3?
 1. [Consistently use "response name" over "response key"](https://github.com/graphql/graphql-spec/pull/1147) (5m, Benjie)
+1. Disabling error propagation proposal (10m, Alex)
 1. [Clarify 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (5m, Benjie)
    - Editorial, aim: merge.
 1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (2m, Benjie)
@@ -144,13 +147,10 @@ hold additional secondary meetings later in the month.
    - RFC2. Implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
 1. [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (15m, Benjie)
    - RFC2, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3814). Aim: RFC3.
+1. Reaching a consensus on Semantic Nullability (25m, Alex)
 1. [Define Data Collections used in the spec](https://github.com/graphql/graphql-spec/pull/1102) (20m, Benjie)
    - RFC2, aim: RFC3.
    - Then: [Recommend that order of unordered collections is maintained where possible](https://github.com/graphql/graphql-spec/pull/1092)
      - RFC2, aim: RFC3.
      - Then: [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
        - RFC2, aim: RFC3.
-1. Reaching a consensus on Semantic Nullability (25m, Alex)
-1. Disabling error propagation proposal (10m, Alex)
-1. Appendix C: Type System Definitions (5m, Martin)
-  - https://github.com/graphql/graphql-spec/pull/1037
