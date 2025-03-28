@@ -209,6 +209,8 @@ Guiding Principles. The scores are:
 
 ## 🎯 A. GraphQL should be able to indicate which nullable fields should become non-nullable when error propagation is disabled
 
+[criteria-a]: #-a-graphql-should-be-able-to-indicate-which-nullable-fields-should-become-non-nullable-when-error-propagation-is-disabled
+
 The promise of this RFC - the reflection of the semantic nullability of the
 fields without compromising requests with error propagation enabled via the
 differentiation of a "null if and only if an error occurs" type.
@@ -224,72 +226,84 @@ Note: Traditional non-nullable types will effectively become semantically
 non-nullable when error propagation is disabled no matter which solution is
 chosen, so this criteria is only concerned with traditionally nullable types.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | ✅               | 🚫👍              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | ✅               | 🚫👍              | ✅        |
 
-Criteria score: 🥇
+Criteria score: 🥈
 
 ## 🎯 B. Existing executable documents should retain validity and meaning
+
+[criteria-b]: #-b-existing-executable-documents-should-retain-validity-and-meaning
 
 Users should be able to adopt semantic nullability into an existing schema, and
 when doing so all existing operations should remain valid, and should have the
 same meaning as they always did.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | 🚫              | ✅               | ✅               | ✅               |
-
-Criteria score: 🥇
-
-## 🎯 C. Existing meanings should be retained
-
-GraphQL has been public for 10 years and there's a lot of content out there
-noting that GraphQL types are nullable by default (unadorned type is nullable)
-and that `!` means non-nullable. Our changes should not invalidate this content.
-
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | 🚫              | ✅               | 🚫              | ✅               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | ✅               | ✅               | ✅          |
 
 Criteria score: 🥈
 
+## 🎯 C. Unadorned type should mean nullable
+
+[criteria-c]: #-c-unadorned-type-should-mean-nullable
+
+GraphQL has been public for 10 years and there's a lot of content out there
+noting that GraphQL types are nullable by default (unadorned type is nullable)
+and our changes should not invalidate this content.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫              | ✅               | ✅          |
+
+Criteria score: 🥉
+
 ## 🎯 D. Syntax should be obvious to programmers
+
+[criteria-d]: #-d-syntax-should-be-obvious-to-programmers
 
 The GraphQL languages similarity to JSON is one of its strengths, making it
 immediately feel familiar. Syntax used should feel obvious to developers new to
 GraphQL.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| 🚫              | ✅               | ✅               | ✅              | ⚠️               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| 🚫              | ✅               | ✅               | ✅              | ⚠️               | ✅          |
 
-Criteria score: 🥈
+Criteria score: 🥇
 
 ## 🎯 E. Syntax used in SDL and in executable documents should be consistent with SDL
+
+[criteria-e]: #-e-syntax-used-in-sdl-and-in-executable-documents-should-be-consistent-with-sdl
 
 When a user wishes to replace the value for an input field or argument with a
 variable in their GraphQL operation, the type syntax should be either identical
 or similar, and should carry the same meaning.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | 🚫              | ✅               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               | ✅          |
 
 Criteria score: 🥇
 
 ## 🎯 F. Alternative syntaxes should not cause confusion
 
+[criteria-f]: #-f-alternative-syntaxes-should-not-cause-confusion
+
 Where a proposal allows alternative syntaxes to be used, the two syntaxes should
 not cause confusion.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | 🚫              | ✅               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               | ✅          |
 
 Criteria score: 🥇
 
 ## 🎯 G. Error propagation boundaries should not change in existing executable documents
+
+[criteria-g]: #-g-error-propagation-boundaries-should-not-change-in-existing-executable-documents
 
 An expansion of B, this states that the proposal will not change where errors
 propagate to when error propagation is enabled (i.e. existing documents will
@@ -297,14 +311,206 @@ still keep errors local to the same positions that they did when they were
 published), allowing for the "partial success" feature of GraphQL to continue to
 shine and not compromising the resiliency of legacy deployed app versions.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-| --------------- | --------------- | --------------- | --------------- |-----------------|
-| ✅              | ✅              | ✅              | ✅              | 🚫              |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|
+| ✅              | ✅              | ✅              | ✅              | 🚫              | ✅          |
+
+Criteria score: 🥈
+
+* ✂️ Objection: proposal to lower the score to 🥈. With enough advance notice and a clear upgrade
+path for legacy apps, the tradeoff might be acceptable.
+
+## 🎯 H. Implementation and spec simplicity
+
+[criteria-h]: #-h-implementation-and-spec-simplicity
+
+The implementation required to make the proposal work should be simple.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|
+| ✅              | 🚫              | 🚫              | 🚫              | ✅             | ✅          |
 
 Criteria score: 🥇
 
-* ✂️ Objection: proposal to lower the score to 🥈. With enough advance notice and a clear upgrade 
-path for legacy apps, the tradeoff might be acceptable. 
+## 🎯 I. Syntax used in executable documents should be unchanged
+
+[criteria-i]: #-i-syntax-used-in-executable-documents-should-be-unchanged
+
+Executable documents do not differentiate between semantic and strict non-null
+since inputs never handle "errors" ("null only on error" is the same as "not
+null" on input). As such, there's no benefit to clients for the syntax of
+executable documents to change.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          |
+
+Criteria score: 🥈
+
+## 🎯 J. Type reasoning should remain local
+
+[criteria-j]: #-j-type-reasoning-should-remain-local
+
+The type of a field (`foo: Int`) can be determined by looking at the field and
+its type; the reader should not have to read a document or schema directive to
+determine how the type should be interpreted.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ⚠️               | 🚫               | ✅               | ⚠️          |
+
+Criteria score: 🥇
+
+## 🎯 K. Introspection must be backwards compatible
+
+[criteria-k]: #-k-introspection-must-be-backwards-compatible
+
+We do not want to break existing tooling.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | ❔               | ✅               | ✅          |
+
+Criteria score: 🥈
+
+## 🎯 L. General GraphQL consumers should only need to think about nullable vs non-nullable
+
+[criteria-l]: #-l-general-graphql-consumers-should-only-need-to-think-about-nullable-vs-non-nullable
+
+Schema authors and client frameworks can handle different types of nullability based around
+error handling and error propagation, but consumers (frontend developers) should only need
+to deal with nullable or non-nullable as presented to them by their client framework of choice.
+
+May contradict: M
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | ❔               | ✅               | ⚠️          |
+
+Criteria score: 🥈
+
+## 🎯 M. The SDL should have exactly one form used by all producers and consumers
+
+[criteria-m]: #-m-the-sdl-should-have-exactly-one-form-used-by-all-producers-and-consumers
+
+The SDL should not be influenced by client features such as local extensions and
+error propagation mechanics, and should always represent the true full source
+schema SDL.
+
+May contradict: L
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ⚠️               | ❔              | ⚠️               | ❔               | ✅               | ✅          |
+
+Criteria score: 🥇
+
+## 🎯 N. The solution should add value even with error propagation enabled
+
+[criteria-n]: #-n-the-solution-should-add-value-even-with-error-propagation-enabled
+
+Even when error propagation is enabled, it's valuable to be able to tell the
+difference between a field that is truly (semantically) nullable, and one
+that's only nullable because errors may occur. GraphQL-TOE can be used in such
+situations so that codegen can safely use non-nullable types in semantically
+non-nullable positions.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               | ✅          |
+
+Criteria score: 🥉
+
+## 🎯 O. Should not have breaking changes for existing executable documents
+
+[criteria-o]: #-o-should-not-have-breaking-changes-for-existing-executable-documents
+
+It should be possible to enable the solution without negatively impacting
+existing deployed clients.
+
+Per Lee:
+
+> A breaking change is a client observable change in behavior. The decade old
+> GraphQL query should work in the same way as it always has.  (We sometimes
+> allow inconsequential changes in behavior, but bubbling the error up isn't
+> inconsequential.)
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | ✅               | 🚫               | ✅          |
+
+
+Note: though this criteria is currently not considered due to overlap with B
+and G, it acts as a reminder to look for other forms of breaking change, and
+helps to reason _why_ B and G are important.
+
+Criteria score: X (not considered - covered by B and G)
+
+
+## 🎯 P. The solution should result in users marking all semantically non-null fields as such
+
+[criteria-p]: #-p-the-solution-should-result-in-users-marking-all-semantically-non-null-fields-as-such
+
+When a field returns data that the business logic dictates does not and will
+never return a legitimate (non-error) null, the schema authors should have no
+hesitation over marking it as semantically non-nullable - and thus all
+semantically non-nullable fields should be marked as such.
+
+Per Benoit:
+
+> Not sure how to express it well, but I feel there should be a criteria to
+> mean something like “the solution encourages that eventually most fields in
+> most schemas are semantically non null”. As a client developer that’s kind of
+> an outcome of this whole effort I’d like to see happening.
+
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               | ⚠️           |
+
+Criteria score: 🥇
+
+## 🎯 Q. Migrating the unadorned output type to other forms of nullability should be non-breaking
+
+[criteria-q]: #-q-migrating-the-unadorned-output-type-to-other-forms-of-nullability-should-be-non-breaking
+
+The default (unadorned) type should be a type that you can migrate away from,
+once nullability expectations become more concrete, without breaking existing
+client queries.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫               | ✅               | ✅          |
+
+Note: this is not necessarily a duplicate of C as it doesn't specifically
+require the unadorned type be nullable, however no proposal currently proposes
+a mechanism for moving from any non-nullable type to a nullable type in a
+non-breaking way, and thus this criteria is _currently_ discounted.
+
+Criteria score: X (not considered)
+
+## 🎯 R. Semantic nullability should only impact outputs, not inputs
+
+[criteria-r]: #-r-semantic-nullability-should-only-impact-outputs-not-inputs
+
+There's no meaningful difference between semantic non-null and strict non-null
+on input, since inputs do not handle errors (and thus "null only on error"
+describes a situation that cannot occur).
+
+Inputs include: field arguments, directive arguments, and input fields.
+
+As such:
+
+- the syntax used to represent input nullability in SDL (`Int` = nullable, and
+`Int!` = non-nullable) should be unchanged
+- the representation in introspection for inputs (namely the `NON_NULL` type
+wrapper) should be unchanged
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          |
+
+Criteria score: 🥈
 
 <!--
 
@@ -329,7 +535,20 @@ The community has imagined a variety of possible solutions, synthesized here.
 Each solution is identified with a `Number` so they can be referenced in the
 rest of the document. New solutions must be added to the end of the list.
 
+Semantic nullability is only relevant to output positions, so when comparing
+syntax we will look for changes versus the current syntax used to represent
+these types:
+
+|                           | Input syntax | Output syntax |
+| ------------------------- | ------------ | ------------- |
+| Semantically nullable     | `Int`        | `Int`         |
+| Semantically non-nullable | -            | `Int`         |
+| Strictly non-nullable     | `Int!`       | `Int!`        |
+
+
 ## 💡 1. New "Semantic Non-Null" type, represented by `*`
+
+[solution-1]: #-1-new-semantic-non-null-type-represented-by-
 
 **Champion**: @benjie
 
@@ -360,11 +579,11 @@ type Post {
 
 Querying a semantic non-null field is the same as querying any other field.
 
-|                           | Existing syntax | Proposed syntax |
-| ------------------------- | --------------- | --------------- |
-| Semantically nullable     | `Int`           | `Int`           |
-| Semantically non-nullable | -               | `Int*`          |
-| Strictly non-nullable     | `Int!`          | `Int!`          |
+|                           | Input syntax    | Output syntax       |
+| ------------------------- | --------------- | ------------------- |
+| Semantically nullable     | `Int`           | `Int`               |
+| Semantically non-nullable | -               | `Int` &rArr; `Int*` |
+| Strictly non-nullable     | `Int!`          | `Int!`              |
 
 ### 🎲 Variations
 
@@ -388,8 +607,33 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - ✅ Same syntax.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - ✅ Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ `*` doesn't apply on input, so syntax is unchanged.
+- [J][criteria-j]
+  - ✅ Local syntax only
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ✅ Proposal encourages consumers to use client-produced SDL which only uses traditional nullability (`Type`/`Type!`)
+- [M][criteria-m]
+  - ⚠️ You can use the same SDL everywhere, but that's not what this solution
+    encourages.
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ✅ Client syntax unchanged
+- [P][criteria-p]
+  - ✅ There are no drawbacks to adding semantically non-nullable fields
+- [Q][criteria-q]
+  - ✅
+- [R][criteria-r]
+  - ✅ `*` only needed in output positions, input positions unchanged
 
 ## 💡 2. "Strict Semantic Nullability"
+
+[solution-2]: #-2-strict-semantic-nullability
 
 **Champion**: @leebyron
 
@@ -400,11 +644,11 @@ in schemas using this directive would now be semantically non-nullable by
 default, and a new semantically nullable type is introduced (using the `?`
 symbol) to indicate that a position may semantically be null.
 
-|                           | Existing syntax | Proposed syntax |
-| ------------------------- | --------------- | --------------- |
-| Semantically nullable     | `Int`           | `Int?`          |
-| Semantically non-nullable | -               | `Int`           |
-| Strictly non-nullable     | `Int!`          | `Int!`          |
+|                           | Input syntax         | Output syntax       |
+| ------------------------- | -------------------- | ------------------- |
+| Semantically nullable     | `Int` &rArr; ???     | `Int` &rArr; `Int?` |
+| Semantically non-nullable | -                    | `Int`               |
+| Strictly non-nullable     | `Int!` &rArr; ???    | `Int!`              |
 
 ### ⚖️ Evaluation
 
@@ -427,30 +671,58 @@ symbol) to indicate that a position may semantically be null.
   - ✅ There is no alternative syntax.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - 🚫 Implementation and spec simplicity.
+- [I][criteria-i]
+  - ❔
+- [J][criteria-j]
+  - ❔
+- [K][criteria-k]
+  - ❔
+- [L][criteria-l]
+  - ❔
+- [M][criteria-m]
+  - ❔
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ❔
+- [P][criteria-p]
+  - ❔
+- [Q][criteria-q]
+  - 🚫 `Int` &rarr; `Int?` is breaking
+- [R][criteria-r]
+  - ❔
+
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
+
+[solution-3]: #-3-new-semantic-non-null-type-usurping--syntax
 
 **Champion**: @benjie
 
 This proposal is similar to proposal 1, but:
 
-1. It introduces a document-level directive, `@semanticNullability`, which when
-   present on a document allows the `!` suffix to be used to represent
-   semantically non-nullable types, and a new `!!` suffix to be used to
-   represent strictly non-nullable types:
+It introduces a document-level directive, `@semanticNullability`, which when
+present on a document allows the `!` suffix to be used to represent
+semantically non-nullable output types, and a new `!!` suffix to be used to
+represent strictly non-nullable output types.
 
-|                           | Syntax without directive | Syntax with directive |
-| ------------------------- | ------------------------ | --------------------- |
-| Semantically nullable     | `Int`                    | `Int`                 |
-| Semantically non-nullable | -                        | `Int!`                |
-| Strictly non-nullable     | `Int!`                   | `Int!!`               |
+The `Int!` syntax simply means "non-nullable" on input, as it always has.
+(Note: input types are always either semantically nullable or strictly
+non-nullable.)
 
-As such all documents (both SDL and executable documents) retain their current
-meaning, and the semantically non-null type can be adopted on a per-document
-basis.
+Syntax only changes when `@semanticNullability` directive is present:
 
-2. It allows using semantically non-nullable types in input positions, allowing
-   the `Int!` syntax to simply mean "non-nullable" on input.
+|                           | Input syntax | Output syntax         |
+| ------------------------- | ------------ | --------------------- |
+| Semantically nullable     | `Int`        | `Int`                 |
+| Semantically non-nullable | -            | `Int` &rArr; `Int!`   |
+| Strictly non-nullable     | `Int!`       | `Int!` &rArr; `Int!!` |
+
+All documents (both SDL and executable documents) retain their current meaning,
+and the semantically non-null type can be adopted in output positions on a
+per-document basis by adding the document directive.
 
 Since there's no difference between whether a type is "semantically" or
 "strictly" non-nullable on input (input does not represent errors), executable
@@ -474,7 +746,7 @@ day-to-day work.
 - [B][criteria-b]
   - ✅ Executable documents are not impacted by this proposal.
 - [C][criteria-c]
-  - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
+  - ✅ `Int` means nullable still.
 - [D][criteria-d]
   - ✅ `Int!` to indicate non-nullable is common in programming languages; and
     `Int!!` looks like it indicates "danger".
@@ -489,6 +761,35 @@ day-to-day work.
     behavior.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - 🚫 Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ Semantic non-null not relevant to inputs, so no reason to use directive in executable documents -> syntax unchanged.
+- [J][criteria-j]
+  - ⚠️  Local reasoning holds for all but the schema authors; this is enabled
+    through the use of client-generated SDL reflecting client extensions and
+    error propagation behavior. For schema authors, local reasoning in the
+    source SDL returns whether a field is nullable or non-nullable, but does
+    not differentiate between _semantically_ non-nullable and _strictly_
+    non-nullable.
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ✅ Proposal encourages consumers to use client-produced SDL which only uses traditional nullability (`Type`/`Type!`)
+- [M][criteria-m]
+  - ⚠️ You can use the same SDL everywhere, but that's not what this solution
+    encourages.
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ✅ Client syntax unchanged
+- [P][criteria-p]
+  - ✅ There are no drawbacks to adding semantically non-nullable fields
+- [Q][criteria-q]
+  - ✅
+- [R][criteria-r]
+  - ✅ Syntax used for inputs is unchanged with or without the directive.
+
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
@@ -498,11 +799,14 @@ This proposal builds on solution 3, but with a syntactic shuffle such that the
 unadorned type may be used as the semantically non-nullable type when the
 directive is present, and a `?` symbol is used to indicate a nullable position.
 
-|                           | Syntax without directive | Syntax with directive |
-| ------------------------- | ------------------------ | --------------------- |
-| Semantically nullable     | `Int`                    | `Int?`                |
-| Semantically non-nullable | -                        | `Int`                 |
-| Strictly non-nullable     | `Int!`                   | `Int!`                |
+Syntax only changes when `@semanticNullability` directive is present:
+
+|                           | Input syntax        | Output syntax       |
+| ------------------------- | ------------------- | ------------------- |
+| Semantically nullable     | `Int` &rArr; `Int?` | `Int` &rArr; `Int?` |
+| Semantically non-nullable | -                   | `Int`               |
+| Strictly non-nullable     | `Int!` &rArr; `Int` | `Int!`              |
+
 
 ### ⚖️ Evaluation
 
@@ -526,14 +830,45 @@ directive is present, and a `?` symbol is used to indicate a nullable position.
     unexpected and will likely lead to confusion.
 - [G][criteria-g]
   - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - 🚫 Implementation and spec simplicity.
+- [I][criteria-i]
+  - 🚫 Clients will need to move to using new syntax (`Type?`/`Type`) or have syntax incongruent with schema SDL
+- [J][criteria-j]
+  - 🚫 The nullability of `Type` cannot be determined without checking for a document directive
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ❔
+- [M][criteria-m]
+  - ❔
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately
+- [O][criteria-o]
+  - ✅ Clients must opt in to new syntax with document directive
+- [P][criteria-p]
+  - ✅ There are no drawbacks to adding semantically non-nullable fields
+- [Q][criteria-q]
+  - 🚫 `Int` &rarr; `Int?` is breaking
+- [R][criteria-r]
+  - 🚫 Input positions have changed `Int` &rArr; `Int?`, `Int!` &rArr; `Int`
+
 
 ## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
+
+[solution-5]: #-5-use-non-null-in-semantically-non-nullable-places-and-encourage-disabling-error-propagation
 
 **Champion**: @martinbonnin
 
 - Discussion: https://github.com/graphql/nullability-wg/discussions/85
 
 This proposal relies on the ability of clients to opt out of error propagation; instead of introducing a new type it instructs schema authors to optimize for error-handling clients and use the traditional non-null type (`!`) on all semantically non-null fields.
+
+|                           | Input syntax | Output syntax       |
+| ------------------------- | ------------ | ------------------- |
+| Semantically nullable     | `Int`        | `Int`               |
+| Semantically non-nullable | -            | `Int` &rArr; `Int!` |
+| Strictly non-nullable     | `Int!`       | `Int!`              |
 
 ### ⚖️ Evaluation
 
@@ -542,12 +877,104 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 - [B][criteria-b]
   - ✅ The change from nullable to non-nullable on output is backwards compatible from a type perspective; for impact on error boundaries see G.
 - [C][criteria-c]
-  - ✅ `Int` means nullable, and `Int!` means non-nullable, still.
+  - ✅ `Int` means nullable still.
 - [D][criteria-d]
-  - ⚠️ Adding `@onError` to operations is not immediately intuitive but most error-handling clients should add it automatically, making it transparent to end users. 
+  - ⚠️ Adding `@onError` to operations is not immediately intuitive but most error-handling clients should add it automatically, making it transparent to end users.
 - [E][criteria-e]
   - ✅ Same syntax.
 - [F][criteria-f]
   - ✅ Same syntax.
 - [G][criteria-g]
   - 🚫 Using non-null in more positions will change the error boundary positions when error propagation is enabled.
+- [H][criteria-h]
+  - ✅ Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ No change
+- [J][criteria-j]
+  - ✅ No change
+- [K][criteria-k]
+  - ✅ No change
+- [L][criteria-l]
+  - ✅ No change
+- [M][criteria-m]
+  - ✅ No change
+- [N][criteria-n]
+  - 🚫 Solution actually decreases value when error propagation is enabled due to lowered resilience to errors.
+- [O][criteria-o]
+  - 🚫 Changing fields to strictly non-null causes errors to propagate further, a breaking change. (Duplicate of G.)
+- [P][criteria-p]
+  - 🚫 Though the solution states it encourages the adoption of non-null, doing so is a breaking change for existing clients and so adopters are likely to hesitate when marking some semantically non-nullable positions as such
+- [Q][criteria-q]
+  - ✅ Same syntax.
+- [R][criteria-r]
+  - ✅ Same syntax.
+
+## 💡 6. `@semanticNonNull` directive
+
+[solution-6]: #-6-semanticnonnull-directive
+
+**Champion**: -
+
+Outline: https://specs.apollo.dev/nullability/v0.4/#@semanticNonNull
+
+This proposal (which is already adopted in a few places!) introduces a
+directive that can be added to fields to indicate their semantic nullability
+(and that of their nested list positions).
+
+```graphql
+directive @semanticNonNull(levels: [Int!]! = [0]) on FIELD_DEFINITION
+
+type Query {
+  nonNullListOfNonNullInt: [Int] @semanticNonNull(levels: [0, 1])
+}
+```
+
+The proposal is broadly similar to [solution 1][solution-1], but avoids
+introducing new syntax. Interestingly, since the directive only applies on
+`FIELD_DEFINITION` it explicitly limits semantic nullability to output
+positions.
+
+|                           | Input syntax | Output syntax                       |
+| ------------------------- | ------------ | ----------------------------------- |
+| Semantically nullable     | `Int`        | `Int`                               |
+| Semantically non-nullable | -            | `Int` &rArr; `Int @semanticNotNull` |
+| Strictly non-nullable     | `Int!`       | `Int!`                              |
+
+### ⚖️ Evaluation
+
+- [A][criteria-a]
+  - ✅
+- [B][criteria-b]
+  - ✅ Existing symbology unchanged.
+- [C][criteria-c]
+  - ✅ Existing symbology unchanged.
+- [D][criteria-d]
+  - ✅ No syntax change (directive syntax already exists).
+- [E][criteria-e]
+  - ✅ Same syntax.
+- [F][criteria-f]
+  - ✅ Same syntax.
+- [G][criteria-g]
+  - ✅ Error capture positions unchanged when error propagation enabled
+- [H][criteria-h]
+  - ✅ Implementation and spec simplicity.
+- [I][criteria-i]
+  - ✅ Directive does not apply to input positions.
+- [J][criteria-j]
+  - ⚠️ Though the directives are local to the field, the reader must still correlate the directive and the passed indexes with the types specified to conclude what the final type is.
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type(includeSemanticNonNull: Boolean! = false)`
+- [L][criteria-l]
+  - ⚠️  Depends whether we advise using client-generated SDL or not.
+- [M][criteria-m]
+  - ✅ Same SDL everywhere.
+- [N][criteria-n]
+  - ✅ Indicates semantically non-null and strictly non-null types separately.
+- [O][criteria-o]
+  - ✅
+- [P][criteria-p]
+  - ⚠️ Though there's no technical reason not to do so, the mechanics of adding the directive (particularly when referencing positions inside lists) are tiresome in SDL-first schemas, decreasing likeliness that positions will be updated. (Code-first schemas are unaffected.) Further, the directives are likely to have a significant impact on the formatting of the SDL (`@semanticNonNull` is 16 characters, almost quarter of a line if wrap at 80), so designers may wish to only add them in the most critical of locations.
+- [Q][criteria-q]
+  - ✅
+- [R][criteria-r]
+  - ✅ Directive is only valid on output positions.

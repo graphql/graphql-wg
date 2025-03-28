@@ -105,6 +105,9 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
 
 
 ## Agenda
@@ -114,7 +117,42 @@ hold additional secondary meetings later in the month.
    - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
    - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
    - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
+   - Meetings are [published to YouTube](https://www.youtube.com/@GraphQLFoundation/videos) and we may use LLM/AI summary tools
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (5m, Benjie)
+1. Appendix C: Type System Definitions (5m, Martin)
+  - https://github.com/graphql/graphql-spec/pull/1037
+1. Provision for unknow request information (5m, Martin)
+  - https://github.com/graphql/graphql-spec/pull/1151
+1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (5m, Benjie)
+   - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
+1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152) (5m, Benjie)
+1. Make `includeDeprecated` non-null (10m, Martin)
+    - https://github.com/graphql/graphql-spec/pull/1142
+    - advance to RFC2/RFC3?
+1. [Consistently use "response name" over "response key"](https://github.com/graphql/graphql-spec/pull/1147) (5m, Benjie)
+1. Disabling error propagation proposal (10m, Alex)
+1. [Clarify 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (5m, Benjie)
+   - Editorial, aim: merge.
+1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (2m, Benjie)
+   - RFC2, no GraphQL.js changes needed. 4 TSC approvals. Plan: RFC3.
+1. [Implementations may not deprecate a field that the interface hasn't deprecated](https://github.com/graphql/graphql-spec/pull/1053) (2m, Benjie)
+   - RFC2, 4 TSC approvals, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3986). Plan: RFC3.
+1. [Prevent @skip and @include on root subscription selection set](https://github.com/graphql/graphql-spec/pull/860) (5m, Benjie)
+   - RFC2, GraphQL.js merged. Aim: RFC3.
+1. [Clarify 'Values of Correct Type' rule relates to literals](https://github.com/graphql/graphql-spec/pull/1118) (5m, Benjie)
+   - Editorial. Aim: merge. Needed by oneOf.
+1. [OneOf Input Objects](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
+   - RFC2. Implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
+1. [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (15m, Benjie)
+   - RFC2, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3814). Aim: RFC3.
+1. Reaching a consensus on Semantic Nullability (25m, Alex)
+1. [Define Data Collections used in the spec](https://github.com/graphql/graphql-spec/pull/1102) (20m, Benjie)
+   - RFC2, aim: RFC3.
+   - Then: [Recommend that order of unordered collections is maintained where possible](https://github.com/graphql/graphql-spec/pull/1092)
+     - RFC2, aim: RFC3.
+     - Then: [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
+       - RFC2, aim: RFC3.
