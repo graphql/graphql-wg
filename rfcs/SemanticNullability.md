@@ -945,7 +945,6 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 Outline: https://specs.apollo.dev/nullability/v0.4/#@semanticNonNull
 
 This proposal relies on:
-- A request parameter to disable error propagation
 - A new directive, `@semanticNonNull`
 - Either:
   - A new introspection argument, `includeSemanticNonNull` (`__Field.type(includeSemanticNonNull: Boolean! = false)`), if represented as a type, or
