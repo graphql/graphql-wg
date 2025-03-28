@@ -535,6 +535,9 @@ The community has imagined a variety of possible solutions, synthesized here.
 Each solution is identified with a `Number` so they can be referenced in the
 rest of the document. New solutions must be added to the end of the list.
 
+Some of the solutions have been ruled out and are kept here for historical 
+reasons. Those solutions are folded in a `<details>` tag.
+
 Semantic nullability is only relevant to output positions, so when comparing
 syntax we will look for changes versus the current syntax used to represent
 these types:
@@ -633,6 +636,10 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
 
 ## 💡 2. "Strict Semantic Nullability"
 
+<details>
+
+<summary>Rejected - click for details</summary>
+
 [solution-2]: #-2-strict-semantic-nullability
 
 **Champion**: @leebyron
@@ -694,8 +701,13 @@ symbol) to indicate that a position may semantically be null.
 - [R][criteria-r]
   - ❔
 
+</details>
 
 ## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
+
+<details>
+
+<summary>Rejected - click for details</summary>
 
 [solution-3]: #-3-new-semantic-non-null-type-usurping--syntax
 
@@ -790,8 +802,15 @@ day-to-day work.
 - [R][criteria-r]
   - ✅ Syntax used for inputs is unchanged with or without the directive.
 
+</details>
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
+
+[solution-4]: #-4-new-semantic-non-null-type-with--used-for-nullable-types
+
+<details>
+
+<summary>Rejected - click for details</summary>
 
 **Champion**: none (put your name here to become the champion!)
 
@@ -853,8 +872,14 @@ Syntax only changes when `@semanticNullability` directive is present:
 - [R][criteria-r]
   - 🚫 Input positions have changed `Int` &rArr; `Int?`, `Int!` &rArr; `Int`
 
+</details>
+
 
 ## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
+
+<details>
+
+<summary>Rejected - click for details</summary>
 
 [solution-5]: #-5-use-non-null-in-semantically-non-nullable-places-and-encourage-disabling-error-propagation
 
@@ -908,6 +933,8 @@ This proposal relies on the ability of clients to opt out of error propagation; 
   - ✅ Same syntax.
 - [R][criteria-r]
   - ✅ Same syntax.
+
+</details>
 
 ## 💡 6. `@semanticNonNull` directive
 
