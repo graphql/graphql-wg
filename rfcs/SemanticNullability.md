@@ -634,11 +634,11 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
 - [R][criteria-r]
   - ✅ `*` only needed in output positions, input positions unchanged
 
+## 💡 2. "Strict Semantic Nullability"
+
 <details>
 
-<summary>💡 2. "Strict Semantic Nullability" - rejected</summary>
-
-## 💡 2. "Strict Semantic Nullability"
+<summary>Rejected - click for details</summary>
 
 [solution-2]: #-2-strict-semantic-nullability
 
@@ -703,11 +703,11 @@ symbol) to indicate that a position may semantically be null.
 
 </details>
 
+## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
+
 <details>
 
-<summary>💡 3. New "Semantic Non-Null" type, usurping `!` syntax - rejected</summary>
-
-## 💡 3. New "Semantic Non-Null" type, usurping `!` syntax
+<summary>Rejected - click for details</summary>
 
 [solution-3]: #-3-new-semantic-non-null-type-usurping--syntax
 
@@ -804,11 +804,11 @@ day-to-day work.
 
 </details>
 
+## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
+
 <details>
 
-<summary>💡 4. New "Semantic Non-Null" type, with `?` used for nullable types - rejected</summary>
-
-## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
+<summary>Rejected - click for details</summary>
 
 **Champion**: none (put your name here to become the champion!)
 
@@ -873,11 +873,11 @@ Syntax only changes when `@semanticNullability` directive is present:
 </details>
 
 
+## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
+
 <details>
 
-<summary>💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation - rejected</summary>
-
-## 💡 5. Use non-null in semantically non-nullable places and encourage disabling error propagation
+<summary>Rejected - click for details</summary>
 
 [solution-5]: #-5-use-non-null-in-semantically-non-nullable-places-and-encourage-disabling-error-propagation
 
