@@ -947,7 +947,9 @@ Outline: https://specs.apollo.dev/nullability/v0.4/#@semanticNonNull
 This proposal relies on:
 - A request parameter to disable error propagation
 - A new directive, `@semanticNonNull`
-- A new introspection argument, `includeSemanticNonNull` (`__Field.type(includeSemanticNonNull: Boolean! = false)`)
+- Either:
+  - A new introspection argument, `includeSemanticNonNull` (`__Field.type(includeSemanticNonNull: Boolean! = false)`), if represented as a type, or
+  - A new introspection field, `__Field.semanticNonNullLevels: [Int!]`, if represented as field metadata
 
 The directive (which is already adopted in a few places!) can be added to 
 fields to indicate their semantic nullability (and that of their nested list positions).
