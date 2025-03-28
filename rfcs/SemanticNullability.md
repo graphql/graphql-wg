@@ -940,7 +940,7 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 
 [solution-6]: #-6-semanticnonnull-directive
 
-**Champion**: @martinbonnin
+**Champion**: @benjie
 
 Outline: https://specs.apollo.dev/nullability/v0.4/#@semanticNonNull
 
