@@ -950,7 +950,7 @@ This proposal relies on:
 - A new introspection argument, `includeSemanticNonNull` (`__Field.type(includeSemanticNonNull: Boolean! = false)`)
 
 The directive (which is already adopted in a few places!) can be added to 
-fields to indicate their semantic nullability(and that of their nested list positions).
+fields to indicate their semantic nullability (and that of their nested list positions).
 
 ```graphql
 directive @semanticNonNull(levels: [Int!]! = [0]) on FIELD_DEFINITION
