@@ -793,9 +793,7 @@ day-to-day work.
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
-[solution-4]: #-4-new-semantic-non-null-type-with--used-for-nullable-types
-
-**Champion**: @twof
+**Champion**: none (put your name here to become the champion!)
 
 This proposal builds on solution 3, but with a syntactic shuffle such that the
 unadorned type may be used as the semantically non-nullable type when the
