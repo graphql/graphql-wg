@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -149,6 +150,9 @@ hold additional secondary meetings later in the month.
    - RFC2. Implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
 1. [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (15m, Benjie)
    - RFC2, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3814). Aim: RFC3.
+1. Defer/Stream Updates (10m, Rob)
+   - Editorial: [Consistently use result map when referring to objectTypes selection set result.](https://github.com/graphql/graphql-spec/pull/1148) Aim: merge
+   - Editorial: [Define _response payload_](https://github.com/graphql/graphql-spec/pull/1149) Aim: merge
 1. Reaching a consensus on Semantic Nullability (25m, Alex)
 1. [Define Data Collections used in the spec](https://github.com/graphql/graphql-spec/pull/1102) (20m, Benjie)
    - RFC2, aim: RFC3.
