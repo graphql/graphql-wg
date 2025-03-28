@@ -806,6 +806,8 @@ day-to-day work.
 
 ## 💡 4. New "Semantic Non-Null" type, with `?` used for nullable types
 
+[solution-4]: #-4-new-semantic-non-null-type-with--used-for-nullable-types
+
 <details>
 
 <summary>Rejected - click for details</summary>
