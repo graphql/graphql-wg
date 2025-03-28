@@ -940,13 +940,17 @@ This proposal relies on the ability of clients to opt out of error propagation; 
 
 [solution-6]: #-6-semanticnonnull-directive
 
-**Champion**: -
+**Champion**: @martinbonnin
 
 Outline: https://specs.apollo.dev/nullability/v0.4/#@semanticNonNull
 
-This proposal (which is already adopted in a few places!) introduces a
-directive that can be added to fields to indicate their semantic nullability
-(and that of their nested list positions).
+This proposal relies on:
+- A request parameter to disable error propagation
+- A new directive, `@semanticNonNull`
+- A new introspection argument, `includeSemanticNonNull` (`__Field.type(includeSemanticNonNull: Boolean! = false)`)
+
+The directive (which is already adopted in a few places!) can be added to 
+fields to indicate their semantic nullability(and that of their nested list positions).
 
 ```graphql
 directive @semanticNonNull(levels: [Int!]! = [0]) on FIELD_DEFINITION
