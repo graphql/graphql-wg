@@ -135,6 +135,7 @@ hold additional secondary meetings later in the month.
    - Editorial, aim: merge.
 1. Rename `ExecuteRequest` to `ProcessRequest` (5m, Martin)
    - https://github.com/graphql/graphql-spec/pull/1154
+   - Editorial
 1. Make `includeDeprecated` non-null (10m, Martin)
     - https://github.com/graphql/graphql-spec/pull/1142
     - advance to RFC2/RFC3?
@@ -148,6 +149,7 @@ hold additional secondary meetings later in the month.
    - RFC2, GraphQL.js merged. Aim: RFC3.
 1. [Clarify 'Values of Correct Type' rule relates to literals](https://github.com/graphql/graphql-spec/pull/1118) (5m, Benjie)
    - Editorial. Aim: merge. Needed by oneOf.
+1. [Exclude custom scalar literals from validation](https://github.com/graphql/graphql-spec/pull/1157) (5m, Martin)
 1. [OneOf Input Objects](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
    - RFC2. Implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
 1. [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (15m, Benjie)
