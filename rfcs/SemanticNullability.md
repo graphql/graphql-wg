@@ -465,8 +465,8 @@ Per Benoit:
 
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ✅              | ✅               | ✅               | 🚫               | ⚠️           | ✅            |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               | ⚠️           | 🚫             |
 
 Criteria score: 🥇
 
@@ -1060,7 +1060,7 @@ This proposal changes the `!` symbol and the `NON_NULL` introspection kind both 
 - [O][criteria-o]
   - ✅
 - [P][criteria-p]
-  - ✅ This is technically not breaking, however note that changing field: Type to field: Type! does introduce a new source of errors (which may be preferable!) Doing this without adding @propagateError is preferred, since changing field: Type to field: Type! @propagateError, could lose data - and is exactly why this kind change is discouraged today.
+  - 🚫 If propagateErrorOnAllNonNullFields: true is set, then adding ! to more fields changes the error boundaries, and thus means that existing users cannot add ! in more places without breaking existing clients error resilience.
 - [Q][criteria-q]
   - ✅
 - [R][criteria-r]
