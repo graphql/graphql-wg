@@ -1014,7 +1014,7 @@ positions.
 
 Discussion: https://github.com/graphql/graphql-wg/discussions/1700
 
-This proposal introduces a directive that can be added to fields to indicate that they should propagate errors.
+This proposal changes the `!` symbol and the `NON_NULL` introspection kind both to mean "semantic non null" (allowing for `null` on error). It introduces the `@propagateError` directive that can be added to fields to indicate that they should propagate errors in order to provide backwards compatibility with existing deployed clients.
 
 ```graphql
  type Person {
