@@ -437,7 +437,7 @@ Per Lee:
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ❔              | ✅               | ✅               | 🚫               | ✅          | ✅            |
+| ✅               | ❔              | ✅               | ✅               | 🚫               | ✅          | ⚠️            |
 
 
 Note: though this criteria is currently not considered due to overlap with B
