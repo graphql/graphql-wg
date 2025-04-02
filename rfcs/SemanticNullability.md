@@ -313,7 +313,7 @@ shine and not compromising the resiliency of legacy deployed app versions.
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
 | --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-------------|
-| ✅              | ✅              | ✅              | ✅              | 🚫              | ✅          | ✅            |
+| ✅              | ✅              | ✅              | ✅              | 🚫              | ✅          | ⚠️            |
 
 Criteria score: 🥈
 
