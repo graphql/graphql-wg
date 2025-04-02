@@ -131,13 +131,15 @@ hold additional secondary meetings later in the month.
 1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (5m, Benjie)
     - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
 1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152) (5m, Benjie)
+1. [Clarify 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (5m, Benjie)
+   - Editorial, aim: merge.
+1. Rename `ExecuteRequest` to `ProcessRequest` (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1154
 1. Make `includeDeprecated` non-null (10m, Martin)
     - https://github.com/graphql/graphql-spec/pull/1142
     - advance to RFC2/RFC3?
 1. [Consistently use "response name" over "response key"](https://github.com/graphql/graphql-spec/pull/1147) (5m, Benjie)
 1. Disabling error propagation proposal (10m, Alex)
-1. [Clarify 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (5m, Benjie)
-   - Editorial, aim: merge.
 1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (2m, Benjie)
    - RFC2, no GraphQL.js changes needed. 4 TSC approvals. Plan: RFC3.
 1. [Implementations may not deprecate a field that the interface hasn't deprecated](https://github.com/graphql/graphql-spec/pull/1053) (2m, Benjie)
