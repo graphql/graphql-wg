@@ -174,5 +174,5 @@ hold additional secondary meetings later in the month.
        - RFC2, aim: RFC3.
 1. Please give feedback on the following (2m, Martin)
    1. [Appendix C: Type System Definitions](https://github.com/graphql/graphql-spec/pull/1037)
-   1. [Clarify that variables are always allowed when part of a custom scalar literal value](https://github.com/graphql/graphql-spec/pull/1156)
-   1. [Exclude custom scalar literals from validation](https://github.com/graphql/graphql-spec/pull/1157)
+   1. [Clarify validation of custom scalar literals](https://github.com/graphql/graphql-spec/pull/1156)
+   
