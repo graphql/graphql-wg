@@ -124,41 +124,48 @@ hold additional secondary meetings later in the month.
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
-1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (5m, Benjie)
-1. Appendix C: Type System Definitions (5m, Martin)
-    - https://github.com/graphql/graphql-spec/pull/1037
-1. Provision for unknow request information (5m, Martin)
-    - https://github.com/graphql/graphql-spec/pull/1151
-1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (5m, Benjie)
-    - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
-1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152) (5m, Benjie)
-1. [Clarify 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (5m, Benjie)
-   - Editorial, aim: merge.
-1. Rename `ExecuteRequest` to `ProcessRequest` (5m, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1154
-   - Editorial
-1. Make `includeDeprecated` non-null (10m, Martin)
-    - https://github.com/graphql/graphql-spec/pull/1142
-    - advance to RFC2/RFC3?
-1. [Consistently use "response name" over "response key"](https://github.com/graphql/graphql-spec/pull/1147) (5m, Benjie)
-1. Disabling error propagation proposal (10m, Alex)
-1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (2m, Benjie)
+1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (2m, Benjie)
+   - Please express any hesitations via this issue ASAP
+1. Open Telemetry Sub Commitee announcement (2m, Pascal)
+   - [New WG](https://github.com/graphql/telemetry-wg) created; join the [first meeting](https://github.com/graphql/telemetry-wg/tree/main/agendas/2025)
+1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (5m, Benjie)
    - RFC2, no GraphQL.js changes needed. 4 TSC approvals. Plan: RFC3.
+1. Defer/Stream Updates (10m, Rob)
+   1. Merged: [Consistently use result map when referring to objectTypes selection set result.](https://github.com/graphql/graphql-spec/pull/1148)
+   1. Editorial: [Define _response payload_](https://github.com/graphql/graphql-spec/pull/1149)
+      - 2 TSC approvals. Aim: merge
+1. Benjie's editorial PRs (20m, Benjie)
+   1. [Consistently use "response name" over "response key"](https://github.com/graphql/graphql-spec/pull/1147)
+      - 3 TSC approvals
+   1. [Rename "field error" to "execution error" and fix various bugs and ambiguities](https://github.com/graphql/graphql-spec/pull/1152)
+      - 3 TSC approvals
+   1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039)
+      - Editorial needed by fragment arguments and incremental delivery; let's get it merged!
+      - 3 TSC approvals
+   1. [Clarify 'Values of Correct Type' rule relates to literals](https://github.com/graphql/graphql-spec/pull/1118)
+      - Editorial. Aim: merge. Needed by oneOf.
+      - 2 TSC approvals
+1. Martin's editorial PRs (10m, Martin)
+   1. [Provision for unknown request information](https://github.com/graphql/graphql-spec/pull/1151)
+       - 2 TSC approvals
+1. Clarify "before execution begins" (10m, Benjie and Martin)
+   1. [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894)
+      - Editorial, aim: merge.
+   1. [Rename `ExecuteRequest` to `ProcessRequest`](https://github.com/graphql/graphql-spec/pull/1154)
+      - Editorial
+1. Disabling error propagation proposal (10m, Alex)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1153)
+   - [Reference implementation](https://github.com/graphql/graphql-js/pull/4364)
+1. [Make `includeDeprecated` non-null](https://github.com/graphql/graphql-spec/pull/1142) (10m, Martin)
+   - advance to RFC2/RFC3?
 1. [Implementations may not deprecate a field that the interface hasn't deprecated](https://github.com/graphql/graphql-spec/pull/1053) (2m, Benjie)
    - RFC2, 4 TSC approvals, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3986). Plan: RFC3.
 1. [Prevent @skip and @include on root subscription selection set](https://github.com/graphql/graphql-spec/pull/860) (5m, Benjie)
-   - RFC2, GraphQL.js merged. Aim: RFC3.
-1. [Clarify 'Values of Correct Type' rule relates to literals](https://github.com/graphql/graphql-spec/pull/1118) (5m, Benjie)
-   - Editorial. Aim: merge. Needed by oneOf.
-1. [Exclude custom scalar literals from validation](https://github.com/graphql/graphql-spec/pull/1157) (5m, Martin)
+   - RFC2, 2 TSC approvals, GraphQL.js merged. Aim: RFC3.
 1. [OneOf Input Objects](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
-   - RFC2. Implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
+   - RFC2. 162 👍s, implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
 1. [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (15m, Benjie)
-   - RFC2, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3814). Aim: RFC3.
-1. Defer/Stream Updates (10m, Rob)
-   - Editorial: [Consistently use result map when referring to objectTypes selection set result.](https://github.com/graphql/graphql-spec/pull/1148) Aim: merge
-   - Editorial: [Define _response payload_](https://github.com/graphql/graphql-spec/pull/1149) Aim: merge
+   - RFC2, 2 TSC approvals, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3814). Aim: RFC3.
 1. Reaching a consensus on Semantic Nullability (25m, Alex)
 1. [Define Data Collections used in the spec](https://github.com/graphql/graphql-spec/pull/1102) (20m, Benjie)
    - RFC2, aim: RFC3.
@@ -166,4 +173,7 @@ hold additional secondary meetings later in the month.
      - RFC2, aim: RFC3.
      - Then: [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
        - RFC2, aim: RFC3.
-1. Open Telemetry Sub Commitee (5m, Pascal)
+1. Please give feedback on the following (2m, Martin)
+   1. [Appendix C: Type System Definitions](https://github.com/graphql/graphql-spec/pull/1037)
+   1. [Clarify that variables are always allowed when part of a custom scalar literal value](https://github.com/graphql/graphql-spec/pull/1156)
+   1. [Exclude custom scalar literals from validation](https://github.com/graphql/graphql-spec/pull/1157)
