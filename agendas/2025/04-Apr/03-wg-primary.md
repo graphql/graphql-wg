@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 
 
 ## Agenda
