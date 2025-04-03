@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
+| Jordan Eldredge  | @captbaritone | Meta               | San Francisco, CA, US |
 
 
 ## Agenda
