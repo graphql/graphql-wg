@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 
 ## Agenda
