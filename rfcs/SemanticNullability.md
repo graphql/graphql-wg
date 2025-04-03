@@ -1041,7 +1041,7 @@ This proposal changes the `!` symbol and the `NON_NULL` introspection kind both 
 - [F][criteria-f]
   - ✅ 
 - [G][criteria-g]
-  - ✅ 
+  - ⚠️ With propagateErrorOnAllNonNullFields: true, adding ! (semantic non-null) in existing positions will change error propagation boundaries in existing (deployed) executable documents, in the same way that it would for solution 6, so semantic non-null could not be added until propagateErrorOnAllNonNullFields is set to false (i.e. after all clients and tooling migrate). 
 - [H][criteria-h]
   - ~✅ One new directive/introspection field. Behavior change is straightforward. Managing adoption/migration requires careful consideration.
 - [I][criteria-i]
