@@ -158,8 +158,6 @@ hold additional secondary meetings later in the month.
 1. Disabling error propagation proposal (10m, Alex)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/1153)
    - [Reference implementation](https://github.com/graphql/graphql-js/pull/4364)
-1. [Make `includeDeprecated` non-null](https://github.com/graphql/graphql-spec/pull/1142) (10m, Martin)
-   - advance to RFC2/RFC3?
 1. Reaching a consensus on Semantic Nullability (25m, Alex)
    - Recap of [current status](https://github.com/graphql/graphql-wg/blob/main/rfcs/SemanticNullability.md):
      - Solution 1 (`*`) refined, now described as "transitional" non-null, see [Benjie's detailed post with 60 second overview video](https://benjie.dev/graphql/nullability)
@@ -171,6 +169,8 @@ hold additional secondary meetings later in the month.
      - graphql-js implementation: [Implement onError proposal](https://github.com/graphql/graphql-js/pull/4364)
      - Spec edits: [SemanticNonNull type](https://github.com/graphql/graphql-spec/pull/1065)
      - graphql-js implementation: [Experimental support for semantic-non-null](https://github.com/graphql/graphql-js/pull/4192)
+1. [Make `includeDeprecated` non-null](https://github.com/graphql/graphql-spec/pull/1142) (10m, Martin)
+   - advance to RFC2/RFC3?
 1. Please give feedback on the following (2m, Martin)
    1. [Appendix C: Type System Definitions](https://github.com/graphql/graphql-spec/pull/1037)
    1. [Clarify validation of custom scalar literals](https://github.com/graphql/graphql-spec/pull/1156)
