@@ -165,6 +165,10 @@ hold additional secondary meetings later in the month.
      - Solution 2-5: have been rejected by their respective champions
      - Nullability WG reached consensus on solution 1 (solution 6 is already implemented in a number of places, and is easy to migrate to solution 1).
      - New contender: [Solution 7](https://github.com/graphql/graphql-wg/discussions/1700)
+     - Spec edits: [Allow clients to disable error propagation via request parameter](https://github.com/graphql/graphql-spec/pull/1153)
+     - graphql-js implementation: [Implement onError proposal](https://github.com/graphql/graphql-js/pull/4364)
+     - Spec edits: [SemanticNonNull type](https://github.com/graphql/graphql-spec/pull/1065)
+     - graphql-js implementation: [Experimental support for semantic-non-null](https://github.com/graphql/graphql-js/pull/4192)
 1. Please give feedback on the following (2m, Martin)
    1. [Appendix C: Type System Definitions](https://github.com/graphql/graphql-spec/pull/1037)
    1. [Clarify validation of custom scalar literals](https://github.com/graphql/graphql-spec/pull/1156)
