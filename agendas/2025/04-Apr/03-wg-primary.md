@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
@@ -165,3 +166,4 @@ hold additional secondary meetings later in the month.
      - RFC2, aim: RFC3.
      - Then: [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
        - RFC2, aim: RFC3.
+1. Open Telemetry Sub Commitee (5m, Pascal)
