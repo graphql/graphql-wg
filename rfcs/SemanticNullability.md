@@ -1049,7 +1049,7 @@ This proposal changes the `!` symbol and the `NON_NULL` introspection kind both 
 - [J][criteria-j]
   - ✅ The propagateError introspection/directive is local to the field (the optional propagateErrorOnAllNonNullFields config just does this for you).
 - [K][criteria-k]
-  - ✅ Adds one new field. Migration path supports existing semantics for shipped clients.
+  - ⚠️ This solution is non-breaking if you keep propagateErrorOnAllNonNullFields: true enabled forever. Otherwise, it is a breaking change as it changes the meaning of NON_NULL in the schema, preventing adoption until all clients and tooling have been updated.
 - [L][criteria-l]
   - ✅ There are only two types and they remain the same as they are today. This proposal is about changing error bubbling behavior, not nullability.
 - [M][criteria-m]
@@ -1058,7 +1058,7 @@ This proposal changes the `!` symbol and the `NON_NULL` introspection kind both 
 - [N][criteria-n]
   - ✅ Separating nullability from error bubbling allows for more control. Clients should preferably disable error bubbling, but even if they do not - this unlocks the ability for a semantically non-null type which does not error propagate.
 - [O][criteria-o]
-  - ✅
+  - ⚠️ Unless propagateErrorOnAllNonNullFields is set to true, any existing executable documents that introspect types will receive a change in meaning for NON_NULL.
 - [P][criteria-p]
   - 🚫 If propagateErrorOnAllNonNullFields: true is set, then adding ! to more fields changes the error boundaries, and thus means that existing users cannot add ! in more places without breaking existing clients error resilience.
 - [Q][criteria-q]
