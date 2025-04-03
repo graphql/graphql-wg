@@ -127,7 +127,6 @@ hold additional secondary meetings later in the month.
 1. [Let's set a July 1st deadline for spec release](https://github.com/graphql/graphql-wg/issues/1692) (2m, Benjie)
    - Please express any hesitations via this issue ASAP
 1. Open Telemetry Sub Commitee announcement (2m, Pascal)
-   - [New WG](https://github.com/graphql/telemetry-wg) created; join the [first meeting](https://github.com/graphql/telemetry-wg/tree/main/agendas/2025)
 1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (5m, Benjie)
    - RFC2, no GraphQL.js changes needed. 4 TSC approvals. Plan: RFC3.
 1. Defer/Stream Updates (10m, Rob)
