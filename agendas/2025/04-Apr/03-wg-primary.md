@@ -129,6 +129,8 @@ hold additional secondary meetings later in the month.
 1. Open Telemetry Sub Commitee announcement (2m, Pascal)
 1. [Add 'extensions' to request](https://github.com/graphql/graphql-spec/pull/976) (5m, Benjie)
    - RFC2, no GraphQL.js changes needed. 4 TSC approvals. Plan: RFC3.
+1. [Provision for unknown request information](https://github.com/graphql/graphql-spec/pull/1151) (5m, Martin)
+   - 2 TSC approvals
 1. Defer/Stream Updates (10m, Rob)
    1. Merged: [Consistently use result map when referring to objectTypes selection set result.](https://github.com/graphql/graphql-spec/pull/1148)
    1. Editorial: [Define _response payload_](https://github.com/graphql/graphql-spec/pull/1149)
@@ -144,9 +146,6 @@ hold additional secondary meetings later in the month.
    1. [Clarify 'Values of Correct Type' rule relates to literals](https://github.com/graphql/graphql-spec/pull/1118)
       - Editorial. Aim: merge. Needed by oneOf.
       - 2 TSC approvals
-1. Martin's editorial PRs (10m, Martin)
-   1. [Provision for unknown request information](https://github.com/graphql/graphql-spec/pull/1151)
-       - 2 TSC approvals
 1. Clarify "before execution begins" (10m, Benjie and Martin)
    1. [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894)
       - Editorial, aim: merge.
@@ -157,6 +156,16 @@ hold additional secondary meetings later in the month.
    - [Reference implementation](https://github.com/graphql/graphql-js/pull/4364)
 1. [Make `includeDeprecated` non-null](https://github.com/graphql/graphql-spec/pull/1142) (10m, Martin)
    - advance to RFC2/RFC3?
+1. Reaching a consensus on Semantic Nullability (25m, Alex)
+   - Recap of [current status](https://github.com/graphql/graphql-wg/blob/main/rfcs/SemanticNullability.md):
+     - Solution 1 (`*`) refined, now described as "transitional" non-null, see [Benjie's detailed post with 60 second overview video](https://benjie.dev/graphql/nullability)
+        - Solution 6 is same as Solution 1 but with directive (`[Int] @semanticNonNull(levels: [0, 1])`) rather than syntax (`[Int*]*`)
+     - Solution 2-5: have been rejected by their respective champions
+     - Nullability WG reached consensus on solution 1 (solution 6 is already implemented in a number of places, and is easy to migrate to solution 1).
+     - New contender: [Solution 7](https://github.com/graphql/graphql-wg/discussions/1700)
+1. Please give feedback on the following (2m, Martin)
+   1. [Appendix C: Type System Definitions](https://github.com/graphql/graphql-spec/pull/1037)
+   1. [Clarify validation of custom scalar literals](https://github.com/graphql/graphql-spec/pull/1156)
 1. [Implementations may not deprecate a field that the interface hasn't deprecated](https://github.com/graphql/graphql-spec/pull/1053) (2m, Benjie)
    - RFC2, 4 TSC approvals, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3986). Plan: RFC3.
 1. [Prevent @skip and @include on root subscription selection set](https://github.com/graphql/graphql-spec/pull/860) (5m, Benjie)
@@ -165,14 +174,9 @@ hold additional secondary meetings later in the month.
    - RFC2. 162 👍s, implemented unflagged in GraphQL.js 15, 16; GraphQL.NET v8; GraphQL Java v21.2. Aim: RFC3.
 1. [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (15m, Benjie)
    - RFC2, 2 TSC approvals, [GraphQL.js PR merged](https://github.com/graphql/graphql-js/pull/3814). Aim: RFC3.
-1. Reaching a consensus on Semantic Nullability (25m, Alex)
 1. [Define Data Collections used in the spec](https://github.com/graphql/graphql-spec/pull/1102) (20m, Benjie)
    - RFC2, aim: RFC3.
    - Then: [Recommend that order of unordered collections is maintained where possible](https://github.com/graphql/graphql-spec/pull/1092)
      - RFC2, aim: RFC3.
      - Then: [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
        - RFC2, aim: RFC3.
-1. Please give feedback on the following (2m, Martin)
-   1. [Appendix C: Type System Definitions](https://github.com/graphql/graphql-spec/pull/1037)
-   1. [Clarify validation of custom scalar literals](https://github.com/graphql/graphql-spec/pull/1156)
-   
