@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 
 ## Agenda
