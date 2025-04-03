@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Jordan Eldredge  | @captbaritone | Meta               | San Francisco, CA, US |
+| Michael Staib    | @chillicream  | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
