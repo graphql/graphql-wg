@@ -63,14 +63,15 @@ The GraphQL WG has subcomittees who focus on the development of specific
 projects beyond the GraphQL Spec. These subcomittees make progress within their
 own meetings and report back progress and decisions to GraphQL WG meetings.
 
-| Subcommittee         | Time                           | Host                                               | Agenda Repo                                                                                                     |
-| -------------------- | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| GraphiQL             | 2nd Tue, 9:00am - 11:00am PT   | [Tim Suchanek](https://github.com/timsuchanek)     | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)                   |
-| GraphQL-over-HTTP    | 4th Thu, 17:30 - 18:30 UTC     | [Benjie Gillam](https://github.com/benjie)         | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
-| Incremental Delivery | 2nd Mon, 10:00am - 11:00am EST | [Rob Richard](https://github.com/robrichard)       | [robrichard/defer-stream-wg](https://github.com/robrichard/defer-stream-wg)                                     |
-| Nullability          | 4th Wed, 19:00 - 20:00 UTC     | [Stephen Spalding](https://github.com/fotoetienne) | [graphql/client-controlled-nullability-wg](https://github.com/graphql/client-controlled-nullability-wg)         |
-| Composite Schema     | 2nd Thu, 16:00am - 17:00am UTC | [Benjie Gillam](https://github.com/benjie)         | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
-| GraphQL.js           | 4th Wed, 10:00am - 11:00am PT  | [Jovi DeCroock](https://github.com/JoviDeCroock)   | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
+| Subcommittee      | Time                           | Host                                               | Agenda Repo                                                                                                     |
+| ----------------- | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| GraphiQL          | 2nd Tue, 09:00am - 11:00am PT  | [Tim Suchanek](https://github.com/timsuchanek)     | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)                   |
+| GraphQL-over-HTTP | Last Thu, 11:00am - 12:00am PT | [Benjie Gillam](https://github.com/benjie)         | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
+| Nullability       | 4th Wed, 19:00 - 20:00 UTC     | [Stephen Spalding](https://github.com/fotoetienne) | [graphql/client-controlled-nullability-wg](https://github.com/graphql/client-controlled-nullability-wg)         |
+| Composite Schema  | 2nd Thu, 16:00 - 17:00 UTC     | [Benjie Gillam](https://github.com/benjie)         | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
+| GraphQL.js        | 4th Wed, 10:00am - 11:00am PT  | [Jovi DeCroock](https://github.com/JoviDeCroock)   | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
+| Community         | 2nd Thu, 08:00am - 09:00am PT  | [Uri Goldshtein](https://github.com/urigo)         | [graphql/community-wg](https://github.com/graphql/community-wg)                                                 |
+| GraphQL/OTel      | 4th Thu, 10:00am - 11:00am PT  | [Pascal Senn](https://github.com/pascalsenn)       | [graphql/otel-wg](https://github.com/graphql/otel-wg)                                                           |
 
 #### Subcommittees on hiatus
 
@@ -81,6 +82,7 @@ is on hiatus, please raise an issue in the WG repository and mention the host.
 <!-- prettier-ignore -->
 | Subcommittee         | Time                           | Host                                               | Agenda Repo                                                                                                     |
 | -------------------- | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Incremental Delivery | 2nd Mon, 10:00am - 11:00am EST | [Rob Richard](https://github.com/robrichard)       | [graphql/defer-stream-wg](https://github.com/graphql/defer-stream-wg) (returned to the main spec WG for review) |
 
 ### Joining a meeting?
 
