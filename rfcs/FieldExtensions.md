@@ -6,7 +6,7 @@
 
 The current GraphQL specification allows [type system extensions](https://spec.graphql.org/draft/#sec-Type-System-Extensions). 
 
-For example, it is possible to add directives to an existing type. In this example (from the [specification text](https://spec.graphql.org/draft/#sel-FAHZnCNCAACCck1E)), a directive is added to a User type without adding any fields:
+For example, it is possible to add directives to an existing type. In this example (from the [specification text](https://spec.graphql.org/draft/#sel-FAHZnCNCAACCck1E)), a directive is added to a User type without adding any field:
 
 ```graphql
 extend type User @addedDirective
