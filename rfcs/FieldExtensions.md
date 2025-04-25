@@ -1,4 +1,4 @@
-# RFC: Field Extensions
+# RFC: Field/Argument/EnumValues Extensions
 
 **Proposed by:** [Martin Bonnin](https://mastodon.mbonnin.net/@mb) - Apollo
 
@@ -6,13 +6,13 @@
 
 The current GraphQL specification allows [type system extensions](https://spec.graphql.org/draft/#sec-Type-System-Extensions). 
 
-For example, it is possible to add directives to an existing type. In this example (from the [specification text](https://spec.graphql.org/draft/#sel-FAHZnCNCAACCck1E)), a directive is added to a User type without adding fields:
+For example, it is possible to add directives to an existing type. In this example (from the [specification text](https://spec.graphql.org/draft/#sel-FAHZnCNCAACCck1E)), a directive is added to a User type without adding any fields:
 
 ```graphql
 extend type User @addedDirective
 ```
 
-The same thing is not possible for fields:
+The same thing is not possible for fields/inputFields/arguments/enumValues:
 
 ```graphql
 # This is not valid GraphQL
@@ -37,24 +37,51 @@ directive @semanticNonNullField(name: String!, levels: [Int!]! = [0]) repeatable
 This proposal introduces specific syntax to add directive to existing field definitions. It builds on top of the [schema coordinates RFC](https://github.com/graphql/graphql-wg/blob/main/rfcs/SchemaCoordinates.md) to allow for a shorter syntax:
 
 ```graphql
+# Adding directives to a field
 extend field User.id @key
-```
 
-Or for the nullability example above:
+# Adding directives to an argument
+extend argument Query.node(id:) @keyArg
 
-```graphql
-extend field User.address @semanticNonNull
+# Adding directives to an enum value
+extend enumValue Direction.north @target(name: "NORTH")
 ```
 
 This syntax purposedly disallows changing the type of the field and is limited to adding directives. The same validation as for other type system extensions would apply: the directive needs either not be already present or be repeatable.
 
-Syntax:
+## Formal Syntax:
 
 ```
 FieldExtension:
   extend field FieldCoordinates Directives[const]
+
+ArgumentExtension:
+  extend field ArgumentCoordinates Directives[const]
+
+EnumValueExtension:
+  extend field EnumValueCoordinates Directives[const]
 ```
 
+## Questions
 
+### Should we use the existing syntax instead?
+
+We could use the existing type extensions instead of coordinates:
+
+```graphql
+extend type User {
+    id: ID! @key
+}
+```
+
+This is more familiar but more verbose and move some logic from the parser to the validation. For example, validation should double check that the field and argument types are the same.
+
+Using the existing type extensions would also allow adding arguments to an existing field if this is something that we want to allow. 
+
+```graphql
+extend type User {
+    address(newArgument: String): String!
+}
+```
 
 
