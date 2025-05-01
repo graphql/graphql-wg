@@ -112,7 +112,8 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
-| Martin Bonnin    | @martinbonnin | Apollo        | Paris, FR            |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 
 ## Agenda
