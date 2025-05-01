@@ -116,6 +116,7 @@ hold additional secondary meetings later in the month.
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
 | Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 
 ## Agenda
