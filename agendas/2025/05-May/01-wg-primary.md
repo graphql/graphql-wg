@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
+| Alex Reilly      | @twof         | DoorDash           | San Francisco, CA, US |
 
 
 ## Agenda
