@@ -155,6 +155,10 @@ hold additional secondary meetings later in the month.
    - Q: [change "grouped field set" to be `Map<string, Set>`](https://github.com/graphql/graphql-spec/pull/1161)?
    - Aim: Merge this editorial
 1. [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (15m, Benjie)
-2. Make `includeDeprecated` non-nullable
+1. Make `includeDeprecated` non-nullable (5m, Martin)
    - https://github.com/graphql/graphql-spec/pull/1142
-   - Aim: RFC3 
+   - Aim: RFC3
+1. Appendix C - Type System definitions (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1037
+   - Aim: general show of hand if this is worth pursuing.
+
