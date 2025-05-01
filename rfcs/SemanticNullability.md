@@ -226,9 +226,9 @@ Note: Traditional non-nullable types will effectively become semantically
 non-nullable when error propagation is disabled no matter which solution is
 chosen, so this criteria is only concerned with traditionally nullable types.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | ✅               | ✅               | ✅               | 🚫👍            | ✅               | ✅               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | ✅               | ✅               | ✅               | 🚫👍            | ✅               | ✅               | ✅              |
 
 Criteria score: 🥈
 
@@ -240,9 +240,9 @@ Users should be able to adopt semantic nullability into an existing schema, and
 when doing so all existing operations should remain valid, and should have the
 same meaning as they always did.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | 🚫              | ✅               | ✅               | ✅               | ✅               | ✅               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | ✅               | ✅               | ✅               | ✅               | ✅                |
 
 Criteria score: 🥈
 
@@ -254,9 +254,9 @@ GraphQL has been public for 10 years and there's a lot of content out there
 noting that GraphQL types are nullable by default (unadorned type is nullable)
 and our changes should not invalidate this content.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| ✅               | 🚫              | ✅               | 🚫              | ✅               | ✅               | ✅               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫              | ✅               | ✅               | ✅               | ✅                 |
 
 Criteria score: 🥉
 
@@ -268,9 +268,9 @@ The GraphQL languages similarity to JSON is one of its strengths, making it
 immediately feel familiar. Syntax used should feel obvious to developers new to
 GraphQL.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| 🚫              | ✅               | ✅               | ✅              | ⚠️               | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| 🚫              | ✅               | ✅               | ✅              | ⚠️               | ✅          | ✅            | ✅                 |
 
 Criteria score: 🥇
 
@@ -282,9 +282,9 @@ When a user wishes to replace the value for an input field or argument with a
 variable in their GraphQL operation, the type syntax should be either identical
 or similar, and should carry the same meaning.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|
-| ✅               | ✅               | ✅               | 🚫              | ✅               | ✅          | ✅             |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               | ✅          | ✅             | ✅                 |
 
 Criteria score: 🥇
 
@@ -295,9 +295,9 @@ Criteria score: 🥇
 Where a proposal allows alternative syntaxes to be used, the two syntaxes should
 not cause confusion.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|
-| ✅               | ✅               | ✅               | 🚫              | ✅               | ✅          | ✅             |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|-----------------|
+| ✅               | ✅               | ✅               | 🚫              | ✅               | ✅          | ✅             | ✅                 |
 
 Criteria score: 🥇
 
@@ -311,9 +311,9 @@ still keep errors local to the same positions that they did when they were
 published), allowing for the "partial success" feature of GraphQL to continue to
 shine and not compromising the resiliency of legacy deployed app versions.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-------------|
-| ✅              | ✅              | ✅              | ✅              | 🚫              | ✅          | ⚠️            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-------------|-----------------|
+| ✅              | ✅              | ✅              | ✅              | 🚫              | ✅          | ⚠️            | ✅                 |
 
 Criteria score: 🥈
 
@@ -326,9 +326,9 @@ path for legacy apps, the tradeoff might be acceptable.
 
 The implementation required to make the proposal work should be simple.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|--------------|
-| ✅              | 🚫              | 🚫              | 🚫              | ✅             | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|--------------|-----------------|
+| ✅              | 🚫              | 🚫              | 🚫              | ✅             | ✅          | ✅            | ✅                 |
 
 Criteria score: 🥇
 
@@ -341,9 +341,9 @@ since inputs never handle "errors" ("null only on error" is the same as "not
 null" on input). As such, there's no benefit to clients for the syntax of
 executable documents to change.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          | ✅            | ✅                 |
 
 Criteria score: 🥈
 
@@ -355,9 +355,9 @@ The type of a field (`foo: Int`) can be determined by looking at the field and
 its type; the reader should not have to read a document or schema directive to
 determine how the type should be interpreted.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ❔              | ⚠️               | 🚫               | ✅               | ⚠️          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ❔              | ⚠️               | 🚫               | ✅               | ⚠️          | ✅            | ✅                 |
 
 Criteria score: 🥇
 
@@ -367,9 +367,9 @@ Criteria score: 🥇
 
 We do not want to break existing tooling.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ❔              | ✅               | ❔               | ✅               | ✅          | ⚠️            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ❔              | ✅               | ❔               | ✅               | ✅          | ⚠️            | ✅                 |
 
 Criteria score: 🥈
 
@@ -383,9 +383,9 @@ to deal with nullable or non-nullable as presented to them by their client frame
 
 May contradict: M
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|
-| ✅               | ❔              | ✅               | ❔               | ✅               | ⚠️          | ✅             |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|-----------------|
+| ✅               | ❔              | ✅               | ❔               | ✅               | ⚠️          | ✅             | ✅                 |
 
 Criteria score: 🥈
 
@@ -399,9 +399,9 @@ schema SDL.
 
 May contradict: L
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ⚠️               | ❔              | ⚠️               | ❔               | ✅               | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ❔              | ⚠️               | ❔               | ✅               | ✅          | ✅            | ✅                 |
 
 Criteria score: 🥇
 
@@ -415,9 +415,9 @@ that's only nullable because errors may occur. GraphQL-TOE can be used in such
 situations so that codegen can safely use non-nullable types in semantically
 non-nullable positions.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ✅              | ✅               | ✅               | 🚫               | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               | ✅          | ✅            | ✅                 |
 
 Criteria score: 🥉
 
@@ -435,9 +435,9 @@ Per Lee:
 > allow inconsequential changes in behavior, but bubbling the error up isn't
 > inconsequential.)
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ❔              | ✅               | ✅               | 🚫               | ✅          | ⚠️            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ❔              | ✅               | ✅               | 🚫               | ✅          | ⚠️            | ✅                 |
 
 
 Note: though this criteria is currently not considered due to overlap with B
@@ -464,9 +464,9 @@ Per Benoit:
 > an outcome of this whole effort I’d like to see happening.
 
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|
-| ✅               | ✅              | ✅               | ✅               | 🚫               | ⚠️           | 🚫             |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|--------------|-----------------|
+| ✅               | ✅              | ✅               | ✅               | 🚫               | ✅           | 🚫             | ✅                 |
 
 Criteria score: 🥇
 
@@ -478,9 +478,9 @@ The default (unadorned) type should be a type that you can migrate away from,
 once nullability expectations become more concrete, without breaking existing
 client queries.
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | 🚫              | ✅               | 🚫               | ✅               | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | 🚫              | ✅               | 🚫               | ✅               | ✅          | ✅            | ✅                 |
 
 Note: this is not necessarily a duplicate of C as it doesn't specifically
 require the unadorned type be nullable, however no proposal currently proposes
@@ -506,9 +506,9 @@ As such:
 - the representation in introspection for inputs (namely the `NON_NULL` type
 wrapper) should be unchanged
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|
-| ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          | ✅            |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------|-----------------|
+| ✅               | ❔              | ✅               | 🚫               | ✅               | ✅          | ✅            | ✅                 |
 
 Criteria score: 🥈
 
@@ -520,9 +520,9 @@ Template for new items:
 
 DESCRIPTION
 
-| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] |
-| --------------- | --------------- | --------------- | --------------- |-----------------|
-| ?               | ?               | ?               | ?               | ?               |
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-----------------|-----------------|
+| ?               | ?               | ?               | ?               | ?               |                 |                 |                 |
 
 Criteria score: ❔
 
@@ -621,7 +621,7 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
 - [L][criteria-l]
   - ✅ Proposal encourages consumers to use client-produced SDL which only uses traditional nullability (`Type`/`Type!`)
 - [M][criteria-m]
-  - ⚠️ You can use the same SDL everywhere, but that's not what this solution
+  - ✅ You can use the same SDL everywhere, but that's not what this solution
     encourages.
 - [N][criteria-n]
   - ✅ Indicates semantically non-null and strictly non-null types separately
@@ -1005,7 +1005,7 @@ positions.
 - [O][criteria-o]
   - ✅
 - [P][criteria-p]
-  - ⚠️ Though there's no technical reason not to do so, the mechanics of adding the directive (particularly when referencing positions inside lists) are tiresome in SDL-first schemas, decreasing likeliness that positions will be updated. (Code-first schemas are unaffected.) Further, the directives are likely to have a significant impact on the formatting of the SDL (`@semanticNonNull` is 16 characters, almost quarter of a line if wrap at 80), so designers may wish to only add them in the most critical of locations.
+  - ✅ Though there's no technical reason not to do so, though the mechanics of adding the directive (particularly when referencing positions inside lists) are tiresome in SDL-first schemas, decreasing likeliness that positions will be updated. (Code-first schemas are unaffected.) Further, the directives are likely to have a significant impact on the formatting of the SDL (`@semanticNonNull` is 16 characters, almost quarter of a line if wrap at 80), so designers may wish to only add them in the most critical of locations.
 - [Q][criteria-q]
   - ✅
 - [R][criteria-r]
@@ -1070,3 +1070,69 @@ This proposal changes the `!` symbol and the `NON_NULL` introspection kind both 
   - ✅
 - [R][criteria-r]
   - ✅ No proposed change to inputs
+
+## 💡 8. Transitional Non-Null appendix
+
+[solution-8]: #-8-transitional-non-null-appendix
+
+**Champion**: @benjie
+
+Spec edits: https://github.com/graphql/graphql-spec/pull/1165
+
+This solution revolves around a new appendix to the spec, implementation of
+which is optional. There are no changes to the main spec text.
+
+It introduces a `@noPropagate` directive on fields, which is used to indicate
+the non-null types in the field return type that must not propagate errors (even
+when error propagation is explicitly enabled); such positions are called
+"transitional" non-null positions.
+
+|                           | Input syntax | Output syntax                    |
+| ------------------------- | ------------ | -------------------------------- |
+| Semantically nullable     | `Int`        | `Int`                            |
+| Semantically non-nullable | -            | `Int` &rArr; `Int! @noPropagate` |
+| Strictly non-nullable     | `Int!`       | `Int!`                           |
+
+Clients and tooling that have error propagation enabled will see transitional
+non-null positions as nullable, resulting in no breaking changes for existing
+clients or tooling.
+
+
+### ⚖️ Evaluation
+
+- [A][criteria-a]
+  - ✅
+- [B][criteria-b]
+  - ✅ Existing symbology unchanged.
+- [C][criteria-c]
+  - ✅ Existing symbology unchanged.
+- [D][criteria-d]
+  - ✅ Directive.
+- [E][criteria-e]
+  - ✅ Directive only.
+- [F][criteria-f]
+  - ✅ Same syntax.
+- [G][criteria-g]
+  - ✅ `Int` and `Int! @noPropagate` both act as error boundaries in error propagation mode.
+- [H][criteria-h]
+  - ✅ Just an appendix!
+- [I][criteria-i]
+  - ✅ Syntax unchanged.
+- [J][criteria-j]
+  - ✅ Field directive is local.
+- [K][criteria-k]
+  - ✅ Introspection backwards compatible via `__Field.type` returning filtered type when error propagation is enabled.
+- [L][criteria-l]
+  - ✅ Proposal encourages consumers to use client-produced SDL which only uses traditional nullability (`Type`/`Type!`)
+- [M][criteria-m]
+  - ✅ You can use the same SDL everywhere, but better to split SDL based on error propagation setting.
+- [N][criteria-n]
+  - ✅ `! @noPropagate` can be treated as semantically non-null by legacy clients
+- [O][criteria-o]
+  - ✅ Client syntax unchanged
+- [P][criteria-p]
+  - ✅
+- [Q][criteria-q]
+  - ✅
+- [R][criteria-r]
+  - ✅ Field directive.
