@@ -512,6 +512,60 @@ wrapper) should be unchanged
 
 Criteria score: 🥈
 
+## 🎯 S. Should be incrementally adoptable
+
+[criteria-s]: #-s-should-be-incrementally-adoptable
+
+We want to enable schema designers to solve developers pain points with the minimum of fuss;
+large scale schema transforms are expensive - especially when they cascade to subschemas and/or schemas you don't control.
+A schema designer should be able to mark an individual response position as semantically non-null without requiring a big lift.
+Error-handling clients should see value from this very first interaction.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-----------------|-----------------|
+| ✅              | ❔              | ❔              | ❔              | ❔              | ✅              | 🚫              | ✅              |
+
+Criteria score: ❔
+
+## 🎯 T. Should be incrementally removable
+
+[criteria-t]: #-t-should-be-incrementally-removable
+
+Once no legacy clients are using a field,
+a schema designer should be able to update its types to use true nullability (removing its semantic nullability concerns) without impacting other fields that are still in use by legacy clients.
+Over time, the number of fields having explicit semantic nullability markups should trend downwards.
+No big-bang multi-subschema orchastrated transition should be required.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-----------------|-----------------|
+| ✅              | ❔              | ❔              | ❔              | ❔              | ✅              | ❔              | ✅              |
+
+Criteria score: ❔
+
+## 🎯 U. Legacy tooling and clients should safely interpret SDL even when ignoring directives
+
+[criteria-u]: #-u-legacy-tooling-and-clients-should-safely-interpret-sdl-even-when-ignoring-directives
+
+[Meta's evaluation of semantic nullability proposals](https://github.com/graphql/nullability-wg/discussions/98) has revealed that Meta deal heavily in SDL,
+and that their various tooling ignores directives that they don't recognize.
+A field such as solution 8's `foo: Int! @noPropagate` or solution 7's `foo: Int!` would be interpreted by existing such tooling as strictly non-nullable,
+which is incorrect since these positions may be null on error.
+This would require all tooling to be migrated before such solutions could be used.
+It would be very hard to detect tooling that was missed if the syntax remained valid - issues would be discovered in production - so
+if the response nullability would change then a syntax error should be thrown (which should score as ⚠️).
+
+For the avoidance of doubt:
+
+- Interpretting Semantic Non-Null as Nullable is safe for existing clients and tooling.
+- Interpretting Semantic Non-Null as Non-Null is unsafe for existing clients and tooling.
+
+| [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
+| --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-----------------|-----------------|
+| ✅⚠️             | ❔              | ❔              | ❔              | ❔              | ✅              | 🚫              | ✅🚫            |
+
+Criteria score: ❔
+
+
 <!--
 
 Template for new items:
@@ -522,7 +576,7 @@ DESCRIPTION
 
 | [1][solution-1] | [2][solution-2] | [3][solution-3] | [4][solution-4] | [5][solution-5] | [6][solution-6] | [7][solution-7] | [8][solution-8] |
 | --------------- | --------------- | --------------- | --------------- |-----------------|-----------------|-----------------|-----------------|
-| ?               | ?               | ?               | ?               | ?               |                 |                 |                 |
+| ❔              | ❔              | ❔              | ❔              | ❔              | ❔              | ❔              | ❔              |
 
 Criteria score: ❔
 
@@ -633,6 +687,13 @@ have been discussed the choice of symbol comes down mostly to aesthetics.
   - ✅
 - [R][criteria-r]
   - ✅ `*` only needed in output positions, input positions unchanged
+- [S][criteria-s]
+  - ✅ Add a `*` and a type is now semantic non-nullable, no other changes needed.
+- [T][criteria-t]
+  - ✅ Change a `*` to a `!` and the type is now simply non-nullable, no other changes needed.
+- [U][criteria-u]
+  - ✅ If you use client-generated SDL then there is no change in meaning or syntax. 
+  - ⚠️  If you use common SDL across all clients (new and old) then a syntax error will be raised.
 
 ## 💡 2. "Strict Semantic Nullability"
 
@@ -1010,6 +1071,12 @@ positions.
   - ✅
 - [R][criteria-r]
   - ✅ Directive is only valid on output positions.
+- [S][criteria-s]
+  - ✅ Just add `@semanticNonNull` directive to the field, no other changes needed.
+- [T][criteria-t]
+  - ✅ Just remove `@semanticNonNull` directive from the field and mark the relevant types non-nullable, no other changes needed.
+- [U][criteria-u]
+  - ✅ Stripping the directive results in types being interpreted as nullable, which is safe.
 
 ## 💡 7. `@propagateError` directive
 
@@ -1070,6 +1137,14 @@ This proposal changes the `!` symbol and the `NON_NULL` introspection kind both 
   - ✅
 - [R][criteria-r]
   - ✅ No proposed change to inputs
+- [S][criteria-s]
+  - 🚫 Large up-front migration is needed before the first field can be marked semantically non-null
+- [T][criteria-t]
+  - ❔
+- [U][criteria-u]
+  - 🚫 `T!` would be interpreted by existing tooling as strictly non-null, which would be incorrect once the migration is underway.
+    This change would not yield a syntax error, so it would be very hard to detect small tools or services that were missed during migration.
+
 
 ## 💡 8. Transitional Non-Null appendix
 
@@ -1136,3 +1211,12 @@ clients or tooling.
   - ✅
 - [R][criteria-r]
   - ✅ Field directive.
+- [S][criteria-s]
+  - ✅ Can add `! @noPropagate` to a position without requiring any other changes.
+- [T][criteria-t]
+  - ✅ Can remove `@noPropagate` from a position without requiring any other changes.
+- [U][criteria-u]
+  - ✅ Using `graphql-sock`, different (traditional) SDL can be produced for legacy and error-handling clients; existing tooling would use the legacy SDL.
+  - 🚫 If you're not using different SDL for legacy vs error-handling clients, then `T! @noPropagate`, ignoring directives,
+    would be interpreted by existing tooling as strictly non-null, which would be incorrect.
+    This change would not yield a syntax error, so it would be very hard to detect small tools or services that were missed during migration.
