@@ -107,6 +107,8 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Kewei Qu         | @Keweiqu      | Meta               | New York, US          |
+
 
 ## Agenda
 
