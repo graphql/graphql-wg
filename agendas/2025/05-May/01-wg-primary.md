@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Guilherme Vieira | @guialbuk     | Shopify            | Vancouver, BC, CA     |
 
 
 ## Agenda
