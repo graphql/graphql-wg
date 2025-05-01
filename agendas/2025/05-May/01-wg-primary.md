@@ -106,7 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -122,3 +122,29 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Defining Response types (15m, Rob)
    - `Response = ExecutionResult | RequestErrorResult | ResponseStream` [PR](https://github.com/graphql/graphql-spec/pull/1159)
+1. Quick merges (20m, Benjie)
+   - [Implementations may not deprecate a field that the interface hasn't deprecated](https://github.com/graphql/graphql-spec/pull/1053)
+   - The data collections trilogy:
+     - [Define Data Collections used in the spec](https://github.com/graphql/graphql-spec/pull/1102)
+     - [Recommend that order of unordered collections is maintained where possible](https://github.com/graphql/graphql-spec/pull/1092)
+     - [Type system ordering of: object interfaces, directive arguments, input object fields, enum values](https://github.com/graphql/graphql-spec/pull/1063)
+   - [OneOf Input Objects](https://github.com/graphql/graphql-spec/pull/825)
+   - [Prevent @skip and @include on root subscription selection sets](https://github.com/graphql/graphql-spec/pull/860)
+   - [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793)
+     - Merged in GraphQL.js via https://github.com/graphql/graphql-spec/pull/793
+1. [Enable 'schema' keyword to be provided without root operations](https://github.com/graphql/graphql-spec/pull/1166) (10m, Benjie)
+   - Q: Should "no schema directives are applied" or similar be included?
+   - Aim: RFC1
+   - Related: https://github.com/graphql/graphql-spec/pull/1164
+1. [Disabling error propagation via request parameter](https://github.com/graphql/graphql-spec/pull/1163) (20m, Benjie)
+   - [GraphQL.js implementation](https://github.com/graphql/graphql-js/pull/4364) / `npm install graphql@canary-pr-4364`
+   - Key issue: `directive @behavior(onError: __ErrorBoundary!) on SCHEMA` causes existing GraphiQLs to reject the schema because it does not pass validation
+     - Potential fix - use scalars: `directive @behavior(errorPropagation: Boolean! = true, abortOnError: Boolean! = false)`
+     - Potential fix - remove `__`: `directive @behavior(onError: ErrorBoundary!) on SCHEMA`
+       - [GraphQL.js implementation](https://github.com/graphql/graphql-js/pull/4384) / `npm install graphql@canary-pr-4384`
+     - Potential fix - remove `__` and make `ErrorBoundary` a _scalar_ rather than an _enum_
+   - Aim: if issue above is acceptable tradeoff then move to RFC2, otherwise identify course forward
+1. [Replace ExecuteSelectionSet with ExecuteCollectedFields](https://github.com/graphql/graphql-spec/pull/1039) (15m, Benjie)
+   - Q: [change "grouped field set" to be `Map<string, Set>`](https://github.com/graphql/graphql-spec/pull/1161)?
+   - Aim: Merge this editorial
+1. [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (15m, Benjie)
