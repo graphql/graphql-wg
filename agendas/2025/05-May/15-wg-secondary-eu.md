@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -123,3 +124,4 @@ who could not make the primary meeting time.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) RFC1 => RFC2 (5m, Stephen)
+1. [Disabling error propagation via the _service_](https://github.com/graphql/graphql-spec/pull/1163) (20m, Benjie)
