@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -121,4 +122,24 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — May 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/05-May/15-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-1. [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) (5m, Stephen)
+1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) (5m, Stephen)
+1. RFC0: [Don't exclude `schema` with description](https://github.com/graphql/graphql-spec/pull/1167) (3m, Benjie)
+1. RFC2: Schema coordinates (5m, Benjie)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/794)
+   - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3044)
+   - Aim: merge
+1. Editorial: [Define "execution result" and "request error result"](https://github.com/graphql/graphql-spec/pull/1159) (5m, Rob)
+1. Editorial: [Step 1 in the data collections trilogy](https://github.com/graphql/graphql-spec/pull/1102) (5m, Benjie)
+   - > The first one _(this one)_ is emminently mergeable
+   - > The second one {...needs...} language clarity
+1. RFC3: [Merge OneOf](https://github.com/graphql/graphql-spec/pull/825) (2m, Benjie)
+   - Merged in latest `main` and fixed text around errors
+1. RFC3: [Merge prevent @skip/@include on root subscription set](https://github.com/graphql/graphql-spec/pull/860) (2m, Benjie)
+   - Merged in latest `main`, looks good
+1. RFC2: [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (10m, Benjie)
+   - Have updated and validated against the (merged) GraphQL.js implementation
+   - Aim: RFC3
+1. Discussion: Section 3 (Type System) and _execution_ vs _request_ error (5m, Benjie)
+1. Editorial: [Replace ExecuteSelectionSet with ExecuteCollectFields](github.com/graphql/graphql-spec/pull/1039) (2m, Benjie)
+   - And then: [Define 'execution'](https://github.com/graphql/graphql-spec/pull/894)
+1. Spec cut - vibe check (5m, Benjie)
