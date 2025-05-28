@@ -41,20 +41,12 @@ In the end state where error propagation is disabled and clients are error-handl
 The default error propagation is indicated in introspection with a new meta-field, `onErrorDefault` of `String!` type.
 
 ```graphql
-type __Service {
+extend type __Schema {
     """
     Indicates the error behaviour when `onError` is not present in the request.
     One of `NULL`, `PROPAGATE`, `HALT`
     """
     onErrorDefault: String!
-}
-extend type __Schema {
-    """
-    Information relative to the service.
-    In a perfect world, this is a separate meta-field separate from __Schema but new meta fields are not discoverable
-    and this is added as a `__Schema` field for backward compatibility reasons.
-    """
-    service: __Service
 }
 ```
 
