@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Martin Bonnin      | @martinbonnin   | Apollo            | Paris, FR        |
 
 ## Agenda
 
@@ -145,3 +146,6 @@ hold additional secondary meetings later in the month.
    - And then: [Define 'execution'](https://github.com/graphql/graphql-spec/pull/894)
 1. RFC1: [Disabling error propagation/service capabilities](https://github.com/graphql/graphql-spec/pull/1163) (15m, Benjie)
 1. Spec cut - vibe check (5m, Benjie)
+1. Appendix C - builtin definitions (5m, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1037
+   - tag as editorial? 
