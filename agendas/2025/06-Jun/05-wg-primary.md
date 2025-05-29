@@ -124,6 +124,8 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — May 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/05-May/15-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Discussion: AI and GraphQL (10m, Jory)
+1. Discussion: GraphQL-over-HTTP partial success status code (5m, Benjie)
 1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) (5m, Stephen)
 1. RFC0: [Don't exclude `schema` with description](https://github.com/graphql/graphql-spec/pull/1167) (3m, Benjie)
 1. RFC2: Schema coordinates (5m, Benjie)
