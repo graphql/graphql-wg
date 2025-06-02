@@ -128,7 +128,8 @@ hold additional secondary meetings later in the month.
 1. Discussion: GraphQL-over-HTTP partial success status code (5m, Benjie)
 1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) (5m, Stephen)
 1. RFC0: [Don't exclude `schema` with description](https://github.com/graphql/graphql-spec/pull/1167) (3m, Benjie)
-1. RFC2: Schema coordinates (5m, Benjie)
+1. Spec format: [Always use 'Assert:'](https://github.com/graphql/graphql-spec/pull/1168) (2m, Benjie)
+1. RFC2: Schema coordinates (5m, Mark)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/794)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3044)
    - Aim: merge
