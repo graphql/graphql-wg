@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Jory Burson      | @jorydotcom   | Linux Foundation   | Boston, MA, US        |
 
 ## Agenda
 
