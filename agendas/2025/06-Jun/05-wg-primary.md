@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Alex Reilly     | @twof          | DoorDash             | San Francisco, CA, US  |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
