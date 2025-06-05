@@ -73,7 +73,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG — June 2025 (Primary)
+# GraphQL WG — September 2025 (Primary)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -83,7 +83,7 @@ This is the primary monthly meeting, which typically meets on the first Thursday
 of the month. In the case we have additional agenda items or follow ups, we also
 hold additional secondary meetings later in the month.
 
-- **Date & Time**: [June 5, 2025, 10:30 AM – 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20250605T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [September 4, 2025, 10:30 AM – 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20250904T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -105,16 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
-| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
-| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
-| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
-| Alex Reilly     | @twof          | DoorDash             | San Francisco, CA, US  |
-| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+
 
 ## Agenda
 
@@ -128,33 +119,5 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Review prior secondary meetings (5m, Host)
-   - [GraphQL WG — May 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/05-May/15-wg-secondary-eu.md)
+   - [GraphQL WG — August 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/08-Aug/21-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-1. Discussion: AI and GraphQL (10m, Jory)
-1. Discussion: GraphQL-over-HTTP partial success status code (5m, Benjie)
-1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) (5m, Stephen)
-1. RFC0: [Don't exclude `schema` with description](https://github.com/graphql/graphql-spec/pull/1167) (3m, Benjie)
-1. Spec format: [Always use 'Assert:'](https://github.com/graphql/graphql-spec/pull/1168) (2m, Benjie)
-1. RFC2: Schema coordinates (5m, Mark)
-   - [Spec PR](https://github.com/graphql/graphql-spec/pull/794)
-   - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3044)
-   - Aim: merge
-1. Editorial: [Define "execution result" and "request error result"](https://github.com/graphql/graphql-spec/pull/1159) (5m, Rob)
-1. Editorial: [Step 1 in the data collections trilogy](https://github.com/graphql/graphql-spec/pull/1102) (5m, Benjie)
-   - > The first one _(this one)_ is emminently mergeable
-   - > The second one {...needs...} language clarity
-1. RFC3: [Merge OneOf](https://github.com/graphql/graphql-spec/pull/825) (2m, Benjie)
-   - Merged in latest `main` and fixed text around errors
-1. RFC3: [Merge prevent @skip/@include on root subscription set](https://github.com/graphql/graphql-spec/pull/860) (2m, Benjie)
-   - Merged in latest `main`, looks good
-1. RFC2: [Default value coercion rules](https://github.com/graphql/graphql-spec/pull/793) (10m, Benjie)
-   - Have updated and validated against the (merged) GraphQL.js implementation
-   - Aim: RFC3
-1. Discussion: Section 3 (Type System) and _execution_ vs _request_ error (5m, Benjie)
-1. Editorial: [Replace ExecuteSelectionSet with ExecuteCollectFields](https://github.com/graphql/graphql-spec/pull/1039) (2m, Benjie)
-   - And then: [Define 'execution'](https://github.com/graphql/graphql-spec/pull/894)
-1. RFC1: [Disabling error propagation/service capabilities](https://github.com/graphql/graphql-spec/pull/1163) (15m, Benjie)
-1. Spec cut - vibe check (5m, Benjie)
-1. Appendix C - builtin definitions (5m, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1037
-   - tag as editorial? 
