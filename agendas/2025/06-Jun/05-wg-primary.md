@@ -108,9 +108,12 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-| Martin Bonnin      | @martinbonnin   | Apollo            | Paris, FR        |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Alex Reilly     | @twof          | DoorDash             | San Francisco, CA, US  |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
@@ -147,7 +150,7 @@ hold additional secondary meetings later in the month.
    - Have updated and validated against the (merged) GraphQL.js implementation
    - Aim: RFC3
 1. Discussion: Section 3 (Type System) and _execution_ vs _request_ error (5m, Benjie)
-1. Editorial: [Replace ExecuteSelectionSet with ExecuteCollectFields](github.com/graphql/graphql-spec/pull/1039) (2m, Benjie)
+1. Editorial: [Replace ExecuteSelectionSet with ExecuteCollectFields](https://github.com/graphql/graphql-spec/pull/1039) (2m, Benjie)
    - And then: [Define 'execution'](https://github.com/graphql/graphql-spec/pull/894)
 1. RFC1: [Disabling error propagation/service capabilities](https://github.com/graphql/graphql-spec/pull/1163) (15m, Benjie)
 1. Spec cut - vibe check (5m, Benjie)
