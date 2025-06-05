@@ -1,3 +1,7 @@
+NOTE: this document is kept for historic purposes; [`@oneOf`](https://github.com/graphql/graphql-spec/pull/825) gained RFC3 status in May 2025.
+
+---
+
 RFC: GraphQL Input Union
 ----------
 
