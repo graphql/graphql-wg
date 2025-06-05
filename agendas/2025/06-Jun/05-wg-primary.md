@@ -108,8 +108,10 @@ hold additional secondary meetings later in the month.
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-| Martin Bonnin      | @martinbonnin   | Apollo            | Paris, FR        |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
