@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Alex Reilly     | @twof          | DoorDash             | San Francisco, CA, US  |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
