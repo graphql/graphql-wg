@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
