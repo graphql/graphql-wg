@@ -109,6 +109,7 @@ who could not make the primary meeting time.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 
 
 ## Agenda
@@ -127,3 +128,5 @@ who could not make the primary meeting time.
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/794)
    - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/3044)
    - Aim: merge
+1. Appendix C - specified definitions
+   - https://github.com/graphql/graphql-spec/pull/1037
