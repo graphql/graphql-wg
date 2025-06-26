@@ -111,6 +111,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
