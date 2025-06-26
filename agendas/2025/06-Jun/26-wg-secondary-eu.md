@@ -110,7 +110,7 @@ who could not make the primary meeting time.
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
-
+| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 
@@ -130,3 +130,4 @@ who could not make the primary meeting time.
    - Aim: merge
 1. Appendix C - specified definitions
    - https://github.com/graphql/graphql-spec/pull/1037
+1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/1170) (5m, Stephen)
