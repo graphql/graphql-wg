@@ -132,3 +132,5 @@ who could not make the primary meeting time.
 1. Appendix C - specified definitions
    - https://github.com/graphql/graphql-spec/pull/1037
 1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/1170) (5m, Stephen)
+1. RFC1: Brushing off [@deprecated on Objects](https://github.com/graphql/graphql-spec/pull/997) (5m, Stephen)
+   - Spec edits need rebase, graphql.js edits need revision. Otherwise, are we ready for [RFC2](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#stage-2-draft)?
