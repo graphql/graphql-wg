@@ -112,6 +112,7 @@ who could not make the primary meeting time.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, US     |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 ## Agenda
 
@@ -132,3 +133,4 @@ who could not make the primary meeting time.
 1. Appendix C - specified definitions
    - https://github.com/graphql/graphql-spec/pull/1037
 1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/1170) (5m, Stephen)
+1. Editorial: [Define "execution result" and "request error result"](https://github.com/graphql/graphql-spec/pull/1159) (5m, Rob)
