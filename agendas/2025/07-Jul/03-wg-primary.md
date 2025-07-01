@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -121,3 +122,6 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — June 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/06-Jun/19-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Defer/Stream updates (15m, Rob)
+   - [Should incremental execution return an IncrementalStream or a Map containing the InitialResult and a SubsequentResultStream](https://github.com/graphql/defer-stream-wg/discussions/113)
+   - [Type System section spec edits](https://github.com/graphql/graphql-spec/pull/1132) ready for review. AIM: merge to integration branch
