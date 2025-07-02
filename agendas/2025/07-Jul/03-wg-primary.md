@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Martin Bonnin    | @martinbonnin | @martinbonnin      | Paris, FR             |
 
 
 ## Agenda
@@ -125,3 +126,6 @@ hold additional secondary meetings later in the month.
 1. Defer/Stream updates (15m, Rob)
    - [Should incremental execution return an IncrementalStream or a Map containing the InitialResult and a SubsequentResultStream](https://github.com/graphql/defer-stream-wg/discussions/113)
    - [Type System section spec edits](https://github.com/graphql/graphql-spec/pull/1132) ready for review. AIM: merge to integration branch
+1. July Spec cut 
+   - What is the status?
+   - Any chance to get schema coordinates in?
