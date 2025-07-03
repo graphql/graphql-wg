@@ -108,7 +108,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 ## Agenda
 
@@ -138,3 +138,5 @@ hold additional secondary meetings later in the month.
    - Aim: RFC2
 1. Editorial: [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (10m, Benjie)
 1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
+1. RFC2: [Schema coordinates](https://github.com/graphql/graphql-spec/pull/794) (5m, Mark / Martin)
+   - Aim: RFC3
