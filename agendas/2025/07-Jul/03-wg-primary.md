@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Martin Bonnin    | @martinbonnin | @martinbonnin      | Paris, FR             |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
