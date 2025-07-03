@@ -142,3 +142,4 @@ hold additional secondary meetings later in the month.
    - Fixes omission in spec to match long-standing behavior of GraphQL.js
    - Aim: RFC2
 1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
+1. Discussion: service capabilities syntax (10m, Benjie)
