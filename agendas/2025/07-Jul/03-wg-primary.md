@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -126,3 +127,14 @@ hold additional secondary meetings later in the month.
 1. Defer/Stream updates (15m, Rob)
    - [Should incremental execution return an IncrementalStream or a Map containing the InitialResult and a SubsequentResultStream](https://github.com/graphql/defer-stream-wg/discussions/113)
    - [Type System section spec edits](https://github.com/graphql/graphql-spec/pull/1132) ready for review. AIM: merge to integration branch
+1. RFC0: [Incorporate meta-fields into ExecuteCollectedFields](https://github.com/graphql/graphql-spec/pull/1177) (10m, Benjie)
+   - Fixes omission in spec to match long-standing behavior of GraphQL.js
+   - Aim: RFC2
+1. RFC1: [Fix CoerceArgumentValues() hasValue](https://github.com/graphql/graphql-spec/pull/1056) (10m, Benjie)
+   - Fixes bug in spec to match long-standing behavior of GraphQL.js
+   - Aim: RFC2
+1. RFC1: [List coercion algorithm](https://github.com/graphql/graphql-spec/pull/1058) (5m, Benjie)
+   - Expands definition in spec to match long-standing behavior of GraphQL.js
+   - Aim: RFC2
+1. Editorial: [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (10m, Benjie)
+1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
