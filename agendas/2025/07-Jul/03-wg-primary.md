@@ -126,9 +126,6 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — June 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/06-Jun/19-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-1. Defer/Stream updates (15m, Rob)
-   - [Should incremental execution return an IncrementalStream or a Map containing the InitialResult and a SubsequentResultStream](https://github.com/graphql/defer-stream-wg/discussions/113)
-   - [Type System section spec edits](https://github.com/graphql/graphql-spec/pull/1132) ready for review. AIM: merge to integration branch
 1. Editorial: [Define 'execution' as in 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894) (10m, Benjie)
 1. RFC2: [Schema coordinates](https://github.com/graphql/graphql-spec/pull/794) (5m, Mark / Martin)
    - Aim: RFC3
@@ -141,5 +138,8 @@ hold additional secondary meetings later in the month.
 1. RFC0: [Incorporate meta-fields into ExecuteCollectedFields](https://github.com/graphql/graphql-spec/pull/1177) (10m, Benjie)
    - Fixes omission in spec to match long-standing behavior of GraphQL.js
    - Aim: RFC2
+1. Defer/Stream updates (15m, Rob)
+   - [Should incremental execution return an IncrementalStream or a Map containing the InitialResult and a SubsequentResultStream](https://github.com/graphql/defer-stream-wg/discussions/113)
+   - [Type System section spec edits](https://github.com/graphql/graphql-spec/pull/1132) ready for review. AIM: merge to integration branch
 1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
 1. Discussion: service capabilities syntax (10m, Benjie)
