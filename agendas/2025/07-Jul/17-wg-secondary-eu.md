@@ -122,5 +122,7 @@ who could not make the primary meeting time.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Editorial: [Clarify error reporting for siblings of error proagation](https://github.com/graphql/graphql-spec/pull/1183) (10m, Benjie)
+   - Really important!
 1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
 1. Discussion: service capabilities syntax (10m, Benjie)
