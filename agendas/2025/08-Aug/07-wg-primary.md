@@ -105,7 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -121,3 +121,4 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — July 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/07-Jul/17-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Process: should we stop taking live notes now we have AI summaries? (5m, Benjie)
