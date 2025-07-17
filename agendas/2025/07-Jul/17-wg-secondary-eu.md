@@ -129,9 +129,9 @@ who could not make the primary meeting time.
    - Really important!
 1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
 1. Discussion: service capabilities syntax (10m, Benjie)
-1. Schema coordinates may not include `{Ignored}` (5m, Martin)
+1. Schema coordinates may not include `{Ignored}` (5m, Martin, Mark, Benjie)
    - https://github.com/magicmark/graphql-spec/pull/2
    - Do we want to be explicit about this?
    - If yes, should this be in section 2. or somewhere else (Section 3?)?
-1. Anything else missing for schema coordinates? (5m, Martin)
+1. Anything else missing for schema coordinates? (5m, Martin, Mark, Benjie)
    - https://github.com/graphql/graphql-spec/pull/794
