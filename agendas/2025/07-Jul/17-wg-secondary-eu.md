@@ -110,6 +110,7 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 
 ## Agenda
