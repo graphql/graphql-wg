@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 ## Agenda
 
