@@ -108,6 +108,8 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Martin Bonnin    | @martinbonin  | Apollo             | Paris, FR             |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
