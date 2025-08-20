@@ -107,6 +107,7 @@ who could not make the primary meeting time.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 
 ## Agenda
@@ -121,3 +122,5 @@ who could not make the primary meeting time.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Schema coordinates (10m, Mark)
+   - https://github.com/graphql/graphql-spec/pull/794
