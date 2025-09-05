@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 
 
 ## Agenda
@@ -121,3 +122,4 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — September 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/09-Sep/18-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Move gateway performance benchmark repo and fedeation audit repo under the foundation (10m, Uri, Fredrik)
