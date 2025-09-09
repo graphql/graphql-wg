@@ -9,7 +9,7 @@ rules to enforce the safe selection of "supported" types when using fragment
 spreads on a field that returns an array of unions of polymorphic types:
 
 ```graphql
-directive @matches(sort: Boolean = True) on ARGUMENT_DEFINITION
+directive @matches(sorted: Boolean = True) on ARGUMENT_DEFINITION
 ```
 
 ## 📜 Problem Statement
@@ -255,7 +255,7 @@ returning an array of unions of polymorphic types.
 **SDL**
 
 ```graphql
-directive @matches(sort: Boolean = True) on ARGUMENT_DEFINITION
+directive @matches(sorted: Boolean = True) on ARGUMENT_DEFINITION
 
 union Media = Book | Movie | Opera
 
@@ -345,16 +345,19 @@ However, this may cause confusion and unintentional cache misses.
 
 The client must decide if they wish to make the ordering of `supports` meaningful or not - and it not, we should enforce that the ordering is consistent (alphabetically sorted).
 
-A `sort` argument is provided:
+A `sort` argument is provided to support this:
+
+- If `sorted` is True (default), `supports` argument ordering is enforced via a request validation rule.
+- If `sorted` is False, `supports` argument ordering is not enforced, allowing different fragments to specify different orderings (and be cached independently) 
+
+**Example**
 
 ```graphql
 type Query {
-  getMedia(supports: [String!] @matches(sort: True)): [Media]
+  # different parts of the app want different media items with different ordering - we're ok with this field being cached multiple times 
+  getMedia(supports: [String!] @matches(sorted: False)): [Media]
 }
 ```
-
-- If `sort` is True (default), `supports` argument ordering is enforced via a request validation rule.
-- If `sort` is False, `supports` argument ordering is not enforced, allowing different fragments to specify different orderings (and be cached independently) 
 
 ## Alternative names
 
