@@ -333,7 +333,7 @@ query PrefersMovies {
 }
 ```
 
-A client may rely on the ordering of `supports` fields to indicate the prefernce and rank order in which to return objects.
+A client may rely on the ordering of `supports` fields to indicate the preference and rank order in which to return objects.
 
 However, this may cause confusion and unintentional cache misses.
 
@@ -343,7 +343,7 @@ A `sort` argument is provided:
 
 ```graphql
 type Query {
-  getMedia(supports: [String!] @matches(sort: Boolean = True)): [Media]
+  getMedia(supports: [String!] @matches(sort: True)): [Media]
 }
 ```
 
