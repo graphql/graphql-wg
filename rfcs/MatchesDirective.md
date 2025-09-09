@@ -203,7 +203,7 @@ fragment MoviesTab on Query {
 The selection sets in fragments get merged, and the `getMedia` resolver is only
 executed once. With the above implementation, we'd *only* return Books (the
 first to be evaluated). Since the resolver is only executed once, this is
-impossible to implement correclty.
+impossible to implement correctly.
 
 #### 3.b. Add the `supports` argument at runtime
 
