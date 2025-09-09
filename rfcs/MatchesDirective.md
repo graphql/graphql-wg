@@ -6,7 +6,11 @@
 
 This RFC proposes adding a new directive `@matches` and associated validation
 rules to enforce the safe selection of "supported" types when using fragment
-spreads on a field that returns an array of unions of polymorphic types.
+spreads on a field that returns an array of unions of polymorphic types:
+
+```graphql
+directive @matches(sort: Boolean = True) on ARGUMENT_DEFINITION
+```
 
 ## 📜 Problem Statement
 
