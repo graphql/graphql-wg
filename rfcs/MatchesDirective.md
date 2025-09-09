@@ -19,7 +19,7 @@ supported in an array of unions or interfaces.
 
 **Example**
 
-A client application may wish to render a fixed number of possible media items:
+A client application may wish to display a fixed number of media items:
 
 ```graphql
 query GetMedia {
