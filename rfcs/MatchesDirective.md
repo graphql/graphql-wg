@@ -351,7 +351,7 @@ type Query {
 }
 ```
 
-- If `sort` is True (default), an additional request validation rule will enforce this.
+- If `sort` is True (default), `supports` argument ordering is enforced via a request validation rule.
 - If `sort` is False, `supports` argument ordering is not enforced, allowing different fragments to specify different orderings (and be cached independently) 
 
 ## Alternative names
