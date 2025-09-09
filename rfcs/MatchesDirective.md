@@ -255,6 +255,8 @@ returning an array of unions of polymorphic types.
 **SDL**
 
 ```graphql
+directive @matches(sort: Boolean = True) on ARGUMENT_DEFINITION
+
 union Media = Book | Movie | Opera
 
 type Query {
