@@ -311,6 +311,44 @@ const resolvers = {
 }
 ```
 
+### Controlling if ordering matters
+
+There is a meaningful difference between these two queries:
+
+```graphql
+query PrefersBooks {
+  getMedia(supports: ["Book", "Movie"]) {
+    ... on Book { title author }
+    ... on Movie { title director }
+  }
+}
+```
+
+```graphql
+query PrefersMovies {
+  getMedia(supports: ["Movie", "Book"]) {
+    ... on Book { title author }
+    ... on Movie { title director }
+  }
+}
+```
+
+A client may rely on the ordering of `supports` fields to indicate the prefernce and rank order in which to return objects.
+
+However, this may cause confusion and unintentional cache misses.
+
+The client must decide if they wish to make the ordering of `supports` meaningful or not - and it not, we should enforce that the ordering is consistent (alphabetically sorted).
+
+A `sort` argument is provided:
+
+```graphql
+type Query {
+  getMedia(supports: [String!] @matches(sort: Boolean = True)): [Media]
+}
+```
+
+If `sort` is True (default), an additional request validation rule will enforce this.
+
 ## Alternative names
 
 `@matches` is proposed in order to avoid conflicting with Relay's `@match`.
