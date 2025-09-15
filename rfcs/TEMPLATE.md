@@ -22,7 +22,7 @@ one or two short paragraphs. -->
 
 <!-- Explain the proposal! Be detailed enough to explain the idea and major edge
 cases - but avoid being overly detailed. The primary goal is to communicate the
-idea at a high level. The specification edit PR will cover all the precice
+idea at a high level. The specification edit PR will cover all the precise
 implementation details. -->
 
 ## ⚠️ Risks
