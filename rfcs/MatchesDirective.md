@@ -9,7 +9,19 @@ rules to enforce the safe selection of "supported" types when using fragment
 spreads on a field that returns an array of unions of polymorphic types:
 
 ```graphql
-directive @matches(sorted: Boolean = True) on ARGUMENT_DEFINITION
+directive @matches(
+  """
+  Optional dotted field path (relative to the field’s return value) that
+  identifies where the polymorphic element(s) appear.
+  """
+  path: String,
+
+  """
+  Whether or not argument ordering is enforced. This may be set to False if the
+  order is meaingful and used by the application logic.
+  """
+  sort: Boolean = True
+) repeatable on ARGUMENT_DEFINITION
 ```
 
 ## 📜 Problem Statement
@@ -247,8 +259,9 @@ rendered UI to have empty slots.
 
 ## 🧑‍💻 Proposed Solution
 
-Provide a new directive `@matches` that can be applied to field arguments when
-returning an array of unions of polymorphic types.
+The `@matches` directive can be applied to a field argument when returning an
+array of unions of polymorphic types. It declares the set of valid response
+types, and is enforced by the server.
 
 #### Example
 
@@ -272,6 +285,73 @@ query GetMedia {
     ... on Book { title author }
     ... on Movie { title director }
   }
+}
+```
+
+### `sort` argument
+
+If `sort` is true (default), the argument’s values are required to appear in
+sorted (alphabetical) order:
+
+- `getMedia(supports: ["Book", "Movie"]) # OK` 
+- `getMedia(supports: ["Movie", "Book"]) # ❌ Error: not sorted`
+
+This is desirable as a default behaviour. If not enforced, this would imply
+cache denormalization and cache misses in clients.
+
+If `sort` is false, this is not enforced, and both examples above are allowed.
+This may be desirable if the application logic depends on the ordering of the
+argument values - e.g. to signal a desired priority or ordering of result types.
+
+### `path` argument
+
+`path` is an optional argument that accepts a dot-seperated
+[response path][response position] relative to the field.
+
+[response position]: https://spec.graphql.org/September2025/#sec-Response-Position
+
+This primarily in in order to support nested responses inside connection objects
+when using pagination:
+
+**Example**
+
+```graphql
+type Query {
+  getPaginatedMedia(
+    first: Int
+    after: String
+    only: [String!] @matches(path: "nodes")
+  ): MediaConnection
+}
+
+type MediaConnection {
+  nodes: [Media!]
+  pageInfo: PageInfo
+}
+```
+
+### `repeatable`
+
+`@matches` may be applied multiple times in order to support multiple nested
+fields:
+
+**Example**
+
+```graphql
+type Query {
+  getMedia(
+    first: Int
+    after: String
+    only: [String!] @matches(path: "nodes") @matches(path: "all")
+  ): MediaConnection
+}
+
+type MediaConnection {
+  nodes: [Media!]
+  pageInfo: PageInfo
+
+  """Clients may use this if they don't want to use pagination."""
+  all: [Media!]
 }
 ```
 
@@ -317,6 +397,8 @@ const resolvers = {
 }
 ```
 
+## Appendix
+
 ### Controlling if ordering matters
 
 There is a meaningful difference between these two queries:
@@ -339,16 +421,22 @@ query PrefersMovies {
 }
 ```
 
-A client may rely on the ordering of `supports` fields to indicate the preference and rank order in which to return objects.
+A client may rely on the ordering of `supports` fields to indicate the
+preference and rank order in which to return objects.
 
 However, this may cause confusion and unintentional cache misses.
 
-The client must decide if they wish to make the ordering of `supports` meaningful or not - and it not, we should enforce that the ordering is consistent (alphabetically sorted).
+The client must decide if they wish to make the ordering of `supports`
+meaningful or not - and it not, we should enforce that the ordering is
+consistent (alphabetically sorted).
 
 A `sort` argument is provided to support this:
 
-- If `sorted` is True (default), `supports` argument ordering is enforced via a request validation rule.
-- If `sorted` is False, `supports` argument ordering is not enforced, allowing different fragments to specify different orderings (and be cached independently) 
+- If `sorted` is True (default), `supports` argument ordering is enforced via a
+  request validation rule.
+- If `sorted` is False, `supports` argument ordering is not enforced, allowing
+  different fragments to specify different orderings (and be cached
+  independently).
 
 **Example**
 
@@ -359,7 +447,7 @@ type Query {
 }
 ```
 
-## Alternative names
+### Alternative names
 
 `@matches` is proposed in order to avoid conflicting with Relay's `@match`.
 
