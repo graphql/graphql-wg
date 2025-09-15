@@ -310,7 +310,7 @@ argument values - e.g. to signal a desired priority or ordering of result types.
 
 [response position]: https://spec.graphql.org/September2025/#sec-Response-Position
 
-This primarily in in order to support nested responses inside connection objects
+This is primarily in order to support nested responses inside connection objects
 when using pagination:
 
 **Example**
