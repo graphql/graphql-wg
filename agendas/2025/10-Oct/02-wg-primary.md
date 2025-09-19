@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
+| Janette Cheng    | @janettec     | Meta Platforms     | New York, NY, US      |
 
 
 ## Agenda
