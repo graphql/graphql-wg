@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
 | Janette Cheng    | @janettec     | Meta Platforms     | New York, NY, US      |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
 
 
 ## Agenda
