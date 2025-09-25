@@ -29,17 +29,20 @@ To learn more, read our guide on how to [join a meeting](./JoiningAMeeting.md).
 
 # Upcoming meetings
 
-| Meeting              | Time                            | Host                                     |
-| -------------------- | ------------------------------- | ---------------------------------------- |
-| WG (Primary)         | 1st Thu, 10:30am - 12:00noon PT | [Lee Byron](https://github.com/leebyron) |
-| WG (Secondary, APAC) | 2nd Wed, 3:30pm - 5:00pm PT     | [Lee Byron](https://github.com/leebyron) |
-| WG (Secondary, EU)   | 3rd Thu, 10:30am - 12:00noon PT | [Lee Byron](https://github.com/leebyron) |
+| Meeting                  | Time                            | Host                                     |
+| ------------------------ | ------------------------------- | ---------------------------------------- |
+| WG (Primary)             | 1st Thu, 10:30am - 12:00noon PT | [Lee Byron](https://github.com/leebyron) |
+| ~~WG (Secondary, APAC)~~ | ~~2nd Wed, 3:30pm - 5:00pm PT~~ | (on hiatus)                              |
+| WG (Secondary, EU)       | 3rd Thu, 10:30am - 12:00noon PT | [Lee Byron](https://github.com/leebyron) |
 
 The primary monthly meeting is preferred for new agenda. The secondary meetings
 are for overflow agenda items, follow ups from the primary meeting, or agenda
 introduced by those who could not make the primary meeting time. There are two
 secondary meetings, each timed to be acceptable for those in either an Asia
 Pacific or European timezone.
+
+As of November 2024 the Asia Pacific secondary meeting is on hiatus; should you
+wish to attend please file an issue and we can restore it easily.
 
 Meetings are typically scheduled at the times listed, however always check the
 [agenda](./agendas) for the exact date and time of an upcoming meeting. Keep
@@ -63,15 +66,15 @@ The GraphQL WG has subcomittees who focus on the development of specific
 projects beyond the GraphQL Spec. These subcomittees make progress within their
 own meetings and report back progress and decisions to GraphQL WG meetings.
 
-| Subcommittee      | Time                           | Host                                               | Agenda Repo                                                                                                     |
-| ----------------- | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| GraphiQL          | 2nd Tue, 09:00am - 11:00am PT  | [Tim Suchanek](https://github.com/timsuchanek)     | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)                   |
-| GraphQL-over-HTTP | Last Thu, 11:00am - 12:00am PT | [Benjie Gillam](https://github.com/benjie)         | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
-| Nullability       | 4th Wed, 19:00 - 20:00 UTC     | [Stephen Spalding](https://github.com/fotoetienne) | [graphql/client-controlled-nullability-wg](https://github.com/graphql/client-controlled-nullability-wg)         |
-| Composite Schema  | 2nd Thu, 16:00 - 17:00 UTC     | [Michael Staib](https://github.com/michaelstaib)         | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
-| GraphQL.js        | 4th Wed, 10:00am - 11:00am PT  | [Jovi DeCroock](https://github.com/JoviDeCroock)   | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
-| Community         | 2nd Thu, 08:00am - 09:00am PT  | [Uri Goldshtein](https://github.com/urigo)         | [graphql/community-wg](https://github.com/graphql/community-wg)                                                 |
-| GraphQL/OTel      | 4th Thu, 10:00am - 11:00am PT  | [Pascal Senn](https://github.com/pascalsenn)       | [graphql/otel-wg](https://github.com/graphql/otel-wg)                                                           |
+| Subcommittee      | Time                            | Host                                             | Agenda Repo                                                                                                     |
+| ----------------- | ------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| GraphiQL          | 2nd Tue, 09:00am - 11:00am PT   | [Dima Postolov](https://github.com/dimamachina)  | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)                   |
+| GraphQL-over-HTTP | Last Thu, 11:00am - 12:00am PT  | [Benjie Gillam](https://github.com/benjie)       | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
+| Nullability       | Last Wed, 19:00 - 20:00 UTC     | [Alex Reilly](https://github.com/twof)           | [graphql/nullability-wg](https://github.com/graphql/nullability-wg)                                             |
+| Composite Schema  | Every Thu, 18:00 - 19:00 CET    | [Michael Staib](https://github.com/michaelstaib) | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
+| GraphQL.js        | Last Wed, 17:00am - 18:00am UTC | [Jovi DeCroock](https://github.com/JoviDeCroock) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
+| Community         | 2nd Thu, 08:00am - 09:00am PT   | [Uri Goldshtein](https://github.com/urigo)       | [graphql/community-wg](https://github.com/graphql/community-wg)                                                 |
+| GraphQL/OTel      | 4th Thu, 10:00am - 11:00am PT   | [Pascal Senn](https://github.com/pascalsenn)     | [graphql/otel-wg](https://github.com/graphql/otel-wg)                                                           |
 
 #### Subcommittees on hiatus
 
