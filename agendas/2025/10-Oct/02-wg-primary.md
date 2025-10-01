@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
 | Janette Cheng    | @janettec     | Meta Platforms     | New York, NY, US      |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
+| Emily Goodwin    | @egoodwinx    | N/A                | Toronto, ON, CA       |
 
 
 ## Agenda
@@ -127,4 +128,5 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Proposal: GraphQL + AI working group with first meeting on Oct 23rd (2m, Kewei)
 1. Move gateway performance benchmark repo and fedeation audit repo under the foundation (10m, Uri, Fredrik)
-1. [Pull request](https://github.com/graphql/graphql-spec/pull/1193): Update description of Fragments in the spec (10m, Janette) 
+1. [Pull request](https://github.com/graphql/graphql-spec/pull/1193): Update description of Fragments in the spec (10m, Janette)
+1. Starting to contribute to GraphQL, should newcomers focus on coding, documentation, or other areas? (5 min, Emily)
