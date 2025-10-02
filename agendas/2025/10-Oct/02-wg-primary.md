@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
 | Emily Goodwin    | @egoodwinx    | N/A                | Toronto, ON, CA       |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Matt Mahoney     | @mjmahone     | Meta Platforms     | New York, NY, US      |
 
 
 ## Agenda
