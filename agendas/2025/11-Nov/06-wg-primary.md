@@ -124,3 +124,4 @@ hold additional secondary meetings later in the month.
 1. **TSC elections**: open for self-nominations (5m, Host)
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
+1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
