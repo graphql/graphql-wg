@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York, NY, US      |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
