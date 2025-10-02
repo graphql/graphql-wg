@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Janette Cheng    | @janettec     | Meta Platforms     | New York, NY, US      |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
 | Emily Goodwin    | @egoodwinx    | N/A                | Toronto, ON, CA       |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 
 ## Agenda
