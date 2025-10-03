@@ -1,6 +1,7 @@
 # RFC: Field Extensions
 
-**Proposed by:** [Martin Bonnin](https://mastodon.mbonnin.net/@mb) - Apollo
+**Champion:** [Emily Goodwin](https://github.com/egoodwinx)
+**Co-Champion:** [Martin Bonnin](https://github.com/martinbonnin)
 
 ## Problem statement
 
