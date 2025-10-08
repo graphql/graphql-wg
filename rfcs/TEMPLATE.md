@@ -4,6 +4,7 @@ format where necessary. -->
 # RFC: <Title>
 
 **Proposed by:** [<Full Name>](https://github.com/<username>) - <Organization>
+**Current champion:** [<Full Name>](https://github.com/<username>) - <Organization>
 
 <!-- Briefly summarize and explainin the concepts introduced by the RFC. Usually
 one or two short sentences or paragraphs. -->
