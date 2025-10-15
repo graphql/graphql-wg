@@ -35,7 +35,7 @@ interface __Entity {
 
 This interface could be used by clients with schema knowledge (such as Apollo Kotlin or Apollo iOS) at build time to decide if a certain type can be uniquely identified (and thus, stored in a normalized way) or not.
 
-This interface may implicitly added to objects that implement a way to resolve the `__id` field to a non-null value, depending on the server implementation.
+This interface may be implicitly added to objects that implement a way to resolve the `__id` field to a non-null value, depending on the server implementation.
 Alternatively, implementers might also choose to explicitly add the interface to types that can be uniquely identified.
 
 ### Feature detection
