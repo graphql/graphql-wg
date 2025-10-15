@@ -16,7 +16,7 @@ Also, the Global Object Identification pattern is not enough for the use case of
 
 This proposal introduces a new introspection field `__id`, which can be queried on any object, interface or union type.
 The field is of type `ID` and for each individual type, the field must either always return a non-null value or always return null.
-It might never be `null` for some objects of a type while being `ID!` for other objects of the same type. 
+
 If an `__id` field returns a non-null value for a type, this value must be guaranteed to uniquely identify the object when combined with the value of the `__typename` field.
 
 This would allow clients without schema knowledge to query for `__id` on selection set and use the returned value for caching or referencing the object in other systems, if it is not `null`.
@@ -64,7 +64,6 @@ type, or if the schema doesn't support Object Identification in general.
 * a non-null ID that in combination with the object's type name is globally unique.
 
 For every type, `__id` must either always return `null` or never return `null`.
-It might never be `null` for some objects of a type while being `ID!` for other objects of the same type.
 
 As a meta-field, `__id` is implicit and does not appear in the fields list in
 any defined type.
