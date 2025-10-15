@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Lenz Weber-Tronic| @phryneas     | Apollo             | Germany               |
 
 
 ## Agenda
@@ -125,3 +126,5 @@ hold additional secondary meetings later in the month.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. RFC: Object Identification / `__id` meta field & `__Entity` meta interface (10m, Lenz)
+    * [#1198](https://github.com/graphql/graphql-spec/issues/1198)
