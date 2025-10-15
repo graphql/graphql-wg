@@ -4,7 +4,7 @@
 
 ## Problem statement
 
-Currently, there is no way for clients to know if an object is can be uniquely identified. This makes it hard for clients to implement caching strategies that rely on object identity for normalization, or for AI agents that need to communicate with other systems, referencing objects returned from a GraphQL API.
+Currently, there is no way for clients to know if an object can be uniquely identified. This makes it hard for clients to implement caching strategies that rely on object identity for normalization, or for AI agents that need to communicate with other systems, referencing objects returned from a GraphQL API.
 
 This is in part solved by patterns like [Global Object Identification](https://graphql.org/learn/global-object-identification/), but this is nothing clients can generally rely on, since there is no guarantee that a server actually follows this pattern or just accidentally overlaps with it, without actually fully implementing it.
 
