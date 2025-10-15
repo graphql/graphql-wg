@@ -38,7 +38,7 @@ This interface could be used by clients with schema knowledge (such as Apollo Ko
 This interface may be implicitly added to objects that implement a way to resolve the `__id` field to a non-null value, depending on the server implementation.
 Alternatively, implementers might also choose to explicitly add the interface to types that can be uniquely identified.
 
-### Feature detection
+### Presence of globally identifiable types in the schema
 
 To allow clients to detect if a server supports this feature, the value of the `__id` field on the `Query` type should be specified as well:
 
