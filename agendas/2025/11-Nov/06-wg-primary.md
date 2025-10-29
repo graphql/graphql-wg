@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Lenz Weber-Tronic| @phryneas     | Apollo             | Germany               |
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
 
 
 ## Agenda
@@ -129,4 +130,7 @@ hold additional secondary meetings later in the month.
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. RFC: Object Identification / `__id` meta field & `__Entity` meta interface (10m, Lenz)
     * [#1198](https://github.com/graphql/graphql-spec/issues/1198)
-1. [Updating the description of Fragments in the spec](https://github.com/graphql/graphql-spec/pull/1193)
+1. [Updating the description of Fragments in the spec](https://github.com/graphql/graphql-spec/pull/1193) (Janette)
+1. [Release trains](https://github.com/graphql/graphql-spec/issues/1202) (5min, Martin)
+1. [Capabilities](https://github.com/graphql/graphql-spec/pull/1163) (10min, Martin)
+    * Next steps 
