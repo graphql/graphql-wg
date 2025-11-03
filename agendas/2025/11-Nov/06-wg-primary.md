@@ -136,4 +136,4 @@ hold additional secondary meetings later in the month.
 1. [Capabilities](https://github.com/graphql/graphql-spec/pull/1163) (10min, Martin)
     * Next steps
 1. defer/stream Updates (5m, Rob)
-   - [Review edits for Response section](https://github.com/graphql/graphql-wg) 
+   - [Review edits for Response section](https://github.com/graphql/graphql-spec/pull/1203) 
