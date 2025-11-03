@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Lenz Weber-Tronic| @phryneas     | Apollo             | Germany               |
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US |
 
 
 ## Agenda
@@ -133,4 +134,6 @@ hold additional secondary meetings later in the month.
 1. [Updating the description of Fragments in the spec](https://github.com/graphql/graphql-spec/pull/1193) (Janette)
 1. [Release trains](https://github.com/graphql/graphql-spec/issues/1202) (5min, Martin)
 1. [Capabilities](https://github.com/graphql/graphql-spec/pull/1163) (10min, Martin)
-    * Next steps 
+    * Next steps
+1. defer/stream Updates (5m, Rob)
+   - [Review edits for Response section](https://github.com/graphql/graphql-wg) 
