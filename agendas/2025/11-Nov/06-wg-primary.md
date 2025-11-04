@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR      |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US |
 
 
 ## Agenda
