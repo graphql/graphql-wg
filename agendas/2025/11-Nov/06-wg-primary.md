@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR       |
 | Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
