@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR       |
+| Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 
 ## Agenda
 
