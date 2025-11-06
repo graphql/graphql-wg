@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR       |
 | Jerel Miller     | @jerelmiller  | Apollo             | Windsor, CO, US       |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
