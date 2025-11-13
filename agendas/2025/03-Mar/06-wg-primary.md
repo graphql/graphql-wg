@@ -140,8 +140,8 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-spec/pull/1138
 1. Nullability Working Group status update (15m, Alex Reilly)
 1. Fragment-Arguments (10m, Jovi De Croock)
-   - Spec has been finished for a bit
-   - Implementation is under an experimental flag in GraphQL v17
+   - [Spec](https://github.com/graphql/graphql-spec/pull/1081) has been finished for a bit
+   - [Implementation](https://github.com/graphql/graphql-js/pull/4015) is under an experimental flag in GraphQL v17
    - Advance to stage 2
 1. [Forbid @skip and @include on subscription root selection](https://github.com/graphql/graphql-spec/pull/860) (10m, Benjie)
 1. Let's cut a spec release... it's been 3+ years! (15m, Benjie)
