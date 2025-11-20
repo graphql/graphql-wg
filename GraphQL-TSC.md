@@ -1,14 +1,69 @@
 # GraphQL Technical Steering Committee (TSC)
 
-The GraphQL TSC will be responsible for all technical oversight of the open source projects. In particular, the TSC is responsible for approving official GraphQL specification releases and coordinating between projects.
+The GraphQL TSC is responsible for management and technical oversight for all efforts within the scope of the GraphQL Specification Project. In particular, the TSC is responsible for approving official GraphQL specification releases and managing open source projects.
 
-## Technical Charter and Code of Conduct
+- [TSC Members](#tsc-members)
+- [TSC Responsibilities](#tsc-responsibilities)
+- [Becoming a TSC Member](#becoming-a-tsc-member)
+- [TSC Meetings](#tsc-meetings)
+- [Collaboration tools](#collaboration-tools)
+- [Voting process](#voting-process)
+- [Policies and procedures](#policies-and-procedures)
+
+## TSC Members
+
+The current members of the GraphQL TSC are (in chair, name order):
+
+| Name                                               | Affiliation           | Term begins | Term ends    |
+| -------------------------------------------------- | --------------------- | ----------- | ------------ |
+| [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
+| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2025 |
+| [Denis Badurina](https://github.com/enisdenjo)     | The Guild             | Feb 1, 2024 | Dec 31, 2025 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2025 |
+| [Kewei Qu](https://github.com/Keweiqu)             | Meta                  | Jan 1, 2023 | Dec 31, 2026 |
+| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Dec 31, 2025 |
+| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2025 |
+| [Rob Richard](https://github.com/robrichard)       | 1stDibs               | Jan 1, 2023 | Dec 31, 2026 |
+| [Uri Goldshtein](https://github.com/urigo)         | The Guild             | Jan 1, 2023 | Dec 31, 2026 |
+| [Martin Bonnin](https://github.com/martinbonnin)   | Apollo                | Feb 1, 2025 | Dec 31, 2026 |
+| [Pascal Senn](https://github.com/PascalSenn)       | ChilliCream           | Feb 1, 2025 | Dec 31, 2026 |
+
+### Emeriti
+
+We thank all our prior TSC members for their contribution (in time order):
+
+| Name                                             | Affiliation   | Term began  | Term ended   |
+| ------------------------------------------------ | ------------- | ----------- | ------------ |
+| [Brielle Harrison](https://github.com/nyteshade) | PayPal        | Nov 1, 2020 | Dec 31, 2021 |
+| [James Baxley](https://github.com/jbaxleyiii)    | Carbon Health | Nov 1, 2020 | Dec 31, 2021 |
+| [Dan Schafer](https://github.com/dschafer)       | Facebook      | Nov 1, 2020 | Dec 31, 2022 |
+| [Nick Schrock](https://github.com/schrockn)      | Elementl      | Nov 1, 2020 | Dec 31, 2022 |
+| [Rob Zhu](https://github.com/robzhu)             | AWS           | Nov 1, 2020 | Dec 31, 2022 |
+| [Sasha Solomon](https://github.com/sachee)       | Twitter       | Nov 1, 2020 | Dec 31, 2022 |
+| [Marc-Andre Giroux](https://github.com/xuorig)   | Netflix       | Jan 1, 2022 | Jan 31, 2024 |
+| [Andi Marek](https://github.com/andimarek)       | Atlassian     | Nov 1, 2020 | Jan 31, 2025 |
+| [Stephen Spalding](https://github.com/fotoetienne) | Netflix     | Jan 1, 2023 | Jan 31, 2025 |
+
+## TSC Responsibilities
+
+The TSC provides management and technical oversight for all efforts within the scope of the GraphQL Specification Project. This includes:
+
+- Approving formal releases of the [GraphQL Specification](https://spec.graphql.org).
+- Approving new projects and working groups.
+- Creating, transferring, organizing, and renaming GitHub repos under the [GraphQL org](https://github.com/graphql).
+- Resolving technical or community issues that span multiple projects, or are deadlocked within a project.
+- Delegating decisions on publishing releases.
+- Rating talks for the GraphQL conf CFP.
+
+The scope of the TSC should not include decisions that can be made within one of the projects, unless there is a specific issue that cannot be resolved and requires mediation. In general, the TSC prefers to delegaet decisions to be made at the lowest possible level.
+
+### Technical Charter and Code of Conduct
 
 The GraphQL TSC is governed by the [Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf), which establishes the Committee and its basic principles and procedures. The charter is designed to provide the TSC the freedom to govern itself in an efficient manner. This document establishes TSC policies and procedures.
 
 In addition, as provided under the Technical Charter, GraphQL has adopted a [Code of Conduct](https://code-of-conduct.graphql.org) that applies to all GraphQL activities and spaces. If you believe there has been a violation of the GraphQL Code of Conduct, please contact [report@graphql.org](mailto:report@graphql.org).
 
-## About the GraphQL Specification project
+### About the GraphQL Specification project
 
 [GraphQL](https://graphql.org) is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 
@@ -34,26 +89,7 @@ We also host implementations, which are licensed under MIT:
 
 Developers who are covered under a signed spec membership agreement are able to contribute to any GraphQL spec or project.
 
-## TSC meetings
-
-The GraphQL TSC will meet monthly, at the beginning of the first [GraphQL Working Group meeting](https://github.com/graphql/graphql-wg) each month. Our goal is to meet regularly to address any agenda items quickly and openly. By combining the TSC meeting with the open attendance Working Group meetings, we are ensuring that the broader community has visibility into the operations of the TSC, and vice versa.
-
-To attend a GraphQL TSC meeting, you must follow the same process as other GraphQL meetings and open a PR to add your name to the list of attendees in the [meeting agenda](https://github.com/graphql/graphql-wg/tree/master/agendas). If you have not signed the GraphQL Specification Membership Agreement you will be prompted to do so. You cannot attend until you have completed this document, although you are welcome to listen to the replay on [YouTube](https://www.youtube.com/playlist?list=PLP1igyLx8foH30_sDnEZnxV_8pYW3SDtb).
-
-### Scope
-
-The TSC provides technical oversight for all GraphQL development efforts within the scope of the project. This includes:
-
-- Approving formal releases of the [GraphQL Specification](https://spec.graphql.org).
-- Approving new projects and working groups.
-- Creating, transferring, organizing, and renaming GitHub repos under the [GraphQL org](https://github.com/graphql).
-- Resolving technical or community issues that span multiple projects, or are deadlocked within a project.
-- Delegating decisions on publishing releases.
-- Rating talks for the GraphQL conf CFP.
-
-The scope of the TSC should not include decisions that can be made within one of the projects, unless there is a specific issue that cannot be resolved and requires mediation. In general, the TSC prefers that decisions be made at the lowest possible level.
-
-#### Decision-making authority
+### Decision-making authority
 
 The following table is a rough outline of who is responsible for decisions. In keeping with the principle that decisions should be made at the lowest possible level and as efficiently as possible, unless there is a specific escalation to the TSC.
 
@@ -65,7 +101,66 @@ The following table is a rough outline of who is responsible for decisions. In k
 | Adding a new repo in the GraphQL organization | TSC                  | No                   |
 | Changes to this document                      | TSC                  | No                   |
 
-## Collaboration Tools
+## Becoming a TSC Member
+
+The [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) describes the composition of the TSC. The GraphQL TSC has 10 elected members, plus the Executive Director. TSC members serve a two-year term, and there is no limit to the number of terms a member can serve. Each year, half of the TSC member seats will be up for election.
+
+### Election process
+
+Towards the end of each year, the TSC will collect self-nominations from the community. Anyone may self-nominate to be considered as a TSC member. Fill out the form at [tsc-nomination.graphql.org/](https://tsc-nomination.graphql.org/) to formally self-nominate. This form is always open, and submissions made during each election's nomination period (November 1st through the end of the year) are considered.
+
+At the start of the year, the TSC members with terms not up for election will vote on the candidates using a multiple-winner method, members with expiring terms are recused from this vote due to conflict of interest. The elected TSC members will begin their term no later than February 1st.
+
+#### Initial period
+
+To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior to the first election, half of the existing members will be selected via ["coin toss"](https://gist.github.com/leebyron/cbda7f0c604915d9200af5626b1fcf1b) to serve an initial one-year term.
+
+#### Election dates
+
+| Term          | Nominations open | Voting open   | Term begins   | Term ends      |
+| ------------- | ---------------- | ------------- | ------------- | -------------- |
+| ~2022 - 2023~ | ~Nov 1, 2021~    | ~Dec 1, 2021~ | ~Jan 1, 2022~ | ~Jan 31, 2024~ |
+| ~2023 - 2024~ | ~Nov 1, 2022~    | ~Dec 1, 2022~ | ~Jan 1, 2023~ | ~Dec 31, 2024~ |
+| ~2024 - 2025~ | ~Dec 1, 2023~    | ~Jan 1, 2024~ | ~Feb 1, 2024~ | Dec 31, 2025   |
+| 2025 - 2026   | ~Nov 1, 2024~    | ~Dec 1, 2024~ | ~Jan 1, 2025~ | Jan 31, 2026   |
+| 2026 - 2027   | Nov 1, 2025      | Jan 5, 2025   | Feb 1, 2026   | Jan 31, 2027   |
+| 2027 - 2028   | Nov 1, 2026      | Jan 5, 2026   | Feb 1, 2027   | Jan 31, 2028   |
+
+### Resignation or removal of TSC members
+
+A TSC member may voluntarily resign at any time before the end of their term by notifying the TSC chair. A TSC member may also be involuntarily removed by a supermajority (2/3) vote by TSC members.
+
+After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement member to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
+
+## TSC Meetings
+
+The GraphQL TSC will meet monthly, at the beginning of the first [GraphQL Working Group meeting](https://github.com/graphql/graphql-wg) each month. Our goal is to meet regularly to address any agenda items quickly and openly. By combining the TSC meeting with the open attendance Working Group meetings, we are ensuring that the broader community has visibility into the operations of the TSC, and vice versa.
+
+To attend a GraphQL TSC meeting, you must follow the same process as other GraphQL meetings and open a PR to add your name to the list of attendees in the [meeting agenda](https://github.com/graphql/graphql-wg/tree/master/agendas). If you have not signed the GraphQL Specification Membership Agreement you will be prompted to do so. You cannot attend until you have completed this document, although you are welcome to listen to the replay on [YouTube](https://www.youtube.com/playlist?list=PLP1igyLx8foH30_sDnEZnxV_8pYW3SDtb).
+
+### Who can participate
+
+Meetings are open to anybody who wishes to participate, you must add yourself to the meeting agenda via PR in order to be able to join a GraphQL specification meeting.
+
+Aside from items which require a formal vote (such as approving specification verions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC members will use the consensus decision-making process as often as possible.
+
+The elected TSC members are expected to be active participants in all meetings, and to be engaged and responsive on matters that require a formal vote.
+
+### Agendas and operating procedures
+
+In order to hold a GraphQL meeting for the TSC, a project, or a working group, you must do the following:
+
+- **Post an agenda** on GitHub before the meeting. For an example, please see the [GraphQL WG agendas](https://github.com/graphql/graphql-wg/tree/master/agendas).
+- **Record attendance** by ensuring every attendee PRs themselves onto the meeting agenda. This ensures that everybody has signed the right membership agreements. This process is free and fast, and is kicked off automatically when you open your first PR.
+- **Re-verify** at the start of each meeting that all participants have signed the membership document. If they haven't they can either add themselves to the meeting agenda and complete the forms, or disconnect and listen to the replay.
+- **Announce** at the beginning of the call that it is being recorded.
+- **Keep minutes** of the discussion (the recording can help with this). For an exmaple, please see the [GraphQL WG minutes](https://github.com/graphql/graphql-wg/tree/master/notes).
+
+Our Zoom account supports recording and livestreaming. We strongly encourage you to use the cloud recording feature. Staff can then download and post the videos to the [GraphQL YouTube channel](https://youtube.graphql.org). Alternately, if you want to livestream a meeting directly to YouTube, you can request access by emailing [operations@graphql.org](mailto:operations@graphql.org).
+
+If you have questions about these processes, please contact [operations@graphql.org](mailto:operations@graphql.org) and we can help provide context for why they are in place.
+
+## Collaboration tools
 
 ### Mailing List
 
@@ -88,92 +183,6 @@ Because we work in a highly distributed environment and will rarely meet in pers
 ### Zoom
 
 GraphQL has a Zoom account which can be used by projects and working groups. Projects and working groups are encouraged to meet regularly and record their meetings for posting on the [GraphQL YouTube channel](https://youtube.graphql.org). To avoid collisions, please request that your meeting be added to the [GraphQL Calendar](https://calendar.graphql.org) by emailing [operations@graphql.org](mailto:operations@graphql.org). If two meetings are scheduled at the same time, the meeting on the calendar takes precedence.
-
-### Meetings
-
-In order to hold a GraphQL meeting for the TSC, a project, or a working group, you must do the following:
-
-- **Post an agenda** on GitHub before the meeting. For an example, please see the [GraphQL WG agendas](https://github.com/graphql/graphql-wg/tree/master/agendas).
-- **Record attendance** by ensuring every attendee PRs themselves onto the meeting agenda. This ensures that everybody has signed the right membership agreements. This process is free and fast, and is kicked off automatically when you open your first PR.
-- **Re-verify** at the start of each meeting that all participants have signed the membership document. If they haven't they can either add themselves to the meeting agenda and complete the forms, or disconnect and listen to the replay.
-- **Announce** at the beginning of the call that it is being recorded.
-- **Keep minutes** of the discussion (the recording can help with this). For an exmaple, please see the [GraphQL WG minutes](https://github.com/graphql/graphql-wg/tree/master/notes).
-
-Our Zoom account supports recording and livestreaming. We strongly encourage you to use the cloud recording feature. Staff can then download and post the videos to the [GraphQL YouTube channel](https://youtube.graphql.org). Alternately, if you want to livestream a meeting directly to YouTube, you can request access by emailing [operations@graphql.org](mailto:operations@graphql.org).
-
-If you have questions about these processes, please contact [operations@graphql.org](mailto:operations@graphql.org) and we can help provide context for why they are in place.
-
-## TSC Membership
-
-### Who can participate on the TSC
-
-TSC meetings are open to anybody who wishes to participate. Aside from items which require a formal vote (such as approving specification verions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC will use the consensus decision-making process as often as possible.
-
-The TSC will also include a number of individuals who have been elected as members. These individuals are expected to be active participants on the TSC, and to be engaged and responsive on matters that require a formal vote.
-
-You must add yourself to the meeting agenda via PR in order to be able to join a GraphQL specification meeting.
-
-### TSC Members
-
-The current members of the GraphQL TSC are (in chair, name order):
-
-| Name                                               | Affiliation           | Term begins | Term ends    |
-| -------------------------------------------------- | --------------------- | ----------- | ------------ |
-| [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
-| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2025 |
-| [Denis Badurina](https://github.com/enisdenjo)     | The Guild             | Feb 1, 2024 | Dec 31, 2025 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2025 |
-| [Kewei Qu](https://github.com/Keweiqu)             | Meta                  | Jan 1, 2023 | Dec 31, 2026 |
-| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Dec 31, 2025 |
-| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2025 |
-| [Rob Richard](https://github.com/robrichard)       | 1stDibs               | Jan 1, 2023 | Dec 31, 2026 |
-| [Uri Goldshtein](https://github.com/urigo)         | The Guild             | Jan 1, 2023 | Dec 31, 2026 |
-| [Martin Bonnin](https://github.com/martinbonnin)   | Apollo                | Feb 1, 2025 | Dec 31, 2026 |
-| [Pascal Senn](https://github.com/PascalSenn)       | ChilliCream           | Feb 1, 2025 | Dec 31, 2026 |
-
-#### Emeriti
-
-We thank all our prior TSC members for their contribution (in time order):
-
-| Name                                             | Affiliation   | Term began  | Term ended   |
-| ------------------------------------------------ | ------------- | ----------- | ------------ |
-| [Brielle Harrison](https://github.com/nyteshade) | PayPal        | Nov 1, 2020 | Dec 31, 2021 |
-| [James Baxley](https://github.com/jbaxleyiii)    | Carbon Health | Nov 1, 2020 | Dec 31, 2021 |
-| [Dan Schafer](https://github.com/dschafer)       | Facebook      | Nov 1, 2020 | Dec 31, 2022 |
-| [Nick Schrock](https://github.com/schrockn)      | Elementl      | Nov 1, 2020 | Dec 31, 2022 |
-| [Rob Zhu](https://github.com/robzhu)             | AWS           | Nov 1, 2020 | Dec 31, 2022 |
-| [Sasha Solomon](https://github.com/sachee)       | Twitter       | Nov 1, 2020 | Dec 31, 2022 |
-| [Marc-Andre Giroux](https://github.com/xuorig)   | Netflix       | Jan 1, 2022 | Jan 31, 2024 |
-| [Andi Marek](https://github.com/andimarek)       | Atlassian     | Nov 1, 2020 | Jan 31, 2025 |
-| [Stephen Spalding](https://github.com/fotoetienne) | Netflix     | Jan 1, 2023 | Jan 31, 2025 |
-
-### Becoming a TSC Member
-
-The [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) describes the composition of the TSC. The GraphQL TSC has 10 elected members, plus the Executive Director. TSC members serve a two-year term, and there is no limit to the number of terms a member can serve. Each year, half of the TSC member seats will be up for election.
-
-### Election process
-
-After November 1st, the TSC will collect self-nominations from the community. After December 1st, the TSC members with terms not up for election will vote on the candidates using a multiple-winner method, members with expiring terms are recused from this vote due to conflict of interest. The elected TSC members will begin their term on January 1st.
-
-#### Initial period
-
-To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior to the first election, half of the existing members will be selected via ["coin toss"](https://gist.github.com/leebyron/cbda7f0c604915d9200af5626b1fcf1b) to serve an initial one-year term.
-
-#### Election dates
-
-| Term          | Nominations open | Voting open   | Term begins   | Term ends      |
-| ------------- | ---------------- | ------------- | ------------- | -------------- |
-| ~2022 - 2023~ | ~Nov 1, 2021~    | ~Dec 1, 2021~ | ~Jan 1, 2022~ | Jan 31, 2024   |
-| ~2023 - 2024~ | ~Nov 1, 2022~    | ~Dec 1, 2022~ | ~Jan 1, 2023~ | Dec 31, 2024   |
-| ~2024 - 2025~ | ~Dec 1, 2023~    | ~Jan 1, 2024~ | Feb 1, 2024   | Dec 31, 2025   |
-| 2025 - 2026   | Nov 1, 2024      | Dec 1, 2024   | Jan 1, 2025   | Dec 31, 2026   |
-| 2026 - 2027   | Nov 1, 2025      | Dec 1, 2025   | Jan 1, 2026   | Dec 31, 2027   |
-
-#### Resignation or removal of TSC members
-
-A TSC member may voluntarily resign at any time before the end of their term by notifying the TSC chair. A TSC member may also be involuntarily removed by a supermajority (2/3) vote by TSC members.
-
-After a TSC seat vacancy the remaining TSC will collect self-nominations and vote on a replacement member to complete the term. The nomination period should be open for at least two weeks, after which a vote shall be held.
 
 ## Voting process
 
