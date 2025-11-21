@@ -166,6 +166,10 @@ If you have questions about these processes, please contact [operations@graphql.
 
 The [graphql-wg](https://github.com/graphql/graphql-wg/) repository hosts issues, discussions, and working files used by the TSC and the rest of the working group.
 
+You may ask the TSC a question by 
+[opening an issue](https://github.com/graphql/graphql-wg/issues/new) and
+mentioning `@graphql/tsc` in your issue description.
+
 ### Discord
 
 GraphQL maintains a [Discord](https://discord.graphql.org) for communication and collaboration, which is open for anyone to join. Once you join [Discord](https://discord.graphql.org), you can participate in any public channels.
