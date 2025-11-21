@@ -55,7 +55,7 @@ The TSC provides management and technical oversight for all efforts within the s
 - Delegating decisions on publishing releases.
 - Rating talks for the GraphQL conf CFP.
 
-The scope of the TSC should not include decisions that can be made within one of the projects, unless there is a specific issue that cannot be resolved and requires mediation. In general, the TSC prefers to delegaet decisions to be made at the lowest possible level.
+The scope of the TSC should not include decisions that can be made within one of the projects, unless there is a specific issue that cannot be resolved and requires mediation. In general, the TSC prefers to delegate decisions to be made at the lowest possible level.
 
 ### Technical Charter and Code of Conduct
 
@@ -142,7 +142,7 @@ To attend a GraphQL TSC meeting, you must follow the same process as other Graph
 
 Meetings are open to anybody who wishes to participate, you must add yourself to the meeting agenda via PR in order to be able to join a GraphQL specification meeting.
 
-Aside from items which require a formal vote (such as approving specification verions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC members will use the consensus decision-making process as often as possible.
+Aside from items which require a formal vote (such as approving specification versions or elections), anyone who has signed a Specification Membership Agreement may participate in discussions and decisions. As defined in the charter, the TSC members will use the consensus decision-making process as often as possible.
 
 The elected TSC members are expected to be active participants in all meetings, and to be engaged and responsive on matters that require a formal vote.
 
@@ -154,7 +154,7 @@ In order to hold a GraphQL meeting for the TSC, a project, or a working group, y
 - **Record attendance** by ensuring every attendee PRs themselves onto the meeting agenda. This ensures that everybody has signed the right membership agreements. This process is free and fast, and is kicked off automatically when you open your first PR.
 - **Re-verify** at the start of each meeting that all participants have signed the membership document. If they haven't they can either add themselves to the meeting agenda and complete the forms, or disconnect and listen to the replay.
 - **Announce** at the beginning of the call that it is being recorded.
-- **Keep minutes** of the discussion (the recording can help with this). For an exmaple, please see the [GraphQL WG minutes](https://github.com/graphql/graphql-wg/tree/master/notes).
+- **Keep minutes** of the discussion (the recording can help with this). For an example, please see the [GraphQL WG minutes](https://github.com/graphql/graphql-wg/tree/master/notes).
 
 Our Zoom account supports recording and livestreaming. We strongly encourage you to use the cloud recording feature. Staff can then download and post the videos to the [GraphQL YouTube channel](https://youtube.graphql.org). Alternately, if you want to livestream a meeting directly to YouTube, you can request access by emailing [operations@graphql.org](mailto:operations@graphql.org).
 
@@ -212,7 +212,7 @@ Note: A member may be recused (i.e. for a member election) in which case they do
 
 ### Voting process
 
-Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. Once the threshold of a quorum has been met and a vote is valid, one of these two critera must be satisfied to conclude a vote:
+Because we work in a distributed environment, the voting process must account for a range of time zones and schedules. Once the threshold of a quorum has been met and a vote is valid, one of these two criteria must be satisfied to conclude a vote:
 
 - A notice is sent via email that the vote will conclude in three business days, reminding those who haven't voted that they should do so. The vote will conclude at the end of this time.
 - The election results would not change if all remaining members were to vote.
@@ -253,7 +253,7 @@ Bringing this all together, here's a step-by-step procedure for administering a 
 
 1. Formally open a vote for a motion by opening a GitHub issue.
    - Most votes are held publicly, for those held privately, open an issue in a private forum.
-1. Take attendence of all TSC members over the prior three meetings to determine _attending members_ minus any recused.
+1. Take attendance of all TSC members over the prior three meetings to determine _attending members_ minus any recused.
    - If a vote is raised during a meeting, count the live meeting as the most recent of the three.
    - For an election vote, members with expiring terms are recused and not counted towards _attending members_.
 1. Determine the _quorum threshold_ as the next number larger than half of _attending members_, or 2/3 for a supermajority.
@@ -330,7 +330,7 @@ The GraphQL TSC is in an elevated position of trust within the GraphQL community
 
 Our goal is to provide complete, accurate, and actionable disclosures once a reported issue has been sufficiently understood and there has been a reasonable opportunity to deploy fixes responsibly. At no time should a TSC member release information on a pre-disclosed vulnerability to anyone besides other TSC members, Foundation staff, legal counsel, or required authorities unless there is consensus to do so. A TSC member may call for a formal vote to determine an appropriate path forward at any time in the process, if needed.
 
-In the case of responsible disclosures, the TSC is expected to work in good faith toward a resolution that is in the best interest of the community, including coordinating with maintainers on pre-disclosure patches and the CVE process. As responsible and knowledgable stewards of the GraphQL ecosystem, the TSC is empowered to negotiate the priority level and timelines for announcements and fixes.
+In the case of responsible disclosures, the TSC is expected to work in good faith toward a resolution that is in the best interest of the community, including coordinating with maintainers on pre-disclosure patches and the CVE process. As responsible and knowledgeable stewards of the GraphQL ecosystem, the TSC is empowered to negotiate the priority level and timelines for announcements and fixes.
 
 In the case of irresponsible disclosure, regardless of the circumstances, the TSC is expected to make themselves available to convene urgently and to decide upon a communications and action plan.
 
