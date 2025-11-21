@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR |
 
 
 ## Agenda
@@ -124,3 +125,6 @@ hold additional secondary meetings later in the month.
 1. **TSC elections**: voting now open (2m, Host)
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. Issue club (5m, Martin)
+   - https://github.com/graphql/graphql-wg/issues/1673
+   - Do we want to do this in the main wg or in a separate meeting?
