@@ -42,20 +42,21 @@ hold additional secondary meetings later in the month.`,
   },
 
   annualItems: [
+    // TSC Elections
     {
-      month: 11,
+      month: 12,
       allMeetings: true,
       text: `**TSC elections**: open for self-nominations (5m, Host)
 - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 - [Nomination form](https://tsc-nomination.graphql.org/)`,
     },
     {
-      month: 12,
+      month: 1,
       text: `**TSC elections**: voting now open (2m, Host)
 - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)`,
     },
     {
-      month: 1,
+      month: 2,
       text: `**TSC**: election results (2m, Host)
 - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 - [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)`,
