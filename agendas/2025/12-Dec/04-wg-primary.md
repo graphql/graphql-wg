@@ -122,8 +122,9 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — November 2025 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2025/11-Nov/20-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
-1. **TSC elections**: voting now open (2m, Host)
+1. **TSC elections**: open for self-nominations (5m, Host)
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+   - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Issue club (5m, Martin)
    - https://github.com/graphql/graphql-wg/issues/1673

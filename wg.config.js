@@ -42,23 +42,42 @@ hold additional secondary meetings later in the month.`,
   },
 
   annualItems: [
+    // TSC Elections
     {
-      month: 11,
+      month: 12,
       allMeetings: true,
       text: `**TSC elections**: open for self-nominations (5m, Host)
 - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 - [Nomination form](https://tsc-nomination.graphql.org/)`,
     },
     {
-      month: 12,
+      month: 1,
       text: `**TSC elections**: voting now open (2m, Host)
 - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)`,
     },
     {
-      month: 1,
+      month: 2,
       text: `**TSC**: election results (2m, Host)
 - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 - [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)`,
+    },
+
+    // Spec "release train"
+    {
+      month: 6,
+      text: `**Spec release**: release is coming, 2 months until freeze! (5m, Host)`,
+    },
+    {
+      month: 7,
+      text: `**Spec release**: will freeze release just before next month's meeting; last chance for editorial changes (5m, Host)`,
+    },
+    {
+      month: 8,
+      text: `**Spec release**: **TSC**, please review and approve the changelog (5m, Host)`,
+    },
+    {
+      month: 9,
+      text: `**Spec release**: spec release is live! (pending 45 day notice period) (5m, Host)`,
     },
   ],
 
