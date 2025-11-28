@@ -126,6 +126,9 @@ hold additional secondary meetings later in the month.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. scalars.graphql.org (10m, Martin)
+   - What is the criteria to merge?
+   - https://github.com/graphql/graphql-scalars/pulls
 1. Issue club (5m, Martin)
    - https://github.com/graphql/graphql-wg/issues/1673
    - Do we want to do this in the main wg or in a separate meeting?
