@@ -126,9 +126,10 @@ hold additional secondary meetings later in the month.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-1. scalars.graphql.org (10m, Martin)
-   - What is the criteria to merge?
-   - https://github.com/graphql/graphql-scalars/pull/38
+1. Release trains (1m, Martin)
+   - Next train is coming in August 2026 🚆 https://github.com/graphql/graphql-wg/commit/2e59337e1c32004d2a470abe13bcbde106028427#diff-0a56fdef517219e1e64b42887631cd81321957af3dfc460dc6bdba756f39dfe0R64
+1. scalars.graphql.org (10m, Martin) 
+   - What is the criteria to merge? https://github.com/graphql/graphql-scalars/pull/38
    - https://github.com/graphql/graphql-scalars/pulls
 1. Issue club (5m, Martin)
    - https://github.com/graphql/graphql-wg/issues/1673
