@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR |
+| Emily Goodwin    | @egoodwinx    | independent        | Toronto, ON, CA       |
 
 
 ## Agenda
@@ -135,3 +136,6 @@ hold additional secondary meetings later in the month.
 1. Issue club (5m, Martin)
    - https://github.com/graphql/graphql-wg/issues/1673
    - Do we want to do this in the main wg or in a separate meeting?
+1. Discuss RFC field extensions (10m, Emily)
+   - Review the spec CR, do we want changes to the format? https://github.com/graphql/graphql-spec/pull/1196
+   - https://github.com/graphql/graphql-wg/blob/main/rfcs/FieldExtensions.md
