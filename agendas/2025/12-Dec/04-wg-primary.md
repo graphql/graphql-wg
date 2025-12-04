@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Zach FettersMoore | @BobaFetters | Apollo             | Cincinnati, OH, US    |
+| Mark Larah        | @magicmark   | Yelp               | Austin, TX, USA       |
 
 ## Agenda
 
@@ -147,3 +148,6 @@ hold additional secondary meetings later in the month.
 1. Discuss RFC field extensions (10m, Emily)
    - Review the spec CR, do we want changes to the format? https://github.com/graphql/graphql-spec/pull/1196
    - https://github.com/graphql/graphql-wg/blob/main/rfcs/FieldExtensions.md
+1. Discuss RFC matches directive (5m, Mark)
+   - Discuss if Lee had a syntax alternative
+   - If not, consider a userland spec + adding a "community specs" graphql.org webpage
