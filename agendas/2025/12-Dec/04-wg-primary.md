@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR |
 | Emily Goodwin    | @egoodwinx    | independent        | Toronto, ON, CA       |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
