@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Emily Goodwin    | @egoodwinx    | independent        | Toronto, ON, CA       |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 ## Agenda
 
