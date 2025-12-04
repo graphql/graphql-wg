@@ -107,7 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR |
 | Emily Goodwin    | @egoodwinx    | independent        | Toronto, ON, CA       |
-
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -126,6 +126,7 @@ hold additional secondary meetings later in the month.
 1. **TSC elections**: open for self-nominations (5m, Host)
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
+1. **TSC**: Please approve "handbooks" project (5m, Benjie)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Release trains (1m, Martin)
    - Next train is coming in August 2026 🚆 https://github.com/graphql/graphql-wg/commit/2e59337e1c32004d2a470abe13bcbde106028427#diff-0a56fdef517219e1e64b42887631cd81321957af3dfc460dc6bdba756f39dfe0R64
