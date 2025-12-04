@@ -17,16 +17,16 @@ The current members of the GraphQL TSC are (in chair, name order):
 | Name                                               | Affiliation           | Term begins | Term ends    |
 | -------------------------------------------------- | --------------------- | ----------- | ------------ |
 | [Lee Byron (chair)](https://github.com/leebyron)   | GraphQL Specification | N/A         | N/A          |
-| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Dec 31, 2025 |
-| [Denis Badurina](https://github.com/enisdenjo)     | The Guild             | Feb 1, 2024 | Dec 31, 2025 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Dec 31, 2025 |
-| [Kewei Qu](https://github.com/Keweiqu)             | Meta                  | Jan 1, 2023 | Dec 31, 2026 |
-| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Dec 31, 2025 |
-| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Dec 31, 2025 |
-| [Rob Richard](https://github.com/robrichard)       | 1stDibs               | Jan 1, 2023 | Dec 31, 2026 |
-| [Uri Goldshtein](https://github.com/urigo)         | The Guild             | Jan 1, 2023 | Dec 31, 2026 |
-| [Martin Bonnin](https://github.com/martinbonnin)   | Apollo                | Feb 1, 2025 | Dec 31, 2026 |
-| [Pascal Senn](https://github.com/PascalSenn)       | ChilliCream           | Feb 1, 2025 | Dec 31, 2026 |
+| [Benjie Gillam](https://github.com/benjie)         | Graphile              | Nov 1, 2020 | Jan 31, 2026 |
+| [Denis Badurina](https://github.com/enisdenjo)     | The Guild             | Feb 1, 2024 | Jan 31, 2026 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo                | Nov 1, 2020 | Jan 31, 2026 |
+| [Kewei Qu](https://github.com/Keweiqu)             | Meta                  | Jan 1, 2023 | Jan 31, 2027 |
+| [Matt Mahoney](https://github.com/mjmahone)        | Meta                  | Nov 1, 2020 | Jan 31, 2026 |
+| [Michael Staib](https://github.com/michaelstaib)   | ChilliCream           | Jan 1, 2022 | Jan 31, 2026 |
+| [Rob Richard](https://github.com/robrichard)       | 1stDibs               | Jan 1, 2023 | Jan 31, 2027 |
+| [Uri Goldshtein](https://github.com/urigo)         | The Guild             | Jan 1, 2023 | Jan 31, 2027 |
+| [Martin Bonnin](https://github.com/martinbonnin)   | Apollo                | Feb 1, 2025 | Jan 31, 2027 |
+| [Pascal Senn](https://github.com/PascalSenn)       | ChilliCream           | Feb 1, 2025 | Jan 31, 2027 |
 
 ### Emeriti
 
@@ -121,10 +121,10 @@ To provide consistency TSC elections will begin in 2021 for the 2022 term. Prior
 | ------------- | ---------------- | ------------- | ------------- | -------------- |
 | ~2022 - 2023~ | ~Nov 1, 2021~    | ~Dec 1, 2021~ | ~Jan 1, 2022~ | ~Jan 31, 2024~ |
 | ~2023 - 2024~ | ~Nov 1, 2022~    | ~Dec 1, 2022~ | ~Jan 1, 2023~ | ~Dec 31, 2024~ |
-| ~2024 - 2025~ | ~Dec 1, 2023~    | ~Jan 1, 2024~ | ~Feb 1, 2024~ | Dec 31, 2025   |
-| 2025 - 2026   | ~Nov 1, 2024~    | ~Dec 1, 2024~ | ~Jan 1, 2025~ | Jan 31, 2026   |
-| 2026 - 2027   | Nov 1, 2025      | Jan 5, 2025   | Feb 1, 2026   | Jan 31, 2027   |
-| 2027 - 2028   | Nov 1, 2026      | Jan 5, 2026   | Feb 1, 2027   | Jan 31, 2028   |
+| 2024 - 2025   | ~Dec 1, 2023~    | ~Jan 1, 2024~ | ~Feb 1, 2024~ | Jan 31, 2026   |
+| 2025 - 2026   | ~Nov 1, 2024~    | ~Dec 1, 2024~ | ~Feb 1, 2025~ | Jan 31, 2027   |
+| 2026 - 2027   | Nov 1, 2025      | Jan 5, 2025   | Feb 1, 2026   | Jan 31, 2028   |
+| 2027 - 2028   | Nov 1, 2026      | Jan 5, 2026   | Feb 1, 2027   | Jan 31, 2029   |
 
 ### Resignation or removal of TSC members
 
