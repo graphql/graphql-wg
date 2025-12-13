@@ -47,7 +47,7 @@ The `@limitTypes` directive may only appear on an argument that accepts a
 The `@limitTypes` directive may only appear on an argument to a field whose
 named return type is a connection type (that is to say, conforming to
 [the GraphQL Cursor Connections Specification's Connection Type](https://relay.dev/graphql/connections.htm#sec-Connection-Types))
-over an abstract type, or to a field whose return type is a list, and the named
+over an abstract type, or to a field whose return type is a list and the named
 return type is an abstract type.
 
 ## Execution
