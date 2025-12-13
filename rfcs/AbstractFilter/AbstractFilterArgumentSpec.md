@@ -5,7 +5,7 @@ Status: Strawman
 ## Directive
 
 ```graphql
-directive @limitTypes on FIELD_DEFINITION
+directive @limitTypes on ARGUMENT_DEFINITION
 ```
 
 ### Examples
