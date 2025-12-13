@@ -185,7 +185,7 @@ into a connection?
 It's essential that the client know that this filtering is applied such that its
 normalized store does not become corrupted, and thus it was agreed that we
 should stick with passing the list of allowed types as an argument (since
-arguments already factor into npormalized cache keys).
+arguments already factor into normalized cache keys).
 
 ### Two specifications
 
