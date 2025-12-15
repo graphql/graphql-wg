@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Bjørn Wiegell    | @wiegell      | Trifork            | Aarhus, Denmark, DK   |
+| Martin Bonnin    | @martinbonnin      | Apollo            | Paris, FR   |
 
 
 ## Agenda
@@ -126,3 +127,6 @@ who could not make the primary meeting time.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 1. [RFC, Type composition](https://github.com/graphql/graphql-spec/issues/1197#issuecomment-3581857997) (5m, Bjørn Wiegell)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+2. Fragments are not for reuse (2m)
+    - https://services.gradle.org/distributions-snapshots/gradle-9.4.0-20251215022449+0000-bin.zip"
+    - Aim: merge
