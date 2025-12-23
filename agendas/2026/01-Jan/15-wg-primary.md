@@ -127,6 +127,12 @@ who could not make the primary meeting time.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
 1. [RFC, Type composition](https://github.com/graphql/graphql-spec/issues/1197#issuecomment-3581857997) (5m, Bjørn Wiegell)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-2. Fragments are not for reuse (2m)
+1. Fragments are not for reuse (2m)
     - https://github.com/graphql/graphql-spec/pull/1193
     - Aim: merge
+1. Scalars: remove robustness principle (Martin, 5m)
+    - https://github.com/graphql/graphql-scalars/pull/40
+    - Aim: merge
+2. Scalars: add versioning and `graphql` namespace (Martin, 10m)
+    - https://github.com/graphql/graphql-scalars/pull/42
+    - Aim: gather feedback 
