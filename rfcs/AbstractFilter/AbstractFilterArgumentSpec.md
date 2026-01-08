@@ -1,7 +1,42 @@
-# Abstract Type Filter
+# GraphQL Abstract Type Filter Specification
 
-<!-- todo: rename document title to `@limitTypes Type System Directive` ? -->
-<!-- todo: rename this file `LimitTypes.md` ? -->
+_Status: Strawman_<br>
+_Version: 2026-01-08_
+
+This specification aims to provide a standardized way for clients to communicate
+the exclusive set of types permitted in a resolver’s response when returning one
+or more abstract types (i.e. an Interface or Union return type).
+
+Algorithms are provided for resolvers to enforce this contract at runtime.
+
+In the following example, `allPets` will return **only** `Cat` or `Dog` types:
+
+```graphql example
+{
+  allPets(only: ["Cat", "Dog"]) {
+    ... on Cat { name }
+    ... on Dog { name }
+  }
+}
+```
+
+This is enforced on the server when using the `@limitTypes` type system
+directive.
+
+This specification is intended to be used in conjunction with the
+[GraphQL @matches Directive Specification](./MatchesSpec.html) in order to avoid
+duplicating the list of allowed types passed as a field argument.
+
+**Use Cases**
+
+Applications may implement this specification to provide a filter for what
+type(s) may be returned by a resolver. Notably, the filtering happens on the
+server side, allowing clients to guarantee a fixed length of results.
+
+This may also be used a versioning scheme by applications that dynamically
+render different parts of a user interface mapped from the return type(s) of a
+resolver. Each version of the application can define the exclusive set of types
+it supports displaying in the user interface.
 
 ## @limitTypes
 
@@ -12,7 +47,6 @@ directive @limitTypes on ARGUMENT_DEFINITION
 `@limitTypes` is a type system directive that may be applied to a field
 argument in order to express that it defines the exclusive set of types that the
 field may return.
-<!-- todo: any preference for "that are possible in this position" over "that the field may return"? -->
 
 **Example Usage**
 
@@ -89,12 +123,12 @@ requirements.
 
 ### Filter Argument Validation
 
-:: A *filter argument* is the input value of a field argument with the
-`@limitTypes` directive applied to it.
+:: A *filter argument* is the coerced argument value of a field argument with
+the `@limitTypes` directive applied.
 
-Each type referenced in the filter argument must exist in the type system, and
-be possible in this position for it to be considered a valid input value in the
-context of this specification.
+Each type referenced in the *filter argument* must exist in the type system,
+and be a possible return type of the field to be considered a valid argument in
+the context of this specification.
 
 This validation happens as part of {CoerceAllowedTypes()}, defined below.
 
@@ -191,23 +225,23 @@ value in {allowedTypes}
 }
 ```
 
-### Field Response Validation
+### Field Response Validation (wip)
 
 TODO: if the response array of the field contains a type that did not appear in
 {CoerceAllowedTypes()}, raise an execution error<br><br>
 yes, if a resolver already correctly implements the "Enforcing Allowed Types"
-logic then this isn't neccesary - but - I think this is worth speccing out as a
+logic then this isn't necessary - but - I think this is worth speccing out as a
 dedicated step because this is likely something tooling will want to be able to
 automatically apply to all @limitTypes'd fields as a middleware. This is to
 provide an extra layer of safety (otherwise we're trusting that human
-implementors got it right inside the resolver)
+implementers got it right inside the resolver)
 
-For example, given a filter argument value of `["Cat", "Dog"]`, the following
-would be invalid since {allPets} contains `Mouse`:
+For example, given a *filter argument* of `["Cat", "Dog"]`, the following would
+be invalid since {allPets} contains `Mouse`:
 
 ```json counter-example
 {
-  "data":
+  "data": {
     "allPets": [
       { "__typename": "Cat", "name": "Tom" },
       { "__typename": "Mouse", "name": "Jerry" }
@@ -215,3 +249,10 @@ would be invalid since {allPets} contains `Mouse`:
   }
 }
 ```
+
+...is this even possible? this assumes that client asks for `__typename`
+which isn't guaranteed. https://spec.graphql.org/draft/#ResolveAbstractType()
+likely is not possible since this logic is intended to be run generically as a
+middleware - i.e _after_ the field has completed, and the in-memory object
+representation has been converted into json blob (potentially without
+`__typename`)

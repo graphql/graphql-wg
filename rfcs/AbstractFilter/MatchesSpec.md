@@ -1,13 +1,20 @@
-# @matches Executable Directive
+# GraphQL @matches Directive Specification
+
+_Status: Strawman_<br>
+_Version: 2026-01-08_
 
 `@matches` is an executable directive that clients or code generation tools
-may provide in order to generate the input value for a field argument using the
-`@limitTypes` directive.
+may provide in order to generate the input value for a field argument which uses
+`@limitTypes` type system directive.
 
-Note: Usage of `@matches` is optional, but recommended to avoid duplication
-of the list of allowed types.
+Users of this specification must also implement
+the [GraphQL Abstract Type Filter Specification](./AbstractFilterSpec.html)
+on the server in order to enforce the type matching contract at runtime.
 
-## @matches Directive
+Note: Usage of `@matches` is optional, but recommended to avoid duplication of
+the list of allowed types.
+
+## @matches
 
 ```graphql
 directive @matches(
@@ -17,7 +24,7 @@ directive @matches(
 
 **Directive Arguments**
 
-argument
+argument:
 :   The name of the argument to populate with the list of allowed types.
     Defaults to `"only"`.
 
@@ -25,8 +32,8 @@ TODO: Introduce the `sort` flag
 
 **Example Usage**
 
-This operation is written to express that the `getMedia` field may only return
-types that are selected for in the field's selection set:
+This operation expresses that the `allPets` field may only return types that
+are selected for in the field's selection set (`Cat` and `Dog`):
 
 ```graphql example
 {
@@ -37,7 +44,7 @@ types that are selected for in the field's selection set:
 }
 ```
 
-The result of applying the transform would be:
+The result of applying the document transform would be:
 
 ```graphql example
 {
