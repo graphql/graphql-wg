@@ -108,8 +108,8 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Bjørn Wiegell    | @wiegell      | Trifork            | Aarhus, Denmark, DK   |
-| Martin Bonnin    | @martinbonnin      | Apollo            | Paris, FR   |
-
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -125,14 +125,16 @@ who could not make the primary meeting time.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. **TSC elections**: voting now open (2m, Host)
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+1. **TSC**: [Create community specs repository?](https://github.com/graphql/graphql-wg/issues/1879) (10m,
+   Benjie)
 1. [RFC, Type composition](https://github.com/graphql/graphql-spec/issues/1197#issuecomment-3581857997) (5m, Bjørn Wiegell)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-1. Fragments are not for reuse (2m)
+1. Fragments are not for reuse (2m, Martin)
     - https://github.com/graphql/graphql-spec/pull/1193
     - Aim: merge
-1. Scalars: remove robustness principle (Martin, 5m)
+1. Scalars: remove robustness principle (5m, Martin)
     - https://github.com/graphql/graphql-scalars/pull/40
     - Aim: merge
-2. Scalars: add versioning and `graphql` namespace (Martin, 10m)
+1. Scalars: add versioning and `graphql` namespace (10m, Martin)
     - https://github.com/graphql/graphql-scalars/pull/42
     - Aim: gather feedback 
