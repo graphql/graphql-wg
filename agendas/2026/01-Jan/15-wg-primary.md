@@ -110,6 +110,7 @@ who could not make the primary meeting time.
 | Bjørn Wiegell    | @wiegell      | Trifork            | Aarhus, Denmark, DK   |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 ## Agenda
 
