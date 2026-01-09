@@ -1,42 +1,4 @@
-# GraphQL Abstract Type Filter Specification
-
-_Status: Strawman_<br>
-_Version: 2026-01-08_
-
-This specification aims to provide a standardized way for clients to communicate
-the exclusive set of types permitted in a resolver’s response when returning one
-or more abstract types (i.e. an Interface or Union return type).
-
-Algorithms are provided for resolvers to enforce this contract at runtime.
-
-In the following example, `allPets` will return **only** `Cat` or `Dog` types:
-
-```graphql example
-{
-  allPets(only: ["Cat", "Dog"]) {
-    ... on Cat { name }
-    ... on Dog { name }
-  }
-}
-```
-
-This is enforced on the server when using the `@limitTypes` type system
-directive.
-
-This specification is intended to be used in conjunction with the
-[GraphQL @matches Directive Specification](./MatchesSpec.html) in order to avoid
-duplicating the list of allowed types passed as a field argument.
-
-**Use Cases**
-
-Applications may implement this specification to provide a filter for what
-type(s) may be returned by a resolver. Notably, the filtering happens on the
-server side, allowing clients to guarantee a fixed length of results.
-
-This may also be used a versioning scheme by applications that dynamically
-render different parts of a user interface mapped from the return type(s) of a
-resolver. Each version of the application can define the exclusive set of types
-it supports displaying in the user interface.
+# Abstract Type Filter Argument
 
 ## @limitTypes
 
@@ -45,8 +7,11 @@ directive @limitTypes on ARGUMENT_DEFINITION
 ```
 
 `@limitTypes` is a type system directive that may be applied to a field
-argument in order to express that it defines the exclusive set of types that the
-field may return.
+argument definition in order to express that it will define the exclusive set of
+types that the field is allowed to return.
+
+The server must enforce and validate the allowed types according to this
+specification.
 
 **Example Usage**
 
@@ -64,10 +29,6 @@ type Cat implements Pet {
 }
 
 type Dog implements Pet {
-  name: String!
-}
-
-interface Human {
   name: String!
 }
 ```
@@ -93,10 +54,6 @@ type PetEdge {
   cursor: String!
   node: Pet
 }
-
-interface Pet {
-  name: String!
-}
 ```
 
 ## Schema Validation
@@ -112,46 +69,27 @@ returns either:
 
 - an abstract type
 - a list of an abstract type
-- a connection type (conforming to
-[the GraphQL Cursor Connections Specification](https://relay.dev/graphql/connections.htm#sec-Connection-Types)) over an abstract type
+- a connection type (conforming to the
+  [GraphQL Cursor Connections Specification](https://relay.dev/graphql/connections.htm#sec-Connection-Types)
+  over an abstract type)
 
 ## Execution
 
 The `@limitTypes` directive places requirements on the {resolver} used to
-satisfy the field. Implementers of this specification must honour these
+satisfy the field. Implementers of this specification must honor these
 requirements.
 
-### Filter Argument Validation
+### Coercing Allowed Types
 
-:: A *filter argument* is the coerced argument value of a field argument with
-the `@limitTypes` directive applied.
+:: A *filter argument* is a field argument which has the `@limitTypes`
+directive applied.
 
-Each type referenced in the *filter argument* must exist in the type system,
-and be a possible return type of the field to be considered a valid argument in
-the context of this specification.
+The input to the *filter argument* is a list of strings, however this must be
+made meaningful to the resolver such that it may perform its filtering - thus we
+must resolve it into a list of valid concrete object types that are possible in
+this position.
 
-This validation happens as part of {CoerceAllowedTypes()}, defined below.
-
-```graphql counter-example
-{
-  allPets(only: ["Cat", "Dog", "LochNessMonster"]) {
-    name
-  }
-}
-```
-
-The example above must yield an execution error, since `LochNessMonster` is not
-a type that exists in the type system.
-
-Note: Filter argument validation is necessary as schema-unaware clients are
-otherwise unable to verify the correctness of this argument.
-
-### Coerce Allowed Types
-
-The input to the filter argument is a list of strings, however this must be made
-meaningful to the resolver such that it may perform its filtering - thus we must
-resolve it into a list of valid concrete object types that are possible in this
-position.
+:: The coerced list of valid concrete object types are the *allowed types*.
 
 CoerceAllowedTypes(abstractType, typeNames):
 
@@ -162,7 +100,7 @@ CoerceAllowedTypes(abstractType, typeNames):
   - If {type} does not exist, raise an execution error.
   - If {type} is an object type:
     - If {type} is a member of {possibleTypes}, add {type} to {allowedTypes}.
-    - Otherwise, raise an exection error.
+    - Otherwise, raise an execution error.
   - Otherwise, if {type} is a union type:
     - For each {concreteType} in {type}:
       - If {concreteType} is a member of {possibleTypes}, add {concreteType} to
@@ -171,23 +109,76 @@ CoerceAllowedTypes(abstractType, typeNames):
     - For each {concreteType} that implements {type}:
       - If {concreteType} is a member of {possibleTypes}, add {concreteType} to
         {allowedTypes}.
-  - Otherwise continue to the next {typeName}.
+  - Otherwise, raise an execution error (scalars, enums, and input types are not
+    valid filter argument values).
 - Return {allowedTypes}.
 
-### Enforcing Allowed Types
+**Explanatory Text**
 
-Enforcement of the allowed types is the responsibility of the {resolver} called
-in
+The input to the *filter argument* may include both concrete and abstract types.
+{CoerceAllowedTypes} expands *allowed types* to include the possible and valid
+concrete types for each abstract type.
+
+To see why this is needed, we will expand our example schema above to include
+the following types:
+
+```graphql example
+interface Fish {
+  swimSpeed: Int!
+}
+  
+type Goldfish implements Pet & Fish {
+  name: String!
+  swimSpeed: Int!
+}
+
+type Haddock implements Fish {
+  swimSpeed: Int!
+}
+```
+
+It is possible for types to implement multiple interfaces. It therefore must be
+possible to select concrete types of another interface in the *filter argument*:
+
+```graphql example
+{
+  allPets(only: ["Fish"]) {
+    ... on Goldfish {
+      swimSpeed 
+    }
+  }
+}
+```
+
+The below example must fail, since `Haddock` does not implement the `Pet`
+interface, and is therefore not a possible return type.
+
+```graphql counter-example
+{
+  allPets(only: ["Haddock"]) {
+    ... on Fish {
+      swimSpeed
+    }
+  }
+}
+```
+
+### Allowed Types Restriction
+
+Enforcement of the *allowed types* is the responsibility of the {resolver}
+called in
 [`ResolveFieldValue()`](<https://spec.graphql.org/draft/#ResolveFieldValue()>)
 during the [`ExecuteField()`](<https://spec.graphql.org/draft/#ExecuteField()>)
-algorithm. This is because the filtering must be applied to the {collection}
-prior to applying the pagination arguments.
+algorithm.
 
-When the field returns an abstract type, the {collection} is a list containing
-a single element which is that type. When the field returns a list of an
-abstract type, the {collection} is this list. When the field returns a
-connection type over an abstract type, the {collection} is the list of abstract
-type the connection represents.
+:: When the field returns an abstract type, the *collection* is this type.
+When the field returns a list of an abstract type, the *collection* is this
+list. When the field returns a connection type over an abstract type, the
+*collection* is the list of abstract type the connection represents.
+
+The resolver must apply this restriction when fetching or generating the source
+data to produce the *collection*. This is because the filtering must occur prior
+to applying pagination logic in order to produce the correct number of results.
 
 When a field with a `@limitTypes` argument is being resolved:
 
@@ -201,19 +192,71 @@ When a field with a `@limitTypes` argument is being resolved:
 - Let {abstractType} be the abstract type the {collection} represents.
 - Let {allowedTypes} be {CoerceAllowedTypes(abstractType, limitTypes)}.
 
-The resolver must ensure that the result of
-[`ResolveAbstractType()`](<https://spec.graphql.org/draft/#ExecuteField()>) for
-each entry in {collection} is a type within {allowedTypes}. The resolver must
-apply this restriction before applying any pagination arguments.
-
 Note: The restriction must be applied before pagination arguments so that
-non-terminal pages in the {collection} get full representation - i.e. there are
-no gaps.
+non-terminal pages in the collection get full representation - i.e. there
+are no gaps.
 
-### Field Collection Validation
+## Validation Algorithms
 
-TODO: the following should raise an error since `Mouse` does not appear as a
-value in {allowedTypes}
+`@limitTypes` fields must implement the algorithms listed in the
+[Execution](#Execution) section above to be spec-compliant. However, it may be
+impossible or extremely difficult for GraphQL servers to statically verify the
+correctness of the runtime and prevent non-compliant implementations.
+
+To this end, this section specifies a set of algorithms in order for the server
+to validate that the *filter argument* value and the field response are valid.
+
+Usage of these algorithms is **optional**, but highly recommended to guard
+against programmer error.
+
+All algorithms in this section run either before or after 
+[`ResolveFieldValue()`](<https://spec.graphql.org/draft/#ResolveFieldValue()>),
+and must be run automatically by the server when executing fields for which
+the `@limitTypes` directive is applied,
+
+### Filter Argument Value Validation
+
+Each member of the *filter argument* value must exist in the type system and be
+a possible return type of the field.
+
+For example, the query below must yield an execution error - since
+`LochNessMonster` is not a type that exists in the example schema.
+
+```graphql counter-example
+{
+  allPets(only: ["Cat", "Dog", "LochNessMonster"]) {
+    name
+  }
+}
+```
+
+When used, this algorithm must be applied before
+[`ResolveFieldValue()`](<https://spec.graphql.org/draft/#ResolveFieldValue()>).
+
+ValidateFilterArgument(filterArgumentValue):
+
+- Let {abstractType} be the abstract type the {collection} represents.
+- Let {possibleTypes} be a set of the possible types of {abstractType}.
+- For each {typeName} in {filterArgumentValue}:
+  - Let {type} be the type in the schema named {typeName}.
+  - If {type} does not exist, raise an execution error.
+  - If {type} is an object type:
+    - If {type} is not a member of {possibleTypes} raise an execution error.
+  - Otherwise, if {type} is a union type:
+    - ??? todo
+  - Otherwise, if {type} is an interface type:
+    - ??? todo
+  - Otherwise, raise an execution error (scalars, enums, and input types are not
+    valid filter argument values).
+- Return {allowedTypes}.
+
+Note: Schema-aware clients or linting tools are encouraged to implement this
+validation locally.
+
+### Field Collection Validation (wip)
+
+For example, the following query must raise an execution error since `Mouse`
+does not appear as a value in {allowedTypes}
 
 ```graphql counter-example
 {
@@ -224,6 +267,8 @@ value in {allowedTypes}
   }
 }
 ```
+
+TODO: implement algorithm
 
 ### Field Response Validation (wip)
 
@@ -256,3 +301,5 @@ likely is not possible since this logic is intended to be run generically as a
 middleware - i.e _after_ the field has completed, and the in-memory object
 representation has been converted into json blob (potentially without
 `__typename`)
+
+or can we look at using \_\_resolveType()?

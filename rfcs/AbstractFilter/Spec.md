@@ -1,21 +1,21 @@
 # GraphQL Abstract Type Filter Specification
 
-_Status: Strawman_
+_Status: Strawman_<br>
+_Version: 2026-01-09_
 
 This specification aims to provide a standardized way for clients to communicate
-the exclusive set of types permitted in a resolver’s response when returning one
+the exclusive set of types allowed in a resolver’s response when returning one
 or more abstract types (i.e. an Interface or Union return type).
 
 Algorithms are provided for resolvers to enforce this contract at runtime.
 
-In the following example, `getMedia` will return **only** `Book` or `Movie`
-types:
+In the following example, `allPets` will return **only** `Cat` or `Dog` types:
 
 ```graphql example
-query GetMedia {
-  getMedia(only: ["Book", "Movie"]) {
-    ... on Book { author }
-    ... on Movie { director }
+{
+  allPets(only: ["Cat", "Dog"]) {
+    ... on Cat { name }
+    ... on Dog { name }
   }
 }
 ```
@@ -24,16 +24,14 @@ This is enforced on the server when using the `@limitTypes` type system
 directive:
 
 ```graphql example
-union Media = Book | Movie | Opera
-
 type Query {
-  getMedia(only: [String] @limitTypes): Media
+  allPets(only: [String] @limitTypes): [Pet]
 }
 ```
 
 **@matches**
 
-This document also specifies a `@matches` executable directive. Client tooling
+This document also specifies the `@matches` executable directive. Client tooling
 may implement this to let query authors avoid manually defining the allowed
 types (which is implicitly already defined inside the
 [selection set](<https://spec.graphql.org/draft/#sec-Selection-Sets>) of the
@@ -43,10 +41,10 @@ The following example is identical to the query above when compiled (either at
 build time, or as a runtime transformation):
 
 ```graphql example
-query GetMedia {
-  getMedia @matches {
-    ... on Book { title author }
-    ... on Movie { title director }
+{
+  allPets @matches {
+    ... on Cat { name }
+    ... on Dog { name }
   }
 }
 ```
@@ -64,4 +62,3 @@ it supports displaying in the user interface.
 
 # [AbstractFilterArgumentSpec](AbstractFilterArgumentSpec.md)
 # [Matches](Matches.md)
-
