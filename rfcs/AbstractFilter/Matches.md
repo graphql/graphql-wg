@@ -1,18 +1,4 @@
-# GraphQL @matches Directive Specification
-
-_Status: Strawman_<br>
-_Version: 2026-01-08_
-
-`@matches` is an executable directive that clients or code generation tools
-may provide in order to generate the input value for a field argument which uses
-`@limitTypes` type system directive.
-
-Users of this specification must also implement
-the [GraphQL Abstract Type Filter Specification](./AbstractFilterSpec.html)
-on the server in order to enforce the type matching contract at runtime.
-
-Note: Usage of `@matches` is optional, but recommended to avoid duplication of
-the list of allowed types.
+# @matches Directive
 
 ## @matches
 
@@ -21,6 +7,13 @@ directive @matches(
   argument: String! = "only"
 ) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT
 ```
+
+*@matches* is an executable directive that clients or code generation tools
+may provide in order to generate the input value for a field argument which uses
+`@limitTypes` type system directive.
+
+Note: Usage of `@matches` is optional, but recommended to avoid duplication of
+the list of allowed types.
 
 **Directive Arguments**
 
@@ -117,12 +110,12 @@ CollectAllowedTypes(selectionSet):
     - For each {edgeSelection} in {edgesSelectionSet}:
       - If {edgeSelection} is a Field and its name is {"node"}:
         - Let {nodeSelectionSet} be the selection set of {edgeSelection}.
-        - Let {nodeTypes} be CollectAllowedTypes({nodeSelectionSet}).
+        - Let {nodeTypes} be {CollectAllowedTypes(nodeSelectionSet)}.
         - Add each type in {nodeTypes} to {allowedTypes}.
 - Return {allowedTypes}.
 
 <!--
-TODO: handle the following case
+TODO: ~handle~ explicitly disallow the following case
 
   allPetsConnection @matches {
     ... on ConnectionType { pageInfo { } }  # Fragment on the Connection type itself
@@ -133,8 +126,6 @@ TODO: handle the following case
       }
     }
   }
-
-CollectAllowedTypes needs to branch based on if it's a connection or not.
 -->
 
 TransformDocument(document):
@@ -145,7 +136,7 @@ TransformDocument(document):
   - Let {argumentName} be the argument value of the {"argument"} argument of {matchesDirective}
   - If {field} has an argument named {argumentName}, raise an error.
   - Let {selectionSet} be the selection set of {field}.
-  - Let {allowedTypes} be CollectAllowedTypes({selectionSet}).
+  - Let {allowedTypes} be {CollectAllowedTypes(selectionSet)}.
   - Let {typeNames} be a list of the names of each type in {allowedTypes}.
   - Add an argument named {argumentName} with value {typeNames} to {field}.
   - Remove {matchesDirective} from {field}.
