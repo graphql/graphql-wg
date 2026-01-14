@@ -133,7 +133,7 @@ who could not make the primary meeting time.
 1. **TSC**: [Create community specs repository?](https://github.com/graphql/graphql-wg/issues/1879) (10m,
    Benjie)
 1. [RFC, Type composition](https://github.com/graphql/graphql-spec/issues/1197#issuecomment-3581857997) (5m, Bjørn Wiegell)
-1. Fragments are not for reuse (2m, Martin)
+1. Fragments are not for reuse (2m, Janette)
     - https://github.com/graphql/graphql-spec/pull/1193
     - Aim: merge
 1. Scalars: remove robustness principle (5m, Martin)
