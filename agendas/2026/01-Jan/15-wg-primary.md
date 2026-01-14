@@ -112,6 +112,8 @@ who could not make the primary meeting time.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+
 
 ## Agenda
 
@@ -141,3 +143,6 @@ who could not make the primary meeting time.
     - https://github.com/graphql/graphql-scalars/pull/42
     - Aim: gather feedback 
 1. [The GraphQL Golden Path Initiative](https://github.com/graphql/graphql-wg/issues/1887) (10m, Benjie)
+1. Directives on directive definitions (5m, Benoit)
+    - https://github.com/graphql/graphql-spec/pull/1206 and https://github.com/graphql/graphql-js/pull/4521
+    - Aim: gather feedback
