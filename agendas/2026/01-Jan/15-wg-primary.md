@@ -115,6 +115,8 @@ who could not make the primary meeting time.
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mmahoney     | Meta               | New York, NY, US      |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
