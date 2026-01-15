@@ -119,6 +119,7 @@ who could not make the primary meeting time.
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Ivan Goncharov   | @IvanGoncharov | Keenethics        | Lviv, UA              |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Uri Goldshtein   | @urig         | The Guild          | Tel Aviv, IL          |
 
 
 ## Agenda
