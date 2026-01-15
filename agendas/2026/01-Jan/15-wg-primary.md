@@ -113,6 +113,7 @@ who could not make the primary meeting time.
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Matt Mahoney     | @mmahoney     | Meta               | New York, NY, US      |
 
 
 ## Agenda
