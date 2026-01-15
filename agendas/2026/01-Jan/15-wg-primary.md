@@ -118,6 +118,7 @@ who could not make the primary meeting time.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Ivan Goncharov   | @IvanGoncharov | Keenethics        | Lviv, UA              |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, US        |
 
 
 ## Agenda
