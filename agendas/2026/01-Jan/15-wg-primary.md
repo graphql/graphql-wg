@@ -138,8 +138,11 @@ who could not make the primary meeting time.
     - Aim: merge
 1. Scalars: add versioning and `graphql` namespace (2m Martin)
     - https://github.com/graphql/graphql-scalars/pull/42
-    - Aim: gather feedback 
-1. [The GraphQL Golden Path Initiative](https://github.com/graphql/graphql-wg/issues/1887) (10m, Benjie)
+    - Aim: gather feedback
 1. Directives on directive definitions (5m, Benoit)
     - https://github.com/graphql/graphql-spec/pull/1206 and https://github.com/graphql/graphql-js/pull/4521
     - Aim: gather feedback
+1. [The GraphQL Golden Path Initiative](https://github.com/graphql/graphql-wg/issues/1887) (15m, Benjie)
+1. [Service capabilities](https://github.com/graphql/graphql-spec/pull/1208) (10m, Benjie)
+   - Current status: RFC1 via original [Error behaviors/service capabilities PR](https://github.com/graphql/graphql-spec/pull/1163)
+   - Aim: agree on syntax
