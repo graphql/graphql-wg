@@ -1,13 +1,11 @@
 # GraphQL Abstract Type Filter Specification
 
 _Status: Strawman_<br>
-_Version: 2026-01-09_
+_Version: 2026-01-14_
 
 This specification aims to provide a standardized way for clients to communicate
 the exclusive set of types allowed in a resolver’s response when returning one
 or more abstract types (i.e. an Interface or Union return type).
-
-Algorithms are provided for resolvers to enforce this contract at runtime.
 
 In the following example, `allPets` will return **only** `Cat` or `Dog` types:
 

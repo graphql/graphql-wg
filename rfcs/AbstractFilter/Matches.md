@@ -5,6 +5,7 @@
 ```graphql
 directive @matches(
   argument: String! = "only"
+  sort: Boolean! = true
 ) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT
 ```
 
@@ -17,11 +18,18 @@ the list of allowed types.
 
 **Directive Arguments**
 
-argument:
-:   The name of the argument to populate with the list of allowed types.
-    Defaults to `"only"`.
+argument
+:   The name of the field argument to populate with the list of allowed types.
+    Defaults to {"only"}.
 
-TODO: Introduce the `sort` flag
+sort
+:   Whether or not to alphabetically sort the generated value for {argument}.
+    This normalization avoids unintentional cache misses for fields that have
+    otherwise equivalent {argument} values. Defaults to {true}.
+
+Note: If the ordering of type conditions in a selection set carries semantic
+meaning (such as indicating preference or priority), {sort} can be set to
+{false} to persist this ordering in the resulting {argument} value.
 
 **Example Usage**
 
@@ -133,11 +141,13 @@ TransformDocument(document):
 - For each {field} in {document}:
   - Let {matchesDirective} be the directive named {"matches"} applied to {field}.
   - If {matchesDirective} does not exist, continue to the next {field}.
-  - Let {argumentName} be the argument value of the {"argument"} argument of {matchesDirective}
+  - Let {argumentName} be the argument value of the {"argument"} argument of {matchesDirective}.
+  - Let {shouldSort} be the argument value of the {"sort"} argument of {matchesDirective}.
   - If {field} has an argument named {argumentName}, raise an error.
   - Let {selectionSet} be the selection set of {field}.
   - Let {allowedTypes} be {CollectAllowedTypes(selectionSet)}.
   - Let {typeNames} be a list of the names of each type in {allowedTypes}.
+  - If {shouldSort} is {true}, sort {typeNames} alphabetically.
   - Add an argument named {argumentName} with value {typeNames} to {field}.
   - Remove {matchesDirective} from {field}.
 - Return {document}.
