@@ -117,6 +117,7 @@ who could not make the primary meeting time.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Ivan Goncharov   | @IvanGoncharov | Keenethics        | Lviv, UA              |
 
 
 ## Agenda
