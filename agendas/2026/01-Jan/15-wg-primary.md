@@ -136,10 +136,7 @@ who could not make the primary meeting time.
 1. Fragments are not for reuse (2m, Janette)
     - https://github.com/graphql/graphql-spec/pull/1193
     - Aim: merge
-1. Scalars: remove robustness principle (5m, Martin)
-    - https://github.com/graphql/graphql-scalars/pull/40
-    - Aim: merge
-1. Scalars: add versioning and `graphql` namespace (10m, Martin)
+1. Scalars: add versioning and `graphql` namespace (2m Martin)
     - https://github.com/graphql/graphql-scalars/pull/42
     - Aim: gather feedback 
 1. [The GraphQL Golden Path Initiative](https://github.com/graphql/graphql-wg/issues/1887) (10m, Benjie)
