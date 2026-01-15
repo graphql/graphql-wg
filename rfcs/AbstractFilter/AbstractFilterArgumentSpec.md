@@ -217,7 +217,7 @@ the `@limitTypes` directive is applied,
 ### Filter Argument Value Validation
 
 Each member of the *filter argument* value must exist in the type system and be
-a possible return type of the field.
+a member type of {collection}.
 
 For example, the query below must yield an execution error - since
 `LochNessMonster` is not a type that exists in the example schema.
@@ -230,8 +230,8 @@ For example, the query below must yield an execution error - since
 }
 ```
 
-When used, this algorithm must be applied before
-[`ResolveFieldValue()`](<https://spec.graphql.org/draft/#ResolveFieldValue()>).
+When used, this algorithm must be applied before the execution of the resolver
+provided by the application code.
 
 ValidateFilterArgument(filterArgumentValue):
 
@@ -243,12 +243,19 @@ ValidateFilterArgument(filterArgumentValue):
   - If {type} is an object type:
     - If {type} is not a member of {possibleTypes} raise an execution error.
   - Otherwise, if {type} is a union type:
-    - ??? todo
+    - Let {hasValidMember} be {false}.
+    - For each {concreteType} in {type}:
+      - If {concreteType} is a member of {possibleTypes}, let {hasValidMember}
+        be {true}.
+    - If {hasValidMember} is {false}, raise an execution error.
   - Otherwise, if {type} is an interface type:
-    - ??? todo
+    - Let {hasValidMember} be {false}.
+    - For each {concreteType} that implements {type}:
+      - If {concreteType} is a member of {possibleTypes}, let {hasValidMember}
+        be {true}.
+    - If {hasValidMember} is {false}, raise an execution error.
   - Otherwise, raise an execution error (scalars, enums, and input types are not
     valid filter argument values).
-- Return {allowedTypes}.
 
 Note: Schema-aware clients or linting tools are encouraged to implement this
 validation locally.
