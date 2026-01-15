@@ -114,6 +114,7 @@ who could not make the primary meeting time.
 | Janette Cheng    | @janettec     | Meta               | New York, NY, US      |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mmahoney     | Meta               | New York, NY, US      |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -147,3 +148,6 @@ who could not make the primary meeting time.
 1. [Service capabilities](https://github.com/graphql/graphql-spec/pull/1208) (10m, Benjie)
    - Current status: RFC1 via original [Error behaviors/service capabilities PR](https://github.com/graphql/graphql-spec/pull/1163)
    - Aim: agree on syntax
+1. Defer/Stream (5m, Rob)
+   - Request for review: https://github.com/graphql/graphql-spec/pull/1203
+   - Aim: Merge to integration branch
