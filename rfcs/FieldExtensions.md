@@ -1,3 +1,10 @@
+# Status
+
+> [!IMPORTANT]
+> This document is not being worked on at the moment. For the latest status, refer to the [graphql-spec issue](https://github.com/graphql/graphql-spec/issues/1162).
+
+---
+
 # RFC: Field Extensions
 
 **Champion:** [Emily Goodwin](https://github.com/egoodwinx)
