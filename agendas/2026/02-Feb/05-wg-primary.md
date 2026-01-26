@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Martin Bonnin | @martinbonnin    | Apollo | Paris, FR |
 
 
 ## Agenda
@@ -126,5 +127,8 @@ hold additional secondary meetings later in the month.
    - [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Field extensions (2min Emily, Martin)
-   - https://github.com/graphql/graphql-spec/pull/1196
+   - https://github.com/graphql/graphql-spec/issues/1162
    - Aim: RFC1
+1. Fragments are not for reuse (2min, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1193
+   - Aim: merge
