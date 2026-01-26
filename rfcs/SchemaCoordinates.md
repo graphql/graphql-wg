@@ -1,3 +1,10 @@
+# Status 
+
+> [!IMPORTANT] 
+> This RFC has been [merged](https://github.com/graphql/graphql-spec/pull/794) and is now part of the specification.
+
+--- 
+
 # RFC: Schema Coordinates
 
 **Proposed by:** [Mark Larah](https://twitter.com/mark_larah) - Yelp
