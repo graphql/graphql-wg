@@ -125,3 +125,6 @@ hold additional secondary meetings later in the month.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. Field extensions (2min Emily, Martin)
+   - https://github.com/graphql/graphql-spec/pull/1196
+   - Aim: RFC1
