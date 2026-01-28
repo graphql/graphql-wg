@@ -34,21 +34,13 @@ For an example, the below query is valid if the server uses the latest draft but
 
 In general, it would be nice to have a SDL format that would be a full representation of the server schema, even if it means it is more verbose.
 
+With the advent of [service capabilities](https://github.com/graphql/graphql-spec/pull/1163), some SDL information is tied to the implementation and not to the type system. It makes sense to have "full schemas" contain this, but not too much in "source schemas"
+
 This proposal is about allowing SDL documents that contain all the information required for tooling to validate any operation, later denominated as "full schema".
 
-## Proposal 1: relax SDL requirements
+## Proposal: be explicit about "full schemas" vs "source schemas"
 
-An easy solution is to relax the SDL requirements and leave it up to tools to determine how they react to missing or existing built-in definitions.
-
-A GraphQL implementation like graphql-js could decide to throw an error if it is fed with a definition that it itself provides. It could also decide to react on what is in the input schema. For an example, `@include`/`@skip` could be left unsupported by not adding them in the input schema.
-
-A GraphQL client like apollo-kotlin could decide to throw an error if the introspection types are missing. Or add options to specify manually what built-in definitions to use for validation.
-
-## Proposal 2: be explicit about "full schemas" vs current, regular "schemas"
-
-Another solution is to introduce "full schemas" in addition to the existing SDL schemas. A "full schema" is a schema that also contains the built-in definitions added by the implementation.
-
-This proposal is more opinionated but also less flexible than proposal 1. It's either "regular schema" or "full schema" but an implementation could not decide to use some of the input definitions while still adding its own on top of them. 
+Introduce "full schemas" in addition to the existing SDL schemas. A "full schema" is a schema that also contains the built-in definitions and service capabilities added by the implementation.
 
 ## Questions
 
