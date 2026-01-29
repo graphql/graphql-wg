@@ -70,7 +70,6 @@ own meetings and report back progress and decisions to GraphQL WG meetings.
 | ----------------- | ------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | GraphiQL          | 2nd Tue, 09:00am - 11:00am PT   | [Dima Postolov](https://github.com/dimamachina)  | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)                   |
 | GraphQL-over-HTTP | Last Thu, 11:00am - 12:00am PT  | [Benjie Gillam](https://github.com/benjie)       | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
-| Nullability       | Last Wed, 19:00 - 20:00 UTC     | [Alex Reilly](https://github.com/twof)           | [graphql/nullability-wg](https://github.com/graphql/nullability-wg)                                             |
 | Composite Schema  | Every Thu, 18:00 - 19:00 CET    | [Michael Staib](https://github.com/michaelstaib) | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
 | GraphQL.js        | Last Wed, 17:00am - 18:00am UTC | [Jovi DeCroock](https://github.com/JoviDeCroock) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
 | Community         | 2nd Thu, 08:00am - 09:00am PT   | [Uri Goldshtein](https://github.com/urigo)       | [graphql/community-wg](https://github.com/graphql/community-wg)                                                 |
@@ -86,6 +85,7 @@ is on hiatus, please raise an issue in the WG repository and mention the host.
 | Subcommittee         | Time                           | Host                                               | Agenda Repo                                                                                                     |
 | -------------------- | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Incremental Delivery | 2nd Mon, 10:00am - 11:00am EST | [Rob Richard](https://github.com/robrichard)       | [graphql/defer-stream-wg](https://github.com/graphql/defer-stream-wg) (returned to the main spec WG for review) |
+| Nullability       | Last Wed, 19:00 - 20:00 UTC     | [Alex Reilly](https://github.com/twof)           | [graphql/nullability-wg](https://github.com/graphql/nullability-wg)                                             |
 
 ### Joining a meeting?
 
