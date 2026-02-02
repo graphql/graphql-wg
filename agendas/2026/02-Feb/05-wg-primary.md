@@ -105,8 +105,9 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Martin Bonnin | @martinbonnin    | Apollo | Paris, FR |
-| Emily Goodwin | @egoodwinx       | N/A    | Toronto, ON, CAN |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Emily Goodwin    | @egoodwinx    | N/A                | Toronto, ON, CAN      |
+| Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
 
 ## Agenda
 
@@ -132,3 +133,6 @@ hold additional secondary meetings later in the month.
 1. Fragments are not for reuse (2min, Martin)
    - https://github.com/graphql/graphql-spec/pull/1193
    - Aim: merge
+1. AI working group updates (5-10min, Kewei)
+   - Provide a high level summary of the work streams from the last couple AI working group sessions
+   - Specifically highlight @mock and semantic introspection
