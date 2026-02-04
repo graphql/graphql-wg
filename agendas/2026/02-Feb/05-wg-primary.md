@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Emily Goodwin    | @egoodwinx    | N/A                | Toronto, ON, CAN      |
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 ## Agenda
 
