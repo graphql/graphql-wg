@@ -136,3 +136,6 @@ hold additional secondary meetings later in the month.
 1. AI working group updates (5-10min, Kewei)
    - Provide a high level summary of the work streams from the last couple AI working group sessions
    - Specifically highlight @mock and semantic introspection
+1. Archiving nullability-wg (2min, Martin)
+   - https://github.com/graphql/nullability-wg/issues/121
+   - Aim: archive the repo
