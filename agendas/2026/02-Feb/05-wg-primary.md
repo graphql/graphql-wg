@@ -152,3 +152,8 @@ hold additional secondary meetings later in the month.
 1. Archiving nullability-wg (2min, Martin)
    - https://github.com/graphql/nullability-wg/issues/121
    - Aim: archive the repo
+1. Clarifying "produced" schema vs "human written schema" as official wording in the spec (5min, Mark)
+   - Add a @compileOnly directive that compile-time directives (e.g. @mergeInterfaceFields) can be tagged as
+   - Further complicates  [#300](https://github.com/graphql/graphql-spec/issues/300) :P
+   - Allows other [GAPs](https://github.com/graphql/gaps) to build on top of this primative and specify where 
+   - Bonus: Similar thing for queries? (e.g. __typename gets auto-added after trusted document hashing, similar for @mock)
