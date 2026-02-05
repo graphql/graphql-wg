@@ -1,3 +1,4 @@
 agendas/*/*.md
 agendas/*/*/*.md
 rfcs/SemanticNullability.md
+GraphQL-TSC.md
