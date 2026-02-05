@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin    | Apollo | Paris, FR |
+| Rob Richard   | @robrichard      | 1stDibs | New Jersey, US |
 
 
 ## Agenda
@@ -127,3 +128,6 @@ who could not make the primary meeting time.
    - https://github.com/graphql/graphql-wg/issues/1673
    - Aim: triage the issues on `graphql-spec` and `graphql-wg`, reactivate the ones that are actionable and close the ones that are not.
    - Please take a look at your `graphql-spec` and `graphql-wg` issues, especially the ones marked "stale" and update them if there any new information.
+1. Defer/Stream (30m, Rob)
+   - Group review of https://github.com/graphql/graphql-spec/pull/1203
+   - Aim: merge to integration branch
