@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
