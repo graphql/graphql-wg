@@ -116,6 +116,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York, NY, US      |
 | Stephen Spalding | @fotoetienne  | Netflix            | Chattanooga, TN, US   |
 | Michael Staib    | @michaelstaib | ChilliCream Inc.   | Zurich, CH            |
+| Alex Reilly | @twof     | DoorDash | San Francisco, CA, US |
 
 ## Agenda
 
