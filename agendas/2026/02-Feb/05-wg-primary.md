@@ -156,4 +156,5 @@ hold additional secondary meetings later in the month.
    - Add a @compileOnly directive that compile-time directives (e.g. @mergeInterfaceFields) can be tagged as
    - Further complicates  [#300](https://github.com/graphql/graphql-spec/issues/300) :P
    - Allows other [GAPs](https://github.com/graphql/gaps) to build on top of this primative and specify where 
+   - Write-up: https://i.fluffy.cc/jnDhpNw4635WQjT9rqmtRZX829WB3F5H.html (from https://discord.com/channels/625400653321076807/862834364718514196/1461751671767175198)
    - Bonus: Similar thing for queries? (e.g. __typename gets auto-added after trusted document hashing, similar for @mock)
