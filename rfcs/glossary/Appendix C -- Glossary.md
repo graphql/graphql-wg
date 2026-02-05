@@ -125,14 +125,14 @@ the built-in definitions provided by the service.
 Note: The source schema document is generally manually written and passed as
 input to a GraphQL service implementation.
 
-### Full schema document
+### Runtime schema document
 
 **Definition**: the textual representation (using GraphQL query language) of the
 type system definitions supported by a GraphQL service, including the built-in
 definitions provided by the service.
-Full schema documents allow validation of any executable document.
+Runtime schema documents allow validation of any executable document.
 
-Note: The full schema document is generally machine written and produced as an
+Note: The runtime schema document is generally machine written and produced as an
 output of a GraphQL service implementation.
 
 ### (GraphQL) variables
