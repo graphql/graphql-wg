@@ -114,6 +114,7 @@ hold additional secondary meetings later in the month.
 | Yaacov Rydzinski | @yaacovcr.    | N/A.               | Neve Daniel, IL       |
 | Pascal Senn      | @pascalsenn   | ChilliCream Inc.   | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York, NY, US      |
+| Stephen Spalding | @fotoetienne  | Netflix            | Chattanooga, TN, US   |
 
 ## Agenda
 
