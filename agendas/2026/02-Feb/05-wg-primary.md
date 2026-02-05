@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Pascal Senn      | @pascalsenn   | ChilliCream Inc.   | Zurich, CH            |
 | Matt Mahoney     | @mjmahone     | Meta Platforms     | New York, NY, US      |
 | Stephen Spalding | @fotoetienne  | Netflix            | Chattanooga, TN, US   |
+| Michael Staib    | @michaelstaib | ChilliCream Inc.   | Zurich, CH            |
 
 ## Agenda
 
