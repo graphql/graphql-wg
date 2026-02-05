@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Yaacov Rydzinski | @yaacovcr.    | N/A.               | Neve Daniel, IL       |
+| Pascal Senn      | @pascalsenn   | ChilliCream Inc.   | Zurich, CH            |
 
 ## Agenda
 
