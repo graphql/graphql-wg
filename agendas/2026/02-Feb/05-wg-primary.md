@@ -130,6 +130,8 @@ hold additional secondary meetings later in the month.
    - [Merge update to TSC members](https://github.com/graphql/graphql-wg/pull/1912)
    - [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. Incremental delivery will be discussed at the secondary meeting (1m, Benjie
+   on behalf of Rob)
 1. Field extensions (2min Emily, Martin)
    - https://github.com/graphql/graphql-spec/issues/1162
    - Aim: RFC1
