@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Emily Goodwin    | @egoodwinx    | N/A                | Toronto, ON, CAN      |
 | Kewei Qu         | @Keweiqu      | Meta Platforms     | Menlo Park, CA, US    |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -126,6 +127,7 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. **TSC**: election results (2m, Host)
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+   - [Merge update to TSC members](https://github.com/graphql/graphql-wg/pull/1912)
    - [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Field extensions (2min Emily, Martin)
