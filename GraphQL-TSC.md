@@ -44,7 +44,7 @@ We thank all our prior TSC members for their contribution (in term ended order):
 | [Andi Marek](https://github.com/andimarek)         | Atlassian     | Nov 1, 2020 | Jan 31, 2025 |
 | [Stephen Spalding](https://github.com/fotoetienne) | Netflix       | Jan 1, 2023 | Jan 31, 2025 |
 | [Denis Badurina](https://github.com/enisdenjo)     | The Guild     | Feb 1, 2024 | Jan 31, 2026 |
-| [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo        | Nov 1, 2020 | Jan 31, 2026 |
+| [Ivan Goncharov](https://github.com/IvanGoncharov) | Keenethics    | Nov 1, 2020 | Jan 31, 2026 |
 
 ## TSC Responsibilities
 
