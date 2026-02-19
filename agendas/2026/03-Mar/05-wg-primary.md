@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -122,3 +123,6 @@ hold additional secondary meetings later in the month.
    - [GraphQL WG — February 2026 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2026/02-Feb/19-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. GraphQLConf 2026 May 6-7, and the **inaugural WG Day May 8th**! (5m, Benjie)
+   - More about GraphQLConf: https://graphql.org/conf/2026/
+   - More about WG Day: https://graphql.org/conf/2026/wg-day/
