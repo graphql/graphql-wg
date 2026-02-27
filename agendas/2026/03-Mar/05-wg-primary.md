@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
 
 
 ## Agenda
@@ -126,3 +127,6 @@ hold additional secondary meetings later in the month.
 1. GraphQLConf 2026 May 6-7, and the **inaugural WG Day May 8th**! (5m, Benjie)
    - More about GraphQLConf: https://graphql.org/conf/2026/
    - More about WG Day: https://graphql.org/conf/2026/wg-day/
+1. OneOf Inhabitability (10m, James Bellenger)
+   - [Spec PR: OneOf Inhabitability](https://github.com/graphql/graphql-spec/pull/1211)
+   - [graphql-js implementation](https://github.com/graphql/graphql-js/pull/4564)
