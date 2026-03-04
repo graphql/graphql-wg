@@ -132,6 +132,8 @@ hold additional secondary meetings later in the month.
    - We focused on graphql-wg in Feb
    - We'll do [graphql-spec in Mar](https://github.com/graphql/graphql-wg/blob/main/agendas/2026/03-Mar/19-wg-secondary-eu.md)
    - Please review any "Stale?" issue/PR you own
+1. GAP status? (2m, Martin)
+   - Is it OK to start filing GAPs?
 1. OneOf Inhabitability (10m, James Bellenger)
    - [Spec PR: OneOf Inhabitability](https://github.com/graphql/graphql-spec/pull/1211)
    - [graphql-js implementation](https://github.com/graphql/graphql-js/pull/4564)
