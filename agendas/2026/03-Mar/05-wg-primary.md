@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        | 
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            | 
 | Yaacov Rydzinski | @yaacovCR     | n/a                | Neve Daniel, IL       | 
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
