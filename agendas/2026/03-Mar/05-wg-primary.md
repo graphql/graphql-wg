@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 ## Agenda
 
@@ -137,3 +138,5 @@ hold additional secondary meetings later in the month.
 1. OneOf Inhabitability (10m, James Bellenger)
    - [Spec PR: OneOf Inhabitability](https://github.com/graphql/graphql-spec/pull/1211)
    - [graphql-js implementation](https://github.com/graphql/graphql-js/pull/4564)
+1. Defer/Stream spec review (5m, Rob)
+   - https://github.com/graphql/graphql-spec/pull/1203
