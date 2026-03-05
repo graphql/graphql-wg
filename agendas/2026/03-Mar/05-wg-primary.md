@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Yaacov Rydzinski | @yaacovCR     | n/a                | Neve Daniel, IL       |
 
 ## Agenda
 
