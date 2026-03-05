@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Yaacov Rydzinski | @yaacovCR     | n/a                | Neve Daniel, IL       |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 
 ## Agenda
 
