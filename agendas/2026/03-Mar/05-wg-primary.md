@@ -108,7 +108,7 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
-
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 ## Agenda
 
