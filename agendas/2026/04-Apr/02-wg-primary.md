@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 
 
 ## Agenda
@@ -122,3 +123,6 @@ hold additional secondary meetings later in the month.
    - [GraphQL WG — March 2026 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2026/03-Mar/19-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. Editorial: use leaf fields
+   - https://github.com/graphql/graphql-spec/pull/1212
+   - Aim: merge
