@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -123,6 +124,8 @@ who could not make the primary meeting time.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. Defer/Stream Review block (Rob, 30m)
+   - https://github.com/graphql/graphql-spec/pull/1203
 1. Issue Club: graphql-spec (Remaining time, Martin)
    - https://github.com/graphql/graphql-spec/
    - Look at PRs by least recently updated
