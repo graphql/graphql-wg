@@ -126,3 +126,6 @@ hold additional secondary meetings later in the month.
 1. Editorial: use leaf fields
    - https://github.com/graphql/graphql-spec/pull/1212
    - Aim: merge
+1. Directives on directives
+   - https://github.com/graphql/graphql-spec/pull/1206
+   - Aim: RFC2
