@@ -104,11 +104,12 @@ who could not make the primary meeting time.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
-| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Name             | GitHub        | Organization       | Location              | Note                     |
+| :--------------- | :------------ | :----------------- | :-------------------- | :----------------------- |
+| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |                          |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |                          |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |                          |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, USA       | Will be joining 30m late |
 
 
 ## Agenda
