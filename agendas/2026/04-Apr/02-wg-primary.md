@@ -128,6 +128,6 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-spec/pull/1212
    - Aim: merge
 1. Directives on directives
-1. Updates from the [Otel WG](https://github.com/graphql/otel-wg): [We have a porposal](https://github.com/open-telemetry/semantic-conventions/pull/3515/) (5m, Pascal)
    - https://github.com/graphql/graphql-spec/pull/1206
    - Aim: RFC2
+1. Updates from the [Otel WG](https://github.com/graphql/otel-wg): [We have a porposal](https://github.com/open-telemetry/semantic-conventions/pull/3515/) (5m, Pascal)
