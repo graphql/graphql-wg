@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 
 ## Agenda
