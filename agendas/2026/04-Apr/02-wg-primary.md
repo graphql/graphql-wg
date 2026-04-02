@@ -107,11 +107,10 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
-<<<<<<< patch-32
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
-=======
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
->>>>>>> main
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 
 ## Agenda
@@ -143,3 +142,6 @@ hold additional secondary meetings later in the month.
    - [Draft](https://graphql.github.io/graphql-over-http/draft/)
    - 294 status code accepted
    - More detail added to status codes
+1. [Service capabilities](https://github.com/graphql/graphql-spec/pull/1208)
+   (15m, Benjie)
+   - Aim: advance to RFC1
