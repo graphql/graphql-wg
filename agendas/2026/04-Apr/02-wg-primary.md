@@ -131,3 +131,6 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-spec/pull/1206
    - Aim: RFC2
 1. Updates from the [Otel WG](https://github.com/graphql/otel-wg): [We have a porposal](https://github.com/open-telemetry/semantic-conventions/pull/3515/) (5m, Pascal)
+1. GraphQL over HTTP (Martin)
+   - Simplify the spec: https://github.com/graphql/graphql-over-http/pull/370
+   - Weekly meeting cadence: https://github.com/graphql/graphql-over-http/pull/374 
