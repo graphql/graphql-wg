@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -134,3 +135,7 @@ hold additional secondary meetings later in the month.
 1. GraphQL over HTTP (Martin)
    - Simplify the spec: https://github.com/graphql/graphql-over-http/pull/370
    - Weekly meeting cadence: https://github.com/graphql/graphql-over-http/pull/374 
+1. GraphQL-over-HTTP is ready for RFC3! (5m, Benjie)
+   - [Draft](https://graphql.github.io/graphql-over-http/draft/)
+   - 294 status code accepted
+   - More detail added to status codes
