@@ -139,3 +139,6 @@ hold additional secondary meetings later in the month.
    - [Draft](https://graphql.github.io/graphql-over-http/draft/)
    - 294 status code accepted
    - More detail added to status codes
+1. [Service capabilities](https://github.com/graphql/graphql-spec/pull/1208)
+   (15m, Benjie)
+   - Aim: advance to RFC1
