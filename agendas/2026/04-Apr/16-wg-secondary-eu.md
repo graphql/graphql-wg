@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -128,4 +129,6 @@ who could not make the primary meeting time.
    - [Tweak the request section](https://github.com/graphql/graphql-over-http/pull/377)
    - [Appendix A: `application/json`](https://github.com/graphql/graphql-over-http/pull/379)
    - [Add a section about the HTTP protocol](https://github.com/graphql/graphql-over-http/pull/376)
+1. Defer/Stream spec review block (30m if time is available, Rob)
+   - [Validation Rules](https://github.com/graphql/graphql-spec/pull/1223)
 1. Issue Club (Martin, Remaining time)
