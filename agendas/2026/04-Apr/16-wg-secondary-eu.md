@@ -126,9 +126,14 @@ who could not make the primary meeting time.
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. GraphQL over HTTP (Martin)
    - [Editorial: Move "no mutation in GET" above the examples](https://github.com/graphql/graphql-over-http/pull/378)
+     - Aim: merge
    - [Tweak the request section](https://github.com/graphql/graphql-over-http/pull/377)
-   - [Appendix A: `application/json`](https://github.com/graphql/graphql-over-http/pull/379)
+     - Aim: merge 
    - [Add a section about the HTTP protocol](https://github.com/graphql/graphql-over-http/pull/376)
+     - Aim: feedback 
+1. Can I use?
+   - https://github.com/martinbonnin/caniuse
+   - Aim: share current state of the project
 1. Defer/Stream spec review block (30m if time is available, Rob)
    - [Validation Rules](https://github.com/graphql/graphql-spec/pull/1223)
 1. Issue Club (Martin, Remaining time)
