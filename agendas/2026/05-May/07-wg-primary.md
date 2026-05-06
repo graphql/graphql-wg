@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
+| Rob Richard   | @robrichard       | 1stDibs | New Jersey, US |
 
 
 ## Agenda
@@ -127,3 +128,6 @@ hold additional secondary meetings later in the month.
 2. `@oneOf` inhabitability
    - https://github.com/graphql/graphql-spec/pull/1211
    - Aim: RFC2
+1. Prohibit root mutation and subscription types from implementing interfaces (15m, Rob)
+   - Spec PR: https://github.com/graphql/graphql-spec/pull/1225
+   - GraphQL-JS PR: https://github.com/graphql/graphql-js/pull/4669
