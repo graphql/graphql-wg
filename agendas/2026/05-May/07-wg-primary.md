@@ -106,8 +106,9 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
-| Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
-| Rob Richard   | @robrichard       | 1stDibs | New Jersey, US |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 
 ## Agenda
