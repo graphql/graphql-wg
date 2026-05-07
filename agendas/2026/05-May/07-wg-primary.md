@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 
@@ -142,3 +143,7 @@ hold additional secondary meetings later in the month.
 1. GraphQL over HTTP
    - https://github.com/graphql/graphql-over-http/pull/379
    - Aim: awareness.
+1. Directives on directives (5m, Benoit)
+   - Spec PR: https://github.com/graphql/graphql-spec/pull/1206
+   - GraphQL-JS PR is merged: https://github.com/graphql/graphql-js/pull/4521
+   - Aim: RFC3 (accepted)
