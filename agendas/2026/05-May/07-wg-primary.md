@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 
 
 ## Agenda
