@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
