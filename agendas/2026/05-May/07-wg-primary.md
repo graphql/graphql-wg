@@ -139,5 +139,4 @@ hold additional secondary meetings later in the month.
    - Aim: merge depending on the item just before.
 1. GraphQL over HTTP
    - https://github.com/graphql/graphql-over-http/pull/379
-   - https://github.com/graphql/graphql-over-http/pull/398
    - Aim: awareness.
