@@ -131,3 +131,13 @@ hold additional secondary meetings later in the month.
 1. Prohibit root mutation and subscription types from implementing interfaces (15m, Rob)
    - Spec PR: https://github.com/graphql/graphql-spec/pull/1225
    - GraphQL-JS PR: https://github.com/graphql/graphql-js/pull/4669
+1. Transfer graphql-php in the graphql org
+   - https://github.com/graphql/graphql-wg/issues/1973
+   - Aim: feedback.
+1. Project adoption guidelines
+   - https://github.com/graphql/graphql.github.io/pull/2400
+   - Aim: merge depending on the item just before.
+1. GraphQL over HTTP
+   - https://github.com/graphql/graphql-over-http/pull/379
+   - https://github.com/graphql/graphql-over-http/pull/398
+   - Aim: awareness.
