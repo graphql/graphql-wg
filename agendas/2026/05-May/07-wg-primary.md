@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
