@@ -110,6 +110,8 @@ hold additional secondary meetings later in the month.
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 | Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
