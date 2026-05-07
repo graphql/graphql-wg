@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | James Bellenger  | @jbellenger   | Airbnb             | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 | Rob Richard   | @robrichard       | 1stDibs | New Jersey, US |
+| Benoit Lubek  | @BoD              | Apollo  | Lyon, FR       |
 
 
 ## Agenda
@@ -141,3 +142,7 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-over-http/pull/379
    - https://github.com/graphql/graphql-over-http/pull/398
    - Aim: awareness.
+1. Directives on directives (5m, Benoit)
+   - Spec PR: https://github.com/graphql/graphql-spec/pull/1206
+   - GraphQL-JS PR is merged: https://github.com/graphql/graphql-js/pull/4521
+   - Aim: RFC3 (accepted)
