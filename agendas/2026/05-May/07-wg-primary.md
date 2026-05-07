@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
