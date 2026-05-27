@@ -71,9 +71,11 @@ own meetings and report back progress and decisions to GraphQL WG meetings.
 | GraphiQL          | 2nd Tue, 09:00am - 11:00am PT   | [Dima Postolov](https://github.com/dimamachina)  | [graphql/graphiql/working-group](https://github.com/graphql/graphiql/tree/main/working-group)                   |
 | GraphQL-over-HTTP | Last Thu, 11:00am - 12:00am PT  | [Benjie Gillam](https://github.com/benjie)       | [graphql/graphql-over-http/working-group](https://github.com/graphql/graphql-over-http/tree/main/working-group) |
 | Composite Schema  | Every Thu, 18:00 - 19:00 CET    | [Michael Staib](https://github.com/michaelstaib) | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg)                                 |
-| GraphQL.js        | Last Wed, 17:00am - 18:00am UTC | [Jovi DeCroock](https://github.com/JoviDeCroock) | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
+| GraphQL.js        | Last Wed, 17:00am - 18:00am UTC | [Yaacov Rydzinski](https://github.com/yaacovCR)  | [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg)                                               |
 | Community         | 2nd Thu, 08:00am - 09:00am PT   | [Uri Goldshtein](https://github.com/urigo)       | [graphql/community-wg](https://github.com/graphql/community-wg)                                                 |
 | GraphQL/OTel      | 4th Thu, 10:00am - 11:00am PT   | [Pascal Senn](https://github.com/pascalsenn)     | [graphql/otel-wg](https://github.com/graphql/otel-wg)                                                           |
+| AI                | 4th Thu, 13:30am - 14:30am ET   | [Kewei Qu](https://github.com/keweiqu)           | [graphql/ai-wg](https://github.com/graphql/ai-wg)                                                               |
+| Golden Path       | 2nd Thu, 10:30am - 11:30am PT   | [Benjie Gillam](https://github.com/benjie)       | [graphql/golden-path-wg](https://github.com/graphql/golden-path-wg)                                             |
 
 #### Subcommittees on hiatus
 
