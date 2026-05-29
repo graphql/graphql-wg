@@ -115,6 +115,7 @@ hold additional secondary meetings later in the month.
 | Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, US    |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
