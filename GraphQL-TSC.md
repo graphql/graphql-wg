@@ -46,6 +46,9 @@ We thank all our prior TSC members for their contribution (in term ended order):
 | [Denis Badurina](https://github.com/enisdenjo)     | The Guild     | Feb 1, 2024 | Jan 31, 2026 |
 | [Ivan Goncharov](https://github.com/IvanGoncharov) | Apollo        | Nov 1, 2020 | Jan 31, 2026 |
 
+> [!NOTE]
+> Emeriti are shown with an affiliation they had during their term as TSC member; affiliation will not be maintained after TSC term ends.
+
 ## TSC Responsibilities
 
 The TSC provides management and technical oversight for all efforts within the scope of the GraphQL Specification Project. This includes:
