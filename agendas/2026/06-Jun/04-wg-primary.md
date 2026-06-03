@@ -106,6 +106,8 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+
 
 
 ## Agenda
@@ -128,3 +130,4 @@ hold additional secondary meetings later in the month.
    sets](https://github.com/graphql/graphql-spec/pull/1227) (5m, Benjie)
 1. [Allow empty object types](https://github.com/graphql/graphql-spec/pull/1228) (5m, Benjie)
 1. [Allow interfaces with no fields, unions with no members](https://github.com/graphql/graphql-spec/pull/1229) (10m, Benjie)
+1. [Directives on directive definitions](https://github.com/graphql/graphql-spec/pull/1228): do we want `directives(includeDeprecated: Boolean! = false)`? (5m, Benoit)
