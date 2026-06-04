@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benoit Lubek     | @BoD          | Apollo             | Lyon, FR              |
+| Yaacov Rydzinski | @yaacovCR     | n/a                | Neve Daniel, IL       |
 
 
 
@@ -126,3 +127,8 @@ hold additional secondary meetings later in the month.
 1. **Spec release**: release is coming, 2 months until freeze! (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. [Directives on directive definitions](https://github.com/graphql/graphql-spec/pull/1206): do we want `directives(includeDeprecated: Boolean! = false)`? (5m, Benoit)
+1. graphql-js Update
+   - v17_target_{release_date === '2026-06-15' => [feedback please via #4786](https://github.com/graphql/graphql-js/issues/4786) 
+   - [graphql-js.org Refresh](https://www.graphql-js.org/)
+     - Full API documentation for [v17](https://www.graphql-js.org/api-v17/) and [v16](https://www.graphql-js.org/api-v16/)
+     - What's New and Upgrade Guides for [v17](https://www.graphql-js.org/upgrade-guides/v16-v17/), [v16](https://www.graphql-js.org/upgrade-guides/v15-v16/), [v15](https://www.graphql-js.org/upgrade-guides/v14-v15/)
