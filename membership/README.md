@@ -1,6 +1,6 @@
 # GraphQL Specification Membership
 
-All contributors must sign the GraphQL Specification membership agreement ([preview](./GraphQL-Specification_Membership-2021-01-25-PREVIEW.pdf)) prior to participating in specification or code activity.
+All contributors must sign the GraphQL Specification membership agreement ([preview](./GraphQL-Specification_Membership-2026-05-15-PREVIEW.pdf)) prior to participating in specification or code activity.
 
 There is no cost, and once you've signed the document you will able to open PRs and participate in development discussions in the various GraphQL working groups.
 
