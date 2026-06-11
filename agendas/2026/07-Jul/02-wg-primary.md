@@ -106,7 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
-
+| James Bellenger  | @jbellenger   | Airbnb             | Oakland, CA, US       |
 
 ## Agenda
 
@@ -128,3 +128,4 @@ hold additional secondary meetings later in the month.
    sets](https://github.com/graphql/graphql-spec/pull/1227) (5m, Benjie)
 1. [Allow empty object types](https://github.com/graphql/graphql-spec/pull/1228) (5m, Benjie)
 1. [Allow interfaces with no fields, unions with no members](https://github.com/graphql/graphql-spec/pull/1229) (10m, Benjie)
+1. [OneOf Inhabitatability](https://github.com/graphql/graphql-spec/pull/1211) (5m, James)
