@@ -55,14 +55,15 @@ It is proposed to add an `@requiresOptIn` directive to the specification:
 
 ```graphql
 """
-Indicates that the given field, argument, input field or enum value requires
-giving explicit consent before being used.
+Indicates that the given field, argument, input field, enum value, or
+directive definition requires giving explicit consent before being used.
 """
 directive @requiresOptIn(feature: String!) repeatable
 on FIELD_DEFINITION
     | ARGUMENT_DEFINITION
     | INPUT_FIELD_DEFINITION
     | ENUM_VALUE
+    | DIRECTIVE_DEFINITION
 ```
 
 The `optIn` directive can then be used in the schema. For an example, to signal an experimental field:
@@ -77,12 +78,20 @@ type Session {
 }
 ```
 
+A directive definition can also require opt-in, gating use of the directive itself:
+
+```graphql
+directive @deploymentMetadata
+    @requiresOptIn(feature: "experimentalDeploymentApi")
+    on FIELD_DEFINITION
+```
+
 ### Introspection
 
 > This section is a proposal based on the current introspection mechanism. A more global mechanism (
 > see [#300](https://github.com/graphql/graphql-spec/issues/300)) would make it obsolete
 
-`@requiresOptIn` features should be hidden from introspection by default and include if `includeRequiresOptIn` contains the
+`@requiresOptIn` features should be hidden from introspection by default and included if `includeRequiresOptIn` contains the
 given feature:
 
 ```graphql
@@ -93,11 +102,11 @@ type __Type {
     # [...] other fields omitted for clarity
 
     # includeRequiresOptIn is a list of features to include
-    fields(includeDeprecated: Boolean = false, includeRequiresOptIn: [String!]): [__Field!]
+    fields(includeDeprecated: Boolean! = false, includeRequiresOptIn: [String!]): [__Field!]
 }
 ```
 
-Tools can get a list of `@requiresOptIn` features required to use a field (or input field, argument, enum value)
+Tools can get a list of `@requiresOptIn` features required to use a field (or input field, argument, enum value, or directive definition)
 using `requiresOptIn`:
 
 ```graphql
@@ -109,7 +118,7 @@ type __Field {
 
     # list of @requiresOptIn features required to use this field
     requiresOptIn: [String!]
-    args(includeDeprecated: Boolean = false, includeRequiresOptIn: [String!]): [__InputValue!]!
+    args(includeDeprecated: Boolean! = false, includeRequiresOptIn: [String!]): [__InputValue!]!
 }
 ```
 
@@ -151,8 +160,7 @@ Cons:
 
 ### marker directives
 
-The spec defines a directive named @requiresOptIn (and in doing so introduces the need to be able to apply directives to
-directive definitions)
+The spec defines a directive named @requiresOptIn:
 
 ```graphql
 directive @requiresOptIn on DIRECTIVE_DEFINITION
@@ -162,7 +170,7 @@ Services create a directive for each distinct opt-in feature they want in their 
 
 ```graphql
 # optIn usage defines @experimentalDeploymentApi as an opt-in marker
-directive @experimentalDeploymentApi on FIELD_DEFINITION @requiresOptIn
+directive @experimentalDeploymentApi @requiresOptIn on FIELD_DEFINITION
 
 type Query {
     deployment: Deployment @experimentalDeploymentApi
@@ -172,7 +180,7 @@ enum WorkspaceKind {
     CROSS_PROJECT
     CROSS_COMPANY
 }
-directive @workspaces(kind: WorkspaceKind) on FIELD_DEFINITION @requiresOptIn
+directive @workspaces(kind: WorkspaceKind) @requiresOptIn on FIELD_DEFINITION
 
 type Deployment {
     workspaces: [Workspace] @workspaces(kind: CROSS_COMPANY)
@@ -187,7 +195,6 @@ Pros:
 Cons:
 
 * more complex
-* requires a grammar change
 
 ## 🪵 Decision Log
 
