@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-console.error(
-  `\
-Please instead run:
 
-  yarn && yarn gen-agenda ${process.argv.slice(2).join(" ")}
-`
-);
-process.exit(1);
+const { spawnSync } = require('child_process');
+
+const args = process.argv.slice(2);
+
+// Run the wgutils agenda gen command using npx to ensure the binary is found
+spawnSync('npx', ['wgutils', 'agenda', 'gen', ...args], { stdio: 'inherit' });
