@@ -124,8 +124,15 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. **Spec release**: will freeze release just before next month's meeting; last chance for editorial changes (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. [Sibling errors should not be added after propagation](https://github.com/graphql/graphql-spec/pull/1184) (5m, Benjie)
+   - JS implementation (merged, shipped in v17 as default): https://github.com/graphql/graphql-js/pull/4458
 1. [Allow empty selection
    sets](https://github.com/graphql/graphql-spec/pull/1227) (5m, Benjie)
 1. [Allow empty object types](https://github.com/graphql/graphql-spec/pull/1228) (5m, Benjie)
 1. [Allow interfaces with no fields, unions with no members](https://github.com/graphql/graphql-spec/pull/1229) (10m, Benjie)
 1. [OneOf Inhabitatability](https://github.com/graphql/graphql-spec/pull/1211) (5m, James)
+1. [A schema with all deprecated elements removed must itself be
+   valid](https://github.com/graphql/graphql-spec/pull/1231) (10m, Benjie)
+1. [Deprecate includeDeprecated, add
+   `__schema(includeDeprecated:)`](https://github.com/graphql/graphql-spec/pull/1230)
+   (15m, Benjie)
