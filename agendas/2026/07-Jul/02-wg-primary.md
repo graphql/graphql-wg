@@ -140,3 +140,6 @@ hold additional secondary meetings later in the month.
 1. [Deprecate includeDeprecated, add
    `__schema(includeDeprecated:)`](https://github.com/graphql/graphql-spec/pull/1230)
    (15m, Benjie)
+1. [GraphQL-over-HTTP first release](https://github.com/graphql/graphql-over-http/blob/legacy-client-editorial/spec/GraphQLOverHTTP.md) (15m, Benjie)
+   - Final editorial PR for first release: https://github.com/graphql/graphql-over-http/pull/404
+   - Recommendation: RFC3 / September release
