@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib    | @michaelstaib   | ChilliCream        | Zurich, CH            |
 | Martin Bonnin  | @martinbonnin   | Apollo             | Paris, FR       |
 | Matt Mahoney    | @mjmahone      | Meta               | New York, NY, US      |
+| Mark Larah      | @magicmark     | Yelp               | Austin, TX, US       |
 
 ## Agenda
 
