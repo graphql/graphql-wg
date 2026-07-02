@@ -109,10 +109,9 @@ hold additional secondary meetings later in the month.
 | James Bellenger  | @jbellenger   | Airbnb             | Oakland, CA, US       |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
-| Michael Staib    | @michaelstaib   | ChilliCream        | Zurich, CH            |
-| Martin Bonnin  | @martinbonnin   | Apollo             | Paris, FR       |
-| Matt Mahoney    | @mjmahone      | Meta               | New York, NY, US      |
-| Mark Larah      | @magicmark     | Yelp               | Austin, TX, US       |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Matt Mahoney     | @mjmahone     | Meta               | New York, NY, US      |
+| Mark Larah       | @magicmark    | Yelp               | Austin, TX, US        |
 
 ## Agenda
 
