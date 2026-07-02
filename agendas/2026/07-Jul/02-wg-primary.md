@@ -107,7 +107,9 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | James Bellenger  | @jbellenger   | Airbnb             | Oakland, CA, US       |
-| Martin Bonnin  | @martinbonnin   | Apollo             | Paris, FR       |
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Michael Staib    | @michaelstaib   | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
@@ -143,3 +145,4 @@ hold additional secondary meetings later in the month.
 1. [GraphQL-over-HTTP first release](https://github.com/graphql/graphql-over-http/blob/legacy-client-editorial/spec/GraphQLOverHTTP.md) (15m, Benjie)
    - Final editorial PR for first release: https://github.com/graphql/graphql-over-http/pull/404
    - Recommendation: RFC3 / September release
+1. [OTEL Semantic Conventions](https://github.com/open-telemetry/semantic-conventions/pull/3515) (5m, Pascal)
