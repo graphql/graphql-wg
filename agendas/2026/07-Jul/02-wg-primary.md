@@ -132,19 +132,16 @@ hold additional secondary meetings later in the month.
 1. [Best practice: writing robust applications](https://github.com/graphql/graphql.github.io/pull/2434) (2m, Martin)
    - Aim: awareness.
    - No need to spend too much sync time discussing this. Let's do a first async pass.
+1. [OneOf Inhabitatability](https://github.com/graphql/graphql-spec/pull/1211) (5m, James)
+1. [OTEL Semantic Conventions](https://github.com/open-telemetry/semantic-conventions/pull/3515) (5m, Pascal)
 1. [Sibling errors should not be added after propagation](https://github.com/graphql/graphql-spec/pull/1184) (5m, Benjie)
    - JS implementation (merged, shipped in v17 as default): https://github.com/graphql/graphql-js/pull/4458
-1. [Allow empty selection
-   sets](https://github.com/graphql/graphql-spec/pull/1227) (5m, Benjie)
+1. [Allow empty selection sets](https://github.com/graphql/graphql-spec/pull/1227) (5m, Benjie)
 1. [Allow empty object types](https://github.com/graphql/graphql-spec/pull/1228) (5m, Benjie)
 1. [Allow interfaces with no fields, unions with no members](https://github.com/graphql/graphql-spec/pull/1229) (10m, Benjie)
-1. [OneOf Inhabitatability](https://github.com/graphql/graphql-spec/pull/1211) (5m, James)
-1. [A schema with all deprecated elements removed must itself be
-   valid](https://github.com/graphql/graphql-spec/pull/1231) (10m, Benjie)
-1. [Deprecate includeDeprecated, add
-   `__schema(includeDeprecated:)`](https://github.com/graphql/graphql-spec/pull/1230)
+1. [A schema with all deprecated elements removed must itself be valid](https://github.com/graphql/graphql-spec/pull/1231) (10m, Benjie)
+1. [Deprecate includeDeprecated, add `__schema(includeDeprecated:)`](https://github.com/graphql/graphql-spec/pull/1230)
    (15m, Benjie)
 1. [GraphQL-over-HTTP first release](https://github.com/graphql/graphql-over-http/blob/legacy-client-editorial/spec/GraphQLOverHTTP.md) (15m, Benjie)
    - Final editorial PR for first release: https://github.com/graphql/graphql-over-http/pull/404
    - Recommendation: RFC3 / September release
-1. [OTEL Semantic Conventions](https://github.com/open-telemetry/semantic-conventions/pull/3515) (5m, Pascal)
