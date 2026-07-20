@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 
 
 ## Agenda
@@ -123,3 +124,6 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. **Spec release**: **TSC**, please review and approve the changelog (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+2. Update GraphQL tagline
+   - https://github.com/graphql/graphql.github.io/pull/2361
+   - Aim: feedback. If no objection, planning to merge this.
