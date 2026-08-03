@@ -106,6 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
+| Benjie Gillam | @benjie          | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -122,8 +123,13 @@ hold additional secondary meetings later in the month.
 1. Review prior secondary meetings (5m, Host)
    - [GraphQL WG — July 2026 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2026/07-Jul/16-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. GraphQL-over-HTTP spec v1? (10m, Benjie)
 1. **Spec release**: **TSC**, please review and approve the changelog (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-2. Update GraphQL tagline
+1. Update GraphQL tagline (10m, Martin)
    - https://github.com/graphql/graphql.github.io/pull/2361
    - Aim: feedback. If no objection, planning to merge this.
+1. `onError: "NULL"` and schemaless clients (15m, Benjie)
+   - [Updated RFC with `pathNonNull` on errors](https://github.com/graphql/graphql-spec/pull/1163/changes)
+   - [Related blog
+     post](https://github.com/graphql/graphql.github.io/blob/nullability-post/src/pages/blog/2026-08-14-true-nullability.mdx)
