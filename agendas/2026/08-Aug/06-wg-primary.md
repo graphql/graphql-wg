@@ -133,3 +133,6 @@ hold additional secondary meetings later in the month.
    - [Updated RFC with `pathNonNull` on errors](https://github.com/graphql/graphql-spec/pull/1163/changes)
    - [Related blog
      post](https://github.com/graphql/graphql.github.io/blob/nullability-post/src/pages/blog/2026-08-14-true-nullability.mdx)
+1. `QUERY` HTTP verb (2min, Martin)
+   - https://github.com/graphql/graphql-over-http/pull/411
+   - Aim: awareness. This is not planned for the initial release of GraphQL over HTTP but please review async.
