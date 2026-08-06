@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney  | @mjmahone        | Meta               | New York, NY, US      |
 | Mark Larah    | @magicmark       | Yelp               | Austin, TX            |
 | Jeff Auriemma | @bignimbus       | Apollo             | Monroe, CT, US        |
+| Pascal Senn   | @pascalsenn      | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
