@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 | Benjie Gillam | @benjie          | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek  | @BoD             | Apollo             | Lyon, FR.             |
+| Michael Staib | @michaelstaib    | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
@@ -137,3 +138,4 @@ hold additional secondary meetings later in the month.
 1. `QUERY` HTTP verb (2min, Martin)
    - https://github.com/graphql/graphql-over-http/pull/411
    - Aim: awareness. This is not planned for the initial release of GraphQL over HTTP but please review async.
+1. Rename Composite Schema Spec to GraphQL Federation Spec (@michaelstaib)
