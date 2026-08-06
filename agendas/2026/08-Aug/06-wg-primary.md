@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Michael Staib | @michaelstaib    | ChilliCream        | Zurich, CH            |
 | Mark Larah    | @magicmark       | Yelp               | Austin, TX            |
 | Jeff Auriemma | @bignimbus       | Apollo             | Monroe, CT, US        |
+| Miguel Quintero | @miqui       |              | Atlanta, GA, US      |
 
 
 ## Agenda
