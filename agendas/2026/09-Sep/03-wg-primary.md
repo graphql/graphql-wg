@@ -112,6 +112,7 @@ hold additional secondary meetings later in the month.
 | Pascal Senn   | @pascalsenn      | ChilliCream    | Zurich, CH       |
 | Michael Staib | @michaelstaib    | ChilliCream    | Zurich, CH       |
 | Rob Richard   | @robrichard      | 1stDibs        | New Jersey, US   |
+| Matt Mahoney  | @mjmahone        | Meta           | New York, NY, US |
 
 
 ## Agenda
