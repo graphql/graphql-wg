@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 | James Bellenger | @jbellenger | Airbnb | Oakland, CA, US |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -128,7 +129,7 @@ hold additional secondary meetings later in the month.
 1. `@oneOf` inhabitability (10m, James)
    - https://github.com/graphql/graphql-spec/pull/1211
    - Aim: RFC3
-1. Allow empty selection sets 
+1. Allow empty selection sets (10m, Martin and Benjie)
    - https://github.com/graphql/graphql-spec/pull/1227
    - https://github.com/graphql/graphql-js/pull/4852
    - https://github.com/apollographql/apollo-kotlin/pull/7015
