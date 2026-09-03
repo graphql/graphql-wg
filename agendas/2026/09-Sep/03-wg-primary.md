@@ -132,4 +132,4 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-spec/pull/1227
    - https://github.com/graphql/graphql-js/pull/4852
    - https://github.com/apollographql/apollo-kotlin/pull/7015
-   - Aim: discussion
+   - Aim: aim RFC 3 in Oct.
