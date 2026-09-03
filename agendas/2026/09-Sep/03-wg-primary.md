@@ -108,6 +108,7 @@ hold additional secondary meetings later in the month.
 | Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
 | James Bellenger | @jbellenger | Airbnb | Oakland, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| Mark Larah    | @magicmark       | Yelp           | Austin, TX, USA  |
 
 
 ## Agenda
@@ -134,3 +135,7 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-js/pull/4852
    - https://github.com/apollographql/apollo-kotlin/pull/7015
    - Aim: aim RFC 3 in Oct.
+1. Structs (∞m, Mark)
+   - https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
+   - clarification needed: @oneOf on output (vs input structs aka input unions)
+   - clarification needed: implies defaultValue v2 (`__InputValue.defaultValue`) generates a giant oneOf'd object to pick from
