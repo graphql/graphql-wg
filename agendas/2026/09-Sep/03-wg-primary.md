@@ -116,6 +116,7 @@ hold additional secondary meetings later in the month.
 | Matt Mahoney  | @mjmahone        | Meta           | New York, NY, US |
 | Miguel Quintero  | @miqui        |            | Atlanta, GA, US |
 | Yaacov Rydzinski | @yaacovCR     |                    | Neve Daniel           |
+| Emily Goodwin | @egoodwinx       |                 | Toronto, ON, CAN |
 
 
 ## Agenda
