@@ -125,9 +125,11 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. **Spec release**: spec release is live! (pending 45 day notice period) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-1. James Bellenger: `@oneOf` inhabitability
+1. `@oneOf` inhabitability (10m, James)
    - https://github.com/graphql/graphql-spec/pull/1211
    - Aim: RFC3
-1. Allow empty selection sets
+1. Allow empty selection sets 
    - https://github.com/graphql/graphql-spec/pull/1227
-   - Aim: discussion (we need implementation in graphql-js)
+   - https://github.com/graphql/graphql-js/pull/4852
+   - https://github.com/apollographql/apollo-kotlin/pull/7015
+   - Aim: discussion
