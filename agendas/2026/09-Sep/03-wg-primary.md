@@ -111,6 +111,7 @@ hold additional secondary meetings later in the month.
 | Mark Larah    | @magicmark       | Yelp           | Austin, TX, USA  |
 | Pascal Senn   | @pascalsenn      | ChilliCream    | Zurich, CH       |
 | Michael Staib | @michaelstaib    | ChilliCream    | Zurich, CH       |
+| Rob Richard   | @robrichard      | 1stDibs        | New Jersey, US   |
 
 
 ## Agenda
@@ -139,6 +140,8 @@ hold additional secondary meetings later in the month.
    - Aim: aim RFC 3 in Oct.
 1. Structs (∞m, Mark)
    - https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
+   - show'n'tell
+   - tl;dr copy and pasting inputs but renaming them structs. (input objects will remain in the spec and graphql-js so as to not break introspection and existing clients, but we can mark them as deprecated?)
    - clarification needed: @oneOf on output (vs input structs aka input unions)
    - clarification needed: implies defaultValue v2 (`__InputValue.defaultValue`) generates a giant oneOf'd object to pick from
    - clarification needed (for future work): annotation keyword vs directives on directives 
