@@ -109,7 +109,10 @@ hold additional secondary meetings later in the month.
 | Benjie Gillam | @benjie          | Graphile           | Chandler's Ford, UK   |
 | Benoit Lubek  | @BoD             | Apollo             | Lyon, FR.             |
 | Michael Staib | @michaelstaib    | ChilliCream        | Zurich, CH            |
+| Matt Mahoney  | @mjmahone        | Meta               | New York, NY, US      |
+| Mark Larah    | @magicmark       | Yelp               | Austin, TX            |
 | Jeff Auriemma | @bignimbus       | Apollo             | Monroe, CT, US        |
+| Pascal Senn   | @pascalsenn      | ChilliCream        | Zurich, CH            |
 | Miguel Quintero | @miqui       |              | Atlanta, GA, US      |
 
 
@@ -128,6 +131,7 @@ hold additional secondary meetings later in the month.
    - [GraphQL WG — July 2026 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2026/07-Jul/16-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. GraphQL-over-HTTP spec v1? (10m, Benjie)
+   - [SHOULD PR](https://github.com/graphql/graphql-over-http/pull/416)
 1. **Spec release**: **TSC**, please review and approve the changelog (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Update GraphQL tagline (10m, Martin)
