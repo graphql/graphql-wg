@@ -109,6 +109,7 @@ hold additional secondary meetings later in the month.
 | James Bellenger | @jbellenger | Airbnb | Oakland, CA, US |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Mark Larah    | @magicmark       | Yelp           | Austin, TX, USA  |
+| Pascal Senn   | @pascalsenn      | ChilliCream    | Zurich, CH       |
 
 
 ## Agenda
