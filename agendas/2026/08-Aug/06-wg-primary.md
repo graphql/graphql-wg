@@ -113,6 +113,7 @@ hold additional secondary meetings later in the month.
 | Mark Larah    | @magicmark       | Yelp               | Austin, TX            |
 | Jeff Auriemma | @bignimbus       | Apollo             | Monroe, CT, US        |
 | Pascal Senn   | @pascalsenn      | ChilliCream        | Zurich, CH            |
+| Miguel Quintero | @miqui       |              | Atlanta, GA, US      |
 
 
 ## Agenda
