@@ -64,7 +64,7 @@ The scope of the TSC should not include decisions that can be made within one of
 
 ### Technical Charter and Code of Conduct
 
-The GraphQL TSC is governed by the [Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf), which establishes the Committee and its basic principles and procedures. The charter is designed to provide the TSC the freedom to govern itself in an efficient manner. This document establishes TSC policies and procedures.
+The GraphQL TSC is governed by the [Charter][charter], which establishes the Committee and its basic principles and procedures. The charter is designed to provide the TSC the freedom to govern itself in an efficient manner. This document establishes TSC policies and procedures.
 
 In addition, as provided under the Technical Charter, GraphQL has adopted a [Code of Conduct](https://code-of-conduct.graphql.org) that applies to all GraphQL activities and spaces. If you believe there has been a violation of the GraphQL Code of Conduct, please contact [report@graphql.org](mailto:report@graphql.org).
 
@@ -108,7 +108,7 @@ The following table is a rough outline of who is responsible for decisions. In k
 
 ## Becoming a TSC Member
 
-The [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) describes the composition of the TSC. The GraphQL TSC has 10 elected members, plus the Executive Director. TSC members serve a two-year term, and there is no limit to the number of terms a member can serve. Each year, half of the TSC member seats will be up for election.
+The [Technical Charter][charter] describes the composition of the TSC. The GraphQL TSC has 10 elected members, plus the Executive Director. TSC members serve a two-year term, and there is no limit to the number of terms a member can serve. Each year, half of the TSC member seats will be up for election.
 
 ### Election process
 
@@ -311,13 +311,13 @@ Consider this scenario for a member election:
 
 ## Policies and procedures
 
-The GraphQL TSC is governed by the [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf). The Charter provides a foundational structure for the TSC on topics such as its scope, how to make decisions, and how to make changes to itself. At the same time, it grants the TSC a high degree of freedom when determining how to implement the policies of GraphQL.
+The GraphQL TSC is governed by the [Technical Charter][charter]. The Charter provides a foundational structure for the TSC on topics such as its scope, how to make decisions, and how to make changes to itself. At the same time, it grants the TSC a high degree of freedom when determining how to implement the policies of GraphQL.
 
 The following policies and procedures have been adopted by the TSC.
 
 ### Making changes to this document
 
-Pull requests against this document that do not conflict with the [Technical Charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf) can be merged provided the following conditions have been met:
+Pull requests against this document that do not conflict with the [Technical Charter][charter] can be merged provided the following conditions have been met:
 
 - There are no outstanding objections
 - There are two approvals by TSC members (not including the author)
@@ -355,7 +355,7 @@ In addition to prior approval from the TSC, all expressed opinions or messages o
 
 ### IP Policy
 
-The GraphQL IP policy is contained in the [charter](https://github.com/graphql/foundation/blob/master/GraphQL%20Specification%20Membership%20Agreement%20February%202019.pdf), and it applies to all GraphQL projects unless an exception is explicitly approved by the TSC.
+The GraphQL IP policy is contained in the [charter][charter], and it applies to all GraphQL projects unless an exception is explicitly approved by the TSC.
 
 #### Copyright notices
 
@@ -391,3 +391,5 @@ Copyright Joint Development Foundation Projects, LLC, GraphQL Series.<br>
 [graphql.org](https://graphql.org) | [Spec](https://spec.graphql.org) | [GitHub](https://github.com/graphql) | [GraphQL Foundation](https://foundation.graphql.org) | [Code of Conduct](https://code-of-conduct.graphql.org) | [Slack](https://slack.graphql.org) | [Store](https://store.graphql.org)
 
 <!-- LF Projects -->
+
+[charter]: https://raw.githubusercontent.com/graphql/graphql-wg/refs/heads/main/membership/GraphQL-Specification_Membership-2026-05-15-PREVIEW.pdf
