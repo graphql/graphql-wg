@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
@@ -123,6 +124,23 @@ who could not make the primary meeting time.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. [OneOf inhabitability](https://github.com/graphql/graphql-spec/pull/1211)
+   (1m, Benjie)
+   - Status: RFC3 / [shipped in GraphQL.js](https://github.com/graphql/graphql-js/pull/4564)
+   - Aim: merge
+1. [Allow empty selection sets](https://github.com/graphql/graphql-spec/pull/1227) (5m, Benjie)
+   - Status: RFC3
+   - Aim: merge
+1. Editorial: [Clarify definition of response position](https://github.com/graphql/graphql-spec/pull/1238) (5m, Benjie)
+   - Fixes reference to non-existent algorithm, and clarify that it may
+     reference positions that do not actually exist in the response.
+   - [Instructions from Jul 2025
+     WG](https://github.com/graphql/graphql-spec/pull/1183#issuecomment-3085286077)
+   - Aim: merge
+1. Editorial: [Fix errors wording "per response position" -> "unique response path"](https://github.com/graphql/graphql-spec/pull/1183) (5m, Benjie)
+1. [Sibling errors should not be added after propagation](https://github.com/graphql/graphql-spec/pull/1184) (5m, Benjie)
+   - Status: RFC2; [shipped in GraphQL.js v16 in January](https://github.com/graphql/graphql-js/pull/4458)
+   - Aim: RFC3
 1. Defer/Stream spec review (Remaining Time, Rob)
    - [Spec edits for incremental delivery, Execution: CollectFields](https://github.com/graphql/graphql-spec/pull/1234)
    - GraphQL-JS update: [Skip deferred fragments in collectFields only when same directive is used](https://github.com/graphql/graphql-js/pull/4841)
