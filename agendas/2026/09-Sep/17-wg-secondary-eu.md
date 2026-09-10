@@ -141,6 +141,8 @@ who could not make the primary meeting time.
 1. [Sibling errors should not be added after propagation](https://github.com/graphql/graphql-spec/pull/1184) (5m, Benjie)
    - Status: RFC2; [shipped in GraphQL.js v16 in January](https://github.com/graphql/graphql-js/pull/4458)
    - Aim: RFC3
+1. Editorial: [Define 'operation execution', clarifying 'before execution begins'](https://github.com/graphql/graphql-spec/pull/894/) (10m, Benjie)
+   - Aim: merge
 1. Defer/Stream spec review (Remaining Time, Rob)
    - [Spec edits for incremental delivery, Execution: CollectFields](https://github.com/graphql/graphql-spec/pull/1234)
    - GraphQL-JS update: [Skip deferred fragments in collectFields only when same directive is used](https://github.com/graphql/graphql-js/pull/4841)
