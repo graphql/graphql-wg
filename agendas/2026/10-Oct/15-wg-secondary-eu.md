@@ -109,6 +109,7 @@ who could not make the primary meeting time.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 ## Agenda
