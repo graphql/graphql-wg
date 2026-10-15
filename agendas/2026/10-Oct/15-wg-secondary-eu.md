@@ -108,6 +108,7 @@ who could not make the primary meeting time.
 |:-----------------|:--------------|:-------------------|:----------------------|
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
 
 
 ## Agenda
@@ -131,3 +132,7 @@ who could not make the primary meeting time.
     - Aim: RFC2
     - [Apollo Kotlin PR](https://github.com/apollographql/apollo-kotlin/pull/7035)
     - [GraphQL.js PR](https://github.com/graphql/graphql-js/pull/4863)
+1. Defer/Stream spec review (Remaining Time, Rob)
+   - [Spec edits for incremental delivery, Execution: CollectFields](https://github.com/graphql/graphql-spec/pull/1234)
+   - GraphQL-JS update: [Skip deferred fragments in collectFields only when same directive is used](https://github.com/graphql/graphql-js/pull/4841)
+   - maxDeferredFragments option in GraphQL-JS: https://github.com/graphql/graphql-js/pull/4866
