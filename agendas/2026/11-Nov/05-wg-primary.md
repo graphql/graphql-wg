@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Dale Seo         | @DaleSeo      | Apollo             | Toronto, ON, CA       |
 | Leif Hanack      | @leifhanack   | feddi              | Aptos, CA, US         |
 
 
@@ -125,3 +126,10 @@ hold additional secondary meetings later in the month.
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Proposal: GraphQL Java Working Group (10m, Leif Hanack)
    - [Proposal](https://gist.github.com/leifhanack/e5d5d9867912d6ef50fbd05321579281)
+1. Empty object types, interfaces and unions: advance to RFC 2 (10m, Dale Seo)
+   - [Empty object types](https://github.com/graphql/graphql-spec/pull/1228) (graphql-spec#1228)
+   - [Empty interfaces and unions](https://github.com/graphql/graphql-spec/pull/1229) (graphql-spec#1229)
+   - Use case: a [schema search](https://github.com/graphql/ai-wg/pull/187) slice can keep a referenced type as `type Book {}`
+1. Empty input objects: new RFC (5m, Dale Seo)
+   - A schema search slice often carries a required input object whose fields the question does not need
+   - [Discussion on graphql-spec#1228](https://github.com/graphql/graphql-spec/pull/1228#issuecomment-5114556658)
