@@ -126,7 +126,7 @@ hold additional secondary meetings later in the month.
    - [GraphQL WG — October 2026 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2026/10-Oct/15-wg-secondary-eu.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-1. Proposal: GraphQL Java Working Group (10m, Leif Hanack)
+1. Proposal: GraphQL Java Special Interest Group (10m, Leif Hanack)
    - [Proposal](https://gist.github.com/leifhanack/e5d5d9867912d6ef50fbd05321579281)
 1. Empty object types, interfaces and unions: advance to RFC 2 (10m, Dale Seo)
    - Aim: RFC2
