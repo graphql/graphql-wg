@@ -110,6 +110,7 @@ hold additional secondary meetings later in the month.
 | Andi Marek       | @andimarek    | GraphQL Java/Feddi/AirBnb | Brisbane, Australia|
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 | Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 
 
