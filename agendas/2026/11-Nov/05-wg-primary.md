@@ -107,7 +107,8 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Dale Seo         | @DaleSeo      | Apollo             | Toronto, ON, CA       |
 | Leif Hanack      | @leifhanack   | feddi              | Aptos, CA, US         |
-| Andi Marek       | @andimarek.   | GraphQL Java/Feddi/AirBnb | Brisbane, Australia|
+| Andi Marek       | @andimarek    | GraphQL Java/Feddi/AirBnb | Brisbane, Australia|
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 
 
