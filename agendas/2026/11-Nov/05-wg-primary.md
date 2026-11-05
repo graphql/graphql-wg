@@ -107,6 +107,8 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Dale Seo         | @DaleSeo      | Apollo             | Toronto, ON, CA       |
 | Leif Hanack      | @leifhanack   | feddi              | Aptos, CA, US         |
+| Andi Marek       | @andimarek.   | GraphQL Java/Feddi/AirBnb | Brisbane, Australia|
+
 
 
 ## Agenda
@@ -136,3 +138,5 @@ hold additional secondary meetings later in the month.
    - [Allow empty input object types](https://github.com/graphql/graphql-spec/pull/1249) (graphql-spec#1249)
    - A schema search slice often carries a required input object whose fields the question does not need
    - [Discussion on graphql-spec#1228](https://github.com/graphql/graphql-spec/pull/1228#issuecomment-5114556658)
+1. Clarify error locations for invalid escape sequences: https://github.com/graphql/graphql-spec/pull/1251 (10 min, Andi)     
+1. [RFC] Introduce Strict and Legacy All Variable Usages Are Allowed: https://github.com/graphql/graphql-spec/pull/1059 (10 min, Andi)
