@@ -105,6 +105,7 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+| Dale Seo         | @DaleSeo      | Apollo             | Toronto, ON, CA       |
 
 
 ## Agenda
@@ -125,3 +126,8 @@ hold additional secondary meetings later in the month.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. Empty input objects: advance to RFC 2 (5m, Dale Seo)
+   - Aim: RFC2
+   - [Allow empty input object types](https://github.com/graphql/graphql-spec/pull/1249) (graphql-spec#1249)
+   - Follows the approach agreed on Nov 5 for [empty object, interface, and union types](https://github.com/graphql/graphql-spec/pull/1228) (graphql-spec#1228): `input EmptyInput {}` is empty, and a bare `input FieldlessInput` is incomplete
+   - [GraphQL.js implementation](https://github.com/graphql/graphql-js/pull/4934) (graphql-js#4934)
