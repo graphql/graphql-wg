@@ -106,7 +106,7 @@ hold additional secondary meetings later in the month.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Dale Seo         | @DaleSeo      | Apollo             | Toronto, ON, CA       |
-
+| Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
 
 ## Agenda
 
@@ -131,3 +131,10 @@ hold additional secondary meetings later in the month.
    - [Allow empty input object types](https://github.com/graphql/graphql-spec/pull/1249) (graphql-spec#1249)
    - Follows the approach agreed on Nov 5 for [empty object, interface, and union types](https://github.com/graphql/graphql-spec/pull/1228) (graphql-spec#1228): `input EmptyInput {}` is empty, and a bare `input FieldlessInput` is incomplete
    - [GraphQL.js implementation](https://github.com/graphql/graphql-js/pull/4934) (graphql-js#4934)
+1. 2027 maintenance grants (10m, Martin)
+   - Aim: feedback
+   - https://github.com/graphql/graphql.github.io/pull/2589
+1. `onError: "NULL"` (15m, Martin)
+   - Aim: spreading the word
+   - https://caniuse.graphql.now/feature/on-error
+   - https://github.com/graphql/graphql-spec/pull/1236
