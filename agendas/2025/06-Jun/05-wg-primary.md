@@ -133,6 +133,7 @@ hold additional secondary meetings later in the month.
 1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Discussion: AI and GraphQL (10m, Jory)
 1. Discussion: GraphQL-over-HTTP partial success status code (5m, Benjie)
+   - LLM-matched RFC: [graphql/graphql-over-http#346](https://github.com/graphql/graphql-over-http/pull/346)
 1. RFC2: [Descriptions on executable definitions](https://github.com/graphql/graphql-spec/pull/892) (5m, Stephen)
 1. RFC0: [Don't exclude `schema` with description](https://github.com/graphql/graphql-spec/pull/1167) (3m, Benjie)
 1. Spec format: [Always use 'Assert:'](https://github.com/graphql/graphql-spec/pull/1168) (2m, Benjie)
@@ -144,6 +145,7 @@ hold additional secondary meetings later in the month.
 1. Editorial: [Step 1 in the data collections trilogy](https://github.com/graphql/graphql-spec/pull/1102) (5m, Benjie)
    - > The first one _(this one)_ is emminently mergeable
    - > The second one {...needs...} language clarity
+     - LLM-matched RFC: [graphql/graphql-spec#1092](https://github.com/graphql/graphql-spec/pull/1092)
 1. RFC3: [Merge OneOf](https://github.com/graphql/graphql-spec/pull/825) (2m, Benjie)
    - Merged in latest `main` and fixed text around errors
 1. RFC3: [Merge prevent @skip/@include on root subscription set](https://github.com/graphql/graphql-spec/pull/860) (2m, Benjie)
@@ -152,6 +154,7 @@ hold additional secondary meetings later in the month.
    - Have updated and validated against the (merged) GraphQL.js implementation
    - Aim: RFC3
 1. Discussion: Section 3 (Type System) and _execution_ vs _request_ error (5m, Benjie)
+   - LLM-matched related RFCs: [graphql/graphql-spec#1159](https://github.com/graphql/graphql-spec/pull/1159), [graphql/graphql-spec#894](https://github.com/graphql/graphql-spec/pull/894)
 1. Editorial: [Replace ExecuteSelectionSet with ExecuteCollectFields](https://github.com/graphql/graphql-spec/pull/1039) (2m, Benjie)
    - And then: [Define 'execution'](https://github.com/graphql/graphql-spec/pull/894)
 1. RFC1: [Disabling error propagation/service capabilities](https://github.com/graphql/graphql-spec/pull/1163) (15m, Benjie)

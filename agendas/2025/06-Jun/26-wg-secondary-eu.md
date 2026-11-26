@@ -138,6 +138,8 @@ who could not make the primary meeting time.
    - Spec edits need rebase, graphql.js edits need revision. Otherwise, are we ready for [RFC2](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#stage-2-draft)?
 1. RFC2: [Keep `schema` keyword if description exists](https://github.com/graphql/graphql-spec/pull/1167) (2m, Benjie)
 1. RFC2: [Data collections trilogy](https://github.com/graphql/graphql-spec/pull/1102) (2m, Benjie)
+   - LLM-matched related RFCs: [graphql/graphql-spec#1092](https://github.com/graphql/graphql-spec/pull/1092), [graphql/graphql-spec#1063](https://github.com/graphql/graphql-spec/pull/1063)
 1. RFC2: [Add validation rule that operation types exist](https://github.com/graphql/graphql-spec/pull/955) (2m, Benjie)
 1. RFC1: [Fix CoerceArgumentValues() hasValue](https://benjie.dev/rfcs/1056) (10m, Benjie)
+   - LLM-matched RFC: [graphql/graphql-spec#1056](https://github.com/graphql/graphql-spec/pull/1056)
 1. RFC1: [List coercion algorithm](https://github.com/graphql/graphql-spec/pull/1058) (10m, Benjie)

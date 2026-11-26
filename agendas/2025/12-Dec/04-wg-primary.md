@@ -137,6 +137,7 @@ hold additional secondary meetings later in the month.
 1. **TSC**: Please approve "handbooks" project (5m, Benjie)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. Release trains (1m, Martin)
+   - LLM-matched RFC: [graphql/graphql-spec#1202](https://github.com/graphql/graphql-spec/issues/1202)
    - Next train is coming in August 2026 🚆 https://github.com/graphql/graphql-wg/commit/2e59337e1c32004d2a470abe13bcbde106028427#diff-0a56fdef517219e1e64b42887631cd81321957af3dfc460dc6bdba756f39dfe0R64
 1. scalars.graphql.org (10m, Martin) 
    - What is the criteria to merge? https://github.com/graphql/graphql-scalars/pull/38
@@ -149,5 +150,6 @@ hold additional secondary meetings later in the month.
    - Review the spec CR, do we want changes to the format? https://github.com/graphql/graphql-spec/pull/1196
    - https://github.com/graphql/graphql-wg/blob/main/rfcs/FieldExtensions.md
 1. Discuss RFC matches directive (5m, Mark)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/MatchesDirective.md
    - Discuss if Lee had a syntax alternative
    - If not, consider a userland spec + adding a "community specs" graphql.org webpage

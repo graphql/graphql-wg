@@ -122,3 +122,4 @@ who could not make the primary meeting time.
 1. [2023 TSC Elections](https://github.com/graphql/graphql-wg/issues/1175) (5m, Benjie)
 1. Defer & Stream (20m, Rob)
    - [Defer & Stream in Subscriptions](https://github.com/robrichard/defer-stream-wg/discussions/55)
+     - LLM-matched RFC: [graphql/graphql-spec#742](https://github.com/graphql/graphql-spec/pull/742)

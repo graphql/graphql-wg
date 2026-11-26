@@ -125,11 +125,13 @@ who could not make the primary meeting time.
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Incremental Delivery and Fragment Modularity (Yaacov, 30m)
    - Require aliased fragments: https://github.com/robrichard/defer-stream-wg/discussions/58
+     - LLM-matched related RFCs: [graphql/graphql-spec#742](https://github.com/graphql/graphql-spec/pull/742), https://github.com/graphql/graphql-wg/blob/main/rfcs/FragmentModularity.md
    - Respect nested defer: https://github.com/robrichard/defer-stream-wg/discussions/43
 1. Discuss use cases for `struct` proposal (Mark, 20m)
    - Benjie's struct proposal: https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md
    - SDUI use case: https://github.com/graphql/graphql-wg/pull/1146/files
 1. CCN updates (Alex, 7m)
+   - LLM-matched RFC: [graphql/graphql-spec#895](https://github.com/graphql/graphql-spec/pull/895)
 1. @deprecated on OBJECT (Stephen, 5m)
    - Use case: objects that are members of interfaces and unions
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/997)

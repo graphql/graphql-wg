@@ -135,6 +135,7 @@ hold additional secondary meetings later in the month.
    - [Benjie's Spec PR](https://github.com/graphql/graphql-spec/pull/793)
 1. Clarification on Nested List Input Coercion (5m, Abhinand)
    - [Issue on mismatch of Nested List Input Coercion in spec and implementation](https://github.com/graphql/graphql-js/issues/3858)
+   - LLM-matched related RFCs: [graphql/graphql-spec#436](https://github.com/graphql/graphql-spec/pull/436)
 1. CollectSubFields (30m, Yaacov)
    - [Spec PR](https://github.com/graphql/graphql-spec/pull/999)
    - [Use Case: Incremental Delivery with Deduplication](https://github.com/graphql/graphql-spec/pull/1026)

@@ -149,6 +149,7 @@ hold additional secondary meetings later in the month.
 1. Implementations may not deprecate a field that the interface hasn't deprecated (10m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1053) - promote to RFC2?
 1. `@defer`/`@stream` updates (10m, Rob)
+   - LLM-matched RFC: [graphql/graphql-spec#1110](https://github.com/graphql/graphql-spec/pull/1110)
    - Editorial: move "Path" to it's own section https://github.com/graphql/graphql-spec/pull/1129
    - Please continue reviewing https://github.com/graphql/graphql-spec/pull/1124
 1. Merge Lee's [Editorial changes for Event Streams](https://github.com/graphql/graphql-spec/pull/1099)? (10m, Benjie)

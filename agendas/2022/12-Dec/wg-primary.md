@@ -135,3 +135,4 @@ hold additional secondary meetings later in the month.
    - Is the [`@oneOf` proposal](https://github.com/graphql/graphql-spec/pull/825) still being considered, or has it been superseded by the [Struct proposal](https://github.com/graphql/graphql-wg/blob/main/rfcs/Struct.md#composite-type-capable-of-input-polymorphism)?
 1. Defer/Stream discussion (60m, Rob)
    - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
+     - LLM-matched RFC: [graphql/graphql-spec#742](https://github.com/graphql/graphql-spec/pull/742)
