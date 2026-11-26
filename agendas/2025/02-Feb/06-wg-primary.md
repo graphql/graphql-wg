@@ -132,6 +132,7 @@ hold additional secondary meetings later in the month.
 1. Announce the new [Community WG](https://github.com/graphql/community-wg) (5m, Uri)
 1. Archive [GraphQL Playground](https://github.com/graphql/graphql-playground)? (5m, Benjie)
 1. Defer/Stream updates (20m, Rob)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/DeferStream.md
    - [Spec update: Move "Path" to it's own section](https://github.com/graphql/graphql-spec/pull/1129) Merge as an editorial fix?
    - [Stream initialCount argument](https://github.com/graphql/defer-stream-wg/discussions/104)
    - [Stream on different instances of the same field](https://github.com/graphql/defer-stream-wg/discussions/100): Adding validation to prevent this

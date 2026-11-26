@@ -142,6 +142,7 @@ hold additional secondary meetings later in the month.
 1. Implementations may not deprecate a field that the interface hasn't deprecated (2m, Benjie)
    - [RFC](https://github.com/graphql/graphql-spec/pull/1053) - promote to RFC3?
 1. Defer/Stream update (15m, Rob)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/DeferStream.md
    - Apollo Kotlin and Urql have implemented the latest proposal
    - Editorial change for Path: https://github.com/graphql/graphql-spec/pull/1129
    - Spec edits for Section 3: https://github.com/graphql/graphql-spec/pull/1132

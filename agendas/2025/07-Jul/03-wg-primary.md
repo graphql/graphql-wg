@@ -140,7 +140,9 @@ hold additional secondary meetings later in the month.
    - Fixes omission in spec to match long-standing behavior of GraphQL.js
    - Aim: RFC2
 1. Defer/Stream updates (15m, Rob)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/DeferStream.md
    - [Should incremental execution return an IncrementalStream or a Map containing the InitialResult and a SubsequentResultStream](https://github.com/graphql/defer-stream-wg/discussions/113)
    - [Type System section spec edits](https://github.com/graphql/graphql-spec/pull/1132) ready for review. AIM: merge to integration branch
 1. Discussion: [Remove fragmentSpreadName from visitedFragments after visit](https://github.com/graphql/graphql-spec/pull/1045) (10m, Benjie)
 1. Discussion: service capabilities syntax (10m, Benjie)
+   - LLM-matched RFC: [graphql/graphql-spec#1163](https://github.com/graphql/graphql-spec/pull/1163)

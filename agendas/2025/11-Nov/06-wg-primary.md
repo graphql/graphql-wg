@@ -134,6 +134,7 @@ hold additional secondary meetings later in the month.
    - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
 1. RFC: Object Identification / `__id` meta field & `__Entity` meta interface (10m, Lenz)
+    - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/ObjectIdentification.md
     * [#1198](https://github.com/graphql/graphql-spec/issues/1198)
 1. [Updating the description of Fragments in the spec](https://github.com/graphql/graphql-spec/pull/1193) (Janette)
 1. [Release trains](https://github.com/graphql/graphql-spec/issues/1202) (5min, Martin)

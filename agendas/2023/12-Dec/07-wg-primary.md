@@ -130,6 +130,7 @@ hold additional secondary meetings later in the month.
 1. Determine volunteers for note taking (1m, Lee)
 1. Review agenda (2m, Lee)
 1. Updates from the group formerly known as the Client Controlled Nullability WG (5m, Alex)
+   - LLM-matched related RFCs: https://github.com/graphql/graphql-wg/blob/main/rfcs/ClientControlledNullability.md, [graphql/graphql-wg#1394](https://github.com/graphql/graphql-wg/discussions/1394)
 1. ~~Review prior secondary meetings (5m, Lee)~~
    - ~~[November WG Secondary, APAC](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/08-wg-secondary-apac.md)~~
    - ~~[November WG Secondary, EU](https://github.com/graphql/graphql-wg/blob/main/agendas/2023/11-Nov/16-wg-secondary-eu.md)~~
@@ -159,6 +160,7 @@ hold additional secondary meetings later in the month.
      - Spec editorial PR:
        [fix bug in list coercion example table](https://github.com/graphql/graphql-spec/pull/1057/files)
      - Agenda item below: "Detail variables in list input coercion rules"
+     - LLM-matched related RFCs: [graphql/graphql-spec#1058](https://github.com/graphql/graphql-spec/pull/1058)
    - https://github.com/graphql/graphql-wg/issues/1414 - example of executing
      _selection set_ serially, readers expect an operation; clarify
      - Spec editorial PR:
@@ -167,6 +169,7 @@ hold additional secondary meetings later in the month.
      variable with default in non-nullable position
      - Agenda item below: "Introduce Strict and Legacy All Variable Usages Are
        Allowed validation rules"
+     - LLM-matched RFC: [graphql/graphql-spec#1059](https://github.com/graphql/graphql-spec/pull/1059)
    - https://github.com/graphql/graphql-wg/issues/1413 - close all aging action
      items
      - [Stale closed items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc+label%3Astale+)

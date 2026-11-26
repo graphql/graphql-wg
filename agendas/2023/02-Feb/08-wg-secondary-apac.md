@@ -129,3 +129,4 @@ who could not make the primary meeting time.
      - Do we need a flag? It's difficult to evaluate usage without graphql-js syntax support: can we can merge as-is without a flag?
    - [Relay has PR](https://github.com/facebook/relay/pull/4214/commits/104d1eec479b4be9b378542a246c2d5159efa2cc) enables the new syntax over directives
      - Blocker for Relay adoption within Meta is graphql-js, and therefore prettier, syntax support.
+   - LLM-matched RFC: [graphql/graphql-spec#1010](https://github.com/graphql/graphql-spec/pull/1010)

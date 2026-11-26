@@ -123,3 +123,4 @@ hold additional secondary meetings later in the month.
    - [Clients can't reliably distinguish if defer was inlined or not](https://github.com/robrichard/defer-stream-wg/discussions/52)
    - [hasNext on single response results](https://github.com/robrichard/defer-stream-wg/discussions/57)
 2. CCN update (7m, Alex)
+   - LLM-matched RFC: [graphql/graphql-spec#895](https://github.com/graphql/graphql-spec/pull/895)

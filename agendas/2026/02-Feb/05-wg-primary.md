@@ -140,6 +140,7 @@ hold additional secondary meetings later in the month.
 1. Incremental delivery will be discussed at the secondary meeting (1m, Benjie
    on behalf of Rob)
 1. Field extensions (2min Emily, Martin)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/FieldExtensions.md
    - https://github.com/graphql/graphql-spec/issues/1162
    - Aim: RFC1
 1. Fragments are not for reuse (2min, Martin)

@@ -134,5 +134,6 @@ hold additional secondary meetings later in the month.
    - https://github.com/graphql/graphql-js/issues/4075
    - If you are impacted by this, please take a look and give us feedback, we want to make a decision next GraphQL-JS-WG Meeting.
 1. Restricting `graphql`-js exports to one or few entry points. (2m, Jeff)
+   - LLM-matched related RFCs: [graphql/graphql-js#4062](https://github.com/graphql/graphql-js/issues/4062)
    - https://github.com/graphql/graphql-js/issues/4074
    - Looking for feedback from dependent library authors if they would be impacted by this change and if someone has specific concerns.

@@ -139,6 +139,7 @@ hold additional secondary meetings later in the month.
 1. Tone of voice (5m, Martin)
    - https://github.com/graphql/graphql-spec/pull/1138
 1. Nullability Working Group status update (15m, Alex Reilly)
+   - LLM-matched related RFCs: https://github.com/graphql/graphql-wg/blob/main/rfcs/SemanticNullability.md, [graphql/graphql-spec#1065](https://github.com/graphql/graphql-spec/pull/1065)
 1. Fragment-Arguments (10m, Jovi De Croock)
    - [Spec](https://github.com/graphql/graphql-spec/pull/1081) has been finished for a bit
    - [Implementation](https://github.com/graphql/graphql-js/pull/4015) is under an experimental flag in GraphQL v17
@@ -146,5 +147,6 @@ hold additional secondary meetings later in the month.
 1. [Forbid @skip and @include on subscription root selection](https://github.com/graphql/graphql-spec/pull/860) (10m, Benjie)
 1. Let's cut a spec release... it's been 3+ years! (15m, Benjie)
 1. Defer/Stream updates (10m, Rob)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/DeferStream.md
    - [Editorial: Add response stream to Response Section](https://github.com/graphql/graphql-spec/pull/1135)
    - [Review Section 3 changes](https://github.com/graphql/graphql-spec/pull/1132)

@@ -147,5 +147,6 @@ hold additional secondary meetings later in the month.
    - [Lee's original PR stack](https://github.com/graphql/graphql-js/pull/3049)
    - [Now rebased on main](https://github.com/graphql/graphql-js/pull/3814)
    - [Reference from 2021](https://github.com/graphql/graphql-wg/blob/6cb3298d3a4e4667bd5f85da9e9676d407ba4e55/notes/2021/2021-09-02.md?plain=1#L123-L128)
+   - LLM-matched RFC: [graphql/graphql-spec#793](https://github.com/graphql/graphql-spec/pull/793)
 1. Updates on defer/stream (15m, Rob)
    - [Proposal to merge deferred fragments](https://github.com/robrichard/defer-stream-wg/discussions/52#discussioncomment-4479271)

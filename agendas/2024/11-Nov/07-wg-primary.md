@@ -137,6 +137,7 @@ hold additional secondary meetings later in the month.
 1. Make `reason` non-nullable in `@deprecated` (@martinbonnin, 5 min)
    - https://github.com/graphql/graphql-spec/pull/1040
 1. Discuss enhancing deprecation (@gwardwell, 15 min)
+   - LLM-matched related RFCs: [graphql/graphql-spec#300](https://github.com/graphql/graphql-spec/issues/300)
    - Align on next steps for expanded client use cases (union member and interface implementation deprecation)
    - Align on next steps for service/development use cases (deprecation as communication for distributed schema development)
    - Issue for context: https://github.com/graphql/graphql-spec/issues/1119

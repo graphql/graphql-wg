@@ -150,3 +150,4 @@ hold additional secondary meetings later in the month.
    - clarification needed: @oneOf on output (vs input structs aka input unions)
    - clarification needed: implies defaultValue v2 (`__InputValue.defaultValue`) generates a giant oneOf'd object to pick from
    - clarification needed (for future work): annotation keyword vs directives on directives 
+     - LLM-matched related RFCs: https://github.com/graphql/graphql-wg/blob/main/rfcs/AnnotationStructs.md, [graphql/graphql-spec#1206](https://github.com/graphql/graphql-spec/pull/1206)

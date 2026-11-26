@@ -139,5 +139,6 @@ hold additional secondary meetings later in the month.
    - [Text for Changelog with emphasis on BREAKING CHANGES](https://github.com/graphql/graphql-js/pull/3814#issuecomment-1438334765)
 1. Defer & Stream (20m, Rob)
    - [Deduplication of deferred fields](https://github.com/robrichard/defer-stream-wg/discussions/65)
+   - LLM-matched related RFCs: [graphql/defer-stream-wg#64](https://github.com/graphql/defer-stream-wg/discussions/64)
 1. GraphQL over HTTP Status Codes (10m, Michael)
    - [application/graphql-response+json](https://github.com/graphql/graphql-over-http/blob/main/spec/GraphQLOverHTTP.md#applicationgraphql-responsejson)

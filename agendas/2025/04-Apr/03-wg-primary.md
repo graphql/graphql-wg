@@ -136,6 +136,7 @@ hold additional secondary meetings later in the month.
 1. [Provision for unknown request information](https://github.com/graphql/graphql-spec/pull/1151) (5m, Martin)
    - 2 TSC approvals
 1. Defer/Stream Updates (10m, Rob)
+   - LLM-matched RFC: https://github.com/graphql/graphql-wg/blob/main/rfcs/DeferStream.md
    1. Merged: [Consistently use result map when referring to objectTypes selection set result.](https://github.com/graphql/graphql-spec/pull/1148)
    1. Editorial: [Define _response payload_](https://github.com/graphql/graphql-spec/pull/1149)
       - 2 TSC approvals. Aim: merge

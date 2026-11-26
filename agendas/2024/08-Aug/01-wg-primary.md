@@ -128,6 +128,7 @@ hold additional secondary meetings later in the month.
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
 1. Fragment arguments (10m, Jovi)
+   - LLM-matched RFC: [graphql/graphql-spec#1081](https://github.com/graphql/graphql-spec/pull/1081)
    - TL:DR of proposal
    - GraphQL 16
    - Advance to RFC2
