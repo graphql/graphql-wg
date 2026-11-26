@@ -107,6 +107,7 @@ hold additional secondary meetings later in the month.
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
 | Dale Seo         | @DaleSeo      | Apollo             | Toronto, ON, CA       |
 | Martin Bonnin    | @martinbonnin | Apollo             | Paris, FR             |
+| Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
 
 ## Agenda
 
@@ -126,6 +127,7 @@ hold additional secondary meetings later in the month.
    - [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
    - [Nomination form](https://tsc-nomination.graphql.org/)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. [New WG/Foundation calendar system](https://github.com/graphql/calendar) (3m, Benjie)
 1. Empty input objects: advance to RFC 2 (5m, Dale Seo)
    - Aim: RFC2
    - [Allow empty input object types](https://github.com/graphql/graphql-spec/pull/1249) (graphql-spec#1249)
